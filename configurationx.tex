@@ -1,0 +1,251 @@
+%%% SETUP DOCUMENT CLASS
+
+\documentclass[%
+	paper=a4,
+	fontsize=12pt,
+	%BCOR=5mm,																										% Korrektur Binderand
+	oneside,
+	openany,									%chapterstart
+	headinclude,
+	fontinclude=true,
+	cleardoublepage=empty,
+	pagesize=pdftex,
+	draft=false,	
+	%headsepline,
+	%footsepline,
+	%toc=bib, index=totoc,
+	%toc=listof,
+	%report,
+	english]{scrbook}																								% http://www.golatex.de/wiki/KOMA-Script
+
+\usepackage{scrhack}																								% http://www.golatex.de/wiki/KOMA-Script
+
+%%% SETUP DOCUMENT LANGUAGE
+
+%\usepackage{ngerman} 																								% http://texdoc.net/texmf-dist/doc/generic/german/gerdoc.pdf
+\usepackage[english]{babel}																							% http://www.ctan.org/tex-archive/language/babel
+
+
+
+%%% SETUP DOCUMENT & FONT ENCODING
+
+\usepackage[utf8x]{inputenx}															% http://www.ctan.org/pkg/inputenx
+\usepackage{ucs}																		% http://ctan.org/pkg/ucs
+
+\usepackage[T1]{fontenc}																% http://ctan.org/pkg/fontenc
+\usepackage[singlelinecheck=false]{caption}												%singlelinecheck to align table caption
+
+%%% LOAD MATH FONTS
+
+\usepackage{amsmath}																	% http://ctan.org/pkg/amsmath
+\usepackage{amsfonts}																	% http://ctan.org/pkg/amsfonts
+\usepackage{amssymb}																	% http://milde.users.sourceforge.net/LUCR/Math/mathpackages/amssymb-symbols.pdf
+\usepackage{amsthm}																		% http://ctan.org/pkg/amsthm
+\usepackage{dsfont}																		% http://www.ctan.org/tex-archive/fonts/doublestroke
+
+%%% LOAD TEXT FONTS
+
+\usepackage{lmodern}																								% http://www.ctan.org/tex-archive/fonts/lm/
+\usepackage[scaled=.85]{luximono}																					% http://www.ctan.org/pkg/luximono
+\usepackage[style=swiss]{csquotes}																					% http://www.ctan.org/pkg/csquotes
+\usepackage{microtype}																								% http://www.ctan.org/pkg/microtype
+%\usepackage[style=swiss]{csquotes-de}																				% http://www.ctan.org/pkg/csquotes-de
+%\usepackage{microtype-de}																							% http://www.ctan.org/pkg/microtype
+
+%%% SETUP GRAPHICS
+
+\usepackage{wrapfig}																								% http://www.ctan.org/pkg/wrapfig
+\usepackage{subcaption}																						% 2 Bilder nebeneinander
+\usepackage[pdftex]{graphicx}																						% http://www.ctan.org/pkg/graphicx
+	\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+	\graphicspath{{./images/}}
+																		%Abb. statt ABbildung in Caption
+
+%%% SETUP DOCUMENT STRUCTURE
+
+%%Set uo argins / Rand of Document %%
+
+\usepackage[inner=0.8in, outer=0.8in, top=1in, bottom=1in, bindingoffset=0mm, a4paper]{geometry}										% http://www.ctan.org/pkg/geometry
+%\usepackage[left=20mm, right=20mm, top=20mm, bottom=20mm, a4paper]{geometry-de}									% http://www.ctan.org/pkg/geometry	
+\usepackage{rotating}																								% http://www.ctan.org/pkg/rotating
+%\usepackage{landscape}																								% http://www.ctan.org/pkg/landscape
+\usepackage{setspace}																								% http://www.ctan.org/pkg/setspace
+\onehalfspacing
+\setlength\parindent{0pt}																							% global disable indentation
+
+%%% DEFINE CUSTOM COMMANDS
+
+% place here ...
+
+%%% SETUP DOCUMENT COUNTERS
+
+\usepackage{chngcntr}																								% http://www.ctan.org/pkg/chngcntr
+	\counterwithout{footnote}{chapter}																				% don't use chapter numbering in footnotes
+
+\setcounter{secnumdepth}{4}																							% depth of sections (i.e. 4 => 1.1.1.1) in document
+\setcounter{tocdepth}{4}																							% depth of sections (i.e. 4 => 1.1.1.1) in table of contents
+
+%%% SETUP DOCUMENT PAGE STYLE
+
+%\usepackage{fancyhdr}
+%	%\pagestyle{fancy}																								% select page style
+%	\fancyhf{}																										% clear definitions
+	
+%	\fancyhead[EL]{}																								% header even left 
+%	\fancyhead[OL]{}																								% header odd left
+%	\fancyhead[EC]{}																								% header even center
+%	\fancyhead[OC]{}																								% header odd center
+%	\fancyhead[ER]{}																								% header even right
+%	\fancyhead[OR]{}																								% header odd right
+	
+%	\fancyfoot[EL]{}																								% footer even left
+%	\fancyfoot[OL]{}																								% footer odd left
+%	\fancyfoot[EC]{}																								% footer even center
+%	\fancyfoot[OC]{}																								% footer odd center
+%	\fancyfoot[ER]{}																								% footer even right
+%	\fancyfoot[OR]{}																								% footer odd right
+
+%%% SETUP DOCUMENT BIBLIOGRAPHY
+
+%\usepackage[super,numbers]{natbib}																									% http://www.ctan.org/pkg/natbib
+\usepackage{achemso}
+%\setkeys{acs}{biochem}
+\setkeys{acs}{articletitle = true}
+ %should work with chemso package, but doesn't
+%\bibliographystyle{biochem}
+
+
+																						% change your bibstyle here ametsoc
+
+\usepackage[fixlanguage]{babelbib}																					% http://www.ctan.org/pkg/babelbib
+	\selectbiblanguage{english}																						% use german bibliography translations
+
+%%% SETUP DOCUMENT GLOSSARY
+
+\usepackage[nonumberlist,toc]{glossaries}																			% http://www.ctan.org/pkg/glossaries
+	\makeglossaries																									% generates glossaries
+
+%%% SETUP DOCUMENT INDEX
+
+\usepackage{makeidx}																								% http://www.ctan.org/pkg/makeidx
+	\makeindex																										% generates index
+
+%%% SETUP DOCUMENT TABLES
+
+\usepackage{multirow}																								% http://www.ctan.org/pkg/multirow
+\usepackage{tabularx}																								% http://www.ctan.org/pkg/tabularx
+\usepackage{booktabs}																								% http://www.ctan.org/pkg/booktabs
+%\usepackage{booktabs-de}																							% http://www.ctan.org/pkg/booktabs-de
+\usepackage{array}																									% http://www.ctan.org/pkg/array
+%\usepackage{threeparttable}
+
+%\usepackage{floatrow}																								% tabelle bild nebeneinander
+\newcolumntype{R}{>{\raggedright\arraybackslash}X}%														% ctabel/tabularx rechts ausgerichtet zellen
+\newcolumntype{L}{>{\raggedleft\arraybackslash}X}%
+
+%%% SETUP SOURCE CODE LISTINGS
+
+\usepackage{listings}																								% http://www.ctan.org/tex-archive/macros/latex/contrib/listings/
+	\lstset{%
+		language=C,                	  																				% the language of the code
+ 		basicstyle=\footnotesize,       																			% the size of the fonts that are used for the code
+		numbers=left,                   																			% where to put the line-numbers
+		numberstyle=\tiny\color{gray}, 		 																		% the style that is used for the line-numbers
+		stepnumber=2,                   																			% the step between two line-numbers. If it's 1, each line will be numbered
+		numbersep=5pt,                 		 																		% how far the line-numbers are from the code
+		backgroundcolor=\color{white},  																			% choose the background color. You must add \usepackage{color}
+		showspaces=false,               																			% show spaces adding particular underscores
+		showstringspaces=false,       		  																		% underline spaces within strings
+		showtabs=false,                 																			% show tabs within strings adding particular underscores
+		frame=single,                   																			% adds a frame around the code
+		rulecolor=\color{black},	        																		% if not set, the frame-color may be changed on line-breaks 
+		tabsize=2,                  	    																		% sets default tabsize to 2 spaces
+		captionpos=b,                   																			% sets the caption-position to bottom
+		breaklines=true,                																			% sets automatic line breaking
+		breakatwhitespace=false,        																			% sets if automatic breaks should only happen at whitespace
+		title=\lstname,		                 																		% show the filename of files included with \lstinputlisting;
+																													% also try caption instead of title
+		keywordstyle=\color{red},		      		 																% keyword style
+		commentstyle=\color{red},       																			% comment style
+		stringstyle=\color{red},        																			% string literal style
+		escapeinside={\%*}{*)},         																			% if you want to add a comment within your code
+		morekeywords={*,...}            																			% if you want to add more keywords to the set		
+	}
+
+%%% SETUP DOCUMENT COLORS
+
+%\usepackage[usenames,dvipsnames]{xcolor}																			% http://www.ctan.org/pkg/xcolor
+	%\definecolor{myOrange}{RGB}{255,127,0}																			% set up custom colors using RGB values
+
+%%% SETUP KOMASCRIPT SETTINGS
+
+\setcapindent{1em}																									% set image caption line break indentation
+
+\setkomafont{sectioning}{\normalfont\bfseries}     																	% sectioning titles with normal font
+\setkomafont{captionlabel}{\normalfont\bfseries}   																	% bold caption titles
+\setkomafont{pagehead}{\normalfont\itshape}         																% italic page title
+\setkomafont{descriptionlabel}{\normalfont\bfseries}																% bold description titles
+
+%%% SETUP CHEMICAL DRAWINGS / FORMULA
+
+\usepackage[version=4]{mhchem}																						% http://www.ctan.org/pkg/mhchem
+%\usepackage{rsphrase}																								% contained in mhchem 
+%\usepackage{chemexec}																								% http://www.ctan.org/pkg/chemexec
+%\usepackage{stree} 																									% http://www.ctan.org/pkg/streetex 	!! stree and ochem are not compatible
+%\usepackage{ochem}																									% http://www.ctan.org/pkg/ochem		!! stree and ochem are not compatible
+%\usepackage{bpchem}																									% http://www.ctan.org/pkg/bpchem
+%\usepackage{chembst}																								% http://www.ctan.org/pkg/chembst
+%usepackage{chemcompounds}																							% http://www.ctan.org/pkg/chemcompounds
+%\usepackage{chemcono}																								% http://www.ctan.org/pkg/chemcono
+%\usepackage{chem-journal}																							% http://www.ctan.org/pkg/chem-journal
+\usepackage{chemfig}																								% http://www.ctan.org/pkg/chemfig
+%\usepackage{chemmacros}
+%\usechemmodule{all}																							% z.B. NMR siehe documentation pdf
+
+%%% SETUP DOCUMENT INTERACTION
+
+\usepackage{url}																									% http://www.ctan.org/tex-archive/macros/latex/contrib/url/
+	\urlstyle{same}																									% use same style as document instead of mono-spaced font
+	
+\usepackage{pdfpages}																								% http://www.ctan.org/tex-archive/macros/latex/contrib/pdfpages/
+
+% \usepackage[ %
+% 	%pagebackref,																									% enable back referencing to bibliography
+% 	bookmarks,
+% 	pdfpagelabels,
+% 	plainpages=true	
+% ]{hyperref}																											% http://www.ctan.org/tex-archive/macros/latex/contrib/hyperref/
+% 	\hypersetup{ %
+% 		unicode=true,																								% allows to use Unicode in Acrobat’s bookmarks
+% 		pdftoolbar=true,																							% show or hide Acrobat’s toolbar
+% 		pdfmenubar=true,																							% show or hide Acrobat’s menu
+% 		pdffitwindow=true,																							% resize document window to fit document size
+% 		pdfstartview={FitH, FitV}																					% fit the width of the page to the window
+% 		pdftitle={TITLE},																							% define the title in the "Document Info" window of Acrobat
+% 		pdfauthor={AUTHOR},																							% the name of the PDF’s author, like above
+% 		pdfsubject={SUBJECT},																						% subject of the document,like above
+% 		pdfcreator={LaTeX with hyperref},																			% creator of the document, like above
+% 		pdfproducer={pdfTeX, Version 3.1415926-2.4-1.40.13},														% producer of the document, like above
+% 		pdfkeywords={KEY1, KEY2, ...},																				% list of keywords, separated by brackets
+% 		pdfnewwindow=true,																							% define if a new window should get opened on external links
+% 		breaklinks=true,																							% allow proper word wrapping for long captions in toc, listoffigures etc.
+% 		colorlinks=true,																							% enable link colors
+% 		linkcolor=black, 																								% color of internal links (sections, pages, etc.)
+% 		citecolor=black, 																							% color of citation links (bibliography)
+% 		filecolor=magenta, 																							% color of file links
+% 		urlcolor=cyan, 																								% color of URL links (mail, web)
+% 		linktoc=all,																								% defines which part of an entry in toc is made into a link
+% 		pdflang=de,																									% define document language
+% 		final
+% 	}	
+
+	% MAth Symbole ?
+
+	\usepackage{relsize}
+
+	%footnote 																										blank footnotes
+	
+	\usepackage{textcomp}																							% griechische buchstaben nicht kursiv
+\usepackage{afterpage}
+
+	%\usepackage{float}
