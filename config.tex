@@ -1,0 +1,52 @@
+%%% Setup Page Layout
+
+\documentclass[
+	12pt,
+	twoside]{article}
+
+\usepackage[a4paper,
+	width=150mm,
+	top=25mm,
+	bottom=25mm,
+	bindingoffset=6mm]{geometry}
+
+%\usepackage[utf8]{inputenc}
+\usepackage[utf8x]{inputenx}						% Testwise, update to utf 8. Might get µ to work?
+
+\usepackage{setspace}								% Should set up onehalfspacing, copied from Steffen
+	\onehalfspacing
+	\setlength\parindent							% "global disable indentation"
+
+%%% Setup Document Language
+
+\usepackage[english]{babel}
+
+%%% Setup Graphics
+
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}{}
+	\graphicspath{ {images/} }
+
+%%% Setup Headers and Footers
+
+\usepackage{fancyhdr}
+	\pagestyle{fancy}
+	\fancyhead{}{}
+	\fancyhead[LE, RO]{\rightmark}
+	\fancyfoot{}
+	\fancyfoot[LE, RO]{\thepage}
+
+%%% Setup Tables
+
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{booktabs}
+
+%%% Setup Bibliography
+
+
+%%% Misc. Packages
+
+\usepackage{siunitx}					% Correctly formatting SI units
+\usepackage{chemformula}				% Setting of chemical elements
