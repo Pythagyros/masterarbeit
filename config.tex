@@ -1,21 +1,39 @@
 %%% Setup Page Layout
 
-\documentclass[
-	12pt,
-	twoside]{article}
+\documentclass[%
+	paper=a4,
+	fontsize=12pt,
+	%BCOR=5mm,																										% Korrektur Binderand
+	oneside,
+	openany,									%chapterstart
+	headinclude,
+	% fontinclude=true,
+	cleardoublepage=empty,
+	pagesize=pdftex,
+	draft=false,	
+	%headsepline,
+	%footsepline,
+	%toc=bib, index=totoc,
+	%toc=listof,
+	%report,
+	english]{scrbook}	
 
-\usepackage[a4paper,
-	width=150mm,
-	top=25mm,
-	bottom=25mm,
-	bindingoffset=6mm]{geometry}
+% \documentclass[
+% 	12pt,
+% 	twoside]{article}
+
+% \usepackage[a4paper,
+% 	width=150mm,
+% 	top=25mm,
+% 	bottom=25mm,
+% 	bindingoffset=6mm]{geometry}
 
 %\usepackage[utf8]{inputenc}
 \usepackage[utf8x]{inputenx}						% Testwise, update to utf 8. Might get µ to work?
 
 \usepackage{setspace}								% Should set up onehalfspacing, copied from Steffen
 	\onehalfspacing
-	\setlength\parindent							% "global disable indentation"
+	%\setlength\parindent							% "global disable indentation"
 
 %%% Setup Document Language
 
@@ -30,18 +48,19 @@
 
 %%% Setup Headers and Footers
 
-\usepackage{fancyhdr}
-	\pagestyle{fancy}
-	\fancyhead{}{}
-	\fancyhead[LE, RO]{\rightmark}
-	\fancyfoot{}
-	\fancyfoot[LE, RO]{\thepage}
+% \usepackage{fancyhdr}
+% 	\pagestyle{fancy}
+% 	\fancyhead{}{}
+% 	\fancyhead[LE, RO]{\rightmark}
+% 	\fancyfoot{}
+% 	\fancyfoot[LE, RO]{\thepage}
 
 %%% Setup Tables
 
 \usepackage{tabularx}
 \usepackage{multirow}
 \usepackage{booktabs}
+\usepackage{float}
 
 %%% Setup Bibliography
 
@@ -51,3 +70,4 @@
 \usepackage{siunitx}					% Correctly formatting SI units
 \usepackage{chemformula}				% Setting of chemical elements
 \usepackage{microtype}					% khirevich.com/latex/microtype
+\usepackage{pdfpages}					% Include titlepage as pdf
