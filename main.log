@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.6.27)  18 AUG 2017 10:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.6.27)  21 AUG 2017 17:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1378,7 +1378,10 @@ Package microtype Info: Loading generic settings for font family
 Package tocbasic Info: character protrusion at lot deactivated on input line 30
 .
 
-(/home/philipp/masterarbeit/main.lot)
+(/home/philipp/masterarbeit/main.lot
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¼ in font cmr12!
+)
 \tf@lot=\write4
 \openout4 = `main.lot'.
 
@@ -1402,52 +1405,11 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              a package that still implements the
 (scrbook)              deprecated \float@addtolist interface .
 
-(/home/philipp/masterarbeit/chapters/methods.tex
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¼ in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¼ in font cmr12!
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--27
-[]|\OT1/cmr/m/n/12 (+20) Heraeus In-stru-ments
- []
-
-
-Underfull \hbox (badness 7963) in paragraph at lines 27--27
-[]|\OT1/cmr/m/n/12 (+20) Sorvall Ltd., Delaware,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--27
-[]|\OT1/cmr/m/n/12 (+20) Heidolph In-stru-ments
- []
-
-
-Underfull \hbox (badness 1215) in paragraph at lines 27--27
-\OT1/cmr/m/n/12 (+20) GmbH, Schwabach, Ger-
- []
-
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¼ in font cmr12!
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--27
-[]|\OT1/cmr/m/n/12 (+20) Bchi Labortech-nik AG,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--27
-\OT1/cmr/m/n/12 (+20) Flawil, Switzer-land +
- []
-
-[2
+(/home/philipp/masterarbeit/chapters/methods.tex [2
 
 ]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ° in font cmr12!
  [3]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1459,11 +1421,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) [4] [5] [6] (/home/philipp/masterarbeit/main.aux) ) 
 Here is how much of TeX's memory you used:
- 29709 strings out of 494893
- 616751 string characters out of 6178672
- 756739 words of memory out of 5000000
- 32575 multiletter control sequences out of 15000+600000
- 12092 words of font info for 54 fonts, out of 8000000 for 9000
+ 29718 strings out of 494893
+ 616934 string characters out of 6178672
+ 769739 words of memory out of 5000000
+ 32584 multiletter control sequences out of 15000+600000
+ 12787 words of font info for 57 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,17n,80p,10432b,1077s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/philipp/.texlive20
@@ -1475,10 +1437,10 @@ s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
 amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy8.pfb>
-Output written on /home/philipp/masterarbeit/main.pdf (6 pages, 85162 bytes).
+Output written on /home/philipp/masterarbeit/main.pdf (6 pages, 86244 bytes).
 PDF statistics:
  60 PDF objects out of 1000 (max. 8388607)
  42 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13837 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 15373 words of extra memory for PDF output out of 17280 (max. 10000000)
 
