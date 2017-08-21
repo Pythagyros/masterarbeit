@@ -16,6 +16,7 @@
 	%toc=bib, index=totoc,
 	%toc=listof,
 	%report,
+	setcapindent
 	english]{scrbook}	
 
 % \documentclass[
@@ -29,7 +30,6 @@
 % 	bindingoffset=6mm]{geometry}
 
 %\usepackage[utf8]{inputenc}
-\usepackage[utf8x]{inputenx}						% Testwise, update to utf 8. Might get µ to work?
 
 \usepackage{setspace}								% Should set up onehalfspacing, copied from Steffen
 	\onehalfspacing
@@ -61,6 +61,9 @@
 \usepackage{multirow}
 \usepackage{booktabs}
 \usepackage{float}
+\setkomafont{captionlabel}{\sffamily\bfseries}
+
+% \usepackage{caption}
 
 %%% Setup Bibliography
 

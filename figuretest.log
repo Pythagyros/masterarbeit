@@ -1,0 +1,513 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.6.27)  15 AUG 2017 20:49
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**figuretest.tex
+(/home/philipp/masterarbeit/figuretest.tex
+LaTeX2e <2017/01/01> patch level 3
+Babel <3.9r> and hyphenation patterns for 8 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/minimal.cls
+Document Class: minimal 2001/05/25 Standard LaTeX minimal class
+) (/home/philipp/texmf/tex/latex/pgf/frontendlayer/tikz.sty
+(/home/philipp/texmf/tex/latex/pgf/basiclayer/pgf.sty
+(/home/philipp/texmf/tex/latex/pgf/utilities/pgfrcs.sty
+(/home/philipp/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks14
+\pgfutil@tempdima=\dimen102
+\pgfutil@tempdimb=\dimen103
+
+(/home/philipp/texmf/tex/generic/pgf/utilities/pgfutil-common-lists.tex))
+(/home/philipp/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box26
+
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/home/philipp/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/home/philipp/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count79
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/home/philipp/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
+(/home/philipp/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(/home/philipp/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks16
+\pgfkeys@temptoks=\toks17
+
+(/home/philipp/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks18
+))
+\pgf@x=\dimen106
+\pgf@y=\dimen107
+\pgf@xa=\dimen108
+\pgf@ya=\dimen109
+\pgf@xb=\dimen110
+\pgf@yb=\dimen111
+\pgf@xc=\dimen112
+\pgf@yc=\dimen113
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count80
+\c@pgf@countb=\count81
+\c@pgf@countc=\count82
+\c@pgf@countd=\count83
+\t@pgf@toka=\toks19
+\t@pgf@tokb=\toks20
+\t@pgf@tokc=\toks21
+
+(/home/philipp/texmf/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/home/philipp/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/home/philipp/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/home/philipp/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count84
+\pgfsyssoftpath@bigbuffer@items=\count85
+)
+(/home/philipp/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(/home/philipp/texmf/tex/generic/pgf/math/pgfmath.code.tex
+(/home/philipp/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/home/philipp/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/home/philipp/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen114
+\pgfmath@count=\count86
+\pgfmath@box=\box27
+\pgfmath@toks=\toks22
+\pgfmath@stack@operand=\toks23
+\pgfmath@stack@operation=\toks24
+)
+(/home/philipp/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/home/philipp/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/home/philipp/texmf/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.t
+ex) (/home/philipp/texmf/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/home/philipp/texmf/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
+(/home/philipp/texmf/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/home/philipp/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/home/philipp/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
+(/home/philipp/texmf/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.c
+ode.tex))) (/home/philipp/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count87
+))
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen115
+\pgf@picmaxx=\dimen116
+\pgf@picminy=\dimen117
+\pgf@picmaxy=\dimen118
+\pgf@pathminx=\dimen119
+\pgf@pathmaxx=\dimen120
+\pgf@pathminy=\dimen121
+\pgf@pathmaxy=\dimen122
+\pgf@xx=\dimen123
+\pgf@xy=\dimen124
+\pgf@yx=\dimen125
+\pgf@yy=\dimen126
+\pgf@zx=\dimen127
+\pgf@zy=\dimen128
+)
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen129
+\pgf@path@lasty=\dimen130
+)
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen131
+\pgf@shorten@start@additional=\dimen132
+)
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box28
+\pgf@hbox=\box29
+\pgf@layerbox@main=\box30
+\pgf@picture@serial@count=\count88
+)
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen133
+)
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen134
+\pgf@pt@y=\dimen135
+\pgf@pt@temp=\dimen136
+) (/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+) (/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen137
+)
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen138
+\pgf@sys@shading@range@num=\count89
+)
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box31
+))
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/home/philipp/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box32
+)
+(/home/philipp/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/home/philipp/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen139
+\pgf@nodesepend=\dimen140
+)
+(/home/philipp/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+))
+(/home/philipp/texmf/tex/latex/pgf/utilities/pgffor.sty
+(/home/philipp/texmf/tex/latex/pgf/utilities/pgfkeys.sty
+(/home/philipp/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/home/philipp/texmf/tex/latex/pgf/math/pgfmath.sty
+(/home/philipp/texmf/tex/generic/pgf/math/pgfmath.code.tex))
+(/home/philipp/texmf/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/home/philipp/texmf/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen141
+\pgffor@skip=\dimen142
+\pgffor@stack=\toks25
+\pgffor@toks=\toks26
+))
+(/home/philipp/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/home/philipp/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count90
+\pgfplotmarksize=\dimen143
+)
+\tikz@lastx=\dimen144
+\tikz@lasty=\dimen145
+\tikz@lastxsaved=\dimen146
+\tikz@lastysaved=\dimen147
+\tikzleveldistance=\dimen148
+\tikzsiblingdistance=\dimen149
+\tikz@figbox=\box33
+\tikz@figbox@bg=\box34
+\tikz@tempbox=\box35
+\tikz@tempbox@bg=\box36
+\tikztreelevel=\count91
+\tikznumberofchildren=\count92
+\tikznumberofcurrentchild=\count93
+\tikz@fig@count=\count94
+(/home/philipp/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count95
+\pgfmatrixcurrentcolumn=\count96
+\pgf@matrix@numberofcolumns=\count97
+)
+\tikz@expandcount=\count98
+
+(/home/philipp/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryto
+paths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/home/philipp/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryca
+lc.code.tex
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+)
+(/home/philipp/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytr
+ees.code.tex
+File: tikzlibrarytrees.code.tex 2008/02/24 v3.0.1a (rcs-revision 1.2)
+)
+(/home/philipp/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypo
+sitioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+)
+(/home/philipp/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryar
+rows.code.tex
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/home/philipp/texmf/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen150
+))
+(/home/philipp/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarych
+ains.code.tex
+File: tikzlibrarychains.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.6)
+)
+(/home/philipp/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarysh
+apes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(/home/philipp/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometri
+c.code.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+
+))
+(/home/philipp/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryde
+corations.pathreplacing.code.tex
+(/home/philipp/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryde
+corations.code.tex
+(/home/philipp/texmf/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen151
+\pgfdecoratedremainingdistance=\dimen152
+\pgfdecoratedinputsegmentcompleteddistance=\dimen153
+\pgfdecoratedinputsegmentremainingdistance=\dimen154
+\pgf@decorate@distancetomove=\dimen155
+\pgf@decorate@repeatstate=\count99
+\pgfdecorationsegmentamplitude=\dimen156
+\pgfdecorationsegmentlength=\dimen157
+)
+\tikz@lib@dec@box=\box37
+)
+(/home/philipp/texmf/tex/generic/pgf/libraries/decorations/pgflibrarydecoration
+s.pathreplacing.code.tex))
+(/home/philipp/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryde
+corations.pathmorphing.code.tex
+(/home/philipp/texmf/tex/generic/pgf/libraries/decorations/pgflibrarydecoration
+s.pathmorphing.code.tex))
+(/home/philipp/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarysh
+apes.code.tex
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/home/philipp/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarysh
+apes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/home/philipp/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.cod
+e.tex
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.5)
+))
+(/home/philipp/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarysh
+apes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/home/philipp/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbols.
+code.tex
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
+))
+(/home/philipp/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarysh
+apes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/home/philipp/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.c
+ode.tex
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+))
+(/home/philipp/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarysh
+apes.callouts.code.tex
+(/home/philipp/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callouts
+.code.tex))
+(/home/philipp/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarysh
+apes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(/home/philipp/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipar
+t.code.tex
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
+
+\pgfnodepartlowerbox=\box38
+\pgfnodeparttwobox=\box39
+\pgfnodepartthreebox=\box40
+\pgfnodepartfourbox=\box41
+\pgfnodeparttwentybox=\box42
+\pgfnodepartnineteenbox=\box43
+\pgfnodeparteighteenbox=\box44
+\pgfnodepartseventeenbox=\box45
+\pgfnodepartsixteenbox=\box46
+\pgfnodepartfifteenbox=\box47
+\pgfnodepartfourteenbox=\box48
+\pgfnodepartthirteenbox=\box49
+\pgfnodeparttwelvebox=\box50
+\pgfnodepartelevenbox=\box51
+\pgfnodeparttenbox=\box52
+\pgfnodepartninebox=\box53
+\pgfnodeparteightbox=\box54
+\pgfnodepartsevenbox=\box55
+\pgfnodepartsixbox=\box56
+\pgfnodepartfivebox=\box57
+)))
+(/home/philipp/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryma
+trix.code.tex
+File: tikzlibrarymatrix.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.4)
+) (/home/philipp/masterarbeit/figuretest.aux)
+\openout1 = `figuretest.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+
+ABD: EveryShipout initializing macros
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count100
+\scratchdimen=\dimen158
+\scratchbox=\box58
+\nofMPsegments=\count101
+\nofMParguments=\count102
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count103
+\MPscratchDim=\dimen159
+\MPnumerator=\count104
+\makeMPintoPDFobject=\count105
+\everyMPtoPDFconversion=\toks28
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+(/home/philipp/masterarbeit/figuretest.aux) ) 
+Here is how much of TeX's memory you used:
+ 14379 strings out of 494893
+ 324825 string characters out of 6178672
+ 367537 words of memory out of 5000000
+ 17426 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 55i,7n,71p,407b,684s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on /home/philipp/masterarbeit/figuretest.pdf (1 page, 17764 byte
+s).
+PDF statistics:
+ 15 PDF objects out of 1000 (max. 8388607)
+ 10 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+
