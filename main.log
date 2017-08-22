@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.6.27)  21 AUG 2017 17:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.6.27)  22 AUG 2017 13:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1407,10 +1407,7 @@ Class scrbook Warning: \float@addtolists detected!
 
 (/home/philipp/masterarbeit/chapters/methods.tex [2
 
-]
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¼ in font cmr12!
- [3]
+] [3]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1423,7 +1420,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Here is how much of TeX's memory you used:
  29718 strings out of 494893
  616934 string characters out of 6178672
- 769739 words of memory out of 5000000
+ 770739 words of memory out of 5000000
  32584 multiletter control sequences out of 15000+600000
  12787 words of font info for 57 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1437,7 +1434,7 @@ s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
 amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy8.pfb>
-Output written on /home/philipp/masterarbeit/main.pdf (6 pages, 86244 bytes).
+Output written on /home/philipp/masterarbeit/main.pdf (6 pages, 86249 bytes).
 PDF statistics:
  60 PDF objects out of 1000 (max. 8388607)
  42 compressed objects within 1 object stream
