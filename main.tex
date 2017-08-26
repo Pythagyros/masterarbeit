@@ -2,45 +2,63 @@
 
 \begin{document}
 
-% \includepdf{testtitle}
+\includepdf{testtitle}
 
-% \section*{Erkl\"arung}
+% \titlehead{{\Large Eberhard-Karls-Universit\"at T\"ubingen
+% 	\hfill WS2017\\}
+% 	Mathematisch-Naturwissenschaftliche Fakult\"at\\
+% 	Auf der Morgenstelle~28\\
+% 	72071 T\"ubingen}
+% \subject{Masterarbeit}
+% \title{Isolation of antibacterial natural products from \textit{Streptomyces} sp. Tü2401}
+% \author{Philipp Schneider}
+% \date{1. November 2017}
+% \publishers{Betreut durch Prof. Dr. Timo Niedermeyer}
+% \maketitle
 
-% Hiermit erkl\"are ich,
-% \\
-% \\
-% - dass ich diese Arbeit selbst verfasst habe.
-% \\
-% \\
-% - dass ich keine anderen als die angegebenen Quellen benutzt und dass ich alle wörtlich oder sinngemäß aus anderen Werken \"ubernommenen Aussagen als solche gekennzeichnet habe.
-% \\
-% \\
-% - dass die eingereichte Arbeit weder vollst\"andig noch in wesentlichen Teilen Gegenstand eines anderen Pr\"ufungsverfahrens gewesen ist.
 
-% \newpage
+\addchap*{Erkl\"arung}
 
-% \chapter*{Abstract}
+Hiermit erkl\"are ich,
+\\
+\\
+- dass ich diese Arbeit selbst verfasst habe.
+\\
+\\
+- dass ich keine anderen als die angegebenen Quellen benutzt und dass ich alle wörtlich oder sinngemäß aus anderen Werken \"ubernommenen Aussagen als solche gekennzeichnet habe.
+\\
+\\
+- dass die eingereichte Arbeit weder vollst\"andig noch in wesentlichen Teilen Gegenstand eines anderen Pr\"ufungsverfahrens gewesen ist.
+
+\newpage
+
+\addchap*{Zusammenfassung}
+
+\addchap*{Abstract}
 % Abstract goes here
 
-% \chapter*{Danksagung}
+\addchap*{Danksagung}
 % I want to thank...
-
-% \tableofcontents
-% \listoffigures
+\pagenumbering{Roman}
+\tableofcontents
+\listoffigures
 \listoftables
-
-% \chapter{Introduction}
-% \input{chapters/introduction}
+\clearpage
+\pagenumbering{arabic}
+\chapter{Introduction}
+\input{chapters/introduction}
 
 % Test mit µ
 
 \chapter{Methods}
 \input{chapters/methods}
 
-% \chapter{Results \& Discussion}
-% \input{chapters/results}
+\chapter{Results \& Discussion}
+\input{chapters/results}
 
-% \chapter{Appendix}
-% \input{chapters/appendix}
+\printbibliography
+
+\addchap*{Appendix}
+\input{chapters/appendix}
 
 \end{document}

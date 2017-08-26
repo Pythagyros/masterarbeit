@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.6.27)  22 AUG 2017 13:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.6.27)  25 AUG 2017 14:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -116,9 +116,6 @@ LaTeX Info: Redefining \textsubscript on input line 4843.
 \c@table=\count88
 Class scrbook Info: Redefining `\numberline' on input line 6000.
 \bibindent=\dimen102
-)
-(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
-Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2016/04/23 3.9r The Babel package
@@ -241,6 +238,248 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks18
 \@floatcapt=\box29
 )
+(/home/philipp/texmf/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/home/philipp/texmf/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count101
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/home/philipp/texmf/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count102
+
+(/home/philipp/texmf/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/home/philipp/texmf/tex/generic/xstring/xstring.sty
+(/home/philipp/texmf/tex/generic/xstring/xstring.tex
+\@xs@message=\write3
+\integerpart=\count103
+\decimalpart=\count104
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count105
+\c@listtotal=\count106
+\c@listcount=\count107
+\c@liststart=\count108
+\c@liststop=\count109
+\c@citecount=\count110
+\c@citetotal=\count111
+\c@multicitecount=\count112
+\c@multicitetotal=\count113
+\c@instcount=\count114
+\c@maxnames=\count115
+\c@minnames=\count116
+\c@maxitems=\count117
+\c@minitems=\count118
+\c@citecounter=\count119
+\c@savedcitecounter=\count120
+\c@uniquelist=\count121
+\c@uniquename=\count122
+\c@refsection=\count123
+\c@refsegment=\count124
+\c@maxextratitle=\count125
+\c@maxextratitleyear=\count126
+\c@maxextrayear=\count127
+\c@maxextraalpha=\count128
+\c@abbrvpenalty=\count129
+\c@highnamepenalty=\count130
+\c@lownamepenalty=\count131
+\c@maxparens=\count132
+\c@parenlevel=\count133
+\blx@tempcnta=\count134
+\blx@tempcntb=\count135
+\blx@tempcntc=\count136
+\blx@maxsection=\count137
+\blx@maxsegment@0=\count138
+\blx@notetype=\count139
+\blx@parenlevel@text=\count140
+\blx@parenlevel@foot=\count141
+\blx@sectionciteorder@0=\count142
+\labelnumberwidth=\skip60
+\labelalphawidth=\skip61
+\biblabelsep=\skip62
+\bibitemsep=\skip63
+\bibnamesep=\skip64
+\bibinitsep=\skip65
+\bibparsep=\skip66
+\bibhang=\skip67
+\blx@bcfin=\read1
+\blx@bcfout=\write4
+\c@mincomprange=\count143
+\c@maxcomprange=\count144
+\c@mincompwidth=\count145
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/home/philipp/texmf/tex/latex/biblatex/blx-dm.def)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count146
+\c@savedafterword=\count147
+\c@annotator=\count148
+\c@savedannotator=\count149
+\c@author=\count150
+\c@savedauthor=\count151
+\c@bookauthor=\count152
+\c@savedbookauthor=\count153
+\c@commentator=\count154
+\c@savedcommentator=\count155
+\c@editor=\count156
+\c@savededitor=\count157
+\c@editora=\count158
+\c@savededitora=\count159
+\c@editorb=\count160
+\c@savededitorb=\count161
+\c@editorc=\count162
+\c@savededitorc=\count163
+\c@foreword=\count164
+\c@savedforeword=\count165
+\c@holder=\count166
+\c@savedholder=\count167
+\c@introduction=\count168
+\c@savedintroduction=\count169
+\c@namea=\count170
+\c@savednamea=\count171
+\c@nameb=\count172
+\c@savednameb=\count173
+\c@namec=\count174
+\c@savednamec=\count175
+\c@translator=\count176
+\c@savedtranslator=\count177
+\c@shortauthor=\count178
+\c@savedshortauthor=\count179
+\c@shorteditor=\count180
+\c@savedshorteditor=\count181
+\c@labelname=\count182
+\c@savedlabelname=\count183
+\c@institution=\count184
+\c@savedinstitution=\count185
+\c@lista=\count186
+\c@savedlista=\count187
+\c@listb=\count188
+\c@savedlistb=\count189
+\c@listc=\count190
+\c@savedlistc=\count191
+\c@listd=\count192
+\c@savedlistd=\count193
+\c@liste=\count194
+\c@savedliste=\count195
+\c@listf=\count196
+\c@savedlistf=\count197
+\c@location=\count198
+\c@savedlocation=\count199
+\c@organization=\count266
+\c@savedorganization=\count267
+\c@origlocation=\count268
+\c@savedoriglocation=\count269
+\c@origpublisher=\count270
+\c@savedorigpublisher=\count271
+\c@publisher=\count272
+\c@savedpublisher=\count273
+\c@language=\count274
+\c@savedlanguage=\count275
+\c@pageref=\count276
+\c@savedpageref=\count277
+\shorthandwidth=\skip68
+\shortjournalwidth=\skip69
+\shortserieswidth=\skip70
+\shorttitlewidth=\skip71
+\shortauthorwidth=\skip72
+\shorteditorwidth=\skip73
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/home/philipp/texmf/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/home/philipp/texmf/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count278
+\c@textcitetotal=\count279
+\c@textcitemaxnames=\count280
+\c@biburlnumpenalty=\count281
+\c@biburlucpenalty=\count282
+\c@biburllcpenalty=\count283
+\c@smartand=\count284
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/home/philipp/texmf/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/home/philipp/texmf/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count285
+\c@bbx:relatedtotal=\count286
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(/home/philipp/texmf/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/home/philipp/texmf/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
 (/home/philipp/texmf/tex/latex/siunitx/siunitx.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2016/11/21 v6760 L3 programming layer (loader) 
@@ -255,24 +494,24 @@ L3 Module: l3tl 2016/08/19 v6692 L3 Token lists
 L3 Module: l3str 2016/08/19 v6692 L3 Strings
 L3 Module: l3seq 2016/08/19 v6685 L3 Sequences and stacks
 L3 Module: l3int 2016/09/07 v6700 L3 Integers
-\c_max_int=\count101
-\l_tmpa_int=\count102
-\l_tmpb_int=\count103
-\g_tmpa_int=\count104
-\g_tmpb_int=\count105
+\c_max_int=\count287
+\l_tmpa_int=\count288
+\l_tmpb_int=\count289
+\g_tmpa_int=\count290
+\g_tmpb_int=\count291
 L3 Module: l3quark 2016/08/19 v6685 L3 Quarks
 L3 Module: l3prg 2016/08/18 v6679 L3 Control structures
-\g__prg_map_int=\count106
+\g__prg_map_int=\count292
 L3 Module: l3clist 2016/08/19 v6685 L3 Comma separated lists
 L3 Module: l3token 2016/09/01 v6695 L3 Experimental token manipulation
 L3 Module: l3prop 2016/08/19 v6685 L3 Property lists
 L3 Module: l3msg 2016/08/19 v6691 L3 Messages
 L3 Module: l3file 2016/08/19 v6685 L3 File and I/O operations
-\l_iow_line_count_int=\count107
-\l__iow_target_count_int=\count108
-\l__iow_current_line_int=\count109
-\l__iow_current_word_int=\count110
-\l__iow_current_indentation_int=\count111
+\l_iow_line_count_int=\count293
+\l__iow_target_count_int=\count294
+\l__iow_current_line_int=\count295
+\l__iow_current_word_int=\count296
+\l__iow_current_indentation_int=\count297
 L3 Module: l3skip 2016/08/19 v6692 L3 Dimensions and skips
 \c_zero_dim=\dimen134
 \c_max_dim=\dimen135
@@ -280,30 +519,30 @@ L3 Module: l3skip 2016/08/19 v6692 L3 Dimensions and skips
 \l_tmpb_dim=\dimen137
 \g_tmpa_dim=\dimen138
 \g_tmpb_dim=\dimen139
-\c_zero_skip=\skip60
-\c_max_skip=\skip61
-\l_tmpa_skip=\skip62
-\l_tmpb_skip=\skip63
-\g_tmpa_skip=\skip64
-\g_tmpb_skip=\skip65
-\c_zero_muskip=\muskip10
-\c_max_muskip=\muskip11
-\l_tmpa_muskip=\muskip12
-\l_tmpb_muskip=\muskip13
-\g_tmpa_muskip=\muskip14
-\g_tmpb_muskip=\muskip15
+\c_zero_skip=\skip74
+\c_max_skip=\skip75
+\l_tmpa_skip=\skip76
+\l_tmpb_skip=\skip77
+\g_tmpa_skip=\skip78
+\g_tmpb_skip=\skip79
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
 L3 Module: l3keys 2016/09/21 v6711 L3 Key-value interfaces
-\l_keys_choice_int=\count112
+\l_keys_choice_int=\count298
 L3 Module: l3fp 2016/11/21 v6761 L3 Floating points
-\c__fp_leading_shift_int=\count113
-\c__fp_middle_shift_int=\count114
-\c__fp_trailing_shift_int=\count115
-\c__fp_big_leading_shift_int=\count116
-\c__fp_big_middle_shift_int=\count117
-\c__fp_big_trailing_shift_int=\count118
-\c__fp_Bigg_leading_shift_int=\count119
-\c__fp_Bigg_middle_shift_int=\count120
-\c__fp_Bigg_trailing_shift_int=\count121
+\c__fp_leading_shift_int=\count299
+\c__fp_middle_shift_int=\count300
+\c__fp_trailing_shift_int=\count301
+\c__fp_big_leading_shift_int=\count302
+\c__fp_big_middle_shift_int=\count303
+\c__fp_big_trailing_shift_int=\count304
+\c__fp_Bigg_leading_shift_int=\count305
+\c__fp_Bigg_middle_shift_int=\count306
+\c__fp_Bigg_trailing_shift_int=\count307
 L3 Module: l3box 2016/08/19 v6685 L3 Experimental boxes
 \c_empty_box=\box30
 \l_tmpa_box=\box31
@@ -353,18 +592,18 @@ L3 Module: l3luatex 2016/08/18 v6679 L3 Experimental LuaTeX-specific functions
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2016/08/18 v6679 L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count122
+\l__driver_color_stack_int=\count308
 \l__driver_tmp_box=\box45
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2016/11/21 v6760 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count123
-\l__xparse_m_args_int=\count124
-\l__xparse_mandatory_args_int=\count125
-\l__xparse_processor_int=\count126
-\l__xparse_v_nesting_int=\count127
+\l__xparse_current_arg_int=\count309
+\l__xparse_m_args_int=\count310
+\l__xparse_mandatory_args_int=\count311
+\l__xparse_processor_int=\count312
+\l__xparse_v_nesting_int=\count313
 )
-Package: siunitx 2017/06/13 v2.7h A comprehensive (SI) units package
+Package: siunitx 2017/08/02 v2.7j A comprehensive (SI) units package
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
@@ -379,29 +618,29 @@ Package: l3keys2e 2016/11/21 v6760 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box46
 \l__siunitx_tmp_dim=\dimen166
-\l__siunitx_tmp_int=\count128
-\l__siunitx_number_mantissa_length_int=\count129
-\l__siunitx_number_uncert_length_int=\count130
-\l__siunitx_round_int=\count131
-\l__siunitx_process_decimal_int=\count132
-\l__siunitx_process_uncertainty_int=\count133
-\l__siunitx_process_fixed_int=\count134
-\l__siunitx_process_integer_min_int=\count135
-\l__siunitx_process_precision_int=\count136
-\l__siunitx_group_min_int=\count137
+\l__siunitx_tmp_int=\count314
+\l__siunitx_number_mantissa_length_int=\count315
+\l__siunitx_number_uncert_length_int=\count316
+\l__siunitx_round_int=\count317
+\l__siunitx_process_decimal_int=\count318
+\l__siunitx_process_uncertainty_int=\count319
+\l__siunitx_process_fixed_int=\count320
+\l__siunitx_process_integer_min_int=\count321
+\l__siunitx_process_precision_int=\count322
+\l__siunitx_group_min_int=\count323
 \l__siunitx_angle_marker_box=\box47
 \l__siunitx_angle_unit_box=\box48
 \l__siunitx_angle_marker_dim=\dimen167
 \l__siunitx_angle_unit_dim=\dimen168
-\l__siunitx_unit_int=\count138
-\l__siunitx_unit_denominator_int=\count139
-\l__siunitx_unit_numerator_int=\count140
-\l__siunitx_unit_prefix_int=\count141
-\l__siunitx_unit_prefix_base_int=\count142
-\l__siunitx_unit_prefix_gram_int=\count143
-\l__siunitx_number_product_int=\count144
-\c__siunitx_one_fill_skip=\skip66
-\l__siunitx_table_unit_align_skip=\skip67
+\l__siunitx_unit_int=\count324
+\l__siunitx_unit_denominator_int=\count325
+\l__siunitx_unit_numerator_int=\count326
+\l__siunitx_unit_prefix_int=\count327
+\l__siunitx_unit_prefix_base_int=\count328
+\l__siunitx_unit_prefix_gram_int=\count329
+\l__siunitx_number_product_int=\count330
+\c__siunitx_one_fill_skip=\skip80
+\l__siunitx_table_unit_align_skip=\skip81
 \l__siunitx_table_exponent_dim=\dimen169
 \l__siunitx_table_integer_dim=\dimen170
 \l__siunitx_table_mantissa_dim=\dimen171
@@ -415,8 +654,8 @@ Package: l3keys2e 2016/11/21 v6760 LaTeX2e option processing using LaTeX3 keys
 \l__siunitx_table_post_box=\box50
 \l__siunitx_table_mantissa_box=\box51
 \l__siunitx_table_result_box=\box52
-\l__siunitx_table_number_align_skip=\skip68
-\l__siunitx_table_text_align_skip=\skip69
+\l__siunitx_table_number_align_skip=\skip82
+\l__siunitx_table_text_align_skip=\skip83
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -532,7 +771,7 @@ Package: l3keys2e 2016/11/21 v6760 LaTeX2e option processing using LaTeX3 keys
 . 
 . Defining command \siInBookmark with sig. 'om' on line 7429.
 .................................................
-\g__file_internal_ior=\read1
+\g__file_internal_ior=\read2
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/translator.sty
 Package: translator 2010/06/12 ver 1.10
@@ -579,12 +818,12 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 \pgf@yb=\dimen185
 \pgf@xc=\dimen186
 \pgf@yc=\dimen187
-\w@pgf@writea=\write3
-\r@pgf@reada=\read2
-\c@pgf@counta=\count145
-\c@pgf@countb=\count146
-\c@pgf@countc=\count147
-\c@pgf@countd=\count148
+\w@pgf@writea=\write5
+\r@pgf@reada=\read3
+\c@pgf@counta=\count331
+\c@pgf@countb=\count332
+\c@pgf@countc=\count333
+\c@pgf@countd=\count334
 \t@pgf@toka=\toks24
 \t@pgf@tokb=\toks25
 \t@pgf@tokc=\toks26
@@ -602,8 +841,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
 (/home/philipp/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count149
-\pgfsyssoftpath@bigbuffer@items=\count150
+\pgfsyssoftpath@smallbuffer@items=\count335
+\pgfsyssoftpath@bigbuffer@items=\count336
 )
 (/home/philipp/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
@@ -633,7 +872,7 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/home/philipp/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/home/philipp/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen188
-\pgfmath@count=\count151
+\pgfmath@count=\count337
 \pgfmath@box=\box54
 \pgfmath@toks=\toks27
 \pgfmath@stack@operand=\toks28
@@ -649,7 +888,7 @@ ex) (/home/philipp/texmf/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
 (/home/philipp/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
 (/home/philipp/texmf/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.c
 ode.tex))) (/home/philipp/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count152
+\c@pgfmathroundto@lastzeros=\count338
 ))
 (/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
@@ -683,7 +922,7 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box55
 \pgf@hbox=\box56
 \pgf@layerbox@main=\box57
-\pgf@picture@serial@count=\count153
+\pgf@picture@serial@count=\count339
 )
 (/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
@@ -709,7 +948,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 (/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen268
-\pgf@sys@shading@range@num=\count154
+\pgf@sys@shading@range@num=\count340
 )
 (/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -761,7 +1000,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 
 (/home/philipp/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count155
+\pgf@plot@mark@count=\count341
 \pgfplotmarksize=\dimen273
 )
 \tikz@lastx=\dimen274
@@ -774,24 +1013,24 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box61
 \tikz@tempbox=\box62
 \tikz@tempbox@bg=\box63
-\tikztreelevel=\count156
-\tikznumberofchildren=\count157
-\tikznumberofcurrentchild=\count158
-\tikz@fig@count=\count159
+\tikztreelevel=\count342
+\tikznumberofchildren=\count343
+\tikznumberofcurrentchild=\count344
+\tikz@fig@count=\count345
 (/home/philipp/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count160
-\pgfmatrixcurrentcolumn=\count161
-\pgf@matrix@numberofcolumns=\count162
+\pgfmatrixcurrentrow=\count346
+\pgfmatrixcurrentcolumn=\count347
+\pgf@matrix@numberofcolumns=\count348
 )
-\tikz@expandcount=\count163
+\tikz@expandcount=\count349
 
 (/home/philipp/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryto
 paths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 ))) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/11/05 v2.16a AMS math features
-\@mathmargin=\skip70
+\@mathmargin=\skip84
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -801,13 +1040,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count164
+\inf@bad=\count350
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count165
-\leftroot@=\count166
+\uproot@=\count351
+\leftroot@=\count352
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count167
-\DOTSCASE@=\count168
+\classnum@=\count353
+\DOTSCASE@=\count354
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -816,15 +1055,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen281
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count169
-\c@MaxMatrixCols=\count170
-\dotsspace@=\muskip16
-\c@parentequation=\count171
-\dspbrk@lvl=\count172
+\macc@depth=\count355
+\c@MaxMatrixCols=\count356
+\dotsspace@=\muskip17
+\c@parentequation=\count357
+\dspbrk@lvl=\count358
 \tag@help=\toks32
-\row@=\count173
-\column@=\count174
-\maxfields@=\count175
+\row@=\count359
+\column@=\count360
+\maxfields@=\count361
 \andhelp@=\toks33
 \eqnshift@=\dimen282
 \alignsep@=\dimen283
@@ -833,8 +1072,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \totwidth@=\dimen286
 \lineht@=\dimen287
 \@envbody=\toks34
-\multlinegap=\skip71
-\multlinetaggap=\skip72
+\multlinegap=\skip85
+\multlinetaggap=\skip86
 \mathdisplay@stack=\toks35
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
@@ -926,9 +1165,9 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 Package: xtemplate 2016/11/21 v6760 L3 Experimental prototype document function
 s
 \l__xtemplate_tmp_dim=\dimen288
-\l__xtemplate_tmp_int=\count176
-\l__xtemplate_tmp_muskip=\muskip17
-\l__xtemplate_tmp_skip=\skip73
+\l__xtemplate_tmp_int=\count362
+\l__xtemplate_tmp_muskip=\muskip18
+\l__xtemplate_tmp_skip=\skip87
 )
 Package: xfrac 2016/11/21 v6760 L3 Experimental split-level fractions
 \l__xfrac_slash_box=\box66
@@ -938,8 +1177,8 @@ Package: xfrac 2016/11/21 v6760 L3 Experimental split-level fractions
 \l__xfrac_numerator_top_sep_dim=\dimen291
 \l__xfrac_slash_left_sep_dim=\dimen292
 \l__xfrac_slash_right_sep_dim=\dimen293
-\l__xfrac_slash_left_muskip=\muskip18
-\l__xfrac_slash_right_muskip=\muskip19
+\l__xfrac_slash_left_muskip=\muskip19
+\l__xfrac_slash_right_muskip=\muskip20
 .................................................
 . xtemplate info: "declare-object-type"
 . 
@@ -953,13 +1192,10 @@ Package: xfrac 2016/11/21 v6760 L3 Experimental split-level fractions
 )
 (/usr/share/texlive/texmf-dist/tex/latex/units/nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
-\L@UnitsRaiseDisplaystyle=\skip74
-\L@UnitsRaiseTextstyle=\skip75
-\L@UnitsRaiseScriptstyle=\skip76
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-))
+\L@UnitsRaiseDisplaystyle=\skip88
+\L@UnitsRaiseTextstyle=\skip89
+\L@UnitsRaiseScriptstyle=\skip90
+)
 (/home/philipp/texmf/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2015/05/13 v3.0.1a (rcs-revision 1.13)
 \pgfarrowinset=\dimen294
@@ -972,9 +1208,9 @@ Package: chemformula 2017/03/23 v4.15e typeset chemical compounds and reactions
 \l__chemformula_tmpa_dim=\dimen298
 \l__chemformula_tmpb_dim=\dimen299
 \l__chemformula_tmpc_dim=\dimen300
-\l__chemformula_tmpa_int=\count177
-\l__chemformula_tmpb_int=\count178
-\l__chemformula_tmpc_int=\count179
+\l__chemformula_tmpa_int=\count363
+\l__chemformula_tmpb_int=\count364
+\l__chemformula_tmpc_int=\count365
 \l__chemformula_tmpa_box=\box68
 \l__chemformula_tmpb_box=\box69
 \l__chemformula_arrow_length_dim=\dimen301
@@ -1005,10 +1241,10 @@ Package: chemformula 2017/03/23 v4.15e typeset chemical compounds and reactions
 \l__chemformula_kroegervink_positive_hshift_dim=\dimen326
 \l__chemformula_kroegervink_positive_vshift_dim=\dimen327
 \l__chemformula_kroegervink_positive_space_dim=\dimen328
-\l__chemformula_stoich_space_skip=\skip77
-\l__chemformula_math_space_skip=\skip78
-\l__chemformula_count_tokens_int=\count180
-\g__chemformula_lewis_int=\count181
+\l__chemformula_stoich_space_skip=\skip91
+\l__chemformula_math_space_skip=\skip92
+\l__chemformula_count_tokens_int=\count366
+\g__chemformula_lewis_int=\count367
 \l__chemformula_arrow_arg_i_box=\box70
 \l__chemformula_arrow_arg_ii_box=\box71
 \l__chemformula_superscript_box=\box72
@@ -1128,7 +1364,7 @@ Package: chemformula 2017/03/23 v4.15e typeset chemical compounds and reactions
 . 
 . Defining command \chstoich with sig. 'm' on line 2191.
 .................................................
-\l__chemformula_additions_symbol_space_skip=\skip79
+\l__chemformula_additions_symbol_space_skip=\skip93
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1149,8 +1385,8 @@ Package: chemformula 2017/03/23 v4.15e typeset chemical compounds and reactions
 . 
 . Defining command \DeclareChemAdditionSymbol with sig. 'mmm' on line 2718.
 .................................................
-\l__chemformula_plus_space_skip=\skip80
-\l__chemformula_minus_space_skip=\skip81
+\l__chemformula_plus_space_skip=\skip94
+\l__chemformula_minus_space_skip=\skip95
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1182,51 +1418,47 @@ Package: chemformula 2017/03/23 v4.15e typeset chemical compounds and reactions
 . Defining command \setchemformula with sig. 'm' on line 3339.
 .................................................
 ) (/home/philipp/texmf/tex/latex/microtype/microtype.sty
-Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
+Package: microtype 2017/07/07 v2.7 Micro-typographical refinements (RS)
 \MT@toks=\toks36
-\MT@count=\count182
-LaTeX Info: Redefining \textls on input line 774.
+\MT@count=\count368
+LaTeX Info: Redefining \textls on input line 789.
 \MT@outer@kern=\dimen329
-LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
-\MT@listname@count=\count183
+LaTeX Info: Redefining \textmicrotypecontext on input line 1334.
+\MT@listname@count=\count369
 
 (/home/philipp/texmf/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2016/05/14 v2.6a Definitions specific to pdftex (RS)
-
-LaTeX Info: Redefining \lsstyle on input line 916.
-LaTeX Info: Redefining \lslig on input line 916.
-\MT@outer@space=\skip82
+File: microtype-pdftex.def 2017/07/07 v2.7 Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 912.
+LaTeX Info: Redefining \lslig on input line 912.
+\MT@outer@space=\skip96
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
 (/home/philipp/texmf/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2016/05/14 v2.6a microtype main configuration file (RS)
+File: microtype.cfg 2017/07/07 v2.7 microtype main configuration file (RS)
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2017/01/14 v0.5h Insert pages of external PDF documents (AM)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count184
-\calc@Bcount=\count185
+\calc@Acount=\count370
+\calc@Bcount=\count371
 \calc@Adimen=\dimen330
 \calc@Bdimen=\dimen331
-\calc@Askip=\skip83
-\calc@Bskip=\skip84
+\calc@Askip=\skip97
+\calc@Bskip=\skip98
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count186
-\calc@Cskip=\skip85
+\calc@Ccount=\count372
+\calc@Cskip=\skip99
 )
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
-)))
+))
 \AM@pagewidth=\dimen332
 \AM@pageheight=\dimen333
 
@@ -1236,12 +1468,24 @@ File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
 \AM@pagebox=\box74
 \AM@global@opts=\toks37
 \AM@toc@title=\toks38
-\c@AM@survey=\count187
+\c@AM@survey=\count373
 \AM@templatesizebox=\box75
 )
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/home/philipp/texmf/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+)
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count374
+\@quotereset=\count375
 
 LaTeX Warning: Unused global option(s):
-    [setcapindentenglish].
+    [setcapindent].
 
 (/home/philipp/masterarbeit/main.aux)
 \openout1 = `main.aux'.
@@ -1268,31 +1512,18 @@ LaTeX Font Info:    ... okay on input line 3.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count188
+\scratchcounter=\count376
 \scratchdimen=\dimen334
 \scratchbox=\box76
-\nofMPsegments=\count189
-\nofMParguments=\count190
+\nofMPsegments=\count377
+\nofMParguments=\count378
 \everyMPshowfont=\toks39
-\MPscratchCnt=\count191
+\MPscratchCnt=\count379
 \MPscratchDim=\dimen335
-\MPnumerator=\count192
-\makeMPintoPDFobject=\count193
+\MPnumerator=\count380
+\makeMPintoPDFobject=\count381
 \everyMPtoPDFconversion=\toks40
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -1301,19 +1532,6 @@ Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
@@ -1328,13 +1546,25 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
+Package biblatex Info: No input encoding detected.
+(biblatex)             Assuming 'ascii'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'ascii'.
+\openout4 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+
+(/home/philipp/masterarbeit/main.bbl)
+Package biblatex Info: Reference section=0 on input line 3.
+Package biblatex Info: Reference segment=0 on input line 3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-bas
 ic-dictionary/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
 (/home/philipp/texmf/tex/latex/siunitx/siunitx-abbreviations.cfg
-File: siunitx-abbreviations.cfg 2017/06/13 v2.7h siunitx: Abbreviated units
+File: siunitx-abbreviations.cfg 2017/08/02 v2.7j siunitx: Abbreviated units
 )
 ABD: EveryShipout initializing macros
 LaTeX Info: Redefining \microtypecontext on input line 3.
@@ -1365,30 +1595,126 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ))
-\c__siunitx_mathsf_int=\count194
-Package microtype Info: Loading generic settings for font family
+\c__siunitx_mathsf_int=\count382
+Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c__siunitx_mathtt_int=\count195
-Package microtype Info: Loading generic settings for font family
+\c__siunitx_mathtt_int=\count383
+Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package tocbasic Info: character protrusion at lot deactivated on input line 30
+
+<testtitle.pdf, id=4, 597.55246pt x 845.07718pt>
+File: testtitle.pdf Graphic file (type pdf)
+ <use testtitle.pdf>
+Package pdftex.def Info: testtitle.pdf used on input line 5.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: testtitle.pdf Graphic file (type pdf)
+
+<use testtitle.pdf>
+Package pdftex.def Info: testtitle.pdf used on input line 5.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+ <testtitle.pdf, id=7, page=1, 597.55246pt x 845.07718pt>
+File: testtitle.pdf Graphic file (type pdf)
+
+<use testtitle.pdf, page 1>
+Package pdftex.def Info: testtitle.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: testtitle.pdf Graphic file (type pdf)
+ <use testtitle.pdf, page 1>
+Package pdftex.def Info: testtitle.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: testtitle.pdf Graphic file (type pdf)
+
+<use testtitle.pdf, page 1>
+Package pdftex.def Info: testtitle.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: testtitle.pdf Graphic file (type pdf)
+ <use testtitle.pdf, page 1>
+Package pdftex.def Info: testtitle.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: testtitle.pdf Graphic file (type pdf)
+
+<use testtitle.pdf, page 1>
+Package pdftex.def Info: testtitle.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+ [1
+
+ </home/philipp/masterarbeit/testtitle.pdf>]
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¤ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no Ÿ in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--32
+
+ []
+
+[2
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [3
+
+] [4
+
+] [1
+
+]
+Package tocbasic Info: character protrusion at toc deactivated on input line 43
 .
 
-(/home/philipp/masterarbeit/main.lot
+(/home/philipp/masterarbeit/main.toc)
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+ [2
+
+]
+Package tocbasic Info: character protrusion at lof deactivated on input line 44
+.
+ (/home/philipp/masterarbeit/main.lof
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+)
+\tf@lof=\write7
+\openout7 = `main.lof'.
+
+[3
+
+]
+Package tocbasic Info: character protrusion at lot deactivated on input line 45
+.
+ (/home/philipp/masterarbeit/main.lot
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 )
-\tf@lot=\write4
-\openout4 = `main.lot'.
+\tf@lot=\write8
+\openout8 = `main.lot'.
 
- [1
+ [4
 
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+]
 chapter 1.
 
 Class scrbook Warning: \float@addtolists detected!
@@ -1405,39 +1731,111 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              a package that still implements the
 (scrbook)              deprecated \float@addtolist interface .
 
-(/home/philipp/masterarbeit/chapters/methods.tex [2
+(/home/philipp/masterarbeit/chapters/introduction.tex
+<images/IMG_9701.png, id=50, 1464.672pt x 1098.504pt>
+File: images/IMG_9701.png Graphic file (type png)
 
-] [3]
+<use images/IMG_9701.png>
+Package pdftex.def Info: images/IMG_9701.png used on input line 16.
+(pdftex.def)             Requested size: 224.06548pt x 168.03703pt.
+
+<images/IMG_9702.png, id=52, 1464.672pt x 1098.504pt>
+File: images/IMG_9702.png Graphic file (type png)
+
+<use images/IMG_9702.png>
+Package pdftex.def Info: images/IMG_9702.png used on input line 23.
+(pdftex.def)             Requested size: 224.06548pt x 168.03703pt.
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[1
+
+
+] [2 </home/philipp/masterarbeit/images/IMG_9701.png> </home/philipp/masterarbe
+it/images/IMG_9702.png>] [3]) [4]
+chapter 2.
+(/home/philipp/masterarbeit/chapters/methods.tex [5
+
+]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Missing character: There is no Â in font cmr12!
 Missing character: There is no µ in font cmr12!
+[6]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [4] [5] [6] (/home/philipp/masterarbeit/main.aux) ) 
+) [7] [8] [9]
+chapter 3.
+(/home/philipp/masterarbeit/chapters/results.tex
+<images/assay.png, id=91, 1095.292pt x 1084.05pt>
+File: images/assay.png Graphic file (type png)
+ <use images/assay.png>
+Package pdftex.def Info: images/assay.png used on input line 9.
+(pdftex.def)             Requested size: 219.05452pt x 216.80615pt.
+)
+[10
+
+ </home/philipp/masterarbeit/images/assay.png>]
+chapter without number
+[11
+
+] (/home/philipp/masterarbeit/chapters/appendix.tex) [12
+
+]
+(/home/philipp/masterarbeit/main.aux)
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
 Here is how much of TeX's memory you used:
- 29718 strings out of 494893
- 616934 string characters out of 6178672
- 770739 words of memory out of 5000000
- 32584 multiletter control sequences out of 15000+600000
- 12787 words of font info for 57 fonts, out of 8000000 for 9000
+ 36242 strings out of 494893
+ 735593 string characters out of 6178672
+ 1238524 words of memory out of 5000000
+ 38964 multiletter control sequences out of 15000+600000
+ 16141 words of font info for 95 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,17n,80p,10432b,1077s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/philipp/.texlive20
-16/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy8.pfb>
-Output written on /home/philipp/masterarbeit/main.pdf (6 pages, 86249 bytes).
+ 75i,18n,80p,10434b,1655s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/philipp/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.6
+00pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mtt12.pfb>
+Output written on /home/philipp/masterarbeit/main.pdf (20 pages, 43643642 bytes
+).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 150 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 15373 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 24112 words of extra memory for PDF output out of 24883 (max. 10000000)
 

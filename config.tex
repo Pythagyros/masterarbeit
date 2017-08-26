@@ -11,12 +11,14 @@
 	cleardoublepage=empty,
 	pagesize=pdftex,
 	draft=false,	
-	%headsepline,
+	headsepline,
 	%footsepline,
 	%toc=bib, index=totoc,
-	%toc=listof,
+	toc=listof,
 	%report,
-	setcapindent
+	toc=bibliography,
+	setcapindent,
+	% titlepage=true,
 	english]{scrbook}	
 
 % \documentclass[
@@ -31,8 +33,8 @@
 
 %\usepackage[utf8]{inputenc}
 
-\usepackage{setspace}								% Should set up onehalfspacing, copied from Steffen
-	\onehalfspacing
+% \usepackage{setspace}								% Should set up onehalfspacing, copied from Steffen
+% 	\onehalfspacing
 	%\setlength\parindent							% "global disable indentation"
 
 %%% Setup Document Language
@@ -67,10 +69,12 @@
 
 %%% Setup Bibliography
 
+\usepackage{biblatex}
+\addbibresource{test_bib.bib}
 
 %%% Misc. Packages
 
 \usepackage{siunitx}					% Correctly formatting SI units
-\usepackage{chemformula}				% Setting of chemical elements
+\usepackage{chemformula}				% Setting of chemical elements{}
 \usepackage{microtype}					% khirevich.com/latex/microtype
 \usepackage{pdfpages}					% Include titlepage as pdf
