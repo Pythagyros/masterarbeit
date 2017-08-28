@@ -1,13 +1,13 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.6.27)  20 JUL 2017 10:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.8.26)  26 AUG 2017 17:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **config.tex
 (/home/philipp/masterarbeit/config.tex
 LaTeX2e <2017/01/01> patch level 3
-Babel <3.9r> and hyphenation patterns for 8 language(s) loaded.
-(/home/philipp/texmf/tex/latex/koma-script/scrreprt.cls
-Document Class: scrreprt 2017/04/13 v3.23 KOMA-Script document class (report)
+Babel <3.9r> and hyphenation patterns for 3 language(s) loaded.
+(/home/philipp/texmf/tex/latex/koma-script/scrbook.cls
+Document Class: scrbook 2017/04/13 v3.23 KOMA-Script document class (book)
 (/home/philipp/texmf/tex/latex/koma-script/scrkbase.sty
 Package: scrkbase 2017/04/13 v3.23 KOMA-Script package (KOMA-Script-dependent b
 asics and keyval usage)
@@ -40,22 +40,22 @@ Package tocbasic Info: omitting babel extension for `lof'
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lot' on input line 136.
-Package tocbasic Info: defining new hook before heading of `' on input line 161
-2.
-Class scrreprt Info: You've used standard option `oneside'.
-(scrreprt)           This is correct!
-(scrreprt)           Internally I'm using `twoside=false'.
-(scrreprt)           If you'd like to set the option with \KOMAoptions,
-(scrreprt)           you'd have to use `twoside=false' there
-(scrreprt)           instead of `oneside', too.
-Class scrreprt Info: You've used standard option `openany'.
-(scrreprt)           This is correct!
-(scrreprt)           Internally I'm using `open=any'.
-(scrreprt)           If you'd like to set the option with \KOMAoptions,
-(scrreprt)           you'd have to use `open=any' there
-(scrreprt)           instead of `openany', too.
-Class scrreprt Info: File `scrsize12pt.clo' used to setup font sizes on input l
-ine 2272.
+Package tocbasic Info: defining new hook before heading of `' on input line 160
+8.
+Class scrbook Info: You've used standard option `oneside'.
+(scrbook)           This is correct!
+(scrbook)           Internally I'm using `twoside=false'.
+(scrbook)           If you'd like to set the option with \KOMAoptions,
+(scrbook)           you'd have to use `twoside=false' there
+(scrbook)           instead of `oneside', too.
+Class scrbook Info: You've used standard option `openany'.
+(scrbook)           This is correct!
+(scrbook)           Internally I'm using `open=any'.
+(scrbook)           If you'd like to set the option with \KOMAoptions,
+(scrbook)           you'd have to use `open=any' there
+(scrbook)           instead of `openany', too.
+Class scrbook Info: File `scrsize12pt.clo' used to setup font sizes on input li
+ne 2275.
 
 (/home/philipp/texmf/tex/latex/koma-script/scrsize12pt.clo
 File: scrsize12pt.clo 2017/04/13 v3.23 KOMA-Script font size class option (12pt
@@ -107,46 +107,14 @@ Package typearea Info: These are the values describing the layout:
 \scr@dte@subsubsection@maxnumwidth=\skip51
 \scr@dte@paragraph@maxnumwidth=\skip52
 \scr@dte@subparagraph@maxnumwidth=\skip53
-LaTeX Info: Redefining \textsubscript on input line 4841.
+LaTeX Info: Redefining \textsubscript on input line 4843.
 \abovecaptionskip=\skip54
 \belowcaptionskip=\skip55
 \c@pti@nb@sid@b@x=\box27
 \c@figure=\count87
 \c@table=\count88
-Class scrreprt Info: Redefining `\numberline' on input line 5988.
+Class scrbook Info: Redefining `\numberline' on input line 6000.
 \bibindent=\dimen102
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/inputenx.sty
-Package: inputenx 2016/05/16 v1.11 Enhanced input encoding handling (HO)
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/ix-alias.def
-File: ix-alias.def 2016/05/16 v1.11 Alias list (inputenx)
-)
-Package inputenx Info: Encoding name: utf8x
-(inputenx)             Encoding file: utf8x.def
-(inputenx)              on input line 171.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks15
-\inpenc@posthook=\toks16
-)
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/utf8x.def
-File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
-))
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucs.sty
-Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
-
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-global.def
-File: uni-global.def 2013/05/13 UCS: Unicode global data
-)
-\uc@secondtry=\count89
-\uc@combtoks=\toks17
-\uc@combtoksb=\toks18
-\uc@temptokena=\toks19
-)
-(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
-Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2016/04/23 3.9r The Babel package
@@ -156,7 +124,7 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2016/04/23 3.9r Babel common definitions
-\babel@savecnt=\count90
+\babel@savecnt=\count89
 \U@D=\dimen103
 )
 \l@british = a dialect from \language\l@english 
@@ -188,7 +156,7 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count91
+\Gread@gobject=\count90
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
@@ -208,41 +176,13 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@hangindent=\dimen112
 )
 Package caption Info: KOMA-Script document class.
-\c@ContinuedFloat=\count92
+\c@ContinuedFloat=\count91
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
-\c@subfigure=\count93
-\c@subtable=\count94
+\c@subfigure=\count92
+\c@subtable=\count93
 )
-
-Class scrreprt Warning: Usage of package `fancyhdr' together
-(scrreprt)              with a KOMA-Script class is not recommended.
-(scrreprt)              I'd suggest to use 
-(scrreprt)              package `scrlayer-scrpage'.
-(scrreprt)              Nevertheless, using requested
-(scrreprt)              package `fancyhdr' on input line 52.
-
-(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
-\fancy@headwidth=\skip56
-\f@ncyO@elh=\skip57
-\f@ncyO@erh=\skip58
-\f@ncyO@olh=\skip59
-\f@ncyO@orh=\skip60
-\f@ncyO@elf=\skip61
-\f@ncyO@erf=\skip62
-\f@ncyO@olf=\skip63
-\f@ncyO@orf=\skip64
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 54.
-
-
-Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 56.
-
 (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 
@@ -250,23 +190,23 @@ Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen113
 \extrarowheight=\dimen114
-\NC@list=\toks20
-\extratabsurround=\skip65
-\backup@length=\skip66
+\NC@list=\toks15
+\extratabsurround=\skip56
+\backup@length=\skip57
 )
 \TX@col@width=\dimen115
 \TX@old@table=\dimen116
 \TX@old@col=\dimen117
 \TX@target=\dimen118
 \TX@delta=\dimen119
-\TX@cols=\count95
-\TX@ftn=\toks21
+\TX@cols=\count94
+\TX@ftn=\toks16
 )
 (/home/philipp/texmf/tex/latex/multirow/multirow.sty
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
-\multirow@colwidth=\skip67
-\multirow@cntb=\count96
-\multirow@dima=\skip68
+\multirow@colwidth=\skip58
+\multirow@cntb=\count95
+\multirow@dima=\skip59
 \bigstrutjot=\dimen120
 )
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
@@ -281,22 +221,264 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \cmidrulesep=\dimen128
 \cmidrulekern=\dimen129
 \defaultaddspace=\dimen130
-\@cmidla=\count97
-\@cmidlb=\count98
+\@cmidla=\count96
+\@cmidlb=\count97
 \@aboverulesep=\dimen131
 \@belowrulesep=\dimen132
-\@thisruleclass=\count99
-\@lastruleclass=\count100
+\@thisruleclass=\count98
+\@lastruleclass=\count99
 \@thisrulewidth=\dimen133
 )
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count101
-\float@exts=\toks22
+\c@float@type=\count100
+\float@exts=\toks17
 \float@box=\box28
-\@float@everytoks=\toks23
+\@float@everytoks=\toks18
 \@floatcapt=\box29
 )
+(/home/philipp/texmf/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/home/philipp/texmf/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count101
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/home/philipp/texmf/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count102
+
+(/home/philipp/texmf/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/home/philipp/texmf/tex/generic/xstring/xstring.sty
+(/home/philipp/texmf/tex/generic/xstring/xstring.tex
+\@xs@message=\write3
+\integerpart=\count103
+\decimalpart=\count104
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count105
+\c@listtotal=\count106
+\c@listcount=\count107
+\c@liststart=\count108
+\c@liststop=\count109
+\c@citecount=\count110
+\c@citetotal=\count111
+\c@multicitecount=\count112
+\c@multicitetotal=\count113
+\c@instcount=\count114
+\c@maxnames=\count115
+\c@minnames=\count116
+\c@maxitems=\count117
+\c@minitems=\count118
+\c@citecounter=\count119
+\c@savedcitecounter=\count120
+\c@uniquelist=\count121
+\c@uniquename=\count122
+\c@refsection=\count123
+\c@refsegment=\count124
+\c@maxextratitle=\count125
+\c@maxextratitleyear=\count126
+\c@maxextrayear=\count127
+\c@maxextraalpha=\count128
+\c@abbrvpenalty=\count129
+\c@highnamepenalty=\count130
+\c@lownamepenalty=\count131
+\c@maxparens=\count132
+\c@parenlevel=\count133
+\blx@tempcnta=\count134
+\blx@tempcntb=\count135
+\blx@tempcntc=\count136
+\blx@maxsection=\count137
+\blx@maxsegment@0=\count138
+\blx@notetype=\count139
+\blx@parenlevel@text=\count140
+\blx@parenlevel@foot=\count141
+\blx@sectionciteorder@0=\count142
+\labelnumberwidth=\skip60
+\labelalphawidth=\skip61
+\biblabelsep=\skip62
+\bibitemsep=\skip63
+\bibnamesep=\skip64
+\bibinitsep=\skip65
+\bibparsep=\skip66
+\bibhang=\skip67
+\blx@bcfin=\read1
+\blx@bcfout=\write4
+\c@mincomprange=\count143
+\c@maxcomprange=\count144
+\c@mincompwidth=\count145
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/home/philipp/texmf/tex/latex/biblatex/blx-dm.def)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count146
+\c@savedafterword=\count147
+\c@annotator=\count148
+\c@savedannotator=\count149
+\c@author=\count150
+\c@savedauthor=\count151
+\c@bookauthor=\count152
+\c@savedbookauthor=\count153
+\c@commentator=\count154
+\c@savedcommentator=\count155
+\c@editor=\count156
+\c@savededitor=\count157
+\c@editora=\count158
+\c@savededitora=\count159
+\c@editorb=\count160
+\c@savededitorb=\count161
+\c@editorc=\count162
+\c@savededitorc=\count163
+\c@foreword=\count164
+\c@savedforeword=\count165
+\c@holder=\count166
+\c@savedholder=\count167
+\c@introduction=\count168
+\c@savedintroduction=\count169
+\c@namea=\count170
+\c@savednamea=\count171
+\c@nameb=\count172
+\c@savednameb=\count173
+\c@namec=\count174
+\c@savednamec=\count175
+\c@translator=\count176
+\c@savedtranslator=\count177
+\c@shortauthor=\count178
+\c@savedshortauthor=\count179
+\c@shorteditor=\count180
+\c@savedshorteditor=\count181
+\c@labelname=\count182
+\c@savedlabelname=\count183
+\c@institution=\count184
+\c@savedinstitution=\count185
+\c@lista=\count186
+\c@savedlista=\count187
+\c@listb=\count188
+\c@savedlistb=\count189
+\c@listc=\count190
+\c@savedlistc=\count191
+\c@listd=\count192
+\c@savedlistd=\count193
+\c@liste=\count194
+\c@savedliste=\count195
+\c@listf=\count196
+\c@savedlistf=\count197
+\c@location=\count198
+\c@savedlocation=\count199
+\c@organization=\count266
+\c@savedorganization=\count267
+\c@origlocation=\count268
+\c@savedoriglocation=\count269
+\c@origpublisher=\count270
+\c@savedorigpublisher=\count271
+\c@publisher=\count272
+\c@savedpublisher=\count273
+\c@language=\count274
+\c@savedlanguage=\count275
+\c@pageref=\count276
+\c@savedpageref=\count277
+\shorthandwidth=\skip68
+\shortjournalwidth=\skip69
+\shortserieswidth=\skip70
+\shorttitlewidth=\skip71
+\shortauthorwidth=\skip72
+\shorteditorwidth=\skip73
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/home/philipp/texmf/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/home/philipp/texmf/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count278
+\c@textcitetotal=\count279
+\c@textcitemaxnames=\count280
+\c@biburlnumpenalty=\count281
+\c@biburlucpenalty=\count282
+\c@biburllcpenalty=\count283
+\c@smartand=\count284
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/home/philipp/texmf/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/home/philipp/texmf/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count285
+\c@bbx:relatedtotal=\count286
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(/home/philipp/texmf/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/home/philipp/texmf/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
 (/home/philipp/texmf/tex/latex/siunitx/siunitx.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2016/11/21 v6760 L3 programming layer (loader) 
@@ -311,24 +493,24 @@ L3 Module: l3tl 2016/08/19 v6692 L3 Token lists
 L3 Module: l3str 2016/08/19 v6692 L3 Strings
 L3 Module: l3seq 2016/08/19 v6685 L3 Sequences and stacks
 L3 Module: l3int 2016/09/07 v6700 L3 Integers
-\c_max_int=\count102
-\l_tmpa_int=\count103
-\l_tmpb_int=\count104
-\g_tmpa_int=\count105
-\g_tmpb_int=\count106
+\c_max_int=\count287
+\l_tmpa_int=\count288
+\l_tmpb_int=\count289
+\g_tmpa_int=\count290
+\g_tmpb_int=\count291
 L3 Module: l3quark 2016/08/19 v6685 L3 Quarks
 L3 Module: l3prg 2016/08/18 v6679 L3 Control structures
-\g__prg_map_int=\count107
+\g__prg_map_int=\count292
 L3 Module: l3clist 2016/08/19 v6685 L3 Comma separated lists
 L3 Module: l3token 2016/09/01 v6695 L3 Experimental token manipulation
 L3 Module: l3prop 2016/08/19 v6685 L3 Property lists
 L3 Module: l3msg 2016/08/19 v6691 L3 Messages
 L3 Module: l3file 2016/08/19 v6685 L3 File and I/O operations
-\l_iow_line_count_int=\count108
-\l__iow_target_count_int=\count109
-\l__iow_current_line_int=\count110
-\l__iow_current_word_int=\count111
-\l__iow_current_indentation_int=\count112
+\l_iow_line_count_int=\count293
+\l__iow_target_count_int=\count294
+\l__iow_current_line_int=\count295
+\l__iow_current_word_int=\count296
+\l__iow_current_indentation_int=\count297
 L3 Module: l3skip 2016/08/19 v6692 L3 Dimensions and skips
 \c_zero_dim=\dimen134
 \c_max_dim=\dimen135
@@ -336,30 +518,30 @@ L3 Module: l3skip 2016/08/19 v6692 L3 Dimensions and skips
 \l_tmpb_dim=\dimen137
 \g_tmpa_dim=\dimen138
 \g_tmpb_dim=\dimen139
-\c_zero_skip=\skip69
-\c_max_skip=\skip70
-\l_tmpa_skip=\skip71
-\l_tmpb_skip=\skip72
-\g_tmpa_skip=\skip73
-\g_tmpb_skip=\skip74
-\c_zero_muskip=\muskip10
-\c_max_muskip=\muskip11
-\l_tmpa_muskip=\muskip12
-\l_tmpb_muskip=\muskip13
-\g_tmpa_muskip=\muskip14
-\g_tmpb_muskip=\muskip15
+\c_zero_skip=\skip74
+\c_max_skip=\skip75
+\l_tmpa_skip=\skip76
+\l_tmpb_skip=\skip77
+\g_tmpa_skip=\skip78
+\g_tmpb_skip=\skip79
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
 L3 Module: l3keys 2016/09/21 v6711 L3 Key-value interfaces
-\l_keys_choice_int=\count113
+\l_keys_choice_int=\count298
 L3 Module: l3fp 2016/11/21 v6761 L3 Floating points
-\c__fp_leading_shift_int=\count114
-\c__fp_middle_shift_int=\count115
-\c__fp_trailing_shift_int=\count116
-\c__fp_big_leading_shift_int=\count117
-\c__fp_big_middle_shift_int=\count118
-\c__fp_big_trailing_shift_int=\count119
-\c__fp_Bigg_leading_shift_int=\count120
-\c__fp_Bigg_middle_shift_int=\count121
-\c__fp_Bigg_trailing_shift_int=\count122
+\c__fp_leading_shift_int=\count299
+\c__fp_middle_shift_int=\count300
+\c__fp_trailing_shift_int=\count301
+\c__fp_big_leading_shift_int=\count302
+\c__fp_big_middle_shift_int=\count303
+\c__fp_big_trailing_shift_int=\count304
+\c__fp_Bigg_leading_shift_int=\count305
+\c__fp_Bigg_middle_shift_int=\count306
+\c__fp_Bigg_trailing_shift_int=\count307
 L3 Module: l3box 2016/08/19 v6685 L3 Experimental boxes
 \c_empty_box=\box30
 \l_tmpa_box=\box31
@@ -409,25 +591,25 @@ L3 Module: l3luatex 2016/08/18 v6679 L3 Experimental LuaTeX-specific functions
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2016/08/18 v6679 L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count123
+\l__driver_color_stack_int=\count308
 \l__driver_tmp_box=\box45
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2016/11/21 v6760 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count124
-\l__xparse_m_args_int=\count125
-\l__xparse_mandatory_args_int=\count126
-\l__xparse_processor_int=\count127
-\l__xparse_v_nesting_int=\count128
+\l__xparse_current_arg_int=\count309
+\l__xparse_m_args_int=\count310
+\l__xparse_mandatory_args_int=\count311
+\l__xparse_processor_int=\count312
+\l__xparse_v_nesting_int=\count313
 )
-Package: siunitx 2017/06/13 v2.7h A comprehensive (SI) units package
+Package: siunitx 2017/08/02 v2.7j A comprehensive (SI) units package
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks24
+\@emptytoks=\toks19
 \ex@=\dimen165
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
@@ -435,29 +617,29 @@ Package: l3keys2e 2016/11/21 v6760 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box46
 \l__siunitx_tmp_dim=\dimen166
-\l__siunitx_tmp_int=\count129
-\l__siunitx_number_mantissa_length_int=\count130
-\l__siunitx_number_uncert_length_int=\count131
-\l__siunitx_round_int=\count132
-\l__siunitx_process_decimal_int=\count133
-\l__siunitx_process_uncertainty_int=\count134
-\l__siunitx_process_fixed_int=\count135
-\l__siunitx_process_integer_min_int=\count136
-\l__siunitx_process_precision_int=\count137
-\l__siunitx_group_min_int=\count138
+\l__siunitx_tmp_int=\count314
+\l__siunitx_number_mantissa_length_int=\count315
+\l__siunitx_number_uncert_length_int=\count316
+\l__siunitx_round_int=\count317
+\l__siunitx_process_decimal_int=\count318
+\l__siunitx_process_uncertainty_int=\count319
+\l__siunitx_process_fixed_int=\count320
+\l__siunitx_process_integer_min_int=\count321
+\l__siunitx_process_precision_int=\count322
+\l__siunitx_group_min_int=\count323
 \l__siunitx_angle_marker_box=\box47
 \l__siunitx_angle_unit_box=\box48
 \l__siunitx_angle_marker_dim=\dimen167
 \l__siunitx_angle_unit_dim=\dimen168
-\l__siunitx_unit_int=\count139
-\l__siunitx_unit_denominator_int=\count140
-\l__siunitx_unit_numerator_int=\count141
-\l__siunitx_unit_prefix_int=\count142
-\l__siunitx_unit_prefix_base_int=\count143
-\l__siunitx_unit_prefix_gram_int=\count144
-\l__siunitx_number_product_int=\count145
-\c__siunitx_one_fill_skip=\skip75
-\l__siunitx_table_unit_align_skip=\skip76
+\l__siunitx_unit_int=\count324
+\l__siunitx_unit_denominator_int=\count325
+\l__siunitx_unit_numerator_int=\count326
+\l__siunitx_unit_prefix_int=\count327
+\l__siunitx_unit_prefix_base_int=\count328
+\l__siunitx_unit_prefix_gram_int=\count329
+\l__siunitx_number_product_int=\count330
+\c__siunitx_one_fill_skip=\skip80
+\l__siunitx_table_unit_align_skip=\skip81
 \l__siunitx_table_exponent_dim=\dimen169
 \l__siunitx_table_integer_dim=\dimen170
 \l__siunitx_table_mantissa_dim=\dimen171
@@ -471,8 +653,8 @@ Package: l3keys2e 2016/11/21 v6760 LaTeX2e option processing using LaTeX3 keys
 \l__siunitx_table_post_box=\box50
 \l__siunitx_table_mantissa_box=\box51
 \l__siunitx_table_result_box=\box52
-\l__siunitx_table_number_align_skip=\skip77
-\l__siunitx_table_text_align_skip=\skip78
+\l__siunitx_table_number_align_skip=\skip82
+\l__siunitx_table_text_align_skip=\skip83
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -588,44 +770,44 @@ Package: l3keys2e 2016/11/21 v6760 LaTeX2e option processing using LaTeX3 keys
 . 
 . Defining command \siInBookmark with sig. 'om' on line 7429.
 .................................................
-\g__file_internal_ior=\read1
+\g__file_internal_ior=\read2
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/translator.sty
 Package: translator 2010/06/12 ver 1.10
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/translator-language-
 mappings.tex))) (/home/philipp/texmf/tex/latex/chemformula/chemformula.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks25
+(/home/philipp/texmf/tex/latex/pgf/frontendlayer/tikz.sty
+(/home/philipp/texmf/tex/latex/pgf/basiclayer/pgf.sty
+(/home/philipp/texmf/tex/latex/pgf/utilities/pgfrcs.sty
+(/home/philipp/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks20
 \pgfutil@tempdima=\dimen178
 \pgfutil@tempdimb=\dimen179
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
-ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+(/home/philipp/texmf/tex/generic/pgf/utilities/pgfutil-common-lists.tex))
+(/home/philipp/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box53
+
 (/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/home/philipp/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/home/philipp/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
+(/home/philipp/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
+(/home/philipp/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks26
-\pgfkeys@temptoks=\toks27
+(/home/philipp/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks21
+\pgfkeys@temptoks=\toks22
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
-ex
-\pgfkeys@tmptoks=\toks28
+(/home/philipp/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks23
 ))
 \pgf@x=\dimen180
 \pgf@y=\dimen181
@@ -635,37 +817,36 @@ ex
 \pgf@yb=\dimen185
 \pgf@xc=\dimen186
 \pgf@yc=\dimen187
-\w@pgf@writea=\write3
-\r@pgf@reada=\read2
-\c@pgf@counta=\count146
-\c@pgf@countb=\count147
-\c@pgf@countc=\count148
-\c@pgf@countd=\count149
-\t@pgf@toka=\toks29
-\t@pgf@tokb=\toks30
-\t@pgf@tokc=\toks31
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+\w@pgf@writea=\write5
+\r@pgf@reada=\read3
+\c@pgf@counta=\count331
+\c@pgf@countb=\count332
+\c@pgf@countc=\count333
+\c@pgf@countd=\count334
+\t@pgf@toka=\toks24
+\t@pgf@tokb=\toks25
+\t@pgf@tokc=\toks26
+
+(/home/philipp/texmf/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+(/home/philipp/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
-f
+(/home/philipp/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
-tex
+(/home/philipp/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count150
-\pgfsyssoftpath@bigbuffer@items=\count151
+\pgfsyssoftpath@smallbuffer@items=\count335
+\pgfsyssoftpath@bigbuffer@items=\count336
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
-tex
+(/home/philipp/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -682,42 +863,33 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+(/home/philipp/texmf/tex/generic/pgf/math/pgfmath.code.tex
+(/home/philipp/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/home/philipp/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/home/philipp/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen188
-\pgfmath@count=\count152
+\pgfmath@count=\count337
 \pgfmath@box=\box54
-\pgfmath@toks=\toks32
-\pgfmath@stack@operand=\toks33
-\pgfmath@stack@operation=\toks34
+\pgfmath@toks=\toks27
+\pgfmath@stack@operand=\toks28
+\pgfmath@stack@operation=\toks29
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
-ric.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
-e.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
-.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
-thmetics.code.tex)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count153
+(/home/philipp/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/home/philipp/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/home/philipp/texmf/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.t
+ex) (/home/philipp/texmf/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/home/philipp/texmf/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
+(/home/philipp/texmf/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/home/philipp/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/home/philipp/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
+(/home/philipp/texmf/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.c
+ode.tex))) (/home/philipp/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count338
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
-x
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen189
 \pgf@picmaxx=\dimen190
@@ -734,115 +906,100 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@zx=\dimen257
 \pgf@zy=\dimen258
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
-code.tex
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen259
 \pgf@path@lasty=\dimen260
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
-.tex
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen261
 \pgf@shorten@start@additional=\dimen262
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
-x
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box55
 \pgf@hbox=\box56
 \pgf@layerbox@main=\box57
-\pgf@picture@serial@count=\count154
+\pgf@picture@serial@count=\count339
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
-ode.tex
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
 \pgflinewidth=\dimen263
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
-s.code.tex
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
 \pgf@pt@x=\dimen264
 \pgf@pt@y=\dimen265
 \pgf@pt@temp=\dimen266
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+) (/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
-ex
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
-.code.tex
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
-x
+) (/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 \pgfarrowsep=\dimen267
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen268
-\pgf@sys@shading@range@num=\count155
+\pgf@sys@shading@range@num=\count340
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
-tex
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box58
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
-x
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
-ode.tex
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
-tex
+(/home/philipp/texmf/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+(/home/philipp/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 \pgfnodeparttextbox=\box59
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+)
+(/home/philipp/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
-.sty
+(/home/philipp/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen269
 \pgf@nodesepend=\dimen270
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
-.sty
+(/home/philipp/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
-)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+))
+(/home/philipp/texmf/tex/latex/pgf/utilities/pgffor.sty
+(/home/philipp/texmf/tex/latex/pgf/utilities/pgfkeys.sty
+(/home/philipp/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/home/philipp/texmf/tex/latex/pgf/math/pgfmath.sty
+(/home/philipp/texmf/tex/generic/pgf/math/pgfmath.code.tex))
+(/home/philipp/texmf/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+(/home/philipp/texmf/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen271
 \pgffor@skip=\dimen272
-\pgffor@stack=\toks35
-\pgffor@toks=\toks36
+\pgffor@stack=\toks30
+\pgffor@toks=\toks31
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+(/home/philipp/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
-.code.tex
+(/home/philipp/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count156
+\pgf@plot@mark@count=\count341
 \pgfplotmarksize=\dimen273
 )
 \tikz@lastx=\dimen274
@@ -855,26 +1012,24 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box61
 \tikz@tempbox=\box62
 \tikz@tempbox@bg=\box63
-\tikztreelevel=\count157
-\tikznumberofchildren=\count158
-\tikznumberofcurrentchild=\count159
-\tikz@fig@count=\count160
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+\tikztreelevel=\count342
+\tikznumberofchildren=\count343
+\tikznumberofcurrentchild=\count344
+\tikz@fig@count=\count345
+(/home/philipp/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count161
-\pgfmatrixcurrentcolumn=\count162
-\pgf@matrix@numberofcolumns=\count163
+\pgfmatrixcurrentrow=\count346
+\pgfmatrixcurrentcolumn=\count347
+\pgf@matrix@numberofcolumns=\count348
 )
-\tikz@expandcount=\count164
+\tikz@expandcount=\count349
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarytopaths.code.tex
+(/home/philipp/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryto
+paths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
-)))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+))) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/11/05 v2.16a AMS math features
-\@mathmargin=\skip79
+\@mathmargin=\skip84
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -884,13 +1039,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count165
+\inf@bad=\count350
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count166
-\leftroot@=\count167
+\uproot@=\count351
+\leftroot@=\count352
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count168
-\DOTSCASE@=\count169
+\classnum@=\count353
+\DOTSCASE@=\count354
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -899,26 +1054,26 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen281
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count170
-\c@MaxMatrixCols=\count171
-\dotsspace@=\muskip16
-\c@parentequation=\count172
-\dspbrk@lvl=\count173
-\tag@help=\toks37
-\row@=\count174
-\column@=\count175
-\maxfields@=\count176
-\andhelp@=\toks38
+\macc@depth=\count355
+\c@MaxMatrixCols=\count356
+\dotsspace@=\muskip17
+\c@parentequation=\count357
+\dspbrk@lvl=\count358
+\tag@help=\toks32
+\row@=\count359
+\column@=\count360
+\maxfields@=\count361
+\andhelp@=\toks33
 \eqnshift@=\dimen282
 \alignsep@=\dimen283
 \tagshift@=\dimen284
 \tagwidth@=\dimen285
 \totwidth@=\dimen286
 \lineht@=\dimen287
-\@envbody=\toks39
-\multlinegap=\skip80
-\multlinetaggap=\skip81
-\mathdisplay@stack=\toks40
+\@envbody=\toks34
+\multlinegap=\skip85
+\multlinetaggap=\skip86
+\mathdisplay@stack=\toks35
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
@@ -1009,9 +1164,9 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 Package: xtemplate 2016/11/21 v6760 L3 Experimental prototype document function
 s
 \l__xtemplate_tmp_dim=\dimen288
-\l__xtemplate_tmp_int=\count177
-\l__xtemplate_tmp_muskip=\muskip17
-\l__xtemplate_tmp_skip=\skip82
+\l__xtemplate_tmp_int=\count362
+\l__xtemplate_tmp_muskip=\muskip18
+\l__xtemplate_tmp_skip=\skip87
 )
 Package: xfrac 2016/11/21 v6760 L3 Experimental split-level fractions
 \l__xfrac_slash_box=\box66
@@ -1021,8 +1176,8 @@ Package: xfrac 2016/11/21 v6760 L3 Experimental split-level fractions
 \l__xfrac_numerator_top_sep_dim=\dimen291
 \l__xfrac_slash_left_sep_dim=\dimen292
 \l__xfrac_slash_right_sep_dim=\dimen293
-\l__xfrac_slash_left_muskip=\muskip18
-\l__xfrac_slash_right_muskip=\muskip19
+\l__xfrac_slash_left_muskip=\muskip19
+\l__xfrac_slash_right_muskip=\muskip20
 .................................................
 . xtemplate info: "declare-object-type"
 . 
@@ -1034,250 +1189,27 @@ Package: xfrac 2016/11/21 v6760 L3 Experimental split-level fractions
 . Defining command \sfrac with sig. 'omom' on line 451.
 .................................................
 )
-(/usr/share/texlive/texmf-dist/tex/latex/units/nicefrac.sty
-Package: nicefrac 1998/08/04 v0.9b Nice fractions
-\L@UnitsRaiseDisplaystyle=\skip83
-\L@UnitsRaiseTextstyle=\skip84
-\L@UnitsRaiseScriptstyle=\skip85
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
-code.tex
-File: pgflibraryarrows.meta.code.tex 2015/05/13 v3.0.1a (rcs-revision 1.13)
-\pgfarrowinset=\dimen294
-\pgfarrowlength=\dimen295
-\pgfarrowwidth=\dimen296
-\pgfarrowlinewidth=\dimen297
-)
-Package: chemformula 2017/03/23 v4.15e typeset chemical compounds and reactions
- (CN)
-\l__chemformula_tmpa_dim=\dimen298
-\l__chemformula_tmpb_dim=\dimen299
-\l__chemformula_tmpc_dim=\dimen300
-\l__chemformula_tmpa_int=\count178
-\l__chemformula_tmpb_int=\count179
-\l__chemformula_tmpc_int=\count180
-\l__chemformula_tmpa_box=\box68
-\l__chemformula_tmpb_box=\box69
-\l__chemformula_arrow_length_dim=\dimen301
-\l__chemformula_arrow_label_height_dim=\dimen302
-\l__chemformula_arrow_label_offset_dim=\dimen303
-\l__chemformula_arrow_minimum_length_dim=\dimen304
-\l__chemformula_arrow_shortage_dim=\dimen305
-\l__chemformula_arrow_offset_dim=\dimen306
-\l__chemformula_arrow_yshift_dim=\dimen307
-\l__chemformula_radical_radius_dim=\dimen308
-\l__chemformula_radical_hshift_dim=\dimen309
-\l__chemformula_radical_vshift_dim=\dimen310
-\l__chemformula_radical_space_dim=\dimen311
-\l__chemformula_arrow_head_dim=\dimen312
-\l__chemformula_name_dim=\dimen313
-\l__chemformula_adduct_space_dim=\dimen314
-\l__chemformula_charge_shift_dim=\dimen315
-\l__chemformula_subscript_shift_dim=\dimen316
-\l__chemformula_superscript_shift_dim=\dimen317
-\l__chemformula_subscript_dim=\dimen318
-\l__chemformula_superscript_dim=\dimen319
-\l__chemformula_bond_dim=\dimen320
-\l__chemformula_bond_space_dim=\dimen321
-\l__chemformula_elspec_pair_distance_dim=\dimen322
-\l__chemformula_elspec_pair_line_length_dim=\dimen323
-\l__chemformula_elspec_pair_width_dim=\dimen324
-\l__chemformula_kroegervink_positive_radius_dim=\dimen325
-\l__chemformula_kroegervink_positive_hshift_dim=\dimen326
-\l__chemformula_kroegervink_positive_vshift_dim=\dimen327
-\l__chemformula_kroegervink_positive_space_dim=\dimen328
-\l__chemformula_stoich_space_skip=\skip86
-\l__chemformula_math_space_skip=\skip87
-\l__chemformula_count_tokens_int=\count181
-\g__chemformula_lewis_int=\count182
-\l__chemformula_arrow_arg_i_box=\box70
-\l__chemformula_arrow_arg_ii_box=\box71
-\l__chemformula_superscript_box=\box72
-\l__chemformula_subscript_box=\box73
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \charrow with sig. 'mO{}O{}' on line 823.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \NewChemArrow with sig. 'mm' on line 896.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \DeclareChemArrow with sig. 'mm' on line 904.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \RenewChemArrow with sig. 'mm' on line 911.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \ProvideChemArrow with sig. 'mm' on line 921.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \ShowChemArrow with sig. 'm' on line 931.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \ch with sig. 'O{}m' on line 1176.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \chcpd with sig. 'O{}m' on line 1198.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \chname with sig. 'R(){}R(){}' on line 1276.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \NewChemCompoundProperty with sig. 'mm' on line 1361.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \RenewChemCompoundProperty with sig. 'mm' on line 1364.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \ProvideChemCompoundProperty with sig. 'mm' on line 1367.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \DeclareChemCompoundProperty with sig. 'mm' on line 1370.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \RemoveChemCompoundProperty with sig. 'm' on line 1373.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \NewChemBond with sig. 'mm' on line 1571.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \ProvideChemBond with sig. 'mm' on line 1574.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \DeclareChemBond with sig. 'mm' on line 1577.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \RenewChemBond with sig. 'mm' on line 1580.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \NewChemBondAlias with sig. 'mm' on line 1583.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \DeclareChemBondAlias with sig. 'mm' on line 1586.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \ShowChemBond with sig. 'm' on line 1589.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \bond with sig. 'm' on line 1592.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \chstoich with sig. 'm' on line 2191.
-.................................................
-\l__chemformula_additions_symbol_space_skip=\skip88
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \NewChemAdditionSymbol with sig. 'mmm' on line 2697.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \ProvideChemAdditionSymbol with sig. 'mmm' on line 2706.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \RenewChemAdditionSymbol with sig. 'mmm' on line 2715.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \DeclareChemAdditionSymbol with sig. 'mmm' on line 2718.
-.................................................
-\l__chemformula_plus_space_skip=\skip89
-\l__chemformula_minus_space_skip=\skip90
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \NewChemSymbol with sig. 'mm' on line 2763.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \ProvideChemSymbol with sig. 'mm' on line 2769.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \RenewChemSymbol with sig. 'mm' on line 2776.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \DeclareChemSymbol with sig. 'mm' on line 2779.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \chlewis with sig. 'O{}mm' on line 3334.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setchemformula with sig. 'm' on line 3339.
-.................................................
-))
+! LaTeX Error: File `nicefrac.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
 ! Emergency stop.
-<*> config.tex
-              
-*** (job aborted, no legal \end found)
+<read *> 
+         
+l.30 \usetikzlibrary
+                    {arrows.meta}^^M
+*** (cannot \read from terminal in nonstop modes)
 
  
 Here is how much of TeX's memory you used:
- 26515 strings out of 494893
- 562395 string characters out of 6178672
- 657459 words of memory out of 5000000
- 29511 multiletter control sequences out of 15000+600000
+ 30719 strings out of 494945
+ 626142 string characters out of 6181032
+ 866273 words of memory out of 5000000
+ 33668 multiletter control sequences out of 15000+600000
  3938 words of font info for 15 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 73i,1n,80p,10415b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,1n,80p,10417b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

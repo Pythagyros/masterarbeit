@@ -1,25 +1,28 @@
+% !TEX root = ./main.tex
+
 %%% Setup Page Layout
 
-\documentclass[%
+\documentclass[
 	paper=a4,
 	fontsize=12pt,
-	%BCOR=5mm,																										% Korrektur Binderand
+	%BCOR=5mm,
 	oneside,
-	openany,									%chapterstart
+	openany,
 	headinclude,
 	% fontinclude=true,
 	cleardoublepage=empty,
 	pagesize=pdftex,
-	draft=false,	
-	headsepline,
+	draft=false,
+	headsepline,							% Line under page header
 	%footsepline,
 	%toc=bib, index=totoc,
 	toc=listof,
 	%report,
 	toc=bibliography,
-	setcapindent,
+	% setcapindent,
 	% titlepage=true,
-	english]{scrbook}	
+	english
+]{scrbook}	
 
 % \documentclass[
 % 	12pt,
@@ -44,11 +47,16 @@
 %%% Setup Graphics
 
 \usepackage{graphicx}
-\usepackage{caption}
 \usepackage{subcaption}{}
 	\graphicspath{ {images/} }
 
 %%% Setup Headers and Footers
+
+\usepackage{scrlayer-scrpage}		% Part of KOMA-Script, formatting headers and footers
+	\automark{chapter}
+	\clearscrheadfoot
+	\ohead{\pagemark}				% Sets chapter name
+	\ihead{\headmark}				% Sets pagenumber
 
 % \usepackage{fancyhdr}
 % 	\pagestyle{fancy}
@@ -59,22 +67,36 @@
 
 %%% Setup Tables
 
-\usepackage{tabularx}
-\usepackage{multirow}
-\usepackage{booktabs}
-\usepackage{float}
-\setkomafont{captionlabel}{\sffamily\bfseries}
+\usepackage{tabularx}					% https://www.ctan.org/pkg/tabularx page wide tables
+\usepackage{multirow}					% https://www.ctan.org/pkg/multirow
+\usepackage{booktabs}					% https://www.ctan.org/pkg/booktabs nicer tables
+\usepackage{float}						% https://www.ctan.org/pkg/float
 
 % \usepackage{caption}
 
+%%% Setup Captions
+
+\setkomafont{captionlabel}{\sffamily\bfseries}	% Labels are bold
+\usepackage{chngcntr}					% https://www.ctan.org/pkg/chngcntr
+\counterwithout{figure}{chapter}		% Running figure numbers
+\counterwithout{table}{chapter}			% Running table numbers
+\usepackage[
+	justification=RaggedRight,
+	singlelinecheck=false
+]{caption}
+
 %%% Setup Bibliography
 
-\usepackage{biblatex}
-\addbibresource{test_bib.bib}
+\usepackage{csquotes}					% https://www.ctan.org/pkg/csquotes required for biblatex
+\usepackage[							% https://www.ctan.org/pkg/biblatex
+	style=chem-acs,						% American chemical society citation style
+	autocite=superscript
+]{biblatex}								% Sets numbers in superscript
+	\bibliography{test}					% Bibliography location
 
 %%% Misc. Packages
 
-\usepackage{siunitx}					% Correctly formatting SI units
-\usepackage{chemformula}				% Setting of chemical elements{}
+\usepackage{siunitx}					% Formatting SI units
+\usepackage{chemformula}				% Formatting chemical elements
 \usepackage{microtype}					% khirevich.com/latex/microtype
 \usepackage{pdfpages}					% Include titlepage as pdf
