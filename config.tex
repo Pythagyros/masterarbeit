@@ -22,11 +22,12 @@
 	% setcapindent,
 	% titlepage=true,
 	english
-]{scrbook}	
+]{scrbook}
 
-% \documentclass[
-% 	12pt,
-% 	twoside]{article}
+\usepackage[onehalfspacing]{setspace}								% Should set up onehalfspacing, copied from Steffen
+	% \onehalfspacing
+	% \setlength
+	% \parindent							% "global disable indentation"	
 
 % \usepackage[a4paper,
 % 	width=150mm,
@@ -34,11 +35,11 @@
 % 	bottom=25mm,
 % 	bindingoffset=6mm]{geometry}
 
-%\usepackage[utf8]{inputenc}
+%%% Setup Encoding and Fonts
 
-% \usepackage{setspace}								% Should set up onehalfspacing, copied from Steffen
-% 	\onehalfspacing
-	%\setlength\parindent							% "global disable indentation"
+\usepackage[utf8]{inputenx}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
 
 %%% Setup Document Language
 
@@ -77,9 +78,9 @@
 %%% Setup Captions
 
 \setkomafont{captionlabel}{\sffamily\bfseries}	% Labels are bold
-\usepackage{chngcntr}					% https://www.ctan.org/pkg/chngcntr
-\counterwithout{figure}{chapter}		% Running figure numbers
-\counterwithout{table}{chapter}			% Running table numbers
+% \usepackage{chngcntr}					% https://www.ctan.org/pkg/chngcntr
+% \counterwithout{figure}{chapter}		% Running figure numbers
+% \counterwithout{table}{chapter}			% Running table numbers
 \usepackage[
 	justification=RaggedRight,
 	singlelinecheck=false
@@ -90,8 +91,8 @@
 \usepackage{csquotes}					% https://www.ctan.org/pkg/csquotes required for biblatex
 \usepackage[							% https://www.ctan.org/pkg/biblatex
 	style=chem-acs,						% American chemical society citation style
-	autocite=superscript
-]{biblatex}								% Sets numbers in superscript
+	autocite=superscript				% Sets numbers in superscript
+]{biblatex}
 	\bibliography{test}					% Bibliography location
 
 %%% Misc. Packages
