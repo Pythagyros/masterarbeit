@@ -51,6 +51,57 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "config.tex",
+			"settings":
+			{
+				"buffer_size": 2775,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "main.tex",
+			"settings":
+			{
+				"buffer_size": 1534,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "chapters/introduction.tex",
+			"settings":
+			{
+				"buffer_size": 785,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chapters/methods.tex",
+			"settings":
+			{
+				"buffer_size": 18450,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "chapters/results.tex",
+			"settings":
+			{
+				"buffer_size": 1474,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chapters/appendix.tex",
+			"settings":
+			{
+				"buffer_size": 1556,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Anaconda Python Builder",
 	"build_system_choices":
@@ -151,17 +202,25 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 214.0,
-		"last_filter": "remove",
+		"height": 342.0,
+		"last_filter": "colosc",
 		"selected_items":
 		[
 			[
-				"remove",
-				"Package Control: Remove Package"
+				"colosc",
+				"UI: Select Color Scheme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
 			],
 			[
 				"color",
 				"UI: Select Color Scheme"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
 			],
 			[
 				"theme",
@@ -184,10 +243,6 @@
 				"Set Syntax: MultiMarkdown"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"install p",
 				"Package Control: Install Package"
 			],
@@ -204,7 +259,7 @@
 				"LaTeXTools: Check system"
 			]
 		],
-		"width": 497.0
+		"width": 468.0
 	},
 	"console":
 	{
@@ -223,8 +278,18 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/philipp/masterarbeit",
+		"/home/philipp/masterarbeit/chapters"
+	],
 	"file_history":
 	[
+		"/home/philipp/rosalind_python/finding_a_motif_in_dna.py",
+		"/home/philipp/masterarbeit/config.tex",
+		"/home/philipp/masterarbeit/main.tex",
+		"/home/philipp/masterarbeit/chapters/methods.tex",
+		"/home/philipp/Documents/test.md",
 		"/tmp/mozilla_philipp0/transporter_vergleich-1.md",
 		"/home/philipp/.config/sublime-text-3/Packages/User/latex_si_microliter.sublime-snippet",
 		"/home/philipp/masterarbeit/dump.tex",
@@ -235,14 +300,12 @@
 		"/home/philipp/masterarbeit/test.tex",
 		"/home/philipp/Documents/lebenslauf_v2/befehle.tex",
 		"/home/philipp/Documents/lebenslauf_v2/bewerbung.tex",
-		"/home/philipp/masterarbeit/config.tex",
 		"/home/philipp/Dropbox/Masterarbeit_2017/md_notes/test.md",
 		"/home/philipp/.config/sublime-text-3/Packages/MarkdownEditing/MultiMarkdown.sublime-settings",
 		"/home/philipp/.config/sublime-text-3/Packages/MarkdownEditing/README.md",
 		"/home/philipp/Dropbox/Masterarbeit_2017/md_notes/test.html",
 		"/home/philipp/.config/sublime-text-3/Packages/User/MarkdownPreview.sublime-settings",
 		"/home/philipp/lebenslauf/cv_german.tex",
-		"/home/philipp/masterarbeit/main.tex",
 		"/home/philipp/.config/sublime-text-3/Packages/User/umlaut_ue.sublime-snippet",
 		"/home/philipp/masterarbeit/chapters/abbreviations.tex",
 		"/home/philipp/.config/sublime-text-3/Packages/User/siunit.sublime-snippet",
@@ -269,7 +332,6 @@
 		"/home/philipp/python/PyExpLabSys/test.py",
 		"/home/philipp/masterarbeit/protocol.tex",
 		"/home/philipp/masterarbeit/chapters/results.tex",
-		"/home/philipp/masterarbeit/chapters/methods.tex",
 		"/home/philipp/python/scrapy_stuff/tutorial/author.jl",
 		"/home/philipp/python/scrapy_stuff/knapsack_db/knapsack_db/spiders/knapsack.py",
 		"/home/philipp/python/scrapy_stuff/tutorial/tutorial/spiders/author_spider.py",
@@ -301,7 +363,7 @@
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 31.0
 	},
 	"find_in_files":
 	{
@@ -345,14 +407,187 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "config.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2775,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "main.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1534,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1245,
+								1245
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 352.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "chapters/introduction.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 785,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								785,
+								785
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "chapters/methods.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18450,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "chapters/results.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1474,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "chapters/appendix.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1556,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -402,10 +637,10 @@
 		"height": 75.0
 	},
 	"pinned_build_system": "",
-	"project": "masterarbeit.sublime-project",
+	"project": "/home/philipp/sublime_projects/master_thesis.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -414,6 +649,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"methd",
+				"chapters/methods.tex"
+			],
+			[
+				"main.tex",
+				"main.tex"
+			],
 			[
 				"",
 				"testenv.tex"
@@ -429,7 +672,7 @@
 		[
 			[
 				"",
-				"~/sublime_projects/master_thesis.sublime-project"
+				"~/masterarbeit/masterarbeit.sublime-workspace"
 			]
 		],
 		"width": 380.0
