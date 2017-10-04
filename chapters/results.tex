@@ -1,18 +1,67 @@
 % !TEX root = ../main.tex
 
-\section{Allala} % (fold)
-\label{sec:allala}
+\section{Determination of Extraction Conditions} % (fold)
+\label{sec:determination_of_extraction_conditions}
 
+% section determination_of_extraction_conditions (end)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce hendrerit efficitur orci id sodales. Nulla euismod sapien at velit efficitur, in interdum nunc pulvinar. Aenean tempor quis enim ut varius. Suspendisse pellentesque tincidunt elit, eget placerat nisl tempus non. Maecenas eget odio est. Maecenas in quam  ut felis varius figure~\ref{fig:assay} molestie. Donec porta eros nec leo egestas lacinia. Duis venenatis nulla lacus.
+\section{Antibacterial Activity Spectrum} % (fold)
+\label{sec:antibacterial_activity_spectrum}
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[scale=0.2]{assay}
-	\caption{Bioassay with fractions against \emph{E. coli} K12}
-	\label{fig:assay}
-\end{figure}
+    \subsection{Extraction of yorB-inducing Compound} % (fold)
+    \label{sub:extraction_of_yorb_inducing_compound}
 
-Vestibulum pretium porta nunc, ut rhoncus massa dapibus at. Duis in velit aliquam, malesuada lectus id, posuere leo. Integer malesuada sem sit amet turpis cursus vestibulum. Fusce nec libero in massa congue volutpat sit amet nec felis. Etiam pellentesque tortor at mattis lacinia. Duis sit amet mollis turpis, nec convallis tortor. Nullam quis quam lacinia, vulputate nisl id, rhoncus mi. Morbi congue, massa et elementum aliquet, odio tellus mollis nulla, eu aliquam risus est et erat. Nunc non leo arcu. Curabitur id congue ligula, sit amet imperdiet quam. Duis cursus urna nec sagittis cursus. In ac consectetur justo. Praesent tortor est, bibendum a porttitor sed, ultricies id dui. Praesent hendrerit nibh in posuere iaculis. Ut sed neque id leo luctus laoreet non ut quam.
+    Tü2401 displayed positive results in the yorB-Assay \todo{Referenz einsetzen} when grown on ISP2 plates \todo{Referenz einsetzen}. However, all previously generated samples from liquid cultures only showed antibacterial activity.
+    %%%%%%%%%%%%%%
+    %Einsetzen:
+    %%%%%%%%%%%%%%
+    % Absatz über Differenzierung von Streptomyceten
+    % Einfluss auf Sekundärmetabolismus
+    % Überleitung zu Schlussfolgerung: Evtl zweiter Compound nur auf agar produziert
+    %%%%%%%%%%%%%%%
+    Three cultivation strategies were developed to induce production of the putative compound 2 (PC2):
 
-% section allala (end)
+    \begin{enumerate}
+        \item Standing cultures could allow the formation of aerial mycelium at the medium surface. Thus, enabling the synthesis of PC2 and allowing extraction of the liquid medium. Two \SI{500}{\milli\liter} flasks were each filled with \SI{100}{\milli\liter} of liquid ISP2 medium and inoculated with \SI{1}{\milli\liter} of a one-week old NL~410 shake culture. One flask was sealed with an ordinary aluminium cap (AC), the other one with an air-permeable foam cap (FC). Both flasks were cultivated for four days, before the medium was centrifuged and the supernatant filtrated. \SI{50}{\milli\liter} aliquots of each flask were extracted with either BuOH or EtAc, and both phases were collected seperately. The organic phases were dried at \SI{40}{\celsius} and solved in \SI{1}{\milli\liter} MeOH. Both phases of each flask were subjected to the yorB-Assay.
+        \item ISP2 agar plates were previously known to enable synthesis of PC2 and could be extracted with prior breakup. Ten round ISP2 agar plates were inoculated with \SI{100}{\micro\liter} of a one-week old NL~410 shake culture and incubated for four days. One half of the plates was extracted with BuOH, the other half was extracted with EtAc.
+        \item ISP2 agar plates could also be prepared with low-melting-point agarose (LMPA). This would allow melting of the plates at lower temperatures. Thus, allowing for easier extraction with reduced risk of thermal decomposition during the process. Six ISP2 LMPA agar plates were inoculated with \SI{100}{\micro\liter} of a week-old NL~410 shake culture and incubated for four days. The plates were then melted at \SI{70}{\celsius} and extracted with BuOH and EtAc.
+    \end{enumerate}
+
+    All generated extracts and their respective aqueous phases were tested for bioactivity. The standard bioassay was used to determine the antibiotic activity against \textit{E. coli} K12 and \textit{B. subtilis} 168, and the yorB-Assay was used to test for the mode of action. Additonally, agar stamps of grown ISP2 and ISP2 LMPA plates were tested in the yorB-Assay. A summary of the results is shown in \todo{Tabelle einsetzen}.
+
+    \begin{table}[htbp]
+        \caption{ASDASD}
+        \label{tab:dddd}
+        \centering
+        \begin{tabularx}{\textwidth}{XXXX}
+            \toprule
+            \textbf{Sample} & \textbf{\textit{E. coli}}     & \textbf{\textit{B. subtilis}}  & \textbf{yorB-Assay}        \\
+            \midrule
+            FC BuOH         & +     & -     & -     \\
+            FC BuOH aq.     & -     & -     & -     \\
+            FC EtAc         & -     & +++   & -     \\
+            FC EtAc aq.     & -     & -     & -     \\
+            AC BuOH         & ++    & +     & -     \\
+            AC BuOH aq.     & -     & -     & -     \\
+            AC EtAc         & -     & -     & -     \\
+            AC EtAc aq.     & -     & -     & -     \\
+            ISP2 BuOH       & +     & n.a.  & -     \\
+            ISP2 BuOH aq.   & -     & +     & -     \\
+            ISP2 EtAc       & -     & ++    & -     \\
+            ISP2 EtAc aq.   & +     & n.a.  & +     \\
+            LMPA BuOH       & +     & n.a.  & -     \\
+            LMPA BuOH aq.   & -     & n.a.  & -     \\
+            LMPA EtAc       & -     & n.a.  & -     \\
+            LMPA EtAc aq.   & -     & n.a.  & -     \\
+            \bottomrule
+        \end{tabularx}
+    \end{table}
+    % subsection extraction_of_yorb_inducing_compound (end)
+
+% section antibacterial_activity_spectrum (end)
+
+\section{Chromatographic Separation} % (fold)
+\label{sec:chromatographic_separation}
+
+% section chromatographic_separation (end)
+
