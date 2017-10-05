@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.8.26)  5 OCT 2017 16:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.8.26)  5 OCT 2017 18:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2226,7 +2226,13 @@ File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
 (./main.aux
 
-LaTeX Warning: Label `tab:method_c18_screening' multiply defined.
+LaTeX Warning: Label `sub:ion_exchange_chromatography' multiply defined.
+
+
+LaTeX Warning: Label `sub:thin_layer_chromatography' multiply defined.
+
+
+LaTeX Warning: Label `sec:chromatographic_separation' multiply defined.
 
 )
 \openout1 = `main.aux'.
@@ -2433,7 +2439,45 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 35.
+
+<testtitle.pdf, id=4, 597.55246pt x 845.07718pt>
+File: testtitle.pdf Graphic file (type pdf)
+ <use testtitle.pdf>
+Package pdftex.def Info: testtitle.pdf used on input line 5.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: testtitle.pdf Graphic file (type pdf)
+
+<use testtitle.pdf>
+Package pdftex.def Info: testtitle.pdf used on input line 5.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+ <testtitle.pdf, id=7, page=1, 597.55246pt x 845.07718pt>
+File: testtitle.pdf Graphic file (type pdf)
+
+<use testtitle.pdf, page 1>
+Package pdftex.def Info: testtitle.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: testtitle.pdf Graphic file (type pdf)
+ <use testtitle.pdf, page 1>
+Package pdftex.def Info: testtitle.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: testtitle.pdf Graphic file (type pdf)
+
+<use testtitle.pdf, page 1>
+Package pdftex.def Info: testtitle.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: testtitle.pdf Graphic file (type pdf)
+ <use testtitle.pdf, page 1>
+Package pdftex.def Info: testtitle.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: testtitle.pdf Graphic file (type pdf)
+
+<use testtitle.pdf, page 1>
+Package pdftex.def Info: testtitle.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+ [1
+
+ <./testtitle.pdf>]
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 19.
 
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -2442,23 +2486,178 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [1
 
+Underfull \hbox (badness 10000) in paragraph at lines 21--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--30
+
+ []
+
+[2
 
 {/home/philipp/.texlive2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[3
+
+] [4
+
+] [1
+
+]
 Package tocbasic Info: character protrusion at toc deactivated on input line 45
 .
- (./main.toc)
+ (./main.toc [2
+
+])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [2
+ [3]
+Package tocbasic Info: character protrusion at lof deactivated on input line 46
+.
+ (./main.lof)
+\tf@lof=\write7
+\openout7 = `main.lof'.
+
+ [4
 
 ]
-(./chapters/appendix.tex (/usr/share/texmf/tex/latex/lm/ts1lmr.fd)) [3
+Package tocbasic Info: character protrusion at lot deactivated on input line 47
+.
+ (./main.lot)
+\tf@lot=\write8
+\openout8 = `main.lot'.
+
+ [5
 
 ]
-[4] [5] (./main.aux)
+chapter without number
+(./chapters/abbreviations.tex
+Underfull \hbox (badness 10000) in alignment at lines 21--21
+[][] 
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 21--51
+
+ []
+
+[6
+
+]
+chapter 1.
+(./chapters/introduction.tex
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <17.28> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 3.
+) [1
+
+
+]
+chapter 2.
+(./chapters/methods.tex (/usr/share/texmf/tex/latex/lm/ts1lmr.fd) [2
+
+
+] [3]
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <14.4> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 156.
+
+
+[4
+
+] [5]
+Overfull \hbox (13.10684pt too wide) in paragraph at lines 206--206
+[][][][]\T1/lmr/m/n/12 (-20) Englischen 
+ []
+
+
+Overfull \hbox (13.10684pt too wide) in paragraph at lines 206--206
+[][][][]\T1/lmr/m/n/12 (-20) Englischen 
+ []
+
+
+Overfull \hbox (13.10684pt too wide) in paragraph at lines 206--206
+[][][][]\T1/lmr/m/n/12 (-20) Englischen 
+ []
+
+
+Overfull \hbox (13.10684pt too wide) in paragraph at lines 206--206
+[][][][]\T1/lmr/m/n/12 (-20) Englischen 
+ []
+
+[6
+
+] [7] [8
+
+] [9]) [10]
+chapter 3.
+(./chapters/results.tex
+Overfull \hbox (2.8124pt too wide) in paragraph at lines 70--70
+[][][][]\T1/lmr/m/n/12 (-20) Referenz 
+ []
+
+
+Overfull \hbox (2.8124pt too wide) in paragraph at lines 70--70
+[][][][]\T1/lmr/m/n/12 (-20) Referenz 
+ []
+
+
+Overfull \hbox (2.8124pt too wide) in paragraph at lines 70--70
+[][][][]\T1/lmr/m/n/12 (-20) Referenz 
+ []
+
+
+Overfull \hbox (2.8124pt too wide) in paragraph at lines 70--70
+[][][][]\T1/lmr/m/n/12 (-20) Referenz 
+ []
+
+
+Overfull \hbox (2.8124pt too wide) in paragraph at lines 70--70
+[][][][]\T1/lmr/m/n/12 (-20) Referenz 
+ []
+
+
+Overfull \hbox (2.8124pt too wide) in paragraph at lines 70--70
+[][][][]\T1/lmr/m/n/12 (-20) Referenz 
+ []
+
+
+Overfull \hbox (2.8124pt too wide) in paragraph at lines 70--70
+[][][][]\T1/lmr/m/n/12 (-20) Referenz 
+ []
+
+
+Overfull \hbox (2.8124pt too wide) in paragraph at lines 70--70
+[][][][]\T1/lmr/m/n/12 (-20) Referenz 
+ []
+
+
+LaTeX Warning: Marginpar on page 11 moved.
+
+[11
+
+
+]
+Underfull \hbox (badness 2376) in paragraph at lines 119--119
+[]|\T1/lmr/m/n/12 (+20) LMPA BuOH
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[]|\T1/lmr/m/n/12 (+20) LMPA EtAc
+ []
+
+) [12] [13] [14]
+chapter without number
+[15
+
+
+]
+chapter without number
+(./chapters/appendix.tex) [16
+
+] [17] [18] (./main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2467,26 +2666,29 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39940 strings out of 494945
- 822745 string characters out of 6181032
- 1321960 words of memory out of 5000000
- 42558 multiletter control sequences out of 15000+600000
- 69490 words of font info for 77 fonts, out of 8000000 for 9000
+ 40400 strings out of 494945
+ 832091 string characters out of 6181032
+ 1342288 words of memory out of 5000000
+ 42925 multiletter control sequences out of 15000+600000
+ 85473 words of font info for 117 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,20n,80p,10428b,1811s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
-hare/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/l
-m-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.p
-fb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmsy8.pfb>
-Output written on main.pdf (5 pages, 124215 bytes).
+ 75i,20n,80p,10428b,2008s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ma
+thit.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmssbo10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sy
+mbols/msbm10.pfb>
+Output written on main.pdf (28 pages, 470524 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 175 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 22541 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 24609 words of extra memory for PDF output out of 24883 (max. 10000000)
 
