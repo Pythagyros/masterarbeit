@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.8.26)  5 OCT 2017 12:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.8.26)  5 OCT 2017 16:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2224,7 +2224,11 @@ Package biblatex Info: ... file 'english.lbx' found.
  (/home/philipp/texmf/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
-(./main.aux)
+(./main.aux
+
+LaTeX Warning: Label `tab:method_c18_screening' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -2451,127 +2455,38 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 45
  [2
 
 ]
-chapter 1.
-(./chapters/methods.tex (/usr/share/texmf/tex/latex/lm/ts1lmr.fd) [3
-
-] [4]
-LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 156.
-
-
-[5
-
-] [6]
-Overfull \hbox (13.10684pt too wide) in paragraph at lines 206--206
-[][][][]\T1/lmr/m/n/12 (-20) Englischen 
- []
-
-
-Overfull \hbox (13.10684pt too wide) in paragraph at lines 206--206
-[][][][]\T1/lmr/m/n/12 (-20) Englischen 
- []
-
-
-Overfull \hbox (13.10684pt too wide) in paragraph at lines 206--206
-[][][][]\T1/lmr/m/n/12 (-20) Englischen 
- []
-
-
-Overfull \hbox (13.10684pt too wide) in paragraph at lines 206--206
-[][][][]\T1/lmr/m/n/12 (-20) Englischen 
- []
-
-[7
-
-] [8] [9
-
-] [10]) [11]
-chapter 2.
-(./chapters/results.tex
-Overfull \hbox (2.8124pt too wide) in paragraph at lines 14--14
-[][][][]\T1/lmr/m/n/12 (-20) Referenz 
- []
-
-
-Overfull \hbox (2.8124pt too wide) in paragraph at lines 14--14
-[][][][]\T1/lmr/m/n/12 (-20) Referenz 
- []
-
-
-Overfull \hbox (2.8124pt too wide) in paragraph at lines 14--14
-[][][][]\T1/lmr/m/n/12 (-20) Referenz 
- []
-
-
-Overfull \hbox (2.8124pt too wide) in paragraph at lines 14--14
-[][][][]\T1/lmr/m/n/12 (-20) Referenz 
- []
-
-
-Overfull \hbox (2.8124pt too wide) in paragraph at lines 14--14
-[][][][]\T1/lmr/m/n/12 (-20) Referenz 
- []
-
-
-Overfull \hbox (2.8124pt too wide) in paragraph at lines 14--14
-[][][][]\T1/lmr/m/n/12 (-20) Referenz 
- []
-
-
-Overfull \hbox (2.8124pt too wide) in paragraph at lines 14--14
-[][][][]\T1/lmr/m/n/12 (-20) Referenz 
- []
-
-
-Overfull \hbox (2.8124pt too wide) in paragraph at lines 14--14
-[][][][]\T1/lmr/m/n/12 (-20) Referenz 
- []
-
-
-LaTeX Warning: Marginpar on page 12 moved.
-
-[12
-
+(./chapters/appendix.tex (/usr/share/texmf/tex/latex/lm/ts1lmr.fd)) [3
 
 ]
-Underfull \hbox (badness 2376) in paragraph at lines 63--63
-[]|\T1/lmr/m/n/12 (+20) LMPA BuOH
- []
+[4] [5] (./main.aux)
 
+LaTeX Warning: There were multiply-defined labels.
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-[]|\T1/lmr/m/n/12 (+20) LMPA EtAc
- []
-
-) [13] [14] (./main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40161 strings out of 494945
- 827105 string characters out of 6181032
- 1340949 words of memory out of 5000000
- 42703 multiletter control sequences out of 15000+600000
- 82576 words of font info for 115 fonts, out of 8000000 for 9000
+ 39940 strings out of 494945
+ 822745 string characters out of 6181032
+ 1321960 words of memory out of 5000000
+ 42558 multiletter control sequences out of 15000+600000
+ 69490 words of font info for 77 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,19n,80p,10428b,1813s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share
-/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ma
-thit.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12
-.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></u
-sr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf/fonts/type1/p
-ublic/lm/lmssbo10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></us
-r/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/pu
-blic/lm/lmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sy
-mbols/msbm10.pfb>
-Output written on main.pdf (14 pages, 236108 bytes).
+ 75i,20n,80p,10428b,1811s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
+hare/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/l
+m-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmsy8.pfb>
+Output written on main.pdf (5 pages, 124215 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
+ 64 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 24077 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 22541 words of extra memory for PDF output out of 24883 (max. 10000000)
 
