@@ -5,7 +5,7 @@
 \documentclass[
 	paper=a4,
 	fontsize=12pt,
-	%BCOR=5mm,
+	% BCOR=5mm,
 	oneside,
 	openany,
 	headinclude,
@@ -96,7 +96,7 @@
 	style=chem-acs,						% American chemical society citation style
 	autocite=superscript				% Sets numbers in superscript
 ]{biblatex}
-	\bibliography{master_bib/library}	% Bibliography location
+	\bibliography{references/library}	% Bibliography location
 
 %%% Misc. Packages
 
@@ -107,3 +107,11 @@
 \usepackage{scrhack}					% Removes Errors from Koma-Script Packages
 \usepackage{todonotes}					% Adds Todo-Notes
 \usepackage{textgreek}					% Allow greek letters without math mode
+
+
+%%% Settings related to font choice
+
+% \usepackage{charter}
+
+\usepackage[bitstream-charter]{mathdesign}
+\sisetup{detect-all}
