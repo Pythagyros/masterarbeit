@@ -21,3 +21,5 @@
 *.out
 *.synctex.gz
 test*
+
+/pictures/*

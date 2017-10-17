@@ -40,8 +40,8 @@
 \usepackage[utf8]{inputenx}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
-% \usepackage[bitstream-charter]{mathdesign}
-% \usepackage{wasysym}
+%%% Somehow, lmodern has to be loaded before mathdesign. Otherwise, the font looks like garbage
+\usepackage[bitstream-charter]{mathdesign}	% Charter-BT Font
 \usepackage{amssymb}
 
 %%% Setup Document Language
@@ -51,7 +51,7 @@
 %%% Setup Graphics
 
 \usepackage{graphicx}
-\usepackage{subcaption}{}
+\usepackage{subcaption}
 	\graphicspath{ {images/} }
 
 %%% Setup Headers and Footers
@@ -59,8 +59,8 @@
 \usepackage{scrlayer-scrpage}		% Part of KOMA-Script, formatting headers and footers
 	\automark{chapter}
 	\clearscrheadfoot
-	\ohead{\pagemark}				% Sets chapter name
-	\ihead{\headmark}				% Sets pagenumber
+	\ohead{\pagemark}				% Sets pagenumber on outer headline
+	\ihead{\headmark}				% Sets current section on inner headline
 
 % \usepackage{fancyhdr}
 % 	\pagestyle{fancy}
@@ -75,15 +75,8 @@
 \usepackage{multirow}					% https://www.ctan.org/pkg/multirow
 \usepackage{booktabs}					% https://www.ctan.org/pkg/booktabs nicer tables
 \usepackage{float}						% https://www.ctan.org/pkg/float
+\usepackage{longtable}					% https://ctan.org/pkg/longtable tables spanning more than one page
 
-% \usepackage{caption}
-
-%%% Setup Captions
-
-% \setkomafont{captionlabel}{\sffamily\bfseries}	% Labels are bold
-% \usepackage{chngcntr}					% https://www.ctan.org/pkg/chngcntr
-% \counterwithout{figure}{chapter}		% Running figure numbers
-% \counterwithout{table}{chapter}			% Running table numbers
 \usepackage[
 	justification=RaggedRight,
 	singlelinecheck=false
@@ -96,11 +89,12 @@
 	style=chem-acs,						% American chemical society citation style
 	autocite=superscript				% Sets numbers in superscript
 ]{biblatex}
-	\bibliography{references/library}	% Bibliography location
+\addbibresource{references/library.bib}	% Bibliography location
 
 %%% Misc. Packages
 
 \usepackage{siunitx}					% Formatting SI units
+\sisetup{detect-all}					% Changes SI-number font to global font
 \usepackage{chemformula}				% Formatting chemical elements
 \usepackage{microtype}					% khirevich.com/latex/microtype
 \usepackage{pdfpages}					% Include titlepage as pdf
@@ -112,6 +106,3 @@
 %%% Settings related to font choice
 
 % \usepackage{charter}
-
-\usepackage[bitstream-charter]{mathdesign}
-\sisetup{detect-all}

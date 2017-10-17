@@ -292,7 +292,7 @@ Extracts and reverse extracts of \emph{Streptomyces} sp. Tü2401 were generally 
 	\subsection{Trimethylsilane Derivatization and Gas Chromatography} % (fold)
 	\label{sub:trimethylsilane_derivatization_and_gas_chromatography}
 
-	The derivatization and gas chromatography (GC) measurements were performed by Dr. Dorothee Wistuba of the mass spectrometry department at the institute of organic chemistry.
+	The derivatization and gas chromatography (GC) measurements were performed by Dr. Dorothee Wistuba of the mass spectrometry department at the institute of organic chemistry in Tübingen.
 	Dried HPLC fractions were suspended in \SI{500}{\micro\liter} \emph{N,O}-Bis(trimethylsilyl)\-trifluoro\-acetamide with added \SI{40}{\micro\liter} pyridine and heated to \SI{110}{\celsius}. Afterwards, the samples were dried with nitrogen gas and redissolved in dichloromethane.
 	The derivatized samples were analyzed with a Hewlett Packard (HP) 6890~GC-system coupled to a HP~5973 mass selective detector. The Agilent~DB5 column measured 13~m $\times$ 0.25~mm with a film thickness of \SI{0.1}{\micro\meter}. Helium was used as the carrier gas.
 	% subsection trimethylsilane_derivatization_and_gas_chromatography (end)
@@ -300,10 +300,8 @@ Extracts and reverse extracts of \emph{Streptomyces} sp. Tü2401 were generally 
 	\subsection{Preparative HPLC} % (fold)
 	\label{sub:preparative_hplc}
 
-	Preparative HPLC was performed on either the Agilent 1100 Series or Agilent 1260 Infinity instrument coupled to an Agilent \todo{Add instrument number of FC} fraction collector. Occasional coupling of an electric light scattering detector (ELSD) was achieved by mounting a 1:5-splitter after the UV-Detector. 4/5 of the flow was directed to the fraction collector, the remaining 1/5 was directed to the ELSD. The ELSD was operated at a temperature of \SI{40}{\celsius} and with nitrogen gas at a pressure of \SI{3.2}{\bar}. Detailed information about the used columns and methods can be found in Table~\ref{tab:column_parameters} and the appendix. The obtained data was analyzed with the Agilent Chemstation (Version B.04.03).
-	All samples were centrifuged at 14,000~rpm, before transferring the supernatant to HPLC-vials. All fractions were collected by timeslices of \SI{1}{\minute} and stored at \SIrange{4}{8}{\celsius}, before drying them at \SI{40}{\celsius}. Dried fractions were resuspended in an amount of water equal to the amount of injected sample and stored at \SIrange{4}{8}{\celsius}.
-
-
+	Preparative HPLC was performed on either the Agilent 1100 Series or Agilent 1260 Infinity instrument coupled to an Agilent G1346C fraction collector. Occasional coupling of an electric light scattering detector (ELSD) was achieved by mounting a 1:5-splitter after the UV-Detector. 4/5 of the flow was directed to the fraction collector, the remaining 1/5 was directed to the ELSD. The ELSD was operated at a temperature of \SI{40}{\celsius} and with nitrogen gas at a pressure of \SI{3.2}{\bar}. Detailed information about the used columns and methods can be found in Table~\ref{tab:column_parameters} and the appendix. The obtained data was analyzed with the Agilent Chemstation (Version B.04.03).
+	All samples were centrifuged at 14,000~rpm, before transferring the supernatant to HPLC-vials. All fractions were collected by timeslices of \SI{1}{\minute} and stored at \SIrange{4}{8}{\celsius}, before drying them at \SI{40}{\celsius}. Dried fractions were resuspended in an amount of water equal to the amount of injected sample and stored at \SIrange{4}{8}{\celsius}. Detailed method descriptions are found in the appendix at section \ref{sec:hplc_methods}.
 
 	% subsection preparative_hplc (end)
 
@@ -311,7 +309,7 @@ Extracts and reverse extracts of \emph{Streptomyces} sp. Tü2401 were generally 
 	\label{sub:analytical_hplc_and_mass_spectrometry}
 
 
-	For mass spectrometry, an Agilent 1200 series HPLC system was coupled to an Agilent 6330 IonTrap LC-MS mass spectrometer. It features electrospray ionization with alternating positive and negative modes. The control software was 6300 Series Trap Control (Version 6.1).
+	For mass spectrometry, an Agilent 1200 series HPLC system was coupled to an Agilent 6330 IonTrap LC-MS mass spectrometer. It features electrospray ionization with alternating positive and negative modes. The instrument was controlled with 6300 Series Trap Control (Version 6.1) and data was analyzed using DataAnalysis for 6300 Series Ion Trap LC-MS (Version 3.4).
 	% subsection analytical_hplc_and_mass_spectrometry (end)
 
 % section bioactivity_guided_isolation (end)
@@ -319,9 +317,11 @@ Extracts and reverse extracts of \emph{Streptomyces} sp. Tü2401 were generally 
 \section{Genome Analysis} % (fold)
 \label{sec:genome_analysis}
 
+	The phylogenetic tree was constructed by using 50 sequenced \textit{Streptomyces} genomes (Table~\ref{tab:ref_genomes}) as reference. From these genomes and the concatenated contigs of \textit{Streptomyces} sp. Tü2401, 50 single copy genes were identified by
+	%Wie wurden die herausgefunden?
+	The gene sequences were aligned using the MAFFT tool (version 7) and refined using trimAl (version 1.2).\autocite{Katoh2017,Kuraku2013,Capella-Gutierrez2009} The maximum-likelihood tree was constructed with RAxML (version 8).\autocite{Stamatakis2014} The average nucleotide identity was calculated with the JSpeciesWS web tool.\autocite{Richter2017} The final tree was visualized using Interactive tree of life (iTOL) v3.\autocite{Letunic2016}
 
-
-	All five contigs were uploaded to the AntiSMASH biosynthetic gene cluster identification tool \autocite{Weber2015,Blin2013,Medema2011} with standard settings and ClusterFinder enabled.
+	All five contigs were uploaded individually to the Antibiotics \& Secondary Metabolite Analysis Shell (AntiSMASH) webserver.  \autocite{Weber2015,Blin2013,Medema2011} Clusters were identified with standard settings and ClusterFinder enabled.
 
 
 
