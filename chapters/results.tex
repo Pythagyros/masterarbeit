@@ -3,33 +3,52 @@
 \section{Determination of Extraction Conditions} % (fold)
 \label{sec:determination_of_extraction_conditions}
 
+Preliminary experiments demonstrated, that the antibiotic compound could not be extracted with ehtyl acetate. Only the medium supernatant of the complex media NL~200, NL~300, NL~500 and OM produced notable inhibition zones on plate bioactivity assays. Moreover, the compound was not retained in any matter, when the supernatant was separated by HPLC with a common C18 column. The compound is likely very hydrophilic, so that usual extraction and reverse-phase chromatography protocols are not applicable. Because of the difficulties involved in working with aqueous solvents, an extraction procedure involving organic solvents would be beneficial. Additionally, out of the four complex media, in which Tü2401 is able to produce the antibiotic, one with optimal properties has to be determined.
+
+For determination of the optimal medium, Tü2401 was grown in each of the NL and OM media for either four or seven days. The obtained medium supernatants were filtrated by using \SI{0.45}{\micro\meter} and \SI{0.2}{\micro\meter} consecutively. OM supernatant proved to be the easiest to filtrate, while the NL media clogged the filters after few milliliters had passed through. Each filtrate was subjected to the standard bioassay against \textit{Escherichia coli}~K12 to determine the antibiotic activity. Pictures of the assay results are displayed in Figure~\ref{fig:medium_activity}.
+
+\begin{figure}[htbp]
+	\centering
+	\begin{subfigure}{0.5\textwidth}
+		\includegraphics[width=0.9\textwidth]{medium_activity_96}
+		\caption{Four day growth period}
+	\end{subfigure}%
+	\begin{subfigure}{0.5\textwidth}
+		\includegraphics[width=0.9\textwidth]{medium_activity_168}
+		\caption{Seven days growth period}
+	\end{subfigure}
+	\caption[K12 Bioassay results with media supernatants]{\textbf{K12 Bioassay results with media supernatants}} \textit{Streptomyces}~sp.~Tü2401 was grown for either four (a) or seven days (b) in four different complex media. The filtrated medium supernatant was tested against \textit{Escherichia coli} K12. Media: (Top) NL~200 (Left) NL~300 (Right) NL~500 (Bottom) OM.
+	\label{fig:medium_activity}
+\end{figure}
+
+Most samples cause notable ($\varnothing>$\SI{1}{\centi\meter}) zones of inhibition in the agar diffusion assay. NL~500 after seven days and OM in both cases possess the greatest activity with inhibition zones greater than \SI{1.5}{\centi\meter}. When cultivated in NL~300, Tü2401 seems to take longer than four days to synthesize the compound.
 % section determination_of_extraction_conditions (end)
 
 \section{Chromatographic Separation} % (fold)
-\label{sec:chromatographic_separation}
+\label{sec:results_chromatographic_separation}
 
     \subsection{Reverse-Phase HPLC} % (fold)
-    \label{sub:reverse_phase_hplc}
+    \label{sub:results_reverse_phase_hplc}
 
     % subsection reverse_phase_hplc (end)
 
     \subsection{HPLC with Amino Column} % (fold)
-    \label{sub:hplc_with_amino_column}
+    \label{sub:results_hplc_with_amino_column}
 
     % subsection hplc_with_amino_column (end)
 
     \subsection{Hydrophilic Interaction Chromatography} % (fold)
-    \label{sub:hydrophilic_interaction_chromatography}
+    \label{sub:results_hydrophilic_interaction_chromatography}
 
     % subsection hydrophilic_interaction_chromatography (end)
 
     \subsection{Ion exchange Chromatography} % (fold)
-    \label{sub:ion_exchange_chromatography}
+    \label{sub:results_ion_exchange_chromatography}
 
     % subsection ion_exchange_chromatography (end)
 
     \subsection{Thin-Layer Chromatography} % (fold)
-    \label{sub:thin_layer_chromatography}
+    \label{sub:results_thin_layer_chromatography}
 
     % subsection thin_layer_chromatography (end)
 
@@ -122,16 +141,16 @@
 
 % section antibacterial_activity_spectrum (end)
 
-\section{Genomic Analysis} % (fold)
-\label{sec:genomic_analysis}
+\section{Species Determination and AntiSMASH Cluster Analysis} % (fold)
+\label{sec:species_antismash}
 
     \subsection{Phylogeny of Strain Tü2401} % (fold)
     \label{sub:phylogeny_of_strain_tue2401}
 
 	\begin{figure}[htbp]
-		\label{fig:phylo_tree}
 		\includegraphics[width=\textwidth]{tu2401_tree}
-		\caption[Maximum likelihood tree of \emph{Streptomyces} sp. Tü2401.]{\textbf{Maximum likelihood tree of \emph{Streptomyces} sp. Tü2401.}} 
+		\caption[Maximum likelihood tree of \emph{Streptomyces} sp. Tü2401.]{\textbf{Maximum likelihood tree of \emph{Streptomyces} sp. Tü2401.}} The tree was constructed using a multiple-sequence alignment of 50 single-copy genes across 50 \textit{Streptomyces} reference genomes. The node belonging to \textit{Streptomyces}~sp.~Tü2401 is highlighted with bold text. Only the nine most closely related nodes and the outgroup are shown. Dark triangles represented hidden, collapsed nodes.
+		\label{fig:phylo_tree} 
 	\end{figure}
 
     % subsection phylogeny_of_strain_tü2401 (end)
@@ -143,12 +162,12 @@
 	 
 	 Enediyne natural products are a class of cytotoxic bacterial compounds, which cause extensive DNA-damage.\autocite{Liang2010,Gredicak2007,AdrianL.Smith*1996,Nicolaou1993} 11 different enediyne natural products are known, all of which feature either a bicyclo[7.3.0]dodecadienediyne core inside a nine-membered ring or a bicyclo[7.3.1]tridecadiynene core inside a ten-membered ring (Figure \ref{fig:enediyne_comparison}). The 9-membered family includes neocarzinostatin, C-1027 and and maduropeptin. The 10-membered family includes calicheamicin $\gamma_{1}^{I}$, esperamicin A\textsubscript{1} and dynemicin A. \autocite{Liang2010} Enediynes are potent cytotoxic agents because of their ability to induce DNA double-strand breaks.\autocite{Shen2015} Electronic rearrangement of the carbocycle produces a benzenoid diradical, which abstracts hydrogen atoms from the DNA-backbone. The consulting radicals cause interstrand crosslinks or react with molecular oxygen.	 
 	 \begin{figure}[htbp]
-	 	\label{fig:enediyne_comparison}
 	 	\centering
 	 	\includegraphics[width=0.9\textwidth]{enediyne_overview}
 	 	\caption[Structures of known enediyne natural products]{\textbf{Structures of known enediyne natural products.} Enediyne cores are highlighted in red. (A) Compounds with nine-membered rings. (B) Compounds with ten-membered rings. The year of structure confirmation is displayed in parentheses. The sporolides, cyanosporolids and fijiolides do not contain an endiyene core, but are proposed to be derived from enediyne precursors. Reprinted from Shen \textit{et al.} (2015) Copyright 2014 Elsevier Ltd.}
+	 	\label{fig:enediyne_comparison}
 	 \end{figure}
-	 While the ten-membered enediyne compounds were isolated as free-standing chromophores, most of the compounds in the nine-membered family were isolated in conjunction with a protective apoprotein.\autocite{Liang2010} The nine-membered chromophore of C-1027, which was isolated from \textit{Streptomyces} globisporus C-1027, is bound noncovalently to an 110 amino acid apoprotein.\autocite{AdrianL.Smith*1996,Minami1993,Yoshida1993,Otani1993,Sugiura1993,Matsumoto1993,Otani1991,Otani1988a,Matsumoto1993a} The isolated chromophore has been shown to be very unstable, whereas the holo C-1027 did not lose activity under the same conditions. \autocite{Matsumoto1993,Sugiura1993,Otani1991} The apoprotein binds specifically to the C-1027 chromophore, supposedly by hydrophic pocket, which binds the benzoxazine side chain. \autocite{Okuno1994,Matsumoto1993} The enediyne antibiotics neocarzinostatin and maduropeptin, which were also isolated from actinomycetes, also feature highly specific and protective apoproteins. \autocite{AdrianL.Smith*1996}.
+	 While the ten-membered enediyne compounds were isolated as free-standing chromophores, most of the compounds in the nine-membered family were isolated in conjunction with a protective apoprotein.\autocite{Liang2010} The nine-membered chromophore of C-1027, which was isolated from \textit{Streptomyces} globisporus C-1027, is bound noncovalently to an 110 amino acid apoprotein.\autocite{AdrianL.Smith*1996,Minami1993,Yoshida1993,Otani1993,Sugiura1993,Matsumoto1993,Otani1991,Otani1988a,Matsumoto1993a} The isolated chromophore has been shown to be very unstable, whereas the holo C-1027 did not lose activity under the same conditions. \autocite{Matsumoto1993,Sugiura1993,Otani1991} The apoprotein binds specifically to the C-1027 chromophore, supposedly by hydrophic pocket, which binds the benzoxazine side chain. \autocite{Okuno1994,Matsumoto1993} The enediyne antibiotics neocarzinostatin and maduropeptin, which were also isolated from actinomycetes, feature highly specific and protective apoproteins as well. \autocite{AdrianL.Smith*1996}.
 	 
 	 The homologies of the identified cluster could be an indicator, that the strain Tü2401 is capable of synthesizing an enediyene antibiotic with a nine-membered core and a corresponding apoprotein. The potent DNA-strand-breaking capabilities of this compound-class could induce the \textit{yorB} reporter system of \textit{Bacillus subtilis} 1S34 pHJS105-yorB-lacZ2 in the yorB-induction assay. A number of compounds, which cause DNA double strand breaks and crosslinks are reported to induce the system, though none of them belong to the family of endiyne antibiotics. \autocite{Urban2007} Whether this is due to inactivity or to this family not having been tested in the assay is unclear, since the compound library is not publicly accessible. Nevertheless, an endiyne compound could be responsible for the induction.
 	 
