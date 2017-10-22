@@ -1,27 +1,76 @@
 % !TEX root = ../main.tex
+\chapter{Results \& Discussion}
 
 \section{Determination of Extraction Conditions} % (fold)
 \label{sec:determination_of_extraction_conditions}
 
 Preliminary experiments demonstrated, that the antibiotic compound could not be extracted with ehtyl acetate. Only the medium supernatant of the complex media NL~200, NL~300, NL~500 and OM produced notable inhibition zones on plate bioactivity assays. Moreover, the compound was not retained in any matter, when the supernatant was separated by HPLC with a common C18 column. The compound is likely very hydrophilic, so that usual extraction and reverse-phase chromatography protocols are not applicable. Because of the difficulties involved in working with aqueous solvents, an extraction procedure involving organic solvents would be beneficial. Additionally, out of the four complex media, in which Tü2401 is able to produce the antibiotic, one with optimal properties has to be determined.
 
-For determination of the optimal medium, Tü2401 was grown in each of the NL and OM media for either four or seven days. The obtained medium supernatants were filtrated by using \SI{0.45}{\micro\meter} and \SI{0.2}{\micro\meter} consecutively. OM supernatant proved to be the easiest to filtrate, while the NL media clogged the filters after few milliliters had passed through. Each filtrate was subjected to the standard bioassay against \textit{Escherichia coli}~K12 to determine the antibiotic activity. Pictures of the assay results are displayed in Figure~\ref{fig:medium_activity}.
+\subsection{Comparison of Production Media} % (fold)
+\label{sub:comparison_of_production_media}
 
-\begin{figure}[htbp]
+	To determine the optimal production medium, Tü2401 was grown in each of the NL and OM media for either four or seven days. The obtained medium supernatants were filtrated by using \SI{0.45}{\micro\meter} and \SI{0.2}{\micro\meter} consecutively. OM supernatant proved to be the easiest to filtrate, while the NL media clogged the filters after few milliliters had passed through. Each filtrate was subjected to the standard bioassay against \textit{Escherichia coli}~K12 to determine the antibiotic activity. Pictures of the assay results are displayed in Figure~\ref{fig:medium_activity}.
+	
+	\begin{figure}[htbp]
 	\centering
-	\begin{subfigure}{0.5\textwidth}
-		\includegraphics[width=0.9\textwidth]{medium_activity_96}
-		\caption{Four day growth period}
-	\end{subfigure}%
-	\begin{subfigure}{0.5\textwidth}
-		\includegraphics[width=0.9\textwidth]{medium_activity_168}
-		\caption{Seven days growth period}
-	\end{subfigure}
-	\caption[K12 Bioassay results with media supernatants]{\textbf{K12 Bioassay results with media supernatants}} \textit{Streptomyces}~sp.~Tü2401 was grown for either four (a) or seven days (b) in four different complex media. The filtrated medium supernatant was tested against \textit{Escherichia coli} K12. Media: (Top) NL~200 (Left) NL~300 (Right) NL~500 (Bottom) OM.
-	\label{fig:medium_activity}
-\end{figure}
-
-Most samples cause notable ($\varnothing>$\SI{1}{\centi\meter}) zones of inhibition in the agar diffusion assay. NL~500 after seven days and OM in both cases possess the greatest activity with inhibition zones greater than \SI{1.5}{\centi\meter}. When cultivated in NL~300, Tü2401 seems to take longer than four days to synthesize the compound.
+		\begin{subfigure}{0.5\textwidth}
+			\includegraphics[width=0.8\textwidth]{medium_activity_96}
+			\caption{Four day growth period}
+		\end{subfigure}%
+		\begin{subfigure}{0.5\textwidth}
+			\includegraphics[width=0.8\textwidth]{medium_activity_168}
+			\caption{Seven day growth period}
+		\end{subfigure}
+		\caption[K12 Bioassay results with media supernatants]{\textbf{K12 Bioassay results with media supernatants}} \textit{Streptomyces}~sp.~Tü2401 was grown for either four (a) or seven days (b) in four different complex media. The filtrated medium supernatant was tested against \textit{Escherichia coli}~K12. Media: (Top) NL~200 (Left) NL~300 (Right) NL~500 (Bottom) OM.
+		\label{fig:medium_activity}
+	\end{figure}
+	
+	Most samples cause notable ($\varnothing>$\SI{1}{\centi\meter}) zones of inhibition in the agar diffusion assay. NL~500 after seven days and OM in both cases possess the greatest activity with inhibition zones greater than \SI{1.5}{\centi\meter}. When cultivated in NL~300, Tü2401 seems to take longer than four days to synthesize the compound. NL~500 and OM supernatants were separated via an Agilent~1200 HPLC system equipped with a diode array detector (DAD) and electric light scattering detector (ELSD). A C18 column was used in combination with a 4.5~\% to 100~ \% acetonitril screening gradient (see Table~\ref{tab:method_c18_screening}). The chromatograms are shown in Figure~
+	
+	\begin{figure}[htbp]
+		\centering
+		\begin{subfigure}{0.8\textwidth}
+			\includegraphics[width=\linewidth]{media_sup_500}
+			\caption{NL 500 medium supernatant}
+		\end{subfigure}
+		\begin{subfigure}{0.8\textwidth}
+			\includegraphics[width=\linewidth]{media_sup_om}
+			\caption{OM medium supernatant}
+		\end{subfigure}
+		\caption[Chromatogram of medium supernatant screening]{\textbf{Chromatogram of medium supernatant screening.} \SI{5}{\micro\liter} of medium supernatant were injected and separated on a C18 column. A screening gradient of 4.5 to 100~\% acetonitril was employed. UV absorption and ELSD voltage were measured.}
+		\label{fig:results_medium_screen}
+	\end{figure}
+	
+	The screening chromatograms show, that most compounds in the medium supernatants are rather hydrophilic. No UV absorption or ELSD voltage peaks can be observed after \SI{7}{\minute}. In the case of OM, only one peak is present at the time of injection. The OM supernatant seems to predominantly contain compounds, that can not be separated with a reverse-phase screening gradient on a C18~column. The hydrophilic, antibiotic compound of interest showed no retention under similar conditions. The use of OM as a production medium would therefore lead to fewer impurities in the hydrophobic spectrum. Combined with the visible antibacterial activity of the supernatant against \textit{E. coli}~K12 after only four days and the ease of preparation and filtration, OM was chosen as the default production medium for further experiments.
+	
+	\subsection{Extraction experiments}
+	\label{sub:extraction_experiments}
+	
+	Three organic solvents, which are immiscible with water, were tested for extraction of the antibiotic compound. Ethyl acetate, methyl acetate and ethyl formate. Additionally, the supernatant was adjusted to five different pH~values ranging from 2 to 11. A hydrophilic molecule is likely to contain functional groups like amines or carboxylic acids, which are charged at certain pH-ranges. If the compound does too, the isoelectric point could passed by pH adjustment. Through reduced charge, the water-solubility could be lowered, enabling the extraction with an organic solvent.
+	
+	OM medium supernatant was divided into three groups of five aliquots. The pH of each aliquot was adjusted to either 2, 5, 7, 9 or 11. Each group was then extracted with either ethyl acetate, methyl acetate or ethyl formate. Both phases were separated and tested for bioactivity against \coli. 
+	
+	\begin{figure}[htbp]
+		\centering
+		\begin{subfigure}{\textwidth}
+			\includegraphics[width=\linewidth]{medium_ph_etac}
+			\caption{Ethyl acetate}
+		\end{subfigure}
+		\begin{subfigure}{\textwidth}
+			\includegraphics[width=\linewidth]{medium_ph_meac}
+			\caption{Methyl acetate}
+		\end{subfigure}
+		\begin{subfigure}{\textwidth}
+			\includegraphics[width=\linewidth]{medium_ph_etform}
+			\caption{Ethyl formate}
+		\end{subfigure}
+		\caption[Bioassay results of different OM medium extracts against \coli]{\textbf{Bioassay results of different OM medium extracts against \coli}}
+		\label{fig:results_extraction_bioassay} Filtered supernatant of OM cultures of \tue were extracted with either (a) ethyl acetate, (b) methyl acetate or (c) ethyl formate. Sample-pH was adjusted prior to either 2, 5, 7, 9 or 11 (left to right). Both phases were tested seperately. Upper row consists of \SI{50}{\micro\liter} aqueous phase pipetted directly into wells. Lower row consists of \SI{50}{\micro\liter} organic phase pipetted onto a sterile filter plate, which was placed on the agar.
+	\end{figure}
+	
+	%either zwitterionic -> pH ranges too large
+	%many polar, but uncharged groups
+	
 % section determination_of_extraction_conditions (end)
 
 \section{Chromatographic Separation} % (fold)
@@ -32,17 +81,12 @@ Most samples cause notable ($\varnothing>$\SI{1}{\centi\meter}) zones of inhibit
 
     % subsection reverse_phase_hplc (end)
 
-    \subsection{HPLC with Amino Column} % (fold)
-    \label{sub:results_hplc_with_amino_column}
-
-    % subsection hplc_with_amino_column (end)
-
-    \subsection{Hydrophilic Interaction Chromatography} % (fold)
+    \subsection{Hydrophilic Interaction Liquid Chromatography} % (fold)
     \label{sub:results_hydrophilic_interaction_chromatography}
 
     % subsection hydrophilic_interaction_chromatography (end)
 
-    \subsection{Ion exchange Chromatography} % (fold)
+    \subsection{Ion Exchange Chromatography} % (fold)
     \label{sub:results_ion_exchange_chromatography}
 
     % subsection ion_exchange_chromatography (end)
@@ -51,6 +95,9 @@ Most samples cause notable ($\varnothing>$\SI{1}{\centi\meter}) zones of inhibit
     \label{sub:results_thin_layer_chromatography}
 
     % subsection thin_layer_chromatography (end)
+    
+    \subsection{Gel-filtration} % (fold)
+    \label{sub:results_gel_filtration}
 
 % section chromatographic_separation (end)
 
@@ -73,12 +120,12 @@ Most samples cause notable ($\varnothing>$\SI{1}{\centi\meter}) zones of inhibit
 \label{sec:antibacterial_activity_spectrum}
 
 
-    \subsection{Activity against E. coli} % (fold)
+    \subsection{Activity against \textit{Escherichia coli} K12} % (fold)
     \label{sub:activity_against_e_coli}
 
     % subsection activity_against_e_coli (end)
 
-    \subsection{Activity against B. subtilis} % (fold)
+    \subsection{Activity against \textit{Bacillus subtilis} 168} % (fold)
     \label{sub:activity_against_b_subtilis}
 
     % subsection activity_against_b_subtilis (end)
@@ -86,57 +133,57 @@ Most samples cause notable ($\varnothing>$\SI{1}{\centi\meter}) zones of inhibit
     \subsection{Extraction of yorB-inducing Compound} % (fold)
     \label{sub:extraction_of_yorb_inducing_compound}
 
-%    Tü2401 displayed positive results in the yorB-Assay \todo{Referenz einsetzen} when grown on ISP2 plates \todo{Referenz einsetzen}. However, all previously generated samples from liquid cultures only showed antibacterial activity.
-%    %%%%%%%%%%%%%%
-%    %Einsetzen:
-%    %%%%%%%%%%%%%%
-%    % Absatz über Differenzierung von Streptomyceten
-%    % Einfluss auf Sekundärmetabolismus
-%    % Überleitung zu Schlussfolgerung: Evtl zweiter Compound nur auf agar produziert
-%    %%%%%%%%%%%%%%%
-%    Three cultivation strategies were developed to induce production of the putative compound 2 (PC2):
-%
-%    \begin{enumerate}
-%        \item Standing cultures could allow the formation of aerial mycelium at the medium surface. Thus, enabling the synthesis of PC2 and allowing extraction of the liquid medium. Two \SI{500}{\milli\liter} flasks were each filled with \SI{100}{\milli\liter} of liquid ISP2 medium and inoculated with \SI{1}{\milli\liter} of a one-week old NL~410 shake culture. One flask was sealed with an ordinary aluminium cap (AC), the other one with an air-permeable foam cap (FC). Both flasks were cultivated for four days, before the medium was centrifuged and the supernatant filtrated. \SI{50}{\milli\liter} aliquots of each flask were extracted with either BuOH or EtAc, and both phases were collected seperately. The organic phases were dried at \SI{40}{\celsius} and solved in \SI{1}{\milli\liter} MeOH. Both phases of each flask were subjected to the yorB-Assay.
-%        \item ISP2 agar plates were previously known to enable synthesis of PC2 and could be extracted with prior breakup. Ten round ISP2 agar plates were inoculated with \SI{100}{\micro\liter} of a one-week old NL~410 shake culture and incubated for four days. One half of the plates was extracted with BuOH, the other half was extracted with EtAc.
-%        \item ISP2 agar plates could also be prepared with low-melting-point agarose (LMPA). This would allow melting of the plates at lower temperatures. Thus, allowing for easier extraction with reduced risk of thermal decomposition during the process. Six ISP2 LMPA agar plates were inoculated with \SI{100}{\micro\liter} of a week-old NL~410 shake culture and incubated for four days. The plates were then melted at \SI{70}{\celsius} and extracted with BuOH and EtAc.
-%    \end{enumerate}
-%
-%    All generated extracts and their respective aqueous phases were tested for bioactivity. The standard bioassay was used to determine the antibiotic activity against \textit{E. coli} K12 and \textit{B. subtilis} 168, and the yorB-Assay was used to test for the mode of action. Additonally, agar stamps of grown ISP2 and ISP2 LMPA plates were tested in the yorB-Assay. A summary of the results is shown in \todo{Tabelle einsetzen}.
-%
-%    \begin{table}[htbp]
-%        \caption[Bioassay results from agar-plate and standing culture extraction]{\textbf{Bioassay results from agar-plate and standing culture extraction}.\\
-%        Samples were screened for antibiotic activity against \textit{E. coli} K12 and \textit{B. subtilis} 168 and for promotor induction in the yorB-Assay.
-%        Samples from standing cultures with foam cap (FC) or aluminium cap (AC), ISP2 agar plates (ISP2) and ISP2 agar plates with low-melting-point agarose (LMPA). Samples were extracted with butanol (BuOH) or ethyl acetate (EtAc) and tested alongside their respective aqueous phases (aq.). \emph{Legend}: \textbf{-} No activity; \textbf{+ / ++ / +++} antibiotic activity with inhibition zone of 1~/~1.0-1.5~/~>1.5~cm; \textbf{n.e.} result non-evaluable}
-%        \label{tab:yorB_assay_results}
-%        \centering
-%        \begin{tabularx}{\textwidth}{XXXXX}
-%            \toprule
-%            & \multicolumn{3}{c}{Antibacterial} & positive \\
-%            \cline{2-4}
-%            \textbf{Sample} & \textbf{\textit{E. coli}}     & \textbf{\textit{B. subtilis}}  & \textbf{yorB}  & \textbf{yorB}    \\
-%            \midrule
-%            FC BuOH         & -     & -     & -     & -    \\
-%            FC BuOH aq.     & -     & -     & -     & -    \\
-%            FC EtAc         & -     & +++   & ++    & -    \\
-%            FC EtAc aq.     & -     & -     & -     & -    \\
-%            AC BuOH         & -     & -     & -     & -    \\
-%            AC BuOH aq.     & -     & -     & -     & -    \\
-%            AC EtAc         & -     & -     & +     & -    \\
-%            AC EtAc aq.     & -     & -     & -     & -    \\
-%            ISP2 BuOH       & -     & n.e.  & +++   & -    \\
-%            ISP2 BuOH aq.   & -     & +     & -     & -    \\
-%            ISP2 EtAc       & -     & ++    & -     & -    \\
-%            ISP2 EtAc aq.   & +     & n.e.  & -     & +    \\
-%            ISP2 plaque     &       &       & ++    & ++   \\
-%            LMPA BuOH       & +     & n.e.  & +++   & -    \\
-%            LMPA BuOH aq.   & -     & n.e.  & -     & -    \\
-%            LMPA EtAc       & -     & n.e.  & +++   & -    \\
-%            LMPA EtAc aq.   & -     & n.e.  & -     & -    \\
-%            LMPA plaque     &       &       & ++    & ++   \\
-%            \bottomrule
-%        \end{tabularx}
-%    \end{table}
+    Tü2401 displayed positive results in the yorB-Assay \todo{Referenz einsetzen} when grown on ISP2 plates \todo{Referenz einsetzen}. However, all previously generated samples from liquid cultures only showed antibacterial activity.
+    %%%%%%%%%%%%%%
+    %Einsetzen:
+    %%%%%%%%%%%%%%
+    % Absatz über Differenzierung von Streptomyceten
+    % Einfluss auf Sekundärmetabolismus
+    % Überleitung zu Schlussfolgerung: Evtl zweiter Compound nur auf agar produziert
+    %%%%%%%%%%%%%%%
+    Three cultivation strategies were developed to induce production of the putative compound 2 (PC2):
+
+    \begin{enumerate}
+        \item Standing cultures could allow the formation of aerial mycelium at the medium surface. Thus, enabling the synthesis of PC2 and allowing extraction of the liquid medium. Two \SI{500}{\milli\liter} flasks were each filled with \SI{100}{\milli\liter} of liquid ISP2 medium and inoculated with \SI{1}{\milli\liter} of a one-week old NL~410 shake culture. One flask was sealed with an ordinary aluminium cap (AC), the other one with an air-permeable foam cap (FC). Both flasks were cultivated for four days, before the medium was centrifuged and the supernatant filtrated. \SI{50}{\milli\liter} aliquots of each flask were extracted with either BuOH or EtAc, and both phases were collected seperately. The organic phases were dried at \SI{40}{\celsius} and solved in \SI{1}{\milli\liter} MeOH. Both phases of each flask were subjected to the yorB-Assay.
+        \item ISP2 agar plates were previously known to enable synthesis of PC2 and could be extracted with prior breakup. Ten round ISP2 agar plates were inoculated with \SI{100}{\micro\liter} of a one-week old NL~410 shake culture and incubated for four days. One half of the plates was extracted with BuOH, the other half was extracted with EtAc.
+        \item ISP2 agar plates could also be prepared with low-melting-point agarose (LMPA). This would allow melting of the plates at lower temperatures. Thus, allowing for easier extraction with reduced risk of thermal decomposition during the process. Six ISP2 LMPA agar plates were inoculated with \SI{100}{\micro\liter} of a week-old NL~410 shake culture and incubated for four days. The plates were then melted at \SI{70}{\celsius} and extracted with BuOH and EtAc.
+    \end{enumerate}
+
+    All generated extracts and their respective aqueous phases were tested for bioactivity. The standard bioassay was used to determine the antibiotic activity against \textit{E. coli} K12 and \textit{B. subtilis} 168, and the yorB-Assay was used to test for the mode of action. Additonally, agar stamps of grown ISP2 and ISP2 LMPA plates were tested in the yorB-Assay. A summary of the results is shown in \todo{Tabelle einsetzen}.
+
+    \begin{table}[htbp]
+        \caption[Bioassay results from agar-plate and standing culture extraction]{\textbf{Bioassay results from agar-plate and standing culture extraction}.\\
+        Samples were screened for antibiotic activity against \textit{E. coli} K12 and \textit{B. subtilis} 168 and for promotor induction in the yorB-Assay.
+        Samples from standing cultures with foam cap (FC) or aluminium cap (AC), ISP2 agar plates (ISP2) and ISP2 agar plates with low-melting-point agarose (LMPA). Samples were extracted with butanol (BuOH) or ethyl acetate (EtAc) and tested alongside their respective aqueous phases (aq.). \emph{Legend}: \textbf{-} No activity; \textbf{+ / ++ / +++} antibiotic activity with inhibition zone of 1~/~1.0-1.5~/~>1.5~cm; \textbf{n.e.} result non-evaluable}
+        \label{tab:yorB_assay_results}
+        \centering
+        \begin{tabularx}{\textwidth}{XXXXX}
+            \toprule
+            & \multicolumn{3}{c}{Antibacterial} & positive \\
+            \cline{2-4}
+            \textbf{Sample} & \textbf{\textit{E. coli}}     & \textbf{\textit{B. subtilis}}  & \textbf{yorB}  & \textbf{yorB}    \\
+            \midrule
+            FC BuOH         & -     & -     & -     & -    \\
+            FC BuOH aq.     & -     & -     & -     & -    \\
+            FC EtAc         & -     & +++   & ++    & -    \\
+            FC EtAc aq.     & -     & -     & -     & -    \\
+            AC BuOH         & -     & -     & -     & -    \\
+            AC BuOH aq.     & -     & -     & -     & -    \\
+            AC EtAc         & -     & -     & +     & -    \\
+            AC EtAc aq.     & -     & -     & -     & -    \\
+            ISP2 BuOH       & -     & n.e.  & +++   & -    \\
+            ISP2 BuOH aq.   & -     & +     & -     & -    \\
+            ISP2 EtAc       & -     & ++    & -     & -    \\
+            ISP2 EtAc aq.   & +     & n.e.  & -     & +    \\
+            ISP2 plaque     &       &       & ++    & ++   \\
+            LMPA BuOH       & +     & n.e.  & +++   & -    \\
+            LMPA BuOH aq.   & -     & n.e.  & -     & -    \\
+            LMPA EtAc       & -     & n.e.  & +++   & -    \\
+            LMPA EtAc aq.   & -     & n.e.  & -     & -    \\
+            LMPA plaque     &       &       & ++    & ++   \\
+            \bottomrule
+        \end{tabularx}
+    \end{table}
     % subsection extraction_of_yorb_inducing_compound (end)
 
 % section antibacterial_activity_spectrum (end)

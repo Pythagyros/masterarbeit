@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.10.13)  19 OCT 2017 10:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.10.13)  22 OCT 2017 16:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2706,7 +2706,11 @@ Package biblatex Info: ... file 'english.lbx' found.
 
 (/home/philipp/texmf/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
-) (./main.aux)
+) (./main.aux
+(./chapters/preamble.aux) (./chapters/abbreviations.aux)
+(./chapters/introduction.aux) (./chapters/methods.aux) (./chapters/results.aux)
+No file chapters/appendix.aux.
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -2723,8 +2727,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 3.
 LaTeX Font Info:    Try loading font information for MDA+cmr on input line 3.
-
-(/home/philipp/texmf/tex/latex/mathdesign/mdacmr.fd
+ (/home/philipp/texmf/tex/latex/mathdesign/mdacmr.fd
 File: mdacmr.fd 
 )
 LaTeX Font Info:    ... okay on input line 3.
@@ -2971,17 +2974,18 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 45.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 11.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <24.88> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 45.
-Package tocbasic Info: character protrusion at toc deactivated on input line 45
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 11.
+Package tocbasic Info: character protrusion at toc deactivated on input line 11
 .
  (./main.toc
 LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
-(Font)              scaled to size 11.52008pt on input line 11.
+(Font)              scaled to size 11.52008pt on input line 8.
 LaTeX Font Info:    Font shape `T1/mdbch/m/sl' will be
-(Font)              scaled to size 11.52008pt on input line 31.
+(Font)              scaled to size 11.52008pt on input line 30.
  [1
+
 
 
 {/home/philipp/.texlive2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
@@ -2991,7 +2995,7 @@ LaTeX Font Info:    Font shape `T1/mdbch/m/sl' will be
  [2
 design size mismatch in local font md-chro8t in virtual font mdbchro8t.vf ignor
 ed.]
-Package tocbasic Info: character protrusion at lof deactivated on input line 46
+Package tocbasic Info: character protrusion at lof deactivated on input line 12
 .
  (./main.lof)
 \tf@lof=\write7
@@ -3000,164 +3004,108 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 46
  [3
 
 ]
-Package tocbasic Info: character protrusion at lot deactivated on input line 47
+Package tocbasic Info: character protrusion at lot deactivated on input line 13
 .
- (./main.lot)
+ (./main.lot
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 11.52008pt on input line 7.
+)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
  [4
 
 ]
-chapter without number
-(./chapters/abbreviations.tex) [5
+\openout2 = `chapters/methods.aux'.
 
-]
-chapter 1.
-(./chapters/methods.tex
+ (./chapters/methods.tex
+chapter 2.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <17.28> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 3.
-
-(/home/philipp/texmf/tex/latex/mathdesign/mdbch/ts1mdbch.fd) [1
-
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 4.
+(/home/philipp/texmf/tex/latex/mathdesign/mdbch/ts1mdbch.fd) [2
 
 
-] [2]
+
+
+] [3]
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <14.4> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 99.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 101.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 102.
+(Font)              scaled to size 5.76004pt on input line 104.
 LaTeX Font Info:    Font shape `T1/lmss/b/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/bx/it' tried instead on input line 156.
+(Font)              Font shape `T1/lmss/bx/it' tried instead on input line 158.
 
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 156.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 158.
 
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 4.80003pt on input line 168.
- [3
+(Font)              scaled to size 4.80003pt on input line 170.
+ [4
 
 ]
-[4] [5
+[5] [6
 
-] [6
+] [7
 
-] [7] [8
+] [8] [9
 
-] [9]) [10]
-chapter 2.
-(./chapters/results.tex
-<images/medium_activity_96.png, id=66, 998.932pt x 1003.75pt>
-File: images/medium_activity_96.png Graphic file (type png)
+]
 
-<use images/medium_activity_96.png>
-Package pdftex.def Info: images/medium_activity_96.png used on input line 13.
-(pdftex.def)             Requested size: 201.65755pt x 202.63031pt.
-LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 14.
+LaTeX Warning: Reference `sec:hplc_methods' on page 10 undefined on input line 
+306.
 
-<images/medium_activity_168.png, id=68, 1061.566pt x 1021.416pt>
-File: images/medium_activity_168.png Graphic file (type png)
+[10]
 
-<use images/medium_activity_168.png>
-Package pdftex.def Info: images/medium_activity_168.png used on input line 17.
-(pdftex.def)             Requested size: 201.65755pt x 194.02429pt.
+LaTeX Warning: Reference `tab:ref_genomes' on page 11 undefined on input line 3
+22.
 
-<images/tu2401_tree.png, id=69, 1012.7436pt x 540.8205pt>
-File: images/tu2401_tree.png Graphic file (type png)
-
-<use images/tu2401_tree.png>
-Package pdftex.def Info: images/tu2401_tree.png used on input line 151.
-(pdftex.def)             Requested size: 448.13095pt x 239.30687pt.
-LaTeX Font Info:    Font shape `T1/mdbch/b/it' will be
-(Font)              scaled to size 11.52008pt on input line 152.
- [11
-
-
-] [12 <./images/medium_activity_96.png> <./images/medium_activity_168.png>] [13
-] [14 <./images/tu2401_tree.png>]
-<images/enediyne_overview.jpg, id=87, 498.21532pt x 461.76053pt>
-File: images/enediyne_overview.jpg Graphic file (type jpg)
-
-<use images/enediyne_overview.jpg>
-Package pdftex.def Info: images/enediyne_overview.jpg used on input line 166.
-(pdftex.def)             Requested size: 403.31511pt x 373.81964pt.
- [15] [16 <./images/enediyne_overview.jpg>])
-[17]
+) [11]
 chapter without number
 
-Overfull \hbox (6.17696pt too wide) in paragraph at lines 71--71
+Overfull \hbox (6.17696pt too wide) in paragraph at lines 24--24
 []\T1/mdbch/m/n/12 (-20) Urban, A.; Eck-er-mann, S.; Fast, B.; Met-zger, S.; Ge
 hling, M.; Ziegel-bauer, K.; Rübsamen-
  []
 
-[18
+[23
 
 
-] (./chapters/appendix.tex [19]
-chapter A.
-[20
 
-] [21] [22]
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-[]|\T1/mdbch/m/n/12 (+20) phosphoribosylaminoimidazolecarboxamide formyl-trans-
+] [24] (./main.aux (./chapters/preamble.aux) (./chapters/abbreviations.aux)
+(./chapters/introduction.aux) (./chapters/methods.aux) (./chapters/results.aux)
+No file chapters/appendix.aux.
+)
 
- []
+LaTeX Warning: There were undefined references.
 
-
-Underfull \hbox (badness 10000) in alignment at lines 261--261
-[][] 
- []
-
-
-LaTeX Warning: Float too large for page by 172.55475pt on input line 262.
-
-<images/contig4_cluster_search.png, id=113, 776.9025pt x 146.5475pt>
-File: images/contig4_cluster_search.png Graphic file (type png)
-
-<use images/contig4_cluster_search.png>
-Package pdftex.def Info: images/contig4_cluster_search.png used on input line 3
-28.
-(pdftex.def)             Requested size: 448.13095pt x 84.53247pt.
-
-<images/contig4_subcluster_search.png, id=114, 778.91pt x 245.91875pt>
-File: images/contig4_subcluster_search.png Graphic file (type png)
-
-<use images/contig4_subcluster_search.png>
-Package pdftex.def Info: images/contig4_subcluster_search.png used on input lin
-e 334.
-(pdftex.def)             Requested size: 448.13095pt x 141.48473pt.
-) [23 <./images/contig4_cluster_search.png> <./images/contig4_subcluster_search
-.png>] [24] (./main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42643 strings out of 494869
- 866720 string characters out of 6179369
- 1355051 words of memory out of 5000000
- 44974 multiletter control sequences out of 15000+600000
- 86939 words of font info for 287 fonts, out of 8000000 for 9000
+ 42550 strings out of 494869
+ 865146 string characters out of 6179369
+ 1365463 words of memory out of 5000000
+ 44934 multiletter control sequences out of 15000+600000
+ 77263 words of font info for 243 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 75i,19n,106p,10438b,2013s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/home/philipp/texmf/fonts/enc/dvips/ly1/texnansi.enc}{/usr/share/texmf/fonts
-/enc/dvips/lm/lm-ec.enc}</home/philipp/texmf/fonts/type1/bitstrea/charter/bchb8
-a.pfb></home/philipp/texmf/fonts/type1/bitstrea/charter/bchbi8a.pfb></home/phil
-ipp/texmf/fonts/type1/bitstrea/charter/bchr8a.pfb></home/philipp/texmf/fonts/ty
-pe1/bitstrea/charter/bchr8a.pfb></home/philipp/texmf/fonts/type1/bitstrea/chart
-er/bchri8a.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbo10.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmssbx10.pfb></home/philipp/texmf/fonts/type1/publ
-ic/mathdesign/mdbch/md-chb8t.pfb></home/philipp/texmf/fonts/type1/public/mathde
-sign/mdbch/md-chr7t.pfb></home/philipp/texmf/fonts/type1/public/mathdesign/mdbc
-h/md-chr7y.pfb></home/philipp/texmf/fonts/type1/public/mathdesign/mdbch/md-chr8
-c.pfb></home/philipp/texmf/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb></h
-ome/philipp/texmf/fonts/type1/public/mathdesign/mdbch/md-chri7m.pfb></home/phil
-ipp/texmf/fonts/type1/public/mathdesign/mdbch/md-chrma.pfb>
-Output written on main.pdf (29 pages, 16698271 bytes).
+ 75i,19n,106p,10434b,2013s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/home/philipp/texmf/fonts/enc
+/dvips/ly1/texnansi.enc}</home/philipp/texmf/fonts/type1/bitstrea/charter/bchb8
+a.pfb></home/philipp/texmf/fonts/type1/bitstrea/charter/bchr8a.pfb></home/phili
+pp/texmf/fonts/type1/bitstrea/charter/bchr8a.pfb></home/philipp/texmf/fonts/typ
+e1/bitstrea/charter/bchri8a.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbo1
+0.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></home/philipp/texmf
+/fonts/type1/public/mathdesign/mdbch/md-chb8t.pfb></home/philipp/texmf/fonts/ty
+pe1/public/mathdesign/mdbch/md-chr7t.pfb></home/philipp/texmf/fonts/type1/publi
+c/mathdesign/mdbch/md-chr7y.pfb></home/philipp/texmf/fonts/type1/public/mathdes
+ign/mdbch/md-chr8c.pfb></home/philipp/texmf/fonts/type1/public/mathdesign/mdbch
+/md-chr8t.pfb></home/philipp/texmf/fonts/type1/public/mathdesign/mdbch/md-chri7
+m.pfb></home/philipp/texmf/fonts/type1/public/mathdesign/mdbch/md-chrma.pfb>
+Output written on main.pdf (16 pages, 161999 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 113 compressed objects within 2 object streams
+ 113 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 42539 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 35853 words of extra memory for PDF output out of 42996 (max. 10000000)
 
