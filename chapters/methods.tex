@@ -7,7 +7,7 @@
 	All chemicals and solvents were supplied by Merck, if not specified otherwise. Vendors for specific solvents are listed in Table~\ref{tab:solvent_table}. Water was purified prior to use by a MilliQ filtration system.
 
 	\begin{table}[htbp]
-		\caption{\textbf{Used chemicals and solvents}}
+		\caption[Used chemicals and solvents]{\textbf{Used chemicals and solvents}}
 		\label{tab:solvent_table}
 		\centering
 		\begin{tabularx}{\textwidth}{XX}
@@ -46,7 +46,7 @@
 	High performance liquid chromatography (HPLC) systems were manufactured by Agilent. The components of the HPLC systems are listed in Table~\ref{tab:HPLCtab}. Detailed specifications of used HPLC-columns are listed in Table~\ref{tab:column_parameters}.
 
 	\begin{table}[htbp]
-		\caption{\textbf{Components of HPLC systems}}
+		\caption[Components of HPLC systems]{\textbf{Components of HPLC systems}}
 		\label{tab:HPLCtab}
 		\centering
 		\begin{tabularx}{\textwidth}{XXX}
@@ -77,17 +77,17 @@
 	\end{table}
 
 	\begin{table}[htbp]
-		\caption{\textbf{Column Specifications}}
+		\caption[Column Specifications]{\textbf{Column Specifications}}
 		\label{tab:column_parameters}
 		\centering
-			\begin{tabularx}{\textwidth}{XXXX}
+			\begin{tabularx}{\textwidth}{>{\hsize=.75\hsize}X>{\hsize=.75\hsize}X>{\hsize=1.75\hsize}X>{\hsize=.75\hsize}X}
 				\toprule
 				\textbf{Manufacturer} & \textbf{Line} & \textbf{Type} & \textbf{Dimensions} \\ 
 				\midrule
-				Merck & SeQuant\textsuperscript{\textregistered} & \mbox{ZIC\textsuperscript{\textregistered}-HILIC} \SI{3.5}{\micro\meter} & 150 $\times$ 4.6 mm \\
-				Phenomenex & Luna\textsuperscript{\textregistered} & NH\textsubscript{2} \SI{5}{\micro\meter} & 250 $\times$ 4.6 mm \\
-				& Kinetex\textsuperscript{\textregistered} & Polar-C18 \SI{2.6}{\micro\meter} & 150 $\times$ 4.6 mm \\
-				Dr. Maisch & Nucleosil-100 & C18 \SI{5}{\micro\meter} & 100 $\times$ 2.5 mm \\
+				Merck & SeQuant\textsuperscript{\textregistered} & \mbox{ZIC\textsuperscript{\textregistered}-HILIC} \SI{3.5}{\micro\meter}  100 \AA & 150 $\times$ 4.6 mm \\
+				Phenomenex & Luna\textsuperscript{\textregistered} & NH\textsubscript{2} \SI{5}{\micro\meter} 100 \AA & 250 $\times$ 4.6 mm \\
+				& Kinetex\textsuperscript{\textregistered} & Polar-C18 \SI{2.6}{\micro\meter} 100 \AA & 150 $\times$ 4.6 mm \\
+				Dr. Maisch & Nucleosil-100 & C18 \SI{5}{\micro\meter} 100 \AA & 100 $\times$ 2.5 mm \\
 				\bottomrule
 			\end{tabularx}
 		\end{table}
@@ -101,7 +101,7 @@
 	\subsection{Media} % (fold)
 	\label{sub:media}
 
-	All media were prepared by solving the components listed in Table~\ref{tab:media_components} in MilliQ-\ch{H2O} and adjusting the pH with \ch{NaOH} and \ch{HCl}. For solid media, 2~\% (w/v) agar was added. Media were sterilized by autoclaving at \SI{121}{\celsius} and \SI{230}{\kilo\pascal} for \SI{15}{\minute}. Fluid media were stored at ambient temperature, solid media at \SI{8}{\celsius}.
+	All media were prepared by dissolving the components listed in Table~\ref{tab:media_components} in MilliQ-\ch{H2O} and adjusting the pH with \ch{NaOH} and \ch{HCl}. For solid media, 2~\% (w/v) agar was added. Media were sterilized by autoclaving at \SI{121}{\celsius} and \SI{230}{\kilo\pascal} for \SI{15}{\minute}. Fluid media were stored at ambient temperature, solid media at \SI{8}{\celsius}.
 
 	\begin{table}[htbp]
 		\caption[Media components for the cultivation of strain Tü2401]{\textbf{Media components for the cultivation of strain T\"u2401.} All amounts are calculated for one liter of MilliQ-\ch{H2O}. The pH was adjusted with \ch{NaOH} and \ch{HCl}.}
@@ -130,7 +130,7 @@
 					&			& Soymeal				& 10	& \gram	&	Hensel	\\
 					&			& Yeast extract			& 5 	& \gram	&	Oxoid	\\
 					&			& Bacto Casaminoacids	& 5 	& \gram	&	Difco	\\
-					&			& \ch{CaCO3}			& 1		& \gram	&			\\
+					&			& \ch{CaCO3}			& 1		& \gram	&	Merck	\\
 			\midrule
 			NL 500	& 8.0		& Starch				& 10	& \gram &	Roth	\\
 					&			& Glucose				& 10	& \gram	&	Roth	\\
@@ -157,14 +157,17 @@
 
 	\subsection{\emph{Escherichia coli} K12 and \emph{Bacillus subtilis} 168} % (fold)
 	\label{sub:escherichia_coli_k12}
-		\emph{Escherichia coli} K12 and \emph{Bacillus subtilis} 168 were cultivated in LB medium (\SI{10}{\gram} peptone, \SI{5}{\gram} yeast extract, \SI{10}{\gram} \ch{NaCl} per liter; pre-mixed by Roth) at either \SI{37}{\celsius} (K12) or \SI{30}{\celsius} (168). Liquid cultures were shaken at 200 rpm in flasks with baffles and spirals. Plate cultures were grown in an incubator.
+		\emph{Escherichia coli} K12 and \emph{Bacillus subtilis} 168 were cultivated in LB medium (\SI{10}{\gram} peptone, \SI{5}{\gram} yeast extract, \SI{10}{\gram} \ch{NaCl} per liter; pre-mixed by Roth) at either \SI{37}{\celsius} (K12) or \SI{30}{\celsius} (168). Liquid cultures were shaken at 200 rpm in flasks with baffles and spirals. Plate cultures were grown in an incubator. Pre-cultures were inoculated with cells from stored agar plates and incubated for \SI{16}{\hour}. Main cultures were inoculated with 1~\% (v/v) of pre-culture and incubated until the desired optical density at \SI{600}{\nano\meter} (OD\textsubscript{600}) was reached.
 	% subsection escherichia_coli_k12 (end)
 
 	\subsection{General cultivation of \emph{Streptomyces} sp. Tü2401} % (fold)
-	\label{sub:streptomyces_sp_t}
-		Agar-plate cultures of \textit{Streptomyces} sp. Tü2401 were grown on ISP2 medium at \SI{29}{\celsius}. \SI{100}{\micro\liter} of spore solution or liquid culture were used for inoculation. Liquid cultures were incubated at \SI{27}{\celsius} in shake flasks with aluminium caps. Pre-cultures were grown in \SI{20}{\milli\liter} of NL 410 in \SI{100}{\milli\liter} flasks and inoculated with plate-grown mycelium. Main cultures were grown in \SI{100}{\milli\liter} medium in \SI{500}{\milli\liter} flasks.
+	\label{sub:methods_general_cult}
+		Agar-plate cultures of \textit{Streptomyces} sp. Tü2401 were grown on ISP2 medium at \SI{29}{\celsius} for four to seven days. \SI{100}{\micro\liter} of spore solution or liquid culture were used for inoculation. Liquid cultures were incubated at \SI{27}{\celsius} in shake flasks with aluminium caps. Pre-cultures were inoculated with plate-grown mycelium or \SI{50}{\micro\liter} of glycerol spore-stock. They were grown for three days in \SI{20}{\milli\liter} of NL 410 in \SI{100}{\milli\liter} flasks. Main cultures were inoculated with \SI{5}{\milli\liter} of pre-culture. They were grown in \SI{100}{\milli\liter} medium in \SI{500}{\milli\liter} flasks for four to seven days.
+		
+		Standing cultures of \tue were grown in \SI{500}{\milli\liter} flasks fitted with either aluminium or foam caps. \SI{5}{\milli\liter} of pre-culture grown in NL~410 were used to inoculate \SI{100}{\milli\liter} of ISP2 liquid medium. The cultures were grown for seven days at \SI{27}{\celsius}.
 	% subsection streptomyces_sp_t (end)
-
+	
+	
 	\subsection{Batch Fermentation of \emph{Streptomyces} sp. Tü2401} % (fold)
 	\label{sub:fermentation}
 	\textit{Streptmyces} sp. Tü2401 was cultivated at a ten-liter scale in a continuous stirred tank bioreactor. \SI{500}{\milli\liter} of pre-culture were grown in five \SI{500}{\milli\liter} shake flasks containing \SI{100}{\milli\liter} of NL 410 medium without \ch{CaCO3}. The pre-cultures were inoculated from stored ISP-agar plates and grown for \SI{72}{\hour} at 27 \si{\celsius}. The pre-cultures were pooled and used to inoculate \SI{9.5}{\liter} of OM medium for fermentation. The temperature was kept at \SI{27}{\celsius} with an airflow of \SI{5}{\liter\per\minute} and a rotor speed of 200~rpm. Control samples of \SI{15}{\milli\liter} were taken throughout the process at regular intervals. Fermentation was stopped after \SI{125}{\hour} and the culture broth was harvested. Further processing is described in section \ref{sub:processing_of_fermentation_broth}.
@@ -172,8 +175,6 @@
 	% subsection fermentation (end)
 
 % section strain_cultivation (end)
-
-\clearpage
 
 \section{Bioassays} % (fold)
 \label{sec:bioassays}
@@ -183,43 +184,41 @@
 
 	Agar diffusion bioactivity assays against \emph{E. coli} K12 and \emph{B. subtilis} 168 were conducted on LB-agar in petri dishes. Round petri dishes ($\varnothing=\SI{92}{\milli\meter}$) were filled with \SI{20}{\milli\liter} of liquid agar, square dishes ($120\times \SI{120}{\milli\meter}$) were filled with \SI{40}{\milli\liter}. Solidified agar plates were stored at \SI{8}{\celsius}.
 
-	\SI{400}{\micro\liter} (\SI{200}{\micro\liter} for round plates) of liquid culture at an optical density of 0.3 to 0.6 at \SI{600}{\nano\meter} were spread on the solid agar plate with a drigalski spatula until dry. Round wells ($\varnothing=\SI{7}{\milli\meter}$) were punched out of the agar and filled with \SI{50}{\micro\liter} of sample. Finished plates were stored for \SI{1}{\hour} at ambient temperature, before incubating them at either \SI{30}{\celsius} or \SI{37}{\celsius} over night.
+	\SI{400}{\micro\liter} (\SI{200}{\micro\liter} for round plates) of liquid culture at an OD\textsubscript{600} of 0.3 to 0.6 and were spread on the solid agar plate with a drigalski spatula until dry. Round wells ($\varnothing=\SI{7}{\milli\meter}$) were punched out of the agar and filled with \SI{50}{\micro\liter} of sample. Processed plates were stored for \SI{1}{\hour} at ambient temperature, before incubating them over night at either \SI{30}{\celsius} or \SI{37}{\celsius}.
 
 	% subsection agar_diffusion_bioactivity_assays (end)
 
 	\subsection{\emph{yorB} Reporter Gene Assay} % (fold)
 	\label{sub:yorb_reporter_gene_assay}
 
-	Agar-based \textit{yorB}-reporter gene assays were performed with \textit{Bacillus subtilis} 1S34 pHJS105-yorB-lacZ2 \autocite{Urban2007}. \SI{20}{\milli\liter} of LB-agar with added \SI{50}{\micro\gram\per\milli\liter} Spectinomycin were inoculated with \SI{500}{\micro\liter} of overnight culture and grown until the stationary phase. \SI{50}{\milli\liter} LB-softagar (0.7~\% agarose) with \SI{150}{\micro\gram\per\milli\liter} 5-bromo-4-chloro-3-indolyl-$\beta$-D-galactopyranoside (X-Gal) were prepared. The strain was added to a concentration of $3\times10^7$	colony-forming units per milliliter and poured into a square petri-dish. After solidification, \SI{50}{\micro\liter} of test samples were filled in wells. The plates were incubated at \SI{30}{\celsius} for \SIrange[range-units=single]{14}{18}{\hour} and analyzed for induction.
+	Agar-based \textit{yorB}-reporter gene assays were performed with \textit{Bacillus subtilis} 1S34 pHJS105-yorB-lacZ2 \autocite{Urban2007}. \SI{20}{\milli\liter} of LB-agar supplemented with \SI{50}{\micro\gram\per\milli\liter} spectinomycin were inoculated with \SI{500}{\micro\liter} of overnight culture and grown until reaching the stationary phase. \SI{50}{\milli\liter} LB-softagar (0.7~\% agarose) with \SI{150}{\micro\gram\per\milli\liter} 5-bromo-4-chloro-3-indolyl-$\beta$-D-galactopyranoside (X-Gal) was prepared and mixed with the strain to a concentration of $3\times10^7$	colony-forming units per milliliter. The agar was filled into a square petri dish and preparated with sample wells. \SI{50}{\micro\liter} of test samples were applied and the plate was incubated at \SI{30}{\celsius} over night.
 
 	% subsection yorb_reporter_gene_assay (end)
 
 % section bioassays (end)
 
-\clearpage
-
 \section{Sample Preparation and Extraction} % (fold)
 \label{sec:sample_preparation_and_extraction}
 
-Extracts and reverse extracts of \emph{Streptomyces} sp. Tü2401 were generally obtained through filtrated medium supernatants. After  cultivating the strain for 4~to~7~days, the harvested biomass was centrifuged at 9000~rpm for \SI{20}{\minute}. The supernatant was collected and filtered through a \SI{0.2}{\micro\meter} sterile filter. The filtrate was stored at \SI{4}{\celsius}.
+Extracts and reverse extracts of \emph{Streptomyces} sp. Tü2401 were generally obtained through filtrated culture broth supernatant. After  cultivating the strain for 4~to~7~days, the harvested biomass was centrifuged at 9000~rpm for \SI{20}{\minute}. The supernatant was collected and filtered through a \SI{0.2}{\micro\meter} sterile filter. The filtrate was stored at \SI{4}{\celsius}.
 
 	\subsection{Preparation of Culture Broth Extracts} % (fold)
 	\label{sub:preparation_of_medium_extracts}
 
-	Medium filtrate extracts were prepared by adding an equal amount of solvent to the filtrate and shaking the mixture for \SI{30}{\minute}. The phases were separated by centrifugation at 4000~rpm for \SI{10}{\minute}. Both phases were collected separately and stored at \SI{4}{\celsius}. Samples were concentrated by drying them under vacuum at either \SI{40}{\celsius} (ethyl acetate, methyl acetate) or \SI{60}{\celsius} (butanol, water) and resuspending them in a fifth of the initial volume. Organic phases were resuspended in methanol, aqueous phases in water.
+	Culture broth filtrate extracts were prepared by adding an equal amount of solvent to the filtrate and shaking the mixture for \SI{30}{\minute}. The phases were separated by centrifugation at 4000~rpm for \SI{10}{\minute}. Both phases were collected separately and stored at \SI{4}{\celsius}. Samples were concentrated by drying under vacuum at either \SI{40}{\celsius} (ethyl acetate, methyl acetate) or \SI{60}{\celsius} (butanol, water) and resuspending them in a fifth of the initial volume. Organic phases were resuspended in methanol, aqueous phases in water.
 
 	% subsection preparation_of_medium_extracts (end)
 
 	\subsection{Determination of Extraction Conditions} % (fold)
 	\label{sub:determination_of_extraction_conditions}
 
-	\SI{5}{\milli\liter} filtered medium aliquots of Tü2401 were transferred to three sets of five \SI{15}{\milli\liter} falcon tubes. The pH of the tubes in each set was adjusted to 2, 5, 7, 9 or 11 with \ch{NaOH} and \ch{HCl}. Each set was extracted with either ethyl acetate, methyl acetate or ethyl formate and both phases were collected. Each phase was tested for bioactivity against \textit{E. coli} K12.
+	Three sets of five \SI{15}{\milli\liter} falcon tubes were filled with \SI{5}{\milli\liter} filtered Tü2401 culture broth. For each set, the pH of the samples was adjusted to 2, 5, 7, 9 or 11 with \ch{NaOH} and \ch{HCl}. Each set was extracted with either ethyl acetate, methyl acetate or ethyl formate and both phases were collected. Each phase was tested for bioactivity against \textit{E. coli} K12.
 
 	% subsection determination_of_extraction_conditions (end)
 
 	\subsection{Processing of Fermentation Culture Broth} % (fold)
 	\label{sub:processing_of_fermentation_broth}
-	The harvested fermentation broth was supplemented with diatomaceous earth and filtered through Pall T 1500 filter plates (relative retention range 10 - 30 µm). The remaining filter cake was discarded and the filtrate transferred to a stirring bucket. Two liters of ethyl acetate were added to the filtrate and stirred for 30 min. After completed phase-separation, the organic phase was collected and the aqueous phase reused for further extraction. The process was repeated, until \SI{10}{\liter} of extract had been generated. Both phases were collected seperately and concentrated in a rotary evaporator at \SI{40}{\celsius}. The concentrated aquous phase was frozen at \SI{-20}{\celsius} and lyophilized. The organic concentrate was stored at \SI{8}{\celsius}.
+	The harvested fermentation broth was supplemented with diatomaceous earth and filtered through Pall T 1500 filter plates (relative retention range 10 - 30 µm). The remaining filter cake was discarded and the filtrate transferred to a stirring bucket. Two liters of ethyl acetate were added to the filtrate and stirred for 30 min. After phase-separation, the organic phase was collected and the aqueous phase extracted again. The process was repeated five times. Both phases were collected seperately and concentrated in a rotary evaporator at \SI{40}{\celsius}. The concentrated aquous phase was frozen at \SI{-20}{\celsius} and lyophilized. The organic concentrate was stored at \SI{8}{\celsius}.
 	% subsection processing_of_fermentation_broth (end)
 
 	\subsection{Agar Plate Extraction} % (fold)
@@ -227,14 +226,12 @@ Extracts and reverse extracts of \emph{Streptomyces} sp. Tü2401 were generally 
 
 	Standard ISP2 agar plates were ground with a blender and extracted with with an equal volume of butanol or ethyl acetate for \SI{1}{\hour}. The mixture was centrifuged at 4000~rpm for \SI{1}{\hour} and the supernatant collected. The remaining slurry was resuspended in the same amount of water, centrifuged at 4000~rpm for \SI{1}{\hour} and the supernatant collected.
 
-	Special ISP2 agar plates with low-melting-point agarose (LMPA) were prepared by substituting the 2~\% (w/v) agar of regular plates with 4~\% (w/v) LMPA. \SI{75}{\milli\liter} of LMPA agar plates were melted in Schott-flasks at \SI{70}{\celsius} and extracted with either butanol or ethyl acetate for \SI{30}{\minute}. The organic phase was collected and the remaining agar extracted again with \SI{50}{\milli\liter} of water.
-
-	All collected organic extracts were dried at \SI{40}{\celsius} (ethyl acetate) or \SI{60}{\celsius} (butanol) and resuspended in \SI{1}{\milli\liter} methanol.
+	Special ISP2 agar plates with low-melting-point agarose (LMPA) were prepared by substituting the 2~\% (w/v) agar of regular plates with 4~\% (w/v) LMPA. \SI{75}{\milli\liter} of LMPA agar plates were melted in Schott-flasks at \SI{70}{\celsius} and extracted with either butanol or ethyl acetate for \SI{30}{\minute}. The organic phase was collected and the remaining agar extracted again with \SI{50}{\milli\liter} of water. All collected organic extracts were dried at \SI{40}{\celsius} (ethyl acetate) or \SI{60}{\celsius} (butanol) and resuspended in \SI{1}{\milli\liter} methanol.
 	% subsection agar_plate_extraction (end)
 
 % section sample_preparation_and_extraction (end)
 
-\clearpage
+%\clearpage
 
 \section{Bioactivity-guided Isolation} % (fold)
 \label{sec:bioactivity_guided_isolation}
@@ -256,14 +253,14 @@ Extracts and reverse extracts of \emph{Streptomyces} sp. Tü2401 were generally 
 			Butanol / Acetic acid / Water		& 14:3:2 and 42:10:7	\\
 			Butanol / Ethanol / Water			& 3:2:1		\\
 			Ethyl acetate / 2-Propanol / Water	& 6:3:1		\\
-			Chloroform / Methanol				& 8:3		\\
+%			Chloroform / Methanol				& 8:3		\\
 			\bottomrule
 		\end{tabularx}
 	\end{table}
 
-	The working orcin staining solution was prepared by mixing two storage solutions, solution A and B, at a ratio of 10:1 (v/v). Solution A contained 1 \% (w/v) \ch{Fe^{III}Cl} in 10 \% sulfuric acid, solution B contained 6 \% (w/v) Orcin in ethanol. The plates were sprayed with the working solution and treated with a heat gun for a few seconds.
+	The working orcin staining solution was prepared by mixing two storage solutions, solution A and B, at a ratio of 10:1~(v/v). Solution A contained 1~\%~(w/v) Fe(III)\ch{Cl3} in 10 \% sulfuric acid, solution B contained 6~\%~(w/v) Orcin in ethanol. The plates were sprayed with the working solution and treated with a heat gun for a few seconds.
 
-	Preparative samples were obtained by scraping the silica off the unstained plate and collecting it in reaction tubes. The samples were then extracted with \SI{1}{\milli\liter} methanol, vortexed and sonicated for \SI{30}{\minute}. After centrifugation at 14,000 rpm for \SI{5}{\minute}, the supernatant was transferred to a new tube and the extraction process repeated. The methanolic samples were dried at \SI{30}{\celsius} and resuspended in an amount of water equal to the sample initially applied on the TLC plate.
+	Preparative samples were obtained by scraping the silica off the unstained plate and collecting it in reaction tubes. The samples were then extracted with \SI{1}{\milli\liter} methanol, vortexed and sonicated for \SI{30}{\minute}. After centrifugation at 14,000 rpm for \SI{5}{\minute}, the supernatant was transferred to a new tube. The extraction was performed twice. The methanolic samples were dried at \SI{30}{\celsius} and resuspended in an amount of water equal to the sample initially applied on the TLC plate.
 	% subsection thin_layer_chromatography (end)
 
 	\subsection{Ion Exchange Chromatography} % (fold)
@@ -294,8 +291,9 @@ Extracts and reverse extracts of \emph{Streptomyces} sp. Tü2401 were generally 
 	\subsection{Trimethylsilane Derivatization and Gas Chromatography} % (fold)
 	\label{sub:trimethylsilane_derivatization_and_gas_chromatography}
 
-	The derivatization and gas chromatography (GC) measurements were performed by Dr. Dorothee Wistuba of the mass spectrometry department at the institute of organic chemistry in Tübingen.
-	Dried HPLC fractions were suspended in \SI{500}{\micro\liter} \emph{N,O}-Bis(trimethylsilyl)\-trifluoro\-acetamide with added \SI{40}{\micro\liter} pyridine and heated to \SI{110}{\celsius}. Afterwards, the samples were dried with nitrogen gas and redissolved in dichloromethane.
+	\emph{The derivatization and gas chromatography (GC) measurements were performed by Dr. Dorothee Wistuba of the mass spectrometry department at the institute of organic chemistry in Tübingen.}
+	
+	Dried HPLC fractions were suspended in a mixture of \SI{460}{\micro\liter} \emph{N,O}-Bis(trimethylsilyl)\-trifluoro\-acetamide and \SI{40}{\micro\liter} pyridine, before heating them to \SI{110}{\celsius}. After derivatization, samples were dried with nitrogen gas and redissolved in dichloromethane.
 	The derivatized samples were analyzed with a Hewlett Packard (HP) 6890~GC-system coupled to a HP~5973 mass selective detector. The Agilent~DB5 column measured 13~m $\times$ 0.25~mm with a film thickness of \SI{0.1}{\micro\meter}. Helium was used as the carrier gas.
 	% subsection trimethylsilane_derivatization_and_gas_chromatography (end)
 
@@ -303,7 +301,7 @@ Extracts and reverse extracts of \emph{Streptomyces} sp. Tü2401 were generally 
 	\label{sub:preparative_hplc}
 
 	Preparative HPLC was performed on either the Agilent 1100 Series or Agilent 1260 Infinity instrument coupled to an Agilent G1346C fraction collector. Occasional coupling of an electric light scattering detector (ELSD) was achieved by mounting a 1:5-splitter after the UV-Detector. 4/5 of the flow was directed to the fraction collector, the remaining 1/5 was directed to the ELSD. The ELSD was operated at a temperature of \SI{40}{\celsius} and with nitrogen gas at a pressure of \SI{3.2}{\bar}. Detailed information about the used columns and methods can be found in Table~\ref{tab:column_parameters} and the appendix. The obtained data was analyzed with the Agilent Chemstation (Version B.04.03).
-	All samples were centrifuged at 14,000~rpm, before transferring the supernatant to HPLC-vials. All fractions were collected by timeslices of \SI{1}{\minute} and stored at \SIrange{4}{8}{\celsius}, before drying them at \SI{40}{\celsius}. Dried fractions were resuspended in an amount of water equal to the amount of injected sample and stored at \SIrange{4}{8}{\celsius}. Detailed method descriptions are found in the appendix at section \ref{sec:hplc_methods}.
+	All samples were centrifuged at 14,000~rpm, before transferring the supernatant to HPLC-vials. All fractions were collected by timeslices of \SI{1}{\minute}, stored at \SIrange{4}{8}{\celsius}, and subsequently dried at \SI{40}{\celsius}. The samples were resuspended in an amount of water equal to the amount of injected sample and stored at \SIrange{4}{8}{\celsius}. Detailed method descriptions are found in the appendix at section \ref{sec:hplc_methods}.
 
 	% subsection preparative_hplc (end)
 
@@ -318,6 +316,8 @@ Extracts and reverse extracts of \emph{Streptomyces} sp. Tü2401 were generally 
 
 \section{Genome Analysis} % (fold)
 \label{sec:genome_analysis}
+
+	\emph{The taxonomic analysis was performed by Mohammad Alanjary of the group of Nadine Ziemert at the Interfaculty Institute of Microbiology and Infection Medicine in Tübingen}
 
 	The phylogenetic tree was constructed by using 50 sequenced \textit{Streptomyces} genomes (Table~\ref{tab:ref_genomes}) as reference. From these genomes and the concatenated contigs of \textit{Streptomyces} sp. Tü2401, 50 single copy genes were identified by
 	%Wie wurden die herausgefunden?

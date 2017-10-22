@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.10.13)  22 OCT 2017 16:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.10.13)  23 OCT 2017 00:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3006,10 +3006,7 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 12
 ]
 Package tocbasic Info: character protrusion at lot deactivated on input line 13
 .
- (./main.lot
-LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 11.52008pt on input line 7.
-)
+ (./main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
@@ -3022,6 +3019,8 @@ LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
 chapter 2.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <17.28> not available
 (Font)              Font shape `T1/lmss/bx/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 11.52008pt on input line 10.
 (/home/philipp/texmf/tex/latex/mathdesign/mdbch/ts1mdbch.fd) [2
 
 
@@ -3039,20 +3038,14 @@ LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <14.4> not available
 (Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 158.
 
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 4.80003pt on input line 170.
+(Font)              scaled to size 4.80003pt on input line 173.
  [4
 
 ]
-[5] [6
-
-] [7
-
-] [8] [9
-
-]
+[5] [6] [7] [8] [9]
 
 LaTeX Warning: Reference `sec:hplc_methods' on page 10 undefined on input line 
-306.
+304.
 
 [10]
 
@@ -3083,13 +3076,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42550 strings out of 494869
- 865146 string characters out of 6179369
- 1365463 words of memory out of 5000000
+ 42570 strings out of 494869
+ 865361 string characters out of 6179369
+ 1365460 words of memory out of 5000000
  44934 multiletter control sequences out of 15000+600000
- 77263 words of font info for 243 fonts, out of 8000000 for 9000
+ 78438 words of font info for 258 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 75i,19n,106p,10434b,2013s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,20n,106p,10434b,2013s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/home/philipp/texmf/fonts/enc
 /dvips/ly1/texnansi.enc}</home/philipp/texmf/fonts/type1/bitstrea/charter/bchb8
 a.pfb></home/philipp/texmf/fonts/type1/bitstrea/charter/bchr8a.pfb></home/phili
@@ -3102,7 +3095,7 @@ c/mathdesign/mdbch/md-chr7y.pfb></home/philipp/texmf/fonts/type1/public/mathdes
 ign/mdbch/md-chr8c.pfb></home/philipp/texmf/fonts/type1/public/mathdesign/mdbch
 /md-chr8t.pfb></home/philipp/texmf/fonts/type1/public/mathdesign/mdbch/md-chri7
 m.pfb></home/philipp/texmf/fonts/type1/public/mathdesign/mdbch/md-chrma.pfb>
-Output written on main.pdf (16 pages, 161999 bytes).
+Output written on main.pdf (16 pages, 164420 bytes).
 PDF statistics:
  113 PDF objects out of 1000 (max. 8388607)
  81 compressed objects within 1 object stream
