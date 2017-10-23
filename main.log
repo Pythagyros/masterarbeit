@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.10.13)  23 OCT 2017 00:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.10.13)  23 OCT 2017 13:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,8 +6,8 @@ entering extended mode
 (./main.tex
 LaTeX2e <2017/01/01> patch level 3
 Babel <3.9r> and hyphenation patterns for 7 language(s) loaded.
-(./config.tex (/home/philipp/texmf/tex/latex/koma-script/scrbook.cls
-Document Class: scrbook 2017/04/13 v3.23 KOMA-Script document class (book)
+(./config.tex (/home/philipp/texmf/tex/latex/koma-script/scrreprt.cls
+Document Class: scrreprt 2017/04/13 v3.23 KOMA-Script document class (report)
 (/home/philipp/texmf/tex/latex/koma-script/scrkbase.sty
 Package: scrkbase 2017/04/13 v3.23 KOMA-Script package (KOMA-Script-dependent b
 asics and keyval usage)
@@ -40,22 +40,22 @@ Package tocbasic Info: omitting babel extension for `lof'
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lot' on input line 136.
-Package tocbasic Info: defining new hook before heading of `' on input line 160
-8.
-Class scrbook Info: You've used standard option `oneside'.
-(scrbook)           This is correct!
-(scrbook)           Internally I'm using `twoside=false'.
-(scrbook)           If you'd like to set the option with \KOMAoptions,
-(scrbook)           you'd have to use `twoside=false' there
-(scrbook)           instead of `oneside', too.
-Class scrbook Info: You've used standard option `openany'.
-(scrbook)           This is correct!
-(scrbook)           Internally I'm using `open=any'.
-(scrbook)           If you'd like to set the option with \KOMAoptions,
-(scrbook)           you'd have to use `open=any' there
-(scrbook)           instead of `openany', too.
-Class scrbook Info: File `scrsize12pt.clo' used to setup font sizes on input li
-ne 2275.
+Package tocbasic Info: defining new hook before heading of `' on input line 161
+2.
+Class scrreprt Info: You've used standard option `oneside'.
+(scrreprt)           This is correct!
+(scrreprt)           Internally I'm using `twoside=false'.
+(scrreprt)           If you'd like to set the option with \KOMAoptions,
+(scrreprt)           you'd have to use `twoside=false' there
+(scrreprt)           instead of `oneside', too.
+Class scrreprt Info: You've used standard option `openany'.
+(scrreprt)           This is correct!
+(scrreprt)           Internally I'm using `open=any'.
+(scrreprt)           If you'd like to set the option with \KOMAoptions,
+(scrreprt)           you'd have to use `open=any' there
+(scrreprt)           instead of `openany', too.
+Class scrreprt Info: File `scrsize12pt.clo' used to setup font sizes on input l
+ine 2272.
 
 (/home/philipp/texmf/tex/latex/koma-script/scrsize12pt.clo
 File: scrsize12pt.clo 2017/04/13 v3.23 KOMA-Script font size class option (12pt
@@ -77,12 +77,12 @@ Package typearea Info: You've used standard option `oneside'.
 \footheight=\skip46
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 12
-(typearea)             BCOR = 0.0pt
+(typearea)             BCOR = 14.22636pt
 (typearea)             \paperwidth      = 597.50793pt
-(typearea)              \textwidth      = 448.13095pt
-(typearea)              DIV departure   = -6%
-(typearea)              \evensidemargin = 2.4185pt
-(typearea)              \oddsidemargin  = 2.4185pt
+(typearea)              \textwidth      = 437.46118pt
+(typearea)              DIV departure   = -3%
+(typearea)              \evensidemargin = 14.86656pt
+(typearea)              \oddsidemargin  = 14.86656pt
 (typearea)             \paperheight     = 845.04694pt
 (typearea)              \textheight     = 606.5pt
 (typearea)              \topmargin      = -1.84941pt
@@ -107,13 +107,13 @@ Package typearea Info: These are the values describing the layout:
 \scr@dte@subsubsection@maxnumwidth=\skip51
 \scr@dte@paragraph@maxnumwidth=\skip52
 \scr@dte@subparagraph@maxnumwidth=\skip53
-LaTeX Info: Redefining \textsubscript on input line 4843.
+LaTeX Info: Redefining \textsubscript on input line 4841.
 \abovecaptionskip=\skip54
 \belowcaptionskip=\skip55
 \c@pti@nb@sid@b@x=\box27
 \c@figure=\count87
 \c@table=\count88
-Class scrbook Info: Redefining `\numberline' on input line 6000.
+Class scrreprt Info: Redefining `\numberline' on input line 5988.
 \bibindent=\dimen102
 )
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
@@ -769,7 +769,7 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count106
 \LT@p@ftn=\toks24
 )
-Class scrbook Info: longtable captions redefined on input line 81.
+Class scrreprt Info: longtable captions redefined on input line 71.
 
 (/home/philipp/texmf/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2017/03/11 v5.2b context-sensitive quotations (JAW)
@@ -2984,11 +2984,11 @@ LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
 (Font)              scaled to size 11.52008pt on input line 8.
 LaTeX Font Info:    Font shape `T1/mdbch/m/sl' will be
 (Font)              scaled to size 11.52008pt on input line 30.
- [1
+ [1{/home/philipp/.texlive2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
-{/home/philipp/.texlive2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
@@ -3054,12 +3054,6 @@ LaTeX Warning: Reference `tab:ref_genomes' on page 11 undefined on input line 3
 
 ) [11]
 chapter without number
-
-Overfull \hbox (6.17696pt too wide) in paragraph at lines 24--24
-[]\T1/mdbch/m/n/12 (-20) Urban, A.; Eck-er-mann, S.; Fast, B.; Met-zger, S.; Ge
-hling, M.; Ziegel-bauer, K.; Rübsamen-
- []
-
 [23
 
 
@@ -3076,13 +3070,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42570 strings out of 494869
- 865361 string characters out of 6179369
- 1365460 words of memory out of 5000000
- 44934 multiletter control sequences out of 15000+600000
- 78438 words of font info for 258 fonts, out of 8000000 for 9000
+ 42578 strings out of 494869
+ 865558 string characters out of 6179369
+ 1365499 words of memory out of 5000000
+ 44944 multiletter control sequences out of 15000+600000
+ 78228 words of font info for 257 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 75i,20n,106p,10434b,2013s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,19n,106p,10434b,2037s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/home/philipp/texmf/fonts/enc
 /dvips/ly1/texnansi.enc}</home/philipp/texmf/fonts/type1/bitstrea/charter/bchb8
 a.pfb></home/philipp/texmf/fonts/type1/bitstrea/charter/bchr8a.pfb></home/phili
@@ -3095,7 +3089,7 @@ c/mathdesign/mdbch/md-chr7y.pfb></home/philipp/texmf/fonts/type1/public/mathdes
 ign/mdbch/md-chr8c.pfb></home/philipp/texmf/fonts/type1/public/mathdesign/mdbch
 /md-chr8t.pfb></home/philipp/texmf/fonts/type1/public/mathdesign/mdbch/md-chri7
 m.pfb></home/philipp/texmf/fonts/type1/public/mathdesign/mdbch/md-chrma.pfb>
-Output written on main.pdf (16 pages, 164420 bytes).
+Output written on main.pdf (16 pages, 164656 bytes).
 PDF statistics:
  113 PDF objects out of 1000 (max. 8388607)
  81 compressed objects within 1 object stream

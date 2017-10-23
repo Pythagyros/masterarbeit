@@ -5,7 +5,7 @@
 \documentclass[
 	paper=a4,
 	fontsize=12pt,
-%	BCOR=5mm,
+	BCOR=5mm,
 	oneside,
 	openany,
 	headinclude,
@@ -22,18 +22,9 @@
 	% setcapindent,
 	% titlepage=true,
 	english
-]{scrbook}
+]{scrreprt}
 
-\usepackage[onehalfspacing]{setspace}								% Should set up onehalfspacing, copied from Steffen
-	% \onehalfspacing
-	% \setlength
-	% \parindent							% "global disable indentation"
-
-% \usepackage[a4paper,
-% 	width=150mm,
-% 	top=25mm,
-% 	bottom=25mm,
-% 	bindingoffset=6mm]{geometry}
+\usepackage[onehalfspacing]{setspace}	% Should set up onehalfspacing, copied from Steffen
 
 %%% Setup Encoding and Fonts
 
@@ -59,17 +50,10 @@
 %%% Setup Headers and Footers
 
 \usepackage{scrlayer-scrpage}		% Part of KOMA-Script, formatting headers and footers
-	\automark{chapter}
-	\clearscrheadfoot
-	\ohead{\pagemark}				% Sets pagenumber on outer headline
-	\ihead{\headmark}				% Sets current section on inner headline
-
-% \usepackage{fancyhdr}
-% 	\pagestyle{fancy}
-% 	\fancyhead{}{}
-% 	\fancyhead[LE, RO]{\rightmark}
-% 	\fancyfoot{}
-% 	\fancyfoot[LE, RO]{\thepage}
+\clearscrheadfoot				% remove standard head- and footline
+\automark*{chapter}				% redefine chapter style
+\ohead*{\pagemark}				% Sets pagenumber on outer headline, including chapterpage
+\ihead{\headmark}				% Sets current section on inner headline, excluding chapterpage
 
 %%% Setup Tables
 
@@ -96,7 +80,7 @@
 %%% Misc. Packages
 
 \usepackage{siunitx}					% Formatting SI units
-\sisetup{detect-all}					% Changes SI-number font to global font
+	\sisetup{detect-all}				% Changes SI-number font to global font
 \usepackage{chemformula}				% Formatting chemical elements
 \usepackage{microtype}					% khirevich.com/latex/microtype
 \usepackage{pdfpages}					% Include titlepage as pdf
