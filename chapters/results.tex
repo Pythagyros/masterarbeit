@@ -70,6 +70,8 @@ Preliminary experiments demonstrated, that the antibiotic compound could not be 
 	
 	%either zwitterionic -> pH ranges too large
 	%many polar, but uncharged groups
+	%Chromatogramme von beiden Fraktionen
+	%Wieviel konnte durch ausschütteln entfernt werden?
 	
 % section determination_of_extraction_conditions (end)
 
@@ -83,7 +85,29 @@ Preliminary experiments demonstrated, that the antibiotic compound could not be 
 
     \subsection{Hydrophilic Interaction Liquid Chromatography} % (fold)
     \label{sub:results_hydrophilic_interaction_chromatography}
+    
+	\begin{itemize}
+		\item Short reiteration of HILIC
+		\item Characteristics of NH2 column
+		\item Characteristics of ZIC-HILIC column
+	\end{itemize}
 
+	The \luna by Phenomenex features a silica matrix modified with 3-aminopropyl groups. The used model had a particle size of \SI{3.5}{\micro\meter} and a pore size of 100~\AA. The dimensions were $4.6\times250$~mm.
+    
+	    \subsubsection{Luna NH\textsubscript{2} Column}
+	    
+	    Separation via the \luna column was performed with an isocratic method (see \ref{tab:method_nh2_standard}). The mobile phase consisted of 80~\% acetonitrile and 20~\% water at a flow of \SI{2.0}{\milli\liter\per\minute}. Both solvents contained 0.1~\% formic acid as a modifier. \SI{50}{\micro\liter} of filtrated reverse extract at pH~11 were injected and fractions collected every minute. The fractions were subjected to the standard agar-diffusion bioassay against \coli. The chromatogram is shown in 
+	    
+	    % Bild im Anhang anfügen
+	    
+	    With this method, the water-soluble compound could be separated from the injection peak. Fractions 5, 6 and 7 produced noticeable zones of inhibition, correlating to elution between 4 and 7~min. With the injection peak eluting at 1.5~min, a relative retention of 2.5 to 5.5 min could be achieved. The majority seems to have eluted between 3.5 and 5.5~min, since the inhibition zones of fractions 6 and 7 were the largest with a diameter of \SI{1.7}{\centi\meter}. Fraction 5 only produced a diameter of \SI{1.2}{\centi\meter}. In the UV-chromatogram, two baseline-separated peaks with distinct spectra were detected in the timeframe correlated to bioactivity. The first was detected at 5~min, the second at 6~min. The UV-spectra  indicate that two bioactive compounds with similar retention times have eluted right between the fraction collector timeframes. A single compound should have resulted in the detection of a rather broad peak with long fronting. However, if the compound does not possess a UV-chromophore, an additional method of detection is needed.
+
+		An evaporative light scattering detector (ELSD) can be used to detect analytes without chromophores, as long as they are less volatile than the solvent.\autocite{Mathews2004,Righezza1988,Mourey1984,Charlesworth1978} The detector can be coupled to a standard HPLC system and provides additional analytical data. To eliminate elution differences between different systems, both the ELSD and the fraction collector were attached to the same system behind the UV-detector. Since ELS-detection is inherently destructive, a splitter was used to divide the flow. One fifth was directed to the ELSD, the rest to the fraction collector. With both 
+	    
+		% Retention ähnlich wenn pH 11 oder nicht eingestellt (ph8)
+		% Könnte bedeuten, dass bei beiden Werten gleich geladen wenn ionenaustausch / adsorption dominierende Kraft
+		% Schlechte selektivität durch Sample mit wasser
+	    
     % subsection hydrophilic_interaction_chromatography (end)
 
     \subsection{Ion Exchange Chromatography} % (fold)
@@ -113,6 +137,8 @@ Preliminary experiments demonstrated, that the antibiotic compound could not be 
     \label{sub:trimethylsilane_derivatization_and_gas_chromatography_results}
 
     % subsection trimethylsilane_derivatization_and_gas_chromatography (end)
+    
+    %mögliche Detektion falls zucker:
 
 % section dereplication (end)
 
@@ -157,7 +183,7 @@ Preliminary experiments demonstrated, that the antibiotic compound could not be 
         Samples from standing cultures with foam cap (FC) or aluminium cap (AC), ISP2 agar plates (ISP2) and ISP2 agar plates with low-melting-point agarose (LMPA). Samples were extracted with butanol (BuOH) or ethyl acetate (EtAc) and tested alongside their respective aqueous phases (aq.). \emph{Legend}: \textbf{-} No activity; \textbf{+ / ++ / +++} antibiotic activity with inhibition zone of 1~/~1.0-1.5~/~>1.5~cm; \textbf{n.e.} result non-evaluable}
         \label{tab:yorB_assay_results}
         \centering
-        \begin{tabularx}{\textwidth}{XXXXX}
+        \begin{tabularx}{\textwidth}{>{\hsize=1.4\hsize}X>{\hsize=.9\hsize}X>{\hsize=.9\hsize}X>{\hsize=.9\hsize}X>{\hsize=.9\hsize}X}
             \toprule
             & \multicolumn{3}{c}{Antibacterial} & positive \\
             \cline{2-4}
@@ -171,16 +197,18 @@ Preliminary experiments demonstrated, that the antibiotic compound could not be 
             AC BuOH aq.     & -     & -     & -     & -    \\
             AC EtAc         & -     & -     & +     & -    \\
             AC EtAc aq.     & -     & -     & -     & -    \\
+            \midrule
             ISP2 BuOH       & -     & n.e.  & +++   & -    \\
             ISP2 BuOH aq.   & -     & +     & -     & -    \\
             ISP2 EtAc       & -     & ++    & -     & -    \\
             ISP2 EtAc aq.   & +     & n.e.  & -     & +    \\
             ISP2 plaque     &       &       & ++    & ++   \\
+            \midrule
             LMPA BuOH       & +     & n.e.  & +++   & -    \\
             LMPA BuOH aq.   & -     & n.e.  & -     & -    \\
             LMPA EtAc       & -     & n.e.  & +++   & -    \\
             LMPA EtAc aq.   & -     & n.e.  & -     & -    \\
-            LMPA plaque     &       &       & ++    & ++   \\
+            LMPA plaque     &       &       & -     & -    \\
             \bottomrule
         \end{tabularx}
     \end{table}
