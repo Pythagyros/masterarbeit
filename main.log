@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.10.13)  26 OCT 2017 11:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.10.13)  29 OCT 2017 17:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3136,69 +3136,70 @@ LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 [15] [16 <./images/medium_ph_etac.png> <./images/medium_ph_meac.png> <./images/
 medium_ph_etform.png>]
 LaTeX Font Info:    Font shape `T1/lmss/b/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/bx/it' tried instead on input line 147.
+(Font)              Font shape `T1/lmss/bx/it' tried instead on input line 153.
 
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 147.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 153.
 
 
-Overfull \hbox (4.38835pt too wide) in paragraph at lines 160--160
+Overfull \hbox (4.38835pt too wide) in paragraph at lines 166--166
 [][][][]\T1/mdbch/m/n/12 (-20) Referenz 
  []
 
 
-Overfull \hbox (4.38835pt too wide) in paragraph at lines 160--160
+Overfull \hbox (4.38835pt too wide) in paragraph at lines 166--166
 [][][][]\T1/mdbch/m/n/12 (-20) Referenz 
  []
 
 
-Overfull \hbox (4.38835pt too wide) in paragraph at lines 160--160
+Overfull \hbox (4.38835pt too wide) in paragraph at lines 166--166
 [][][][]\T1/mdbch/m/n/12 (-20) Referenz 
  []
 
 
-Overfull \hbox (4.38835pt too wide) in paragraph at lines 160--160
+Overfull \hbox (4.38835pt too wide) in paragraph at lines 166--166
 [][][][]\T1/mdbch/m/n/12 (-20) Referenz 
  []
 
 
-Overfull \hbox (4.38835pt too wide) in paragraph at lines 160--160
+Overfull \hbox (4.38835pt too wide) in paragraph at lines 166--166
 [][][][]\T1/mdbch/m/n/12 (-20) Referenz 
  []
 
 
-Overfull \hbox (4.38835pt too wide) in paragraph at lines 160--160
+Overfull \hbox (4.38835pt too wide) in paragraph at lines 166--166
 [][][][]\T1/mdbch/m/n/12 (-20) Referenz 
  []
 
 
-Overfull \hbox (4.38835pt too wide) in paragraph at lines 160--160
+Overfull \hbox (4.38835pt too wide) in paragraph at lines 166--166
 [][][][]\T1/mdbch/m/n/12 (-20) Referenz 
  []
 
 
-Overfull \hbox (4.38835pt too wide) in paragraph at lines 160--160
+Overfull \hbox (4.38835pt too wide) in paragraph at lines 166--166
 [][][][]\T1/mdbch/m/n/12 (-20) Referenz 
  []
 
+[17]
 
-LaTeX Warning: Marginpar on page 17 moved.
+LaTeX Warning: Marginpar on page 18 moved.
 
-[17] <images/tu2401_tree.png, id=66, 1012.7436pt x 540.8205pt>
+[18] <images/tu2401_tree.png, id=69, 1012.7436pt x 540.8205pt>
 File: images/tu2401_tree.png Graphic file (type png)
 
 <use images/tu2401_tree.png>
-Package pdftex.def Info: images/tu2401_tree.png used on input line 224.
+Package pdftex.def Info: images/tu2401_tree.png used on input line 230.
 (pdftex.def)             Requested size: 437.46118pt x 233.61281pt.
- [18] [19] [20 <./images/tu2401_tree.png>]
-<images/enediyne_overview.jpg, id=80, 498.21532pt x 461.76053pt>
+
+<images/enediyne_overview.jpg, id=70, 498.21532pt x 461.76053pt>
 File: images/enediyne_overview.jpg Graphic file (type jpg)
 
 <use images/enediyne_overview.jpg>
-Package pdftex.def Info: images/enediyne_overview.jpg used on input line 239.
+Package pdftex.def Info: images/enediyne_overview.jpg used on input line 245.
 (pdftex.def)             Requested size: 393.71239pt x 364.92068pt.
- [21] [22 <./images/enediyne_overview.jpg>]
-[23]) [24]
+ [19] [20] [21 <./images/tu2401_tree.png>]
+[22] [23 <./images/enediyne_overview.jpg>]) [24]
 chapter without number
 [25
 
@@ -3276,13 +3277,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42761 strings out of 494869
- 869709 string characters out of 6179369
- 1359941 words of memory out of 5000000
- 45081 multiletter control sequences out of 15000+600000
- 89609 words of font info for 277 fonts, out of 8000000 for 9000
+ 42767 strings out of 494869
+ 869831 string characters out of 6179369
+ 1359969 words of memory out of 5000000
+ 45083 multiletter control sequences out of 15000+600000
+ 90010 words of font info for 280 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 75i,19n,106p,10434b,2037s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,20n,106p,10434b,2037s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/home/philipp/texmf/fonts/enc
 /dvips/ly1/texnansi.enc}</home/philipp/texmf/fonts/type1/bitstrea/charter/bchb8
 a.pfb></home/philipp/texmf/fonts/type1/bitstrea/charter/bchbi8a.pfb></home/phil
@@ -3295,7 +3296,7 @@ sign/mdbch/md-chr7y.pfb></home/philipp/texmf/fonts/type1/public/mathdesign/mdbc
 h/md-chr8c.pfb></home/philipp/texmf/fonts/type1/public/mathdesign/mdbch/md-chr8
 t.pfb></home/philipp/texmf/fonts/type1/public/mathdesign/mdbch/md-chri7m.pfb></
 home/philipp/texmf/fonts/type1/public/mathdesign/mdbch/md-chrma.pfb>
-Output written on main.pdf (26 pages, 22363451 bytes).
+Output written on main.pdf (26 pages, 22364936 bytes).
 PDF statistics:
  170 PDF objects out of 1000 (max. 8388607)
  104 compressed objects within 2 object streams
