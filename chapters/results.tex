@@ -5,8 +5,8 @@
 \label{sec:determination_of_extraction_conditions}
 
 	Preliminary experiments demonstrated, that the antibiotic compound could not be extracted with ethyl acetate.
-	Only the medium supernatant of the complex media NL~200, NL~300, NL~500 and OM produced notable inhibition zones on plate bioactivity assays.
-	Moreover, the compound was not retained in any matter, when the supernatant was separated by HPLC with a common C18 column.
+	Only culture broth supernatant of the complex media NL~200, NL~300, NL~500 and OM produced notable inhibition zones on plate bioactivity assays.
+	Moreover, the compound was not retained in any matter, when the supernatant was separated by HPLC with a common reverse-phase method.
 	The compound is likely very hydrophilic, so that usual extraction and reverse-phase chromatography protocols are not applicable.
 	Because of the difficulties involved in working with aqueous solvents, an extraction procedure involving organic solvents would be beneficial.
 	Additionally, out of the four complex media, in which Tü2401 is able to produce the antibiotic, one with optimal properties has to be determined.
@@ -38,10 +38,10 @@
 		\label{fig:medium_activity}
 	\end{figure}
 	
-	Most samples cause notable ($\varnothing>$\SI{1}{\centi\meter}) zones of inhibition in the agar diffusion assay.
+	Most samples caused notable ($\varnothing>$\SI{1}{\centi\meter}) zones of inhibition in the agar diffusion assay.
 	NL~500 after seven days and OM in both cases possess the greatest activity with inhibition zones greater than \SI{1.5}{\centi\meter}.
 	When cultivated in NL~300, Tü2401 seems to take longer than four days to synthesize the compound.
-	NL~500 and OM supernatants were separated via an Agilent~1200 HPLC system equipped with a diode array detector (DAD) and electric light scattering detector (ELSD).
+	NL~500 and OM supernatants were separated via an Agilent~1200 HPLC system equipped with a diode array detector (DAD) and evaporative light scattering detector (ELSD).
 	A C18 column was used in combination with a 4.5~\% to 100~ \% acetonitril screening gradient (see Table~\ref{tab:method_c18_screening}).
 	The chromatograms are shown in Figure~
 	
@@ -64,10 +64,10 @@
 	\end{figure}
 	
 	The screening chromatograms show, that most compounds in the medium supernatants are rather hydrophilic.
-	No UV absorption or ELSD voltage peaks can be observed after \SI{7}{\minute}. In the case of OM, only one peak is present at the time of injection.
+	No UV absorption or ELSD voltage peaks can be observed after \SI{7}{\minute}.
+	In the case of OM, only the injection peak is present.
 	The OM supernatant seems to predominantly contain compounds, that can not be separated with a reverse-phase screening gradient on a C18~column.
-	The hydrophilic, antibiotic compound of interest showed no retention under similar conditions.
-	The use of OM as a production medium would therefore lead to fewer impurities in the hydrophobic spectrum.
+	Since the antibiotic compound of interest showed no retention under similar conditions, the use of OM as a production medium would result in fewer impurities in the hydrophobic spectrum.
 	Combined with the visible antibacterial activity of the supernatant against \textit{E. coli}~K12 after only four days and the ease of preparation and filtration, OM was chosen as the default production medium for further experiments.
 	
 	\subsection{Extraction experiments}
@@ -172,14 +172,41 @@
     \subsection{Ion Exchange Chromatography} % (fold)
     \label{sub:results_ion_exchange_chromatography}
 
-	Water-soluble compounds contain polar functional groups, which at certain pH ranges can even be charged.
-	A p\textit{K}\textsubscript{a} value comparison of natural products in the Antibase2008 database revealed, that the majority of entries might be charged at pH~2--11.\autocite{Mansson2010}
+	Water-soluble compounds contain polar functional groups, some of which at certain pH ranges can even be charged.
+	A \pka value comparison of natural products in the Antibase2008 database revealed, that the majority of entries might be charged at pH~2--11.\autocite{Mansson2010}
 	44~\% contained an acidic functionality, 17~\% a basic one, and 9~\% both.
+	It is likely, that the hydrophilic antibacterial compound also contains basic or acidic functional groups such as amino- or carboxyl-groups.
+	The presence of charged functionalities in a molecule can be utilized for separation via ion-exchange chromatography (IEC).
+	
+	%Nutzungsbeispiele für IEC
 
+	Since as of now, not much is known about the water-soluble antibacterial compound, an explorative IEC method similar to the approach of M{\aa}nsson~\textit{et al.} was devised.\autocite{Mansson2010}
+	Two ion-exchange resins with orthogonal selective properties were employed to test if the compound contains acidic or basic functionalities.
+	Both feature "strong" ion exchange groups, which retain their charge over a broad pH-range and are immobilized on a divinylbenzene matrix.
+	The strong cation exchanger (SCX), Dowex 50WX4, contains negatively charged sulfonic acids, while the strong anion exchanger (SAX), Diaion SA11A, contains positively charged quarternary ammonium groups.
+	The sample would be adjusted to an extreme pH such as 2 or 11, where most ionizable groups should be charged, and loaded onto the column.
+	Uncharged contaminants were washed away with a buffer at the sample pH and one with pH~7.
+	The elution buffer had the opposite pH of the sample pH, supposedly removing the charge and washing the compound off the column.
+	In case of the SAX this means that the sample was adjusted to pH~11, where acidic functionalities such as carboxyl-groups are likely negatively charged.
+	At pH~7 the charge should still be retained, therefore removing impurities by washing with pH~7 and 11.
+	At pH~2 however, a carboxylic acid is likely protonated.
+	The loss of charge greatly reduces the affinity to the SAX and the compound should be eluted with the buffer.
+	For the SCX the same principle applies, but with the pH ranges switched to allow for retention and elution of basic compounds.
+	
+	\SI{1}{\milli\liter} of filtrated culture broth supernatant was adjusted with \ch{NaOH} and \ch{HCl} to the appropriate pH and used as the sample for this experiment.
+	The detailed method descriptions are found in section~\ref{sub:ion_exchange_chromatography}.
+	All loading, washing and elution fractions were collected, concentrated and subjected to the standard bioassay against \coli.
+	
+	
     % subsection ion_exchange_chromatography (end)
 
-    \subsection{Thin-Layer Chromatography} % (fold)
-    \label{sub:results_thin_layer_chromatography}
+\subsection{Thin-Layer Chromatography} % (fold)
+\label{sub:results_thin_layer_chromatography}
+    
+    %Antibiotische Zucker?
+    
+    A classic method for separation of sugars is thin-layer chromatography (TLC).
+    %
 
     % subsection thin_layer_chromatography (end)
     
