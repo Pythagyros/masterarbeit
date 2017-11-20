@@ -551,6 +551,9 @@ INPUT /home/philipp/texmf/fonts/tfm/public/mathdesign/mdbch/md-chbi8t.tfm
 INPUT /home/philipp/texmf/fonts/vf/public/mathdesign/mdbch/mdbchr7y.vf
 INPUT /home/philipp/texmf/fonts/tfm/public/mathdesign/mdbch/md-chr7y.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmssbo10.tfm
+INPUT images/bioassay_yorB_initial.jpg
+INPUT ./images/bioassay_yorB_initial.jpg
+INPUT ./images/bioassay_yorB_initial.jpg
 INPUT images/tu2401_tree.png
 INPUT ./images/tu2401_tree.png
 INPUT ./images/tu2401_tree.png
