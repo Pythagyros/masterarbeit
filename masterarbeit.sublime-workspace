@@ -148,10 +148,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 213.0,
-		"last_filter": "Snippet: table",
+		"height": 285.0,
+		"last_filter": "latextoo",
 		"selected_items":
 		[
+			[
+				"latextoo",
+				"LaTeXTools: Check system"
+			],
 			[
 				"Snippet: table",
 				"Snippet: latex_standardtable"
@@ -209,7 +213,7 @@
 				"LaTeXTools: Check system"
 			]
 		],
-		"width": 522.0
+		"width": 497.0
 	},
 	"console":
 	{

@@ -1,0 +1,33 @@
+(TeX-add-style-hook
+ "methods"
+ (lambda ()
+   (LaTeX-add-labels
+    "sec:chemicals_&_instruments"
+    "tab:solvent_table"
+    "tab:HPLCtab"
+    "tab:column_parameters"
+    "sec:strain_cultivation"
+    "sub:media"
+    "tab:media_components"
+    "sub:escherichia_coli_k12"
+    "sub:methods_general_cult"
+    "sub:fermentation"
+    "sec:bioassays"
+    "sub:agar_diffusion_bioactivity_assays"
+    "sub:yorb_reporter_gene_assay"
+    "sec:sample_preparation_and_extraction"
+    "sub:preparation_of_medium_extracts"
+    "sub:determination_of_extraction_conditions"
+    "sub:processing_of_fermentation_broth"
+    "sub:agar_plate_extraction"
+    "sec:bioactivity_guided_isolation"
+    "sub:thin_layer_chromatography"
+    "tab:tlc_solvents"
+    "sub:ion_exchange_chromatography"
+    "tab:method_ion_exchange"
+    "sub:trimethylsilane_derivatization_and_gas_chromatography"
+    "sub:preparative_hplc"
+    "sub:analytical_hplc_and_mass_spectrometry"
+    "sec:genome_analysis"))
+ :latex)
+
