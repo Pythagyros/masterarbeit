@@ -1,0 +1,47 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns": [
+				"*.aux",
+				"*.lof",
+				"*.log",
+				"*.lot",
+				"*.fls",
+				"*.out",
+				"*.toc",
+				"*.fmt",
+				"*.fot",
+				"*.cb",
+				"*.cb2",
+				"*.bbl",
+				"*.bcf",
+				"*.blg",
+				"*-blx.aux",
+				"*-blx.bib",
+				"*.run.xml",
+				"*.acn",
+				"*.acr",
+				"*.glg",
+				"*.glo",
+				"*.gls",
+				"*.glsdefs",
+				"*.idx",
+				"*.ilg",
+				"*.ind",
+				"*.ist",
+				"*.fdb_latexmk",
+				"*.synctex.gz",
+				"*.txss"
+			],
+			"folder_exclude_patterns": ["test"],
+			"path": "."
+		}
+	],
+	"settings":
+		{
+			"gutter": false,
+			"color_scheme": "Packages/Writing Color Scheme/Writing Color Scheme Light.tmTheme",
+
+		}
+}
