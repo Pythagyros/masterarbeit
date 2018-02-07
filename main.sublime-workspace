@@ -267,6 +267,10 @@
 			[
 				"",
 				"~/masterarbeit/masterarbeit.sublime-project"
+			],
+			[
+				"mas",
+				"~/masterarbeit/masterarbeit.sublime-project"
 			]
 		],
 		"width": 380.0

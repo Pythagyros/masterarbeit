@@ -35,13 +35,13 @@
 				"*.txss"
 			],
 			"folder_exclude_patterns": ["test"],
-			"path": "."
+			"path": "/home/philipp/masterarbeit/"
 		}
 	],
 	"settings":
 		{
 			"gutter": false,
-			"color_scheme": "Packages/Writing Color Scheme/Writing Color Scheme Light.tmTheme",
+			"color_scheme": "Packages/MarkdownEditing/MarkdownEditor.tmTheme"
 
 		}
 }
