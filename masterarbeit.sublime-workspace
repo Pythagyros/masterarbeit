@@ -165,6 +165,7 @@
 	},
 	"file_history":
 	[
+		"/home/philipp/masterarbeit/references/library.bib",
 		"/home/philipp/masterarbeit/masterarbeit.sublime-project",
 		"/home/philipp/masterarbeit/chapters/results.tex",
 		"/home/philipp/dotfiles/sublime-text-3/Packages/User/cite.sublime-macro",
@@ -178,13 +179,12 @@
 		"/home/philipp/masterarbeit/masterarbeit.sublime-workspace",
 		"/home/philipp/masterarbeit/chapters/appendix.tex",
 		"/home/philipp/.config/sublime-text-3/Packages/User/LaTeXTools.sublime-settings",
-		"/home/philipp/masterarbeit/references/library.bib",
 		"/home/philipp/masterarbeit/config.tex",
 		"/home/philipp/masterarbeit/chapters/preamble.tex"
 	],
 	"find":
 	{
-		"height": 31.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -198,6 +198,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ion exchange chromatography",
 			"path"
 		],
 		"highlight": true,
@@ -215,7 +216,7 @@
 	},
 	"incremental_find":
 	{
-		"height": 31.0
+		"height": 32.0
 	},
 	"input":
 	{
@@ -252,10 +253,14 @@
 	{
 		"height": 114.0
 	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
 	"pinned_build_system": "",
 	"replace":
 	{
-		"height": 58.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -264,6 +269,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"con",
+				"config.tex"
+			],
 			[
 				"res",
 				"chapters/results.tex"
