@@ -1,0 +1,52 @@
+% Author: Rasmus Pank Roulund
+\documentclass[options]{standalone}
+% \usepackage{tikz}
+% \usetikzlibrary{shapes,arrows}
+
+% \newcommand*{\h}{\hspace{5pt}}% for indentation
+% \newcommand*{\hh}{\h\h}% double indentation
+\begin{document}
+  % setting the typeface to sans serif and the font size to small
+  % the scope local to the environment
+  \sffamily
+  \footnotesize
+  \begin{tikzpicture}[auto,
+    %decision/.style={diamond, draw=black, thick, fill=white,
+    %text width=8em, text badly centered,
+    %inner sep=1pt, font=\sffamily\small},
+    block_center/.style ={rectangle, draw=black, thick, fill=white,
+      text width=10em, text centered,
+      minimum height=2em},
+    block_left/.style ={rectangle, draw=black, thick, fill=white,
+      text width=16em, text ragged, minimum height=4em, inner sep=6pt},
+    block_noborder/.style ={rectangle, draw=none, thick, fill=none,
+      text width=10em, text centered, minimum height=1em},
+    block_assign/.style ={rectangle, draw=black, thick, fill=white,
+      text width=18em, text ragged, minimum height=3em, inner sep=6pt},
+    block_lost/.style ={rectangle, draw=black, thick, fill=white,
+      text width=16em, text ragged, minimum height=3em, inner sep=6pt},
+      line/.style ={draw, thick, -latex', shorten >=0pt}]
+    % outlining the flowchart using the PGF/TikZ matrix funtion
+    \matrix [column sep=5mm,row sep=10mm] (m) {
+    & \node [block_center] (1) {\textbf{10 L Culture Broth}}; & \\
+    % \node [block_noborder] (15) {active against K12};\\
+    %& & \node [block_noborder] (15) {Filtrated through Pall T 1500}; \\
+    & \node [block_center] (2) {\textbf{8.5 L Filtrate}}; & \\
+    \node [block_center] (3) {\textbf{8.5 L Extract}}; &
+    \node [block_noborder] (35) {Evaporation and Lyophilization}; & 
+    \node [block_center] (4) {\textbf{8 L Reverse Extract}}; \\
+    \node [block_center] (5) {\textbf{235 g Extract}}; &
+    \node [block_noborder] (55) {Final Weight}; & 
+    \node [block_center] (6) {\textbf{91 g Reverse Extract}}; \\
+    % \node [block_noborder] (7) {inactive against \emph{B.~subtilis} and K12}; & &
+    % \node [block_noborder] (8) {active against \emph{B.~subtilis} and K12}; \\
+  };
+  \begin{scope}[every path/.style=line]
+  \path (1) -- (2);
+  \path (2) -- (3);
+  \path (2) -- (4);
+  \path (3) -- (5);
+  \path (4) -- (6);
+  \end{scope}
+  \end{tikzpicture}
+\end{document}

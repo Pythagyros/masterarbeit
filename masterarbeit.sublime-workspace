@@ -61,7 +61,7 @@
 	"command_palette":
 	{
 		"height": 400.0,
-		"last_filter": "prefe",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -149,7 +149,7 @@
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 186.0,
 		"history":
 		[
 		]
@@ -165,6 +165,8 @@
 	},
 	"file_history":
 	[
+		"/home/philipp/Documents/ags.md",
+		"/home/philipp/dotfiles/sublime-text-3/Packages/User/siunitx.sublime-snippet",
 		"/home/philipp/masterarbeit/references/library.bib",
 		"/home/philipp/masterarbeit/masterarbeit.sublime-project",
 		"/home/philipp/masterarbeit/chapters/results.tex",
@@ -184,7 +186,7 @@
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 32.0
 	},
 	"find_in_files":
 	{
@@ -198,6 +200,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"docuemnt",
+			"medium",
 			"ion exchange chromatography",
 			"path"
 		],
@@ -270,8 +274,24 @@
 		"selected_items":
 		[
 			[
+				"appen",
+				"chapters/appendix.tex"
+			],
+			[
+				"work",
+				"workflow.tex"
+			],
+			[
+				"wok",
+				"workflow.tex"
+			],
+			[
 				"con",
 				"config.tex"
+			],
+			[
+				"main",
+				"main.tex"
 			],
 			[
 				"res",
