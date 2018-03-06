@@ -165,6 +165,10 @@
 	},
 	"file_history":
 	[
+		"/media/philipp/Transcend/Masterarbeit_2017/md_notes/taxonomy_notes.md",
+		"/home/philipp/dotfiles/sublime-text-3/Packages/User/standardtable.sublime-snippet",
+		"/home/philipp/.config/sublime-text-3/Packages/User/standardfigure.sublime-snippet",
+		"/home/philipp/dotfiles/sublime-text-3/Packages/User/standardfigure.sublime-snippet",
 		"/home/philipp/Documents/python_projects/rdkit_stuff/streptomedb.sdf",
 		"/home/philipp/dotfiles/sublime-text-3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
 		"/home/philipp/Documents/references/My Library.bib",
@@ -203,6 +207,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"{}",
 			" \n",
 			"at pH~2",
 			"centi",
@@ -281,16 +286,20 @@
 		"selected_items":
 		[
 			[
-				"me",
-				"chapters/methods.tex"
+				"main",
+				"main.tex"
 			],
 			[
 				"res",
 				"chapters/results.tex"
 			],
 			[
-				"main",
-				"main.tex"
+				"int",
+				"chapters/introduction.tex"
+			],
+			[
+				"me",
+				"chapters/methods.tex"
 			],
 			[
 				"resu",

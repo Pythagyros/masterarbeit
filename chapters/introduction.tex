@@ -9,6 +9,9 @@
 \section{Hydrophilic Antibiotics} % (fold)
 \label{sec:hydrophilic_antibiotics}
 
+A common molecular parameter to determine hydrophilicity is $\log P$, the logarithm of the partition coefficent between octanol and water\autocite{Leo1971}.
+Since accurate solubility prediction is of great importance in drug design, numerous methods have been implemented to calculate $\log P$ from chemical structures.\autocite{Eros2002,VandeWaterbeemd1996,Mannhold2009}
+
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.7\textwidth]{dist.png}
@@ -17,7 +20,7 @@
 		The molecular partition coefficient (logP) was calculated for 3985 entries in the StreptomeDB 2.0 secondary metabolite database\autocite{Klementz2016} using the descriptor methods implemented in the RDKit cheminformatics suite\autocite{Wildman1999}.
 		74.6~\%  of compounds are predicted to have logP value above zero and 25.6~\% equal zero or below.
 	}
-	\label{fig:}
+	\label{fig:logp_dist}
 \end{figure}
 
 % section hydrophilic_antibiotics (end)
