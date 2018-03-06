@@ -428,8 +428,40 @@ A summary of the results is shown in .
 \section{Bioinformatic Analysis} % (fold)
 \label{sec:species_antismash}
 
+The genome of \tue{} was fully sequenced and obtained in five contigs.
+It encompasses 8,139,204 base pairs with a GC content of 71.4~\%.
+4627 open-reading frames were identified by automatic annotation.
+A brief summary of each contig is shown in Table~\ref{tab:contig_summary}.
+
+\begin{table}[htbp]
+\caption[Contig summary of the sequenced \tue{} genome]{%
+    \textbf{Contig summary of the sequenced \tue{} genome}.
+    Base pair count, automatically identified open-reading frames (ORFs) and GC-content is listed for each contig sorted by size.
+    Total values were calculated from the summary of individual records.
+}
+\label{tab:contig_summary}
+\centering
+\begin{tabular}{SSSS}
+    \toprule
+    \textbf{Contig} & \textbf{Base pairs} & \textbf{ORFs} & \textbf{GC-content [\%]} \\
+    \midrule
+    1	& 3481134	& 3221	& 71.6	\\
+    2	& 2271151	& 2062	& 71.7	\\
+    3 	& 2103347	& 1953	& 71.2	\\
+    4 	& 159117	& 135	& 69.1 	\\
+    5 	& 124275	& 145	& 70.6	\\
+    \midrule
+    Total 	& 8139204	& 4627	& 71.4	\\
+    \bottomrule
+\end{tabular}
+\end{table}
+
+Analysis of the whole-genome sequence might lead to valuable insights into the phylogeny of the strain and its potential for secondary metabolite production.
+
 \subsection{Phylogeny of Strain Tü2401} % (fold)
 \label{sub:phylogeny_of_strain_tue2401}
+
+
 
 \begin{figure}[htbp]
 	\includegraphics[width=\textwidth]{tu2401_tree}
@@ -506,12 +538,39 @@ Isolation of a new endiyne compound could  hold a strong promise for the discove
 \section{Fermentation of \tue{}} % (fold)
 \label{sec:fermentation_of_tue}
 
+During the course of the thesis, \tue{} has been cultivated in 50--500~ml shake flasks without baffles.
+Culture volumes from 10 to 100~ml could be reached with this approach, leading to roughly 21~mg/ml biomass and 2~mg/ml reverse extract (see Section XXX).
+This yields of about 200~mg reverse extract per 500~ml flask, of which the content of antibiotic could be very small.
+Great amounts of extract, which are necessary for further purification and structure elucidation, are very labor intensive to achieve this way.
+This problem could be solved by cultivating of \tue{} at a greater scale, providing a larger amount of biomass in a labor-efficient manner.
+Additionally, fermentation would further investigate the growth conditions, under which the active antibiotic is produced.
+These can vary heavily between shake flasks and stirred bioreactors, especially in regard to oxygen levels and perturbation.\autocite{Buchs2001}
+
+The strain was fermented in OM medium at a \SI{10}{\liter} scale in a continuous stirred tank bioreactor.
+The temperature was kept at \SI{27}{\celsius} with \SI{5}{\liter\per\minute} of airflow.
+Samples were drawn every \SI{24}{\hour} and the culture broth supernatant subjected to the standard antibiotic assay against \coli{}.
+The pH only decreased marginally throughout fermentation, decreasing from the initial 6.4 to the final 6.0.
+After \SI{125}{\hour} the peak diameter of inhibition zone on agar plates had been observed and the culture was harvested.
+Cells and insoluble matter were removed by filtration, followed by extraction with ethyl acetate.
+Both phases were collected and concentrated by evaporation and lyophilization.
+The processing steps and final yields are shown in Figure~\ref{fig:ferm_process}.
+The filtrate and extraction phases were subjected to the antibiotic assay against \coli{} and \bac{}.
+Both the filtrate and aqueous phase were active against \emph{E. coli} and \emph{B. subtilis} with inhibition zones comparable to samples from shake flasks.
+The organic phase was inactive.
+
+The experiment demonstrated, that \tue{} is not only able to be cultivated in stirred bioreactors at a \SI{10}{\liter} scale, but is also able to synthesize the hydrophilic antibiotic under these conditions.
+This enables larger cultivation scales to obtain greater amounts of the active compound for purification and structure determination.
+When combined with sufficient quantization methods for the active compound, further optimization of culture conditions can be performed to maximize yields.
+The filtrate and extracts still need to be subjected to the \emph{yorB}-assay to determine, wether the putative DNA-binding compound is synthesized in this setup.
+
+
 \begin{figure}[htbp]
 \centering
 \input{images/workflow}
 \caption[Yield Diagram of \tue{} Fermentation]{%
 	\textbf{Yield Diagram of \tue{} Fermentation.}\\
 	Volumes of each processing step and final dry mass yields after fermentation of \tue{} in a \SI{10}{\liter} stirred bioreactor.}
+\label{fig:ferm_process}
 \end{figure}
 
 % section fermentation_of_tue (end)
