@@ -295,12 +295,12 @@ A classic method for separation of sugars is thin-layer chromatography (TLC).
 \subsection{Induction of the \textit{yorB} Reporter System} % (fold)
 \label{sub:induction_of_the_yorb_reporter_system}
 
-Tü2401 displayed positive results with the \textit{yorB} reporter system when grown on ISP2 plates.
-The \textit{yorB} gene has been observed to be upregulated in \textit{Bacillus subtilis} when the strain was treated with quinolones.\autocite{Hutter2004a}
+Preliminary screening of \emph{Streptomyces} strains on agar plates revealed strain Tü2401 to possess antibiotic activity against \emph{Bacillus subtilis} \emph{Escherichia coli} strains.
+Mode-of-action screening with the specialized \textit{Bacillus subtilis}~1S34~pHJS105-yorB-lacZ2 strain showed, that compounds produced by Tü2401 are also able to induce the \emph{yorB} reporter system.
+The \textit{yorB} gene has been observed to be upregulated in \textit{Bacillus subtilis} when cells were treated with quinolones.\autocite{Hutter2004a}
 Construction of a luciferase reporter system led to the hypothesis, that induction is due to DNA damage caused by inhibition of the Topoisomerase~II alpha subunit.\autocite{Hutter2004}
 Further characterization with greater natural product libraries strengthened this theory.\autocite{Mariner2011,Urban2007}
-\textit{yorB} induction was achieved by a variety of compounds, which damage DNA directly or interfere with its replication.
-They are listed in Table~\ref{tab:results_yorb_inducers}.
+Table~\ref{tab:results_yorb_inducers} gives an overview of tested \textit{yorB}-inducing compounds, which either damage DNA directly or interfere with replication.
 Most of the inductors are produced by \textit{Streptomyces} species, indicating an overarching potential of this family to produce DNA damaging substances.
 
 \begin{figure}[htbp]
@@ -326,7 +326,7 @@ Most of the inductors are produced by \textit{Streptomyces} species, indicating 
 		\toprule
 		\textbf{Name} & \textbf{Mode of Action}&  \textbf{Organism} & \textbf{PubChem ID} \\
 		\midrule
-		8-Hydroxoquinolone	& RNA polymerase inhibition	& &  \\
+		8-Hydroxyquinoline	& RNA polymerase inhibition	& \textit{Centaurea diffusa} &  \\
 		Juglone	& RNA polymerase inhibition	& \textit{Carya illinonensis}	& 3806	\\
 		Novobiocin	& DNA gyrase inhibition	& \textit{S. niveus}	& 54675769	\\
 		Alternariol monomethylether	& DNA strand breaking	& \textit{Alternaria} sp.	& 5360741	\\
@@ -432,6 +432,7 @@ The genome of \tue{} was fully sequenced and obtained in five contigs.
 It encompasses 8,139,204 base pairs with a GC content of 71.4~\%.
 4627 open-reading frames were identified by automatic annotation.
 A brief summary of each contig is shown in Table~\ref{tab:contig_summary}.
+Analysis of the whole-genome sequence might lead to valuable insights into the phylogeny of the strain and its potential for secondary metabolite production.
 
 \begin{table}[htbp]
 \caption[Contig summary of the sequenced \tue{} genome]{%
@@ -456,18 +457,14 @@ A brief summary of each contig is shown in Table~\ref{tab:contig_summary}.
 \end{tabular}
 \end{table}
 
-Analysis of the whole-genome sequence might lead to valuable insights into the phylogeny of the strain and its potential for secondary metabolite production.
 
 \subsection{Phylogeny of Strain Tü2401} % (fold)
 \label{sub:phylogeny_of_strain_tue2401}
 
-50 single-copy household genes were identified in the Tü2401 genome and 50 reference genomes of fully sequenced \emph{Streptomyces} strains.
+Basic local-alignment search tool (BLAST) queries for the 16S-rRNA sequence of strain Tü2401 against the NCBI database revealed a variety of \emph{Streptomyces} sequences with very high (>99~\%) identity.
+16S-sequence identity confirms the strain as a member of the genus \emph{Streptomyces}, but is insufficient to define the species.
+To achieve this, 50 single-copy household genes were identified in the Tü2401 genome and 50 reference genomes of fully sequenced \emph{Streptomyces} strains.
 The multiple sequence alignment of these genes was used to construct the  maximum-likelihood tree shown in Figure~\ref{fig:phylo_tree}.
-
-The closest relative to Tü2401 is \emph{Streptomyces~mediolani}~NBRC15427.
-The first members of this species were isolated 1969 in Milan and investigated for carotenoid production.\autocite{Arcamone1969,Bianchi1970}
-Publications in regard to secondary metabolites are sparse.
-(--)-8-\emph{O}-methyltetrangomycin is mentioned to be synthesized by strain AC37; an angucycline with antibiotic activity against \emph{Listeria~monocytogenes} and cytotoxic properties.\autocite{Maruna2010,Jimenez2012}
 
 \begin{figure}[htbp]
 	\includegraphics[width=\textwidth]{tu2401_tree}
@@ -479,6 +476,14 @@ Publications in regard to secondary metabolites are sparse.
 		Dark triangles represented hidden, collapsed nodes.}
 	\label{fig:phylo_tree}
 \end{figure}
+
+The closest relative to Tü2401 is \emph{Streptomyces~mediolani}~NBRC15427.
+The first members of this species were isolated 1969 in Milan and investigated for carotenoid production.\autocite{Arcamone1969,Bianchi1970}
+Publications in regard to secondary metabolites are sparse.
+(--)-8-\emph{O}-methyltetrangomycin is mentioned to be synthesized by strain AC37; an angucycline with antibiotic activity against \emph{Listeria~monocytogenes} and cytotoxic properties.\autocite{Maruna2010,Jimenez2012}
+AntiSMASH analysis of strain Tü2401(see Section~\ref{sub:antismash_cluster_identification}) did not indicate the presence of angucycline biosynthetic gene clusters.
+
+The multiple sequence alignment and tree construction establish the strain Tü2401 as a member of the genus \emph{Streptomyces} and a close relative of \emph{S.~mediolani}~NBRC15427.
 
 % subsection phylogeny_of_strain_tü2401 (end)
 

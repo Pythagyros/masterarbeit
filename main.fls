@@ -562,6 +562,8 @@ INPUT /home/philipp/texmf/fonts/vf/public/mathdesign/mdbch/mdbchr7t.vf
 INPUT /home/philipp/texmf/fonts/tfm/public/mathdesign/mdbch/md-chr7t.tfm
 INPUT /home/philipp/texmf/fonts/vf/public/mathdesign/mdbch/mdbchri7m.vf
 INPUT /home/philipp/texmf/fonts/tfm/public/mathdesign/mdbch/md-chri7m.tfm
+INPUT /home/philipp/texmf/fonts/vf/public/mathdesign/mdbch/mdbchr7y.vf
+INPUT /home/philipp/texmf/fonts/tfm/public/mathdesign/mdbch/md-chr7y.tfm
 INPUT /home/philipp/texmf/fonts/vf/public/mathdesign/mdbch/mdbchb8t.vf
 INPUT /home/philipp/texmf/fonts/tfm/public/mathdesign/mdbch/md-chb8y.tfm
 INPUT /home/philipp/texmf/fonts/tfm/public/mathdesign/mdbch/md-chb8t.tfm
@@ -619,8 +621,6 @@ INPUT /home/philipp/texmf/fonts/tfm/public/mathdesign/mdbch/mdbchrma.tfm
 INPUT /home/philipp/texmf/fonts/tfm/public/mathdesign/mdbch/mdbchrmb.tfm
 INPUT /home/philipp/texmf/fonts/tfm/public/mathdesign/mdbch/mdbchr8t.tfm
 INPUT /home/philipp/texmf/fonts/tfm/public/mathdesign/mdbch/mdbchr8c.tfm
-INPUT /home/philipp/texmf/fonts/vf/public/mathdesign/mdbch/mdbchr7y.vf
-INPUT /home/philipp/texmf/fonts/tfm/public/mathdesign/mdbch/md-chr7y.tfm
 INPUT /home/philipp/texmf/fonts/vf/public/mathdesign/mdbch/mdbchr7y.vf
 INPUT /home/philipp/texmf/fonts/tfm/public/mathdesign/mdbch/md-chr7y.tfm
 INPUT /home/philipp/texlive/2017/texmf-dist/fonts/tfm/public/lm/ec-lmssbo10.tfm
