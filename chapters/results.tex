@@ -7,22 +7,19 @@
 \label{sec:determination_of_extraction_conditions}
 
 The strain Tü2401 was grown in seven different complex media for either four or seven days during preliminary experiments.
-Culture broth supernatants of the NL~200, NL~300, NL~500 and OM displayed antibiotic activity against \coli  on plate assays.
+Culture broth supernatants of NL~200, NL~300, NL~500 and OM media displayed antibiotic activity against \coli  on plate assays.
 A comparison between the viable production media and cultivation times is necessary to determine the optimal production medium for the following experiments.
 
 Initial HPLC procedures failed to separate the active compound with standard reverse-phase screening methods. The compound displayed no retention on C-18 columns with acetonitrile/water gradients, making it likely to possess strong hydrophilic properties.
-Additionally, the compound was not able to be extracted from the culture broth with ethyl acetate. Its high solubility in water requires the development of an adapted extraction procedure to aid the purification process.
+Additionally, the compound was not able to be extracted from the culture broth or biomass via ethyl acetate.
+Its high solubility in water requires the development of an adapted extraction procedure to aid the purification process.
 
 \subsection{Comparison of Production Media} % (fold)
 \label{sub:comparison_of_production_media}
 
-To determine the optimal production medium, Tü2401 was grown in each of the NL and OM media for either four or seven days.
-During preliminary testing, the strain Tü2401 was cultivated in seven different complex media.
-Four of the resulting culture broth supernatants displayed antibiotic activity against the test strain \coli.
-The obtained culture broth supernatants were filtrated by using \SI{0.45}{\micro\meter} and \SI{0.2}{\micro\meter} consecutively.
-OM supernatant proved to be the easiest to filtrate, whereas the others clogged the filters after a few milli liters.
-Each filtrate was subjected to the standard bioassay against \textit{Escherichia coli}~K12 to determine the antibiotic activity.
-Pictures of the assay results are displayed in Figure~\ref{fig:medium_activity}.
+To determine the optimal production medium, Tü2401 was grown in each of the media for either four or seven days, in which the strain previously proved to be active.
+The culture broth supernatants obtained were filtrated and subjected to the bioassay against \coli{}.
+The assay results are displayed in Figure~\ref{fig:medium_activity}.
 
 \begin{figure}[htbp]
 	\centering
@@ -42,35 +39,54 @@ Pictures of the assay results are displayed in Figure~\ref{fig:medium_activity}.
 \end{figure}
 
 Most samples caused notable ($\varnothing>$\SI{1}{\centi\meter}) zones of inhibition in the agar diffusion assay.
-NL~500 after seven days and OM in both cases possess the greatest activity with inhibition zones greater than \SI{1.5}{\centi\meter}.
-When cultivated in NL~300, Tü2401 seems to take longer than four days to produce an amount of visible bioactivity.
+NL~500 after seven days and OM in both cases produced the largest inhibition zones ($\varnothing > \SI{1.5}{\centi\meter}$).
+Supernatant of NL~300 only produced inhibition zones after seven days of incubation.
+OM medium produced the largest inhibition zone after only four days of cultivation and, thus, seems best suited to production of the hydrophilic compound.
+NL~300 and 500 achieved maximum inhibition only after seven days, whereas NL~200 produced smaller inhibition zones in general.
+
 NL~500 and OM supernatants were separated via an Agilent~1200 HPLC system equipped with a diode array detector (DAD) and evaporative light scattering detector (ELSD).
-A C18 column was used in combination with a 4.5~\% to 100~ \% acetonitril screening gradient (see Table~\ref{tab:method_c18_screening}). The chromatograms are shown in Figure 
+A C18 column was used in combination with a 4.5~\% to 100~ \% acetonitril screening gradient (see Table~\ref{tab:method_c18_screening}).
+The chromatograms are shown in Figure~\ref{fig:results_medium_screen}.
+
+% \begin{figure}[htbp]
+% 	\centering
+% 	\begin{subfigure}{0.8\textwidth}
+% 		\includegraphics[width=\linewidth]{media_sup_500}
+% 		\caption{NL 500 medium supernatant}
+% 	\end{subfigure}
+% 	\begin{subfigure}{0.8\textwidth}
+% 		\includegraphics[width=\linewidth]{media_sup_om}
+% 		\caption{OM medium supernatant}
+% 	\end{subfigure}
+% 	\caption[Chromatogram of medium supernatant screening]{%
+% 		\textbf{Chromatogram of medium supernatant screening.} \SI{5}{\micro\liter} of culture broth supernatant were injected and separated on a C18 column using a screening gradient of 4.5 to 100~\% acetonitril. 
+% 		UV absorption and ELSD voltage were measured.
+% 	}
+% 	\label{fig:results_medium_screen}
+% \end{figure}
 
 \begin{figure}[htbp]
 	\centering
-	\begin{subfigure}{0.8\textwidth}
-		\includegraphics[width=\linewidth]{media_sup_500}
-		\caption{NL 500 medium supernatant}
-	\end{subfigure}
-	\begin{subfigure}{0.8\textwidth}
+	% \begin{subfigure}{0.8\textwidth}
+	% 	\includegraphics[width=\linewidth]{media_sup_500}
+	% 	\caption{NL 500 medium supernatant}
+	% \end{subfigure}
+	% \begin{subfigure}{0.8\textwidth}
 		\includegraphics[width=\linewidth]{media_sup_om}
-		\caption{OM medium supernatant}
-	\end{subfigure}
-	\caption[Chromatogram of medium supernatant screening]{%
-		\textbf{Chromatogram of medium supernatant screening.} \SI{5}{\micro\liter} of culture broth supernatant were injected and separated on a C18 column.
-		A screening gradient of 4.5 to 100~\% acetonitril was employed. 
-		UV absorption and ELSD voltage were measured.
+		% \caption{OM medium supernatant}
+	% \end{subfigure}
+	\caption[Chromatogram of OM medium supernatant screening]{%
+		\textbf{Chromatogram of OM medium supernatant screening.} \SI{5}{\micro\liter} of culture broth supernatant were injected and separated on a C18 column using a screening gradient of 4.5 to 100~\% acetonitril. 
+		UV absorption was measured at 210, 230, 260, 280, 310, 360, 435 and 500~nm.
+		ELSD voltage was captured downstream of the UV detector.
 	}
 	\label{fig:results_medium_screen}
 \end{figure}
 
-The screening chromatograms show, that most compounds in the culture broth supernatants are rather hydrophilic.
-No UV absorption or ELSD voltage peaks can be observed after \SI{7}{\minute}.
-In the case of OM, only the injection peak is present.
-The OM supernatant seems to predominantly contain compounds, that can not be separated with a reverse-phase screening gradient on a C18~column.
-Since the antibiotic compound of interest showed no retention under similar conditions, the use of OM as a production medium would result in fewer impurities in the hydrophobic spectrum.
-Combined with the visible antibacterial activity of the supernatant against \textit{E. coli}~K12 after only four days and the ease of preparation and filtration, OM was chosen as the default production medium for further experiments.
+The screening chromatogram shows, that almost no UV- and ELSD-visible compounds in the OM broth supernatant were retained on the column.
+The OM supernatant seems to predominantly contain polar, water-soluble compounds with very low affinity to the C-18 phase of the column.
+Since the antibiotic compound of interest also displayed no retention under similar conditions, the use of OM as a production medium would result in fewer impurities in the hydrophobic spectrum.
+The visible antibacterial activity of the supernatant against \textit{E. coli}~K12 after only four days and the low amount of hydrophobic impurities led to the choice of OMas the default production medium for further experiments.
 
 \subsection{Extraction experiments}
 \label{sub:extraction_experiments}
@@ -278,17 +294,46 @@ A classic method for separation of sugars is thin-layer chromatography (TLC).
 
 % section dereplication (end)
 
-\section{Antibacterial Activity Spectrum} % (fold)
-\label{sec:antibacterial_activity_spectrum}
+\section{Activity Spectrum} % (fold)
+\label{sec:activity_spectrum}
 
 
-\subsection{Activity against \textit{Escherichia coli} K12} % (fold)
-\label{sub:activity_against_e_coli}
+\subsection{Antibiotic Activity} % (fold)
+\label{sub:antibiotic_activity}
 
-% subsection activity_against_e_coli (end)
+\coli{} served as the primary test strain for the assessment of antibiotic activity via agar-diffusion bioassays.
+Culture broth supernatant and aqueous extraction phases of Tü2401 were perpetually tested positive in these assays.
+Additionaly, culture broth supernatant also proved to be similarly active against multiresistant strains, namely \emph{E. coli}~5309 
 
-\subsection{Activity against \textit{Bacillus subtilis} 168} % (fold)
-\label{sub:activity_against_b_subtilis}
+\begin{table}[htbp]
+\caption[Multiresistant \emph{Escherichia coli} strains used in bioassays for antibiotic activity.]{%
+	\textbf{Multiresistant \emph{Escherichia coli} strains used in bioassays for antibiotic activity.}.
+    Resistance against the given antibiotic is indicated by an x.
+    Legend:
+    \emph{amp} Ampicillin,
+    \emph{cam} Cloramphenicol,
+    \emph{nal} Nalidixic acid,
+    \emph{neo} Neomycin,
+    \emph{rif} Rifampicin,
+    \emph{spec} Spectinomycin,
+    \emph{strep} Streptomycin,
+    \emph{tet} Tetracyclin
+}
+\label{tab:resistant_colis}
+\centering
+\begin{tabularx}{\textwidth}{XXXXXXXXX}
+    \toprule
+    Strain 	& amp 	& cam 	& nal 	& neo 	& rif 	& spec 	& strep 	& tet 	\\
+    \midrule
+    JF438 	&		&		& x		&		& x		& 		&			&		\\
+    H5309	& x		& 		&		& x		&		&		& x			& x		\\
+    H5313 	& x		&		&		&		&		& x		& x			&  		\\
+    H5434 	& 		& x		& 		&		&		& x		&			& x 	\\
+    \bottomrule
+\end{tabularx}
+\end{table}
+
+% subsection antibiotic_activity (end)
 
 % subsection activity_against_b_subtilis (end)
 
@@ -317,29 +362,29 @@ Most of the inductors are produced by \textit{Streptomyces} species, indicating 
 	\caption[Known inducers of the \textit{yorB} reporter system]{%
 		\textbf{Known inducers of the \textit{yorB} reporter system.}
     	Substances with known modes of action identified as inductors of the \textit{yorB} reporter system in \textit{Bacillus subtilis}.\autocite{Mariner2011,Urban2007}
-    	Producing organisms are examples featured in the PubChem database and not exclusive.
+    	Examples of origin are taken from the Pubchem database.
     	\textit{Streptomyces} species names were abbreviated.
 	}
 	\label{tab:results_yorb_inducers}
 	\centering
 	\begin{tabularx}{\textwidth}{>{\hsize=.3\hsize}X>{\hsize=.3\hsize}X>{\hsize=.27\hsize}X>{\hsize=.18\hsize}r}
 		\toprule
-		\textbf{Name} & \textbf{Mode of Action}&  \textbf{Organism} & \textbf{PubChem ID} \\
+		\textbf{Mode of Action} & \textbf{Name}&  \textbf{Origin} & \textbf{PubChem ID} \\
 		\midrule
-		8-Hydroxyquinoline	& RNA polymerase inhibition	& \textit{Centaurea diffusa} &  \\
-		Juglone	& RNA polymerase inhibition	& \textit{Carya illinonensis}	& 3806	\\
-		Novobiocin	& DNA gyrase inhibition	& \textit{S. niveus}	& 54675769	\\
-		Alternariol monomethylether	& DNA strand breaking	& \textit{Alternaria} sp.	& 5360741	\\
-		Bleomycin	& DNA strand breaking	& \textit{S. verticillus}	& 5360373	\\
-		Myxin	& DNA strand breaking	& Fungi	& 72510	\\
-		Phleomycin	& DNA strand breaking	& \textit{S. verticillus}	& 72511	\\
-		Streptonigrin	& DNA strand breaking	& \textit{S. flocculus}	& 5351165	\\
-		Chromomycin	& DNA intercalator	& \textit{S. griseus}	& 5351560	\\
-		Daunorubicin	& DNA intercalator	& \textit{S. peucetius}	& 30323	\\
-		Doxorubicin	& DNA intercalator	& \textit{S. peucetius}	& 31703	\\
-		Anthramycin	& DNA binding	& \textit{S. refuineus}	& 5311005	\\
-		Desmethylether-sibiromycin	& DNA binding	& \textit{Streptomyces} spp.	& 6437361	\\
-		Porfiromycin	& DNA crosslinking	& \textit{S. ardus}	& 13116	\\
+		RNA polymerase inhibition & 8-Hydroxyquinoline	& Synthetic & 1923 \\
+		& Juglone	& \textit{Carya illinonensis}	& 3806	\\
+		DNA gyrase inhibition & Novobiocin	&  \textit{S. niveus}	& 54675769	\\
+		DNA strand breaking & Alternariol monomethylether 	& \textit{Alternaria} sp.	& 5360741	\\
+		& Bleomycin	& \textit{S. verticillus}	& 5360373	\\
+		& Myxin	& \emph{Sorangium} sp.& 72510	\\
+		& Phleomycin	& \textit{S. verticillus}	& 72511	\\
+		& Streptonigrin	& \textit{S. flocculus}	& 5351165	\\
+		DNA intercalation & Chromomycin	& \textit{S. griseus}	& 5351560	\\
+		& Daunorubicin	& \textit{S. peucetius}	& 30323	\\
+		& Doxorubicin	& \textit{S. peucetius}	& 31703	\\
+		DNA binding & Anthramycin & \textit{S. refuineus}	& 5311005	\\
+		& Desmethylether-sibiromycin & \textit{Streptomyces} spp.	& 6437361	\\
+		DNA crosslinking & Porfiromycin	& \textit{S. ardus}	& 13116	\\
 		\bottomrule
 	\end{tabularx}
 \end{table}
