@@ -84,23 +84,28 @@ The chromatograms are shown in Figure~\ref{fig:results_medium_screen}.
 \end{figure}
 
 The screening chromatogram shows, that almost no UV- and ELSD-visible compounds in the OM broth supernatant were retained on the column.
-The OM supernatant seems to predominantly contain polar, water-soluble compounds with very low affinity to the C-18 phase of the column.
+The OM supernatant seems to predominantly contain polar, water-soluble compounds with very low affinity to the C-18 solid phase.
 Since the antibiotic compound of interest also displayed no retention under similar conditions, the use of OM as a production medium would result in fewer impurities in the hydrophobic spectrum.
 The visible antibacterial activity of the supernatant against \textit{E. coli}~K12 after only four days and the low amount of hydrophobic impurities led to the choice of OMas the default production medium for further experiments.
 
 \subsection{Extraction experiments}
 \label{sub:extraction_experiments}
 
-Three organic solvents, which are immiscible with water, were tested for extraction of the antibiotic compound:
-Ethyl acetate, methyl acetate and ethyl formate.
-Additionally, the supernatant was adjusted to five different pH~values ranging from 2 to 11.
-A hydrophilic molecule is likely to contain functional groups like amines or carboxylic acids, which are charged at certain pH-ranges. If the compound does too, the point of zero charge could passed by pH adjustment.
-Through reduced charge, the water-solubility could be lowered, enabling the extraction with an organic solvent.
+One of the first steps in natural product isolation is usually the extraction via organic solvents to remove compounds of interest from a cellular matrix and enrich them in the solvent-phase.\autocite{Dragull2012,Sticher2008}
+In the case of strain Tü2401, the culture broth supernatant is antibiotically active, whereas the biomass and extracts thereof are not.
+The compound therefore seems to be readily excreted to the medium, eliminating the need to separate it from cellular matter.
+However, and extraction process might still aid purification by removing hydrophilic contaminants such as salts easing further isolation steps such as HPLC.
 
-OM culture broth supernatant was divided into three groups of five aliquots.
-The pH of each aliquot was adjusted to either 2, 5, 7, 9 or 11. 
-Each group was then extracted with either ethyl acetate, methyl acetate or ethyl formate. 
-Both phases were separated and tested for bioactivity against \coli{} via agar-diffusion assay.
+A hydrophilic molecule is likely to contain functional groups like amines or carboxylic acids, which are charged at certain pH-ranges.
+Adjusting the medium pH to reach the compounds point of zero charge could lower its water-solubility and, thus, enable extraction with an organic solvent.
+Additionally, solvents with higher polarity while still being immiscible with water could be applied.
+
+OM medium supernatant was split into three sets of five aliquots each.
+Each aliquot was adjusted to either pH 2, 5, 7, 9 or 11.
+Each set was extracted with one following solvents (listed by descending polarity $E_T (30)$):\autocite{Marcus1993}
+Ethyl acetate, Methyl acetate and Ethyl formate.
+Organic and aqueous phases were separated and tested for bioactivity against \coli{} via agar-diffusion assay.
+The assay results are shown in Figure~\ref{fig:results_extraction_bioassay}.
 
 \begin{figure}[htbp]
 	\centering
@@ -121,32 +126,34 @@ Both phases were separated and tested for bioactivity against \coli{} via agar-d
 		\caption{Ethyl formate}
 	\end{subfigure}
 	\caption[Bioassay results of different OM culture broth extracts against \coli]{%
-		\textbf{Bioassay results of different OM culture broth extracts against \coli{}.} Filtered supernatant of OM cultures of \tue were extracted with either (a) ethyl acetate, (b) methyl acetate or (c) ethyl formate.
-    	Sample-pH was adjusted prior to either 2, 5, 7, 9 or 11 (left to right).
-    	Both phases were tested seperately.
-    	Upper row consists of \SI{50}{\micro\liter} aqueous phase pipetted directly into wells.
-    	Lower row consists of \SI{50}{\micro\liter} organic phase pipetted onto a sterile filter plate and placed on the agar.}
+		\textbf{Bioassay results of different OM culture broth extracts against \coli{}.}
+		Filtered supernatant of OM cultures of \tue were extracted with either (a) ethyl acetate, (b) methyl acetate or (c) ethyl formate.
+    	Sample-pH was adjusted prior to (from left to right) 2, 5, 7, 9 or 11.
+    	\SI{50}{\micro\liter} of each phase subjected to agar-diffusion bioactivity assay against \coli{}.
+    	Aqueous phases were pipetted directly into the wells in the upper row.
+    	Organic phases were applied to sterile filter discs and placed on the bottom row.
+    }
 	\label{fig:results_extraction_bioassay}
 \end{figure}
 
-The results of the diffusion-assay show, that the organic phases do not contain any antibiotic activity, regardless of the solvent or pH.
-All aqueous phases, however, produce an inhibition zone of about \SI{1.6}{\centi\meter}, equal to the unextracted supernatant.
-The antibiotic compound could therefore not be extracted with either ethyl acetate, methyl acetate or ethyl formate.
-It may contain a high amount of polar but uncharged groups or be zwitterionic, ensuring similar hydrophilicity over a wide pH range.
-If the structure does possess a point of zero charge, its pH range may be too small to have been reached with the broad steps used.
+Neither of the organic phases produced any inhibition zone, whereas all aqueous phases prodcued inhibition zones of similar size ($\varnothing > \SI{1.5}{\centi\meter}$).
+The antibiotic compound could not be extracted with either ethyl acetate, methyl acetate or ethyl formate regardless of supernatant pH.
+This could be due to a high amount of polar but uncharged groups or the compound being zwitterionic.
+This would result in similar hydrophilicity over a wide pH range despite carrying no charge.
+However, the compound could possess a point of lowered water-solubility, but with a very narrow pH range or at an extreme point.
+The broad pH steps in the range of 2--14 covered in this experiment may have not hit this point.
 A repetition of the experiment with pH steps of 1 or 0.5 and a wider range of 1 to 14 could be applied to further explore the existence of a zero-charge point, that enables organic extraction.
 
-The similar size of inhibition zones across all tested pH values also implies a resistance to degradation of the active compound over the range of 2--11.
+The similar size of inhibition zones across all tested pH values also implies a resistance to pH-dependent degradation of the active compound over the range of 2--11.
 A notable trait of all inhibition zones caused by either pure broth supernatant or aqueous extraction phases is the the presence of resistant colonies within.
 Since they grow seemingly random across the whole zone surface and not just the edges, concentration dependent resistance can be ruled out.
 It is more likely, that a resistant subpopulation of \coli{} is present in the glycerol stocks used to inoculate the test strain.
 The resistant subpopulation and the nonresistant strain must contain differences in antibiotic resistance genes.
 Genome sequencing of both strains with subsequent comparison of resistance genes could test this hypothesis and lead to valuable insights to the mode of action.
-From there on, the class of responsible compound classes could be narrowed down, enabling the development of more specialized isolation procedures.
+From there on, classes of responsible compounds could be narrowed down and enable the development of more specialized isolation procedures.
 
-
-% either zwitterionic -> pH ranges too large many polar, but uncharged groups Chromatogramme von beiden Fraktionen
-% Wieviel konnte durch ausschütteln entfernt werden?
+Even though neither pH adjustment or change of solvent enabled extraction of the hydrophilic antibiotic, impurities in the hydrophobic spectrum are still removed by discarding the organic phase.
+Following samples of OM culture broth supernatant were preprocessed by performing a reverse extraction with Methyl acetate, thus keeping the aqueous phase.
 
 % section determination_of_extraction_conditions (end)
 
@@ -207,8 +214,8 @@ With both
 \subsection{Ion Exchange Chromatography} % (fold)
 \label{sub:results_ion_exchange_chromatography}
 
-Water-soluble compounds contain polar functional groups, some of which, at certain pH ranges, can even be charged.
-A \pka value comparison of natural products in the Antibase2008 database revealed, that the majority of entries might be charged at pH~2--11.\autocite{Mansson2010}
+Water-soluble compounds contain polar functional groups, which in some cases can be protonated or deprotonated depending on the solvent pH.
+A comparison of acid disassociation constants (\pka{}) of natural products in the Antibase2008 database revealed, that the majority of entries are likely to carry a charge at pH~2--11.\autocite{Mansson2010}
 44~\% of compounds contained an acidic functionality, 17~\% a basic one, and 9~\% both.
 The high prevalence of charged groups in natural products combined with the
 hydrophilic nature of the antibiotic compound make the presence of basic or
@@ -221,44 +228,43 @@ Since the charge of natural products largely depends on pH and \pka, the choice 
 to be tailored to each experiment.
 Through optimised conditions for stationary and mobile phase, selective ``catch and release'' purification methods can be designed.
 
-IEC has a wide range of applications. It is used in wastewater treatment, hydrometallurgy and chromatography.\autocite{Alexandratos2009}
-Biological macromolecules such as nucleic acids, carbohydrates and proteins are also readily separated with this method.\autocite{Dragull2012,Lee1996,Kenney1992}
-It is also applicable for ionizable small molecules and can aid in their purification from complex sources.\autocite{Dragull2012,Hoffmann2009a,Katavic2007}
+IEC has a wide range of applications.
+It is used in wastewater treatment and hydrometallurgy as well as to separate biological macromolecules like nucleic acids, carbohydrates and proteins.\autocite{Dragull2012,Alexandratos2009,Lee1996,Kenney1992}
+It can also be used to separate small molecules and aid in their purification from complex sources.\autocite{Dragull2012,Hoffmann2009a,Katavic2007}
+As of now the molecular properties of the antibiotic compound remain unclear, yet they may be approximated by its behaviour in separation techniques.
+Exploration of the retention behaviour using IEC can be used to determine the presence of charged functional groups and approximate the \pka{}.
 
-%Nutzungsbeispiele für IEC
-
-As of now the molecular properties of the antibiotic compound remain
-unclear. An explorative IEC method similar to the approach of
-M{\aa}nsson~\textit{et al.} was devised to test the applicability of this technique.\autocite{Mansson2010}
-Two ion-exchange resins with orthogonal selective properties were employed to test if the compound contains acidic or basic functionalities.
-Both feature "strong" ion exchange groups, which retain their charge over a broad pH-range and are immobilized on a divinylbenzene matrix.
+An explorative IEC method similar to the approach of M{\aa}nsson~\textit{et al.} was devised to test the the applicability of IEC for separation.\autocite{Mansson2010}
+Two ion-exchange resins with orthogonal selective properties were employed to determine if the compound contains acidic or basic functionalities.
+Both feature "strong" ion exchange groups, which retain their charge over a broad pH-range and are immobilized on divinylbenzene matrices.
 The strong cation exchanger (SCX), Dowex 50WX4, contains negatively charged sulfonic acids, while the strong anion exchanger (SAX), Diaion SA11A, contains positively charged quarternary ammonium groups.
-The sample would be adjusted to an extreme pH such as 2 or 11, where most ionizable groups should be charged, and loaded onto the column.
-Uncharged contaminants were washed away with a buffer at the sample pH and one with pH~7.
-The elution buffer had the opposite pH of the sample pH, supposedly removing the charge and washing the compound off the column.
-In case of the SAX this means that the sample was adjusted to pH~11, where acidic functionalities such as carboxyl-groups are likely negatively charged.
-At pH~7 the charge should still be retained, therefore removing impurities by washing with pH~7 and 11.
-At pH~2, however, a carboxylic acid is likely protonated.
-The loss of charge greatly reduces the affinity to the SAX and the compound should be eluted with the buffer.
-For the SCX the same principle applies, but with the pH ranges switched to allow for retention and elution of basic compounds.
+\SI{1}{\milli\liter} aliquots of filtrated culture broth supernatant were adjusted to either pH~2, to protonate acidic groups or pH~11 to deprotonate basic groups.
+The sample at pH~2 was loaded onto the SCX whereas the pH~11 sample was loaded onto the SAX.
+Washing steps at sample and neutral pH were performed to only ensure retention of compounds charged positively at pH~2 or negatively at pH~11.
+Bound analytes were eluted by reversing the buffer pH from 2 to 11 and vice versa.
+All loading, washing and elution fractions were collected, concentrated and subjected to the standard bioassay against \coli{}.
 
-\SI{1}{\milli\liter} of filtrated culture broth supernatant was adjusted with \ch{NaOH} and \ch{HCl} to the appropriate pH and used as the sample for this experiment.
-The detailed method descriptions are found in section~\ref{sub:ion_exchange_chromatography}.
-All loading, washing and elution fractions were collected, concentrated and subjected to the standard bioassay against \coli.
-
-The assay plate belonging to the SAX fractions revealed bioactivity to be present in the first three out of five elution fractions.
-The loading and washing fractions were inactive.
-The the water-soluble compound is able to form an ionic bond with sulfonic acid at pH~11 and pH~7, which is broken at pH~2.
+The first three out of five SAX elution fractions displayed antibiotic activity in the bioassay, whereas the loading and washing fractions did not.
+The water-soluble compound was able to form an ionic bond with the sulfonic acid moieties of the SAX matrix at pH~11 and ph~7, but not at pH~2.
 This indicates the presence of one or more functional groups with a \pka$<7$, which are most likely carboxyl groups.
 As such, the compound might contain organic acid moieties.
 
-The tested SCX fractions exhibited no visible bioactivity at all.
-This could be due to an exceptionally strong bond of the compound to the cationic resin, which is still present at pH~11.
-A strongly basic alkaloid or amine with a \pka$>11$ for the protonated form would not have been eluted at the used pH.
-The only other possibility would be a reaction with the SCX matrix, either deactivating the compound or binding it irreversibly.
-Degradation at extreme pH values is unlikely, since the same buffers were used for the SAX column.
-Additionaly, the compound has been observed to be exceptionally stable at pH~2--11 in water.
-Samples stored at \SI{8}{\celsius} and various pH levels have been tested for bioactivity several months after generation and displayed no noticeable loss in activity.
+None of the SCX fractions exhibited antibiotic activity in the bioassay.
+The compound was not eluted prematurely due to low affinity, since the loading and washing fractions were inactive.
+This could be due to an exceptionally strong bond of the compound to the cationic resin, which is still present at pH~11 and prevented elution with the used buffer.
+A strongly basic alkaloid or amine with a \pka{}$>11$ for the protonated form would retain its charge and stay bound to the quarternary ammonium groups of the SCX.
+Another possibility would be a reaction with the SCX matrix, either deactivating the compound or binding it irreversibly.
+Since the presence of the compound was only inferred via bioactivity in the agar-diffusion assay, inactivation by prolonged exposure to high pH could have led to the negative assay results.
+However, samples stored at \SI{8}{\celsius} and both high and low pH levels have retained antibioitc activity for several months without noticeable loss in produced inhibition zones.
+pH dependent degradation is therfore not an issue for the compound in question.
+
+Chromatographic screening of the active SAX elution fractions on a C-18 column (see Table~\ref{tab:method_c18_screening}) showed, that many impurities, especially in the hydrophobic spectrum, are still present.
+Ion Exchange Chromatography with a strong cation exchange resin is able to be applied for the separation of the hydrophilic compound from filtered culture broth supernatant, but it needs to be refined to achieve higher purities.
+Reverse extract samples can be used for separation instead of raw culture broth, to remove hydrophic compounds beforehand.
+Variation of elution buffer pH might enable an elution profile more specific to the compound of interest and further narrow it's acid strength.
+
+% Chromatographie ergebnisse
+% Abschlussabsatz
 
 % subsection ion_exchange_chromatography (end)
 
@@ -508,8 +514,8 @@ Analysis of the whole-genome sequence might lead to valuable insights into the p
 
 Basic local-alignment search tool (BLAST) queries for the 16S-rRNA sequence of strain Tü2401 against the NCBI database revealed a variety of \emph{Streptomyces} sequences with very high (>99~\%) identity.
 16S-sequence identity confirms the strain as a member of the genus \emph{Streptomyces}, but is insufficient to define the species.
-To achieve this, 50 single-copy household genes were identified in the Tü2401 genome and 50 reference genomes of fully sequenced \emph{Streptomyces} strains.
-The multiple sequence alignment of these genes was used to construct the  maximum-likelihood tree shown in Figure~\ref{fig:phylo_tree}.
+To achieve this, 50 single-copy household genes were identified in the Tü2401- and 50 reference genomes of other fully sequenced \emph{Streptomyces} strains.
+The multiple sequence alignments of these genes were used to construct the  maximum-likelihood tree shown in Figure~\ref{fig:phylo_tree}.
 
 \begin{figure}[htbp]
 	\includegraphics[width=\textwidth]{tu2401_tree}
@@ -522,10 +528,9 @@ The multiple sequence alignment of these genes was used to construct the  maximu
 	\label{fig:phylo_tree}
 \end{figure}
 
-The closest relative to Tü2401 is \emph{Streptomyces~mediolani}~NBRC15427.
-The first members of this species were isolated 1969 in Milan and investigated for carotenoid production.\autocite{Arcamone1969,Bianchi1970}
-Publications in regard to secondary metabolites are sparse.
-(--)-8-\emph{O}-methyltetrangomycin is mentioned to be synthesized by strain AC37; an angucycline with antibiotic activity against \emph{Listeria~monocytogenes} and cytotoxic properties.\autocite{Maruna2010,Jimenez2012}
+The closest relative to Tü2401 among the reference strains is \emph{Streptomyces~mediolani}~NRRL~WC-3934.
+The first members of this species were isolated 1969 in Milan and investigated for carotenoid production, yet publications regarding secondary metabolites are sparse.\autocite{Arcamone1969,Bianchi1970}
+(--)-8-\emph{O}-methyltetrangomycin is mentioned to be synthesized by \emph{S.~mediolani}~AC37, which is an angucycline with antibiotic activity against \emph{Listeria~monocytogenes} and cytotoxic properties.\autocite{Maruna2010,Jimenez2012}
 AntiSMASH analysis of strain Tü2401(see Section~\ref{sub:antismash_cluster_identification}) did not indicate the presence of angucycline biosynthetic gene clusters.
 
 The multiple sequence alignment and tree construction establish the strain Tü2401 as a member of the genus \emph{Streptomyces} and a close relative of \emph{S.~mediolani}~NBRC15427.
@@ -537,43 +542,96 @@ The multiple sequence alignment and tree construction establish the strain Tü24
 
 %isorenieratene cluster found --> isolate from first description of mediolani
 
- One cluster was detected on contig four and identified as a Type1-PKS-NRPS hybrid.
- It shows a 95~\% cluster identity to the C-1027 biosynthetic gene cluster from \textit{Streptomyces} globisporus C-1027 (MiBiG accession no. BGC0000965). Additionally, three homologous subclusters with 100~\% identity were identified, which are associated with the synthesis of C-1027, Neocarzinostatin and Maduropeptin enediynes (see Figure \ref{fig:cluster_search}).
- The presence of this cluster could indicate, that the strain Tü2401 is capable of producing a compound similar to enediyne antibiotics.
+All five contigs were submitted to the antibiotics and Secondary Metabolite Analysis SHell (antiSMASH) to identify known biosynthetic gene clusters (BGCs).\autocite{Weber2015,Blin2013,Medema2011}
+75 clusters were identified across the genome, seven out of which were $\geq 95 \%$ similar to characterized clusters.
 
- Enediyne natural products are a class of cytotoxic bacterial compounds, which cause extensive DNA-damage.\autocite{Liang2010,Gredicak2007,AdrianL.Smith*1996,Nicolaou1993}
- 11 different enediyne natural products are known, all of which feature either a bicyclo[7.3.0]dodecadienediyne core inside a nine-membered ring or a bicyclo[7.3.1]tridecadiynene core inside a ten-membered ring (Figure \ref{fig:enediyne_comparison}).
- The 9-membered family includes neocarzinostatin, C-1027 and and maduropeptin.
- The 10-membered family includes calicheamicin $\gamma_{1}^{I}$, esperamicin A\textsubscript{1} and dynemicin A.\autocite{Liang2010}
- Enediynes are potent cytotoxic agents because of their ability to induce DNA double-strand breaks.\autocite{Shen2015}
- Electronic rearrangement of the carbocycle produces a benzenoid diradical, which abstracts hydrogen atoms from the DNA-backbone.
- The consulting radicals cause interstrand crosslinks or react with molecular oxygen.
- \begin{figure}[htbp]
- 	\centering
- 	\includegraphics[width=0.9\textwidth]{enediyne_overview}
- 	\caption[Structures of known enediyne natural products]{%
- 		\textbf{Structures of known enediyne natural products.}
- 		Enediyne cores are highlighted in red.
- 		(A) Compounds with nine-membered rings.
- 		(B) Compounds with ten-membered rings.
- 		The year of structure confirmation is displayed in parentheses.
- 		The sporolides, cyanosporolids and fijiolides do not contain an endiyene core, but are proposed to be derived from enediyne precursors.
- 		Adapted from Shen \textit{et al.} (2015) Copyright 2014 Elsevier Ltd.}
- 	\label{fig:enediyne_comparison}
- \end{figure}
- While the ten-membered enediyne compounds were isolated as free-standing chromophores, most of the compounds in the nine-membered family were isolated in conjunction with a protective apoprotein.\autocite{Liang2010}
- The nine-membered chromophore of C-1027, which was isolated from \textit{Streptomyces} globisporus C-1027, is bound noncovalently to an 110 amino acid apoprotein.\autocite{AdrianL.Smith*1996,Minami1993,Yoshida1993,Otani1993,Sugiura1993,Matsumoto1993,Otani1991,Otani1988a,Matsumoto1993a}
- The isolated chromophore has been shown to be very unstable, whereas the holo C-1027 did not lose activity under the same conditions.\autocite{Matsumoto1993,Sugiura1993,Otani1991}
- The apoprotein binds specifically to the C-1027 chromophore, supposedly by hydrophic pocket, which binds the benzoxazine side chain.\autocite{Okuno1994,Matsumoto1993}
- The enediyne antibiotics neocarzinostatin and maduropeptin, which were also isolated from actinomycetes, feature highly specific and protective apoproteins as well.\autocite{AdrianL.Smith*1996}.
+\subsubsection*{Contig 1}
 
- The homologies of the identified cluster could be an indicator, that the strain Tü2401 is capable of synthesizing an enediyene antibiotic with a nine-membered core and a corresponding apoprotein.
- The potent DNA-strand-breaking capabilities of this compound-class could induce the \textit{yorB} reporter system of \textit{Bacillus subtilis} 1S34 pHJS105-yorB-lacZ2 in the yorB-induction assay.
- A number of compounds, which cause DNA double strand breaks and crosslinks are reported to induce the system, though none of them belong to the family of endiyne antibiotics.\autocite{Urban2007}
- Whether this is due to inactivity or to this family not having been tested in the assay is unclear, since the compound library is not publicly accessible.
- Nevertheless, an endiyne compound could be responsible for the induction.
+Two clusters with 100~\% gene identity to characterized BGCs were identified on this contig.
+The first is a Type1-PKS-NRPS hybrid and contains genes identical to a SGR~PTMs BGC (\textsf{BGC0001043}), a Frontalamide BGC (\textsf{BGC0000996}) and a Heat-Stable Antifungal Factor BGC (\textsf{BGC0000999}).\autocite{Luo2013,Blodgett2010,Yu2007}
+The three clusters are associated with production of polycyclic tetramate macrolactams (PTMs), a diverse class of compounds with a wide range of biological activites.\autocite{Schobert2008}
+Frontalamide A/B and the Heat-Stable Antifungal Factor (HSAF) displayed antifungal bioactivity; a mode of action commonly observed in bacterial PTMs.\autocite{Blodgett2010,Yu2007,Graupner,JAKOBI1996,Schobert2008}
+PTM gene clusters are highly conserved and present in over 50~\% of sequenced \emph{Streptomyces} species but also appear across a wide range of phylogenetically diverse bacteria.\autocite{Blodgett2010}
+Figure~\ref{fig:known_ptms} displays the structures of select bacterial PTMs.
 
- The assay in Section \ref{sub:extraction_of_yorb_inducing_compound} showed, that the \textit{yorB} inducing compound is produced when the strain is grown on an ISP2 agar plate, but it could not be extracted via ethyl acetate or butanol. Only very low activity was retained in the aqueous phase. If the compound is indeed an endiyne, this loss of activity could be due to the high instability of the chromophore. The apoprotein could have been detached during the extraction and concentration process, which also included high temperatures of \SIrange[range-units=single]{40}{60}{\celsius}. Combined with an incubation time of several days between extraction and assay, this could have led to the degradation of the chromophore below the sensitivity threshhold. The high temperatures and long storage times also apply to the numerous HPLC-fractioning samples subjected to the \textit{yorB}-induction assay.
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.8\textwidth]{known_ptms}
+\caption[Structures of bacterial polycyclic tetramate macrolactams]{%
+	\textbf{Structures of bacterial polycyclic tetramate macrolactams.} Adapted from Blodgett \emph{et al.} (2010). Copyright lies with the respective authors.}
+\label{fig:known_ptms}
+\end{figure}
+
+The other cluster is predicted to be a lantipeptide BGC with genes identical to the AmfS BGC (\textsf{ BGC0000496}).
+The \emph{amf} gene cluster was studied in \emph{S.~griseus} and is involved in the formation of aerial mycelium.\autocite{Ueda2002a}
+The AmfS peptide is postulated to be an extracellular morphogen and not directly associated with antibiotic activity.
+
+The presence of a putative PTM biosynthetic gene cluster in the genome of \tue{} indicates a potential to synthesize antifungal compounds.
+Antifungal bioactivity assays can be employed to test culture supernatant and agar-disks.
+The associated Frontalamide A/B and HSAF were reported to be active against plant pathogens \emph{Bipolaris~sorokiniana}, \emph{Fusarium~graminearum}, \emph{F.~verticilloides} and \emph{Ophiostoma~minus}.\autocite{Blodgett2010,Yu2007}
+Isolation of a new variety or efficient production of PTM compounds could prove strain Tü2401 as a promising source of antifungal compounds.
+
+
+\subsubsection*{Contig 2}
+
+Contig~2 contains three clusters with 100~\% identity to characterized genes.
+The first one is highly similar to an isorenieratene biosynthetic gene cluster from \emph{Streptomyces griseus} (MIBiG BGC-ID: \textsf{BGC0000664}).
+Isorenieratene is a rare carotene which is synthesized by green photosynthetic bacteria and few actinomycetes.\autocite{Krugel1999}
+Carotenes mainly serve as protectants against oxidative stress and are unlikely to possess antibiotic activites.\autocite{Olson1995}
+Additionally, the orange coloration of carotenogenic strains has not been observed during growth of strain Tü2401.
+The gene cluster is likely not actively expressed under the used growth conditions.
+The two other clusters on this contig are highly similar to a griseobactin BGC (\textsf{BGC0000368}) from \emph{Streptomyces}~sp. ATCC~700974 and an ectoine BGC from \emph{Halomonas elongata}.
+The former compound is an unusual siderophore from streptomycetes, the latter serves as an osmoprotectant.\autocite{Patzer2010,Prabhu2004}
+Both are not associated with antibiotic activity.
+
+\subsubsection*{Contig 3}
+
+Only one cluster with high similarity to known BCG's was identified on Contig~3.
+Its genes are 100~\% identical to the Desferrioxamine~B BGC from \emph{Streptomyces~griseus} (\textsf{BGC0000941}).\autocite{Ohnishi2008}
+Desferrioxamine~B, like griseobactin, is a siderophore necessary to facilitate iron uptake.\autocite{H.2006}
+
+\subsubsection*{Contig 4}
+
+One cluster was detected on contig four and identified as a Type1-PKS-NRPS hybrid.
+It shows a 95~\% cluster identity to the C-1027 biosynthetic gene cluster from \textit{Streptomyces} globisporus C-1027 (\textsf{BGC0000965}). Additionally, three homologous subclusters with 100~\% identity were identified, which are associated with the synthesis of C-1027, Neocarzinostatin and Maduropeptin enediynes (see Figure \ref{fig:cluster_search}).
+The presence of this cluster could indicate, that the strain Tü2401 is capable of producing a compound similar to enediyne antibiotics.
+
+Enediyne natural products are a class of cytotoxic bacterial compounds, which cause extensive DNA-damage.\autocite{Liang2010,Gredicak2007,AdrianL.Smith*1996,Nicolaou1993}
+11 different enediyne natural products are known, all of which feature either a bicyclo[7.3.0]dodecadienediyne core inside a nine-membered ring or a bicyclo[7.3.1]tridecadiynene core inside a ten-membered ring (Figure \ref{fig:enediyne_comparison}).
+The 9-membered family includes neocarzinostatin, C-1027 and and maduropeptin.
+The 10-membered family includes calicheamicin~$\gamma_{1}^{I}$, esperamicin A\textsubscript{1} and dynemicin A.\autocite{Liang2010}
+Enediynes are potent cytotoxic agents because of their ability to induce DNA double-strand breaks.\autocite{Shen2015}
+lectronic rearrangement of the carbocycle produces a benzenoid diradical, which abstracts hydrogen atoms from the DNA-backbone.
+he consulting radicals cause interstrand crosslinks or react with molecular oxygen.
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.9\textwidth]{enediyne_overview}
+	\caption[Structures of known enediyne natural products]{%
+		\textbf{Structures of known enediyne natural products.}
+		Enediyne cores are highlighted in red.
+		(A) Compounds with nine-membered rings.
+		(B) Compounds with ten-membered rings.
+		The year of structure confirmation is displayed in parentheses.
+		The sporolides, cyanosporolids and fijiolides do not contain an endiyene core, but are proposed to be derived from enediyne precursors.
+		Adapted from Shen \textit{et al.} (2015) Copyright 2014 Elsevier Ltd.}
+	\label{fig:enediyne_comparison}
+\end{figure}
+While the ten-membered enediyne compounds were isolated as free-standing chromophores, most of the compounds in the nine-membered family were isolated in conjunction with a protective apoprotein.\autocite{Liang2010}
+The nine-membered chromophore of C-1027, which was isolated from \textit{Streptomyces} globisporus C-1027, is bound noncovalently to an 110 amino acid apoprotein.\autocite{AdrianL.Smith*1996,Minami1993,Yoshida1993,Otani1993,Sugiura1993,Matsumoto1993,Otani1991,Otani1988a,Matsumoto1993a}
+The isolated chromophore has been shown to be very unstable, whereas the holo C-1027 did not lose activity under the same conditions.\autocite{Matsumoto1993,Sugiura1993,Otani1991}
+The apoprotein binds specifically to the C-1027 chromophore, supposedly via hydrophic pocket, which binds the benzoxazine side chain.\autocite{Okuno1994,Matsumoto1993}
+The enediyne antibiotics neocarzinostatin and maduropeptin, which were also isolated from actinomycetes, feature highly specific and protective apoproteins as well.\autocite{AdrianL.Smith*1996}
+
+The homologies of the identified cluster could be an indicator, that the strain Tü2401 is capable of synthesizing an enediyene antibiotic with a nine-membered core and a corresponding apoprotein.
+The potent DNA-strand-breaking capabilities of this compound-class could induce the \textit{yorB} reporter system of \textit{Bacillus subtilis} 1S34 pHJS105-yorB-lacZ2 in the yorB-induction assay.
+A number of compounds, which cause DNA double strand breaks and crosslinks are reported to induce the system, though none of them belong to the family of endiyne antibiotics.\autocite{Urban2007}
+Whether this is due to inactivity or to this family not having been tested in the assay is unclear, since the compound library is not publicly accessible.
+Nevertheless, an endiyne compound could be responsible for the induction.
+
+The assay in Section \ref{sub:extraction_of_yorb_inducing_compound} showed, that the \textit{yorB} inducing compound is produced when the strain is grown on an ISP2 agar plate, but it could not be extracted via ethyl acetate or butanol.
+Only very low activity was retained in the aqueous phase. If the compound is indeed an endiyne, this loss of activity could be due to the high instability of the chromophore.
+The apoprotein could have been detached during the extraction and concentration process, which also included high temperatures of \SIrange[range-units=single]{40}{60}{\celsius}. Combined with incubation times of up to several days between extraction and assay, this could have led to the degradation of the chromophore below the sensitivity threshhold.
+The high temperatures and long storage times also apply to the numerous HPLC-fractioning samples subjected to the \textit{yorB}-induction assay.
 
 To verify this assumption, the putative endiyne compound has to be extracted by an adapted protocol, dereplicated and subjected to the assay in pure form.
 The C-1027 antibiotic protein from \textit{S. globisporus} was precipitated from the medium supernatant by the addition of ammonium sulfate and purified by dialysis and column chromatography.\autocite{Otani1988a}
@@ -581,13 +639,12 @@ The active chromophore could be extracted from the apoprotein with methanol at \
 However, as of now, untreated medium supernatant samples of the strain Tü2401 did not induce the \textit{yorB}-reporter system.
 The cultivation in liquid OM medium is probably not sufficient for production of the putative endiyene compound and the protocol would have to be adapted for the extraction from ISP2 agar plates.
 To circumvent this, other cultivation media could be employed and tested for \textit{yorB}-induction.
-The holo endiyne-apoprotein complex should be stable enough for routine testing of culture broth and its xsupernatant.
+The holo endiyne-apoprotein complex should be stable enough for routine testing of culture broth and its supernatant.
 The only alternative to optimizing production conditions would be heterologous expression of the biosynthetic cluster.
 For the endiyne compound family though, this has, as of now, only been partly achieved for the nine-membered endiyne neocarzinostatin.\autocite{Zhang2008}
 
-The isolation of the putative endiyne antibiotic would be a very promising target.
-Only eleven compounds of this class are known to this date, yet several members are in use or development as anticancer drugs with promising results.\autocite{Liang2010,Galm2005}
-Isolation of a new endiyne compound could  hold a strong promise for the discovery of a new anticancer drug lead structure.
+Only eleven compounds of the enediyne family are known to this date, yet several members are in use or development as anticancer drugs with promising results.\autocite{Liang2010,Galm2005}
+Isolation of a new endiyne compound could hold a strong promise for the discovery of a new anticancer drug lead structure, which makes strain Tü2401 a valuable target for further investigation.
 
 % subsection antismash_cluster_identification (end)
 

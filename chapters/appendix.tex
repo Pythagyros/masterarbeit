@@ -192,28 +192,125 @@
 
 \subsection{Phylogenetic Data}
 
-	Table including the reference genomes \ref{tab:ref_genomes}
+Table including the reference genomes \ref{tab:ref_genomes}
 
-	\begin{table}[htbp]
-		\caption{Reference genomes for the construction of the phylogenetic tree}
-		\label{tab:ref_genomes}
-		\centering
-		\begin{tabularx}{\textwidth}{XXX}
-			\toprule
-			\textbf{1} 			& \textbf{2}		& \textbf{3}		\\
-			\midrule
-			1	&	2	& 3 \\
-			\bottomrule
-		\end{tabularx}
-	\end{table}
+\newlength{\asdf} %definiere neue länge
 
+\setlength{\asdf}{\textwidth} %setze neue länge auf textbreite
+\addtolength{\asdf}{-8\tabcolsep} %subtrahiere -8\cdot textbreite von asdf
+% \begin{table}[htbp]
+\begin{longtable}{p{0.5\asdf}p{0.5\asdf}}
+\caption{Reference genomes for the construction of the phylogenetic tree}
+\label{tab:ref_genomes} \\
+% \centering
+% \begin{tabularx}{ll}
+	\toprule
+	\textbf{Assembly ID} & \textbf{Species name}		\\
+	\midrule
+	GCF\_000010605 	&	\emph{S. griseus} subsp. griseus NBRC 13350	\\
+	GCF\_000156455 	&	\emph{S. roseosporus} NRRL 15998	\\
+	GCF\_000156695 	&	\emph{S. roseosporus} NRRL 11379	\\
+	GCF\_000177175 	&	\emph{Streptomyces} sp. ACT-1	\\
+	GCF\_000239075 	&	\emph{Streptomyces} sp. W007	\\
+	GCF\_000261345 	&	\emph{S. globisporus} C-1027	\\
+	GCF\_000373305 	&	\emph{Streptomyces} sp. CcalMP-8W	\\
+	GCF\_000373405 	&	\emph{Streptomyces} sp. ScaeMP-e10	\\
+	GCF\_000377965 	&	\emph{Streptomyces} sp. CNB091	\\
+	GCF\_000385945 	&	\emph{S. fulvissimus} DSM 40593	\\
+	GCF\_000498935 	&	\emph{Streptomyces} sp. HCCB10043	\\
+	GCF\_000647875 	&	\emph{Streptomyces} sp. SolWspMP-sol2th	\\
+	GCF\_000702365 	&	\emph{Streptomyces} sp. CNS654	\\
+	GCF\_000716025 	&	\emph{S. baarnensis}	\\
+	GCF\_000716935 	&	\emph{S. alboviridis}	\\
+	GCF\_000716945 	&	\emph{S. albus subsp. albus}	\\
+	GCF\_000717015 	&	\emph{S. brasiliensis}	\\
+	GCF\_000717105 	&	\emph{S. anulatus}	\\
+	GCF\_000717215 	&	\emph{S. vinaceus}	\\
+	GCF\_000717645 	&	\emph{S. californicus}	\\
+	GCF\_000717665 	&	\emph{S. floridae}	\\
+	GCF\_000717795 	&	\emph{S. griseus} subsp. griseus	\\
+	GCF\_000717965 	&	\emph{S. purpeochromogenes}	\\
+	GCF\_000718135 	&	\emph{S. cyaneofuscatus}	\\
+	GCF\_000718205 	&	\emph{S. griseus} subsp. rhodochrous	\\
+	GCF\_000718235 	&	\emph{S. griseus }subsp. rhodochrous	\\
+	GCF\_000718245 	&	\emph{S. californicus}	\\
+	GCF\_000718455 	&	\emph{S}\emph{. globisporus} subsp. globisporus	\\
+	GCF\_000718615 	&	\emph{S. purpeochromogenes}	\\
+	GCF\_000718695 	&	\emph{S. puniceus}	\\
+	GCF\_000718915 	&	\emph{Streptomyces} sp. NRRL WC-3540	\\
+	GCF\_000719035 	&	\emph{S. griseus} subsp. rhodochrous	\\
+	GCF\_000719195 	&	\emph{S. puniceus}	\\
+	GCF\_000719355 	&	\emph{S. griseus} subsp. griseus	\\
+	GCF\_000719585 	&	\emph{Streptomyces} sp. NRRL F-5681	\\
+	GCF\_000719655 	&	\emph{Streptomyces} sp. NRRL B-1381	\\
+	GCF\_000719925 	&	\emph{Streptomyces} sp. NRRL F-2202	\\
+	GCF\_000720055 	&	\emph{Streptomyces} sp. NRRL F-3218	\\
+	GCF\_000720065 	&	\emph{Streptomyces} sp. NRRL F-3273	\\
+	GCF\_000720915 	&	\emph{S. albus} subsp. albus	\\
+	GCF\_000721175 	&	\emph{S. anulatus}	\\
+	GCF\_000721205 	&	\emph{S. griseus} subsp. rhodochrous	\\\emph{}
+	GCF\_000721415 	&	\emph{Streptomyces} sp. NRRL F-5702	\\
+	GCF\_000721575 	&	\emph{S. griseus} subsp. griseus	\\
+	GCF\_000721685 	&	\emph{S. mediolani}	\\
+	GCF\_000725705 	&	\emph{Streptomyces} sp. NRRL S-623	\\
+	GCF\_000743295 	&	\emph{Streptomyces} sp. JS01	\\
+	GCF\_000932225 	&	\emph{S. griseus}	\\
+	GCF\_000935135 	&	\emph{Streptomyces} sp. MNU77	\\
+	GCF\_001189025 	&	\emph{S. europaeiscabiei}	\\
+	GCF\_001270675 	&	\emph{S. griseus} subsp. rhodochrous	\\
+	GCF\_001278095 	&	\emph{Streptomyces} sp. CFMR 7	\\
+	GCF\_001279425 	&	\emph{Streptomyces} sp. NRRL F-2295	\\
+	GCF\_001279735 	&	\emph{Streptomyces} sp. MMG1522	\\
+	GCF\_001418625 	&	\emph{S. luridiscabiei}	\\
+	GCF\_001426325 	&	\emph{Streptomyces} sp. Root1295	\\
+	GCF\_001427565 	&	\emph{Streptomyces} sp. Root63	\\
+	GCF\_001434355 	&	\emph{S. anulatus}	\\
+	GCF\_001687325 	&	\emph{Streptomyces} sp. PTY087I2	\\
+	GCF\_001723115 	&	\emph{S. griseus}	\\
+	GCF\_001723125 	&	\emph{S. griseus} subsp. griseus	\\
+	GCF\_001746285 	&	\emph{Streptomyces} sp. EN16	\\
+	GCF\_001746305 	&	\emph{Streptomyces} sp. EN23	\\
+	GCF\_001746315 	&	\emph{Streptomyces} sp. EN27	\\
+	GCF\_001751305 	&	\emph{S. nanshensis}	\\
+	GCF\_001895105 	&	\emph{Streptomyces} sp. NBRC 110465	\\
+	GCF\_001905405 	&	\emph{Streptomyces} sp. TSRI0445	\\
+	GCF\_001905485 	&	\emph{Streptomyces} sp. TSRI0261	\\
+	GCF\_001905525 	&	\emph{Streptomyces} sp. TSRI0395	\\
+	GCF\_001905575 	&	\emph{Streptomyces} sp. CB00072	\\
+	GCF\_001905595 	&	\emph{Streptomyces} sp. CB00316	\\
+	GCF\_001905645 	&	\emph{Streptomyces} sp. CB02115	\\
+	GCF\_001905785 	&	\emph{Streptomyces} sp. CB02130	\\
+	GCF\_001905905 	&	\emph{Streptomyces} sp. CB02366	\\
+	GCF\_001931635 	&	\emph{Streptomyces} sp. Tue 6075	\\
+	GCF\_001983595 	&	\emph{Streptomyces} sp. IB2014 011-1	\\
+	GCF\_002082175 	&	\emph{S. violaceoruber}	\\
+	GCF\_002082585 	&	\emph{Kitasatospora albolonga}	\\
+	GCF\_002094995 	&	\emph{Streptomyces} sp. S8	\\
+	GCF\_002154345 	&	\emph{S. fimicarius}	\\
+	GCF\_002154385 	&	\emph{S. albovinaceus}	\\
+	GCF\_002188345 	&	\emph{Streptomyces} sp. CS057	\\
+	GCF\_002217715 	&	\emph{Streptomyces} sp. SS07	\\
+	GCF\_002242735 	&	\emph{Streptomyces} sp. 2R	\\
+	GCF\_900090075 	&	\emph{Streptomyces} sp. MnatMP-M77	\\
+	GCF\_900090085 	&	\emph{Streptomyces} sp. Ncost-T6T-1	\\
+	GCF\_900090135 	&	\emph{Streptomyces} sp. LaPpAH-199	\\
+	GCF\_900091775 	&	\emph{Streptomyces} sp. ScaeMP-e83	\\
+	GCF\_900091865 	&	\emph{Streptomyces} sp. DvalAA-19	\\
+	GCF\_900091905 	&	\emph{Streptomyces} sp. OspMP-M43	\\
+	GCF\_900092005 	&	\emph{Streptomyces} sp. Cmuel-A718b	\\
+	GCF\_900105705 	&	\emph{S. griseus}	\\
+	GCF\_900187925 	&	\emph{Streptomyces} sp. PgraA7	\\
+	\bottomrule
+% \end{tabularx}
+% \end{table}
+\end{longtable}
 	Table including the identified single-copy genes
 
-	\begin{table}[htbp]
+	\begin{longtable}{p{0.25\asdf}p{0.75\asdf}}
 		\caption{Single copy genomes for tree construction}
-		\label{tab:single_copy_genes}
-		\centering
-		\begin{tabularx}{\textwidth}{>{\hsize=.5\hsize}X>{\hsize=1.5\hsize}X}
+		\label{tab:single_copy_genes} \\
+		% \centering
+		% \begin{tabularx}{\textwidth}{>{\hsize=.5\hsize}X>{\hsize=1.5\hsize}X}
 			\toprule
 			\textbf{TIGR ID} 			& \textbf{Description}		\\
 			\midrule
@@ -267,8 +364,8 @@
 			03699	& dehypoxanthine futalosine cyclase		\\
 			03800	& pyridoxal 5'-phosphate synthase, glutaminase subunit Pdx2	\\
 			\bottomrule
-		\end{tabularx}
-	\end{table}
+		% \end{tabularx}
+	\end{longtable}
 
 %	\begin{table}[htbp]
 %	\begin{longtable}{p{.25\textwidth}p{.75\textwidth}}
