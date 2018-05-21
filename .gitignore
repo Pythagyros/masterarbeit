@@ -23,3 +23,5 @@
 test*
 *#.*#
 /pictures/*
+*.fdb_latexmk
+*.pdf
