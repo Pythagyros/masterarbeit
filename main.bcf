@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bcf:controlfile version="3.4" bltxversion="3.10" xmlns:bcf="https://sourceforge.net/projects/biblatex">
+<bcf:controlfile version="3.4" bltxversion="3.11" xmlns:bcf="https://sourceforge.net/projects/biblatex">
   <!-- BIBER OPTIONS -->
   <bcf:options component="biber" type="global">
     <bcf:option type="singlevalued">
@@ -360,6 +360,7 @@
     <bcf:option datatype="boolean">uniquework</bcf:option>
     <bcf:option datatype="boolean">uniqueprimaryauthor</bcf:option>
     <bcf:option datatype="boolean">defernumbers</bcf:option>
+    <bcf:option datatype="boolean">locallabelwidth</bcf:option>
     <bcf:option datatype="boolean">bibwarn</bcf:option>
     <bcf:option datatype="boolean">useprefix</bcf:option>
     <bcf:option datatype="boolean">defernums</bcf:option>
@@ -1565,9 +1566,19 @@
       <bcf:field>eprinttype</bcf:field>
       <bcf:field>eventday</bcf:field>
       <bcf:field>eventendday</bcf:field>
+      <bcf:field>eventendhour</bcf:field>
+      <bcf:field>eventendminute</bcf:field>
       <bcf:field>eventendmonth</bcf:field>
+      <bcf:field>eventendseason</bcf:field>
+      <bcf:field>eventendsecond</bcf:field>
+      <bcf:field>eventendtimezone</bcf:field>
       <bcf:field>eventendyear</bcf:field>
+      <bcf:field>eventhour</bcf:field>
+      <bcf:field>eventminute</bcf:field>
       <bcf:field>eventmonth</bcf:field>
+      <bcf:field>eventseason</bcf:field>
+      <bcf:field>eventsecond</bcf:field>
+      <bcf:field>eventtimezone</bcf:field>
       <bcf:field>eventyear</bcf:field>
       <bcf:field>eventtitle</bcf:field>
       <bcf:field>eventtitleaddon</bcf:field>
@@ -1599,9 +1610,19 @@
       <bcf:field>eprinttype</bcf:field>
       <bcf:field>eventday</bcf:field>
       <bcf:field>eventendday</bcf:field>
+      <bcf:field>eventendhour</bcf:field>
+      <bcf:field>eventendminute</bcf:field>
       <bcf:field>eventendmonth</bcf:field>
+      <bcf:field>eventendseason</bcf:field>
+      <bcf:field>eventendsecond</bcf:field>
+      <bcf:field>eventendtimezone</bcf:field>
       <bcf:field>eventendyear</bcf:field>
+      <bcf:field>eventhour</bcf:field>
+      <bcf:field>eventminute</bcf:field>
       <bcf:field>eventmonth</bcf:field>
+      <bcf:field>eventseason</bcf:field>
+      <bcf:field>eventsecond</bcf:field>
+      <bcf:field>eventtimezone</bcf:field>
       <bcf:field>eventyear</bcf:field>
       <bcf:field>eventtitle</bcf:field>
       <bcf:field>eventtitleaddon</bcf:field>
@@ -1643,9 +1664,19 @@
       <bcf:field>eprinttype</bcf:field>
       <bcf:field>eventday</bcf:field>
       <bcf:field>eventendday</bcf:field>
+      <bcf:field>eventendhour</bcf:field>
+      <bcf:field>eventendminute</bcf:field>
       <bcf:field>eventendmonth</bcf:field>
+      <bcf:field>eventendseason</bcf:field>
+      <bcf:field>eventendsecond</bcf:field>
+      <bcf:field>eventendtimezone</bcf:field>
       <bcf:field>eventendyear</bcf:field>
+      <bcf:field>eventhour</bcf:field>
+      <bcf:field>eventminute</bcf:field>
       <bcf:field>eventmonth</bcf:field>
+      <bcf:field>eventseason</bcf:field>
+      <bcf:field>eventsecond</bcf:field>
+      <bcf:field>eventtimezone</bcf:field>
       <bcf:field>eventyear</bcf:field>
       <bcf:field>eventtitle</bcf:field>
       <bcf:field>eventtitleaddon</bcf:field>
@@ -1719,6 +1750,24 @@
       <bcf:entrytype>unpublished</bcf:entrytype>
       <bcf:field>addendum</bcf:field>
       <bcf:field>author</bcf:field>
+      <bcf:field>eventday</bcf:field>
+      <bcf:field>eventendday</bcf:field>
+      <bcf:field>eventendhour</bcf:field>
+      <bcf:field>eventendminute</bcf:field>
+      <bcf:field>eventendmonth</bcf:field>
+      <bcf:field>eventendseason</bcf:field>
+      <bcf:field>eventendsecond</bcf:field>
+      <bcf:field>eventendtimezone</bcf:field>
+      <bcf:field>eventendyear</bcf:field>
+      <bcf:field>eventhour</bcf:field>
+      <bcf:field>eventminute</bcf:field>
+      <bcf:field>eventmonth</bcf:field>
+      <bcf:field>eventseason</bcf:field>
+      <bcf:field>eventsecond</bcf:field>
+      <bcf:field>eventtimezone</bcf:field>
+      <bcf:field>eventyear</bcf:field>
+      <bcf:field>eventtitle</bcf:field>
+      <bcf:field>eventtitleaddon</bcf:field>
       <bcf:field>howpublished</bcf:field>
       <bcf:field>language</bcf:field>
       <bcf:field>location</bcf:field>
@@ -1727,6 +1776,8 @@
       <bcf:field>subtitle</bcf:field>
       <bcf:field>title</bcf:field>
       <bcf:field>titleaddon</bcf:field>
+      <bcf:field>type</bcf:field>
+      <bcf:field>venue</bcf:field>
     </bcf:entryfields>
     <bcf:constraints>
       <bcf:entrytype>article</bcf:entrytype>
@@ -1935,84 +1986,103 @@
     <bcf:citekey order="4">Sticher2008</bcf:citekey>
     <bcf:citekey order="5">Klementz2016</bcf:citekey>
     <bcf:citekey order="6">Wildman1999</bcf:citekey>
-    <bcf:citekey order="7">Dragull2012</bcf:citekey>
-    <bcf:citekey order="7">Sticher2008</bcf:citekey>
-    <bcf:citekey order="8">Marcus1993</bcf:citekey>
-    <bcf:citekey order="9">Mathews2004</bcf:citekey>
-    <bcf:citekey order="9">Righezza1988</bcf:citekey>
-    <bcf:citekey order="9">Mourey1984</bcf:citekey>
-    <bcf:citekey order="9">Charlesworth1978</bcf:citekey>
-    <bcf:citekey order="10">Mansson2010</bcf:citekey>
-    <bcf:citekey order="11">Dragull2012</bcf:citekey>
-    <bcf:citekey order="12">Dragull2012</bcf:citekey>
-    <bcf:citekey order="12">Alexandratos2009</bcf:citekey>
-    <bcf:citekey order="12">Lee1996</bcf:citekey>
-    <bcf:citekey order="12">Kenney1992</bcf:citekey>
+    <bcf:citekey order="7">Urban2007</bcf:citekey>
+    <bcf:citekey order="8">Katoh2017</bcf:citekey>
+    <bcf:citekey order="8">Kuraku2013</bcf:citekey>
+    <bcf:citekey order="8">Capella-Gutierrez2009</bcf:citekey>
+    <bcf:citekey order="9">Stamatakis2014</bcf:citekey>
+    <bcf:citekey order="10">Richter2017</bcf:citekey>
+    <bcf:citekey order="11">Letunic2016</bcf:citekey>
+    <bcf:citekey order="12">Weber2015</bcf:citekey>
+    <bcf:citekey order="12">Blin2013</bcf:citekey>
+    <bcf:citekey order="12">Medema2011</bcf:citekey>
     <bcf:citekey order="13">Dragull2012</bcf:citekey>
-    <bcf:citekey order="13">Hoffmann2009a</bcf:citekey>
-    <bcf:citekey order="13">Katavic2007</bcf:citekey>
-    <bcf:citekey order="14">Mansson2010</bcf:citekey>
-    <bcf:citekey order="15">Hutter2004a</bcf:citekey>
-    <bcf:citekey order="16">Hutter2004</bcf:citekey>
-    <bcf:citekey order="17">Mariner2011</bcf:citekey>
-    <bcf:citekey order="17">Urban2007</bcf:citekey>
-    <bcf:citekey order="18">Mariner2011</bcf:citekey>
-    <bcf:citekey order="18">Urban2007</bcf:citekey>
-    <bcf:citekey order="19">Arcamone1969</bcf:citekey>
-    <bcf:citekey order="19">Bianchi1970</bcf:citekey>
-    <bcf:citekey order="20">Maruna2010</bcf:citekey>
-    <bcf:citekey order="20">Jimenez2012</bcf:citekey>
-    <bcf:citekey order="21">Weber2015</bcf:citekey>
-    <bcf:citekey order="21">Blin2013</bcf:citekey>
-    <bcf:citekey order="21">Medema2011</bcf:citekey>
-    <bcf:citekey order="22">Luo2013</bcf:citekey>
-    <bcf:citekey order="22">Blodgett2010</bcf:citekey>
-    <bcf:citekey order="22">Yu2007</bcf:citekey>
-    <bcf:citekey order="23">Schobert2008</bcf:citekey>
-    <bcf:citekey order="24">Blodgett2010</bcf:citekey>
-    <bcf:citekey order="24">Yu2007</bcf:citekey>
-    <bcf:citekey order="24">Graupner</bcf:citekey>
-    <bcf:citekey order="24">JAKOBI1996</bcf:citekey>
-    <bcf:citekey order="24">Schobert2008</bcf:citekey>
-    <bcf:citekey order="25">Blodgett2010</bcf:citekey>
-    <bcf:citekey order="26">Blodgett2010</bcf:citekey>
-    <bcf:citekey order="26">Yu2007</bcf:citekey>
-    <bcf:citekey order="27">Ueda2002a</bcf:citekey>
-    <bcf:citekey order="28">Krugel1999</bcf:citekey>
-    <bcf:citekey order="29">Olson1995</bcf:citekey>
-    <bcf:citekey order="30">Patzer2010</bcf:citekey>
-    <bcf:citekey order="30">Prabhu2004</bcf:citekey>
-    <bcf:citekey order="31">Ohnishi2008</bcf:citekey>
-    <bcf:citekey order="32">H.2006</bcf:citekey>
-    <bcf:citekey order="33">Liang2010</bcf:citekey>
-    <bcf:citekey order="33">Gredicak2007</bcf:citekey>
-    <bcf:citekey order="33">AdrianL.Smith*1996</bcf:citekey>
-    <bcf:citekey order="33">Nicolaou1993</bcf:citekey>
-    <bcf:citekey order="34">Liang2010</bcf:citekey>
-    <bcf:citekey order="35">Shen2015</bcf:citekey>
-    <bcf:citekey order="36">Liang2010</bcf:citekey>
-    <bcf:citekey order="37">AdrianL.Smith*1996</bcf:citekey>
-    <bcf:citekey order="37">Minami1993</bcf:citekey>
-    <bcf:citekey order="37">Yoshida1993</bcf:citekey>
-    <bcf:citekey order="37">Otani1993</bcf:citekey>
-    <bcf:citekey order="37">Sugiura1993</bcf:citekey>
-    <bcf:citekey order="37">Matsumoto1993</bcf:citekey>
-    <bcf:citekey order="37">Otani1991</bcf:citekey>
-    <bcf:citekey order="37">Otani1988a</bcf:citekey>
-    <bcf:citekey order="37">Matsumoto1993a</bcf:citekey>
-    <bcf:citekey order="38">Matsumoto1993</bcf:citekey>
-    <bcf:citekey order="38">Sugiura1993</bcf:citekey>
-    <bcf:citekey order="38">Otani1991</bcf:citekey>
-    <bcf:citekey order="39">Okuno1994</bcf:citekey>
-    <bcf:citekey order="39">Matsumoto1993</bcf:citekey>
-    <bcf:citekey order="40">AdrianL.Smith*1996</bcf:citekey>
-    <bcf:citekey order="41">Urban2007</bcf:citekey>
-    <bcf:citekey order="42">Otani1988a</bcf:citekey>
-    <bcf:citekey order="43">Matsumoto1993</bcf:citekey>
-    <bcf:citekey order="44">Zhang2008</bcf:citekey>
-    <bcf:citekey order="45">Liang2010</bcf:citekey>
-    <bcf:citekey order="45">Galm2005</bcf:citekey>
-    <bcf:citekey order="46">Buchs2001</bcf:citekey>
+    <bcf:citekey order="13">Sticher2008</bcf:citekey>
+    <bcf:citekey order="14">Marcus1993</bcf:citekey>
+    <bcf:citekey order="15">Mathews2004</bcf:citekey>
+    <bcf:citekey order="15">Righezza1988</bcf:citekey>
+    <bcf:citekey order="15">Mourey1984</bcf:citekey>
+    <bcf:citekey order="15">Charlesworth1978</bcf:citekey>
+    <bcf:citekey order="16">Mansson2010</bcf:citekey>
+    <bcf:citekey order="17">Dragull2012</bcf:citekey>
+    <bcf:citekey order="18">Dragull2012</bcf:citekey>
+    <bcf:citekey order="18">Alexandratos2009</bcf:citekey>
+    <bcf:citekey order="18">Lee1996</bcf:citekey>
+    <bcf:citekey order="18">Kenney1992</bcf:citekey>
+    <bcf:citekey order="19">Dragull2012</bcf:citekey>
+    <bcf:citekey order="19">Hoffmann2009a</bcf:citekey>
+    <bcf:citekey order="19">Katavic2007</bcf:citekey>
+    <bcf:citekey order="20">Mansson2010</bcf:citekey>
+    <bcf:citekey order="21">Hutter2004a</bcf:citekey>
+    <bcf:citekey order="22">Hutter2004</bcf:citekey>
+    <bcf:citekey order="23">Mariner2011</bcf:citekey>
+    <bcf:citekey order="23">Urban2007</bcf:citekey>
+    <bcf:citekey order="24">Mariner2011</bcf:citekey>
+    <bcf:citekey order="24">Urban2007</bcf:citekey>
+    <bcf:citekey order="25">Pickup1993</bcf:citekey>
+    <bcf:citekey order="25">SHOMURA1979</bcf:citekey>
+    <bcf:citekey order="26">Cihak2017</bcf:citekey>
+    <bcf:citekey order="26">Jones2017</bcf:citekey>
+    <bcf:citekey order="26">Gao2012</bcf:citekey>
+    <bcf:citekey order="26">Bibb2005</bcf:citekey>
+    <bcf:citekey order="27">Bibb2005</bcf:citekey>
+    <bcf:citekey order="28">Ostash2011</bcf:citekey>
+    <bcf:citekey order="28">DenHengst2010</bcf:citekey>
+    <bcf:citekey order="29">Arcamone1969</bcf:citekey>
+    <bcf:citekey order="29">Bianchi1970</bcf:citekey>
+    <bcf:citekey order="30">Maruna2010</bcf:citekey>
+    <bcf:citekey order="30">Jimenez2012</bcf:citekey>
+    <bcf:citekey order="31">Weber2015</bcf:citekey>
+    <bcf:citekey order="31">Blin2013</bcf:citekey>
+    <bcf:citekey order="31">Medema2011</bcf:citekey>
+    <bcf:citekey order="32">Luo2013</bcf:citekey>
+    <bcf:citekey order="32">Blodgett2010</bcf:citekey>
+    <bcf:citekey order="32">Yu2007</bcf:citekey>
+    <bcf:citekey order="33">Schobert2008</bcf:citekey>
+    <bcf:citekey order="34">Blodgett2010</bcf:citekey>
+    <bcf:citekey order="34">Yu2007</bcf:citekey>
+    <bcf:citekey order="34">Graupner</bcf:citekey>
+    <bcf:citekey order="34">JAKOBI1996</bcf:citekey>
+    <bcf:citekey order="34">Schobert2008</bcf:citekey>
+    <bcf:citekey order="35">Blodgett2010</bcf:citekey>
+    <bcf:citekey order="36">Ueda2002a</bcf:citekey>
+    <bcf:citekey order="37">Blodgett2010</bcf:citekey>
+    <bcf:citekey order="37">Yu2007</bcf:citekey>
+    <bcf:citekey order="38">Krugel1999</bcf:citekey>
+    <bcf:citekey order="39">Olson1995</bcf:citekey>
+    <bcf:citekey order="40">Patzer2010</bcf:citekey>
+    <bcf:citekey order="40">Prabhu2004</bcf:citekey>
+    <bcf:citekey order="41">Ohnishi2008</bcf:citekey>
+    <bcf:citekey order="42">H.2006</bcf:citekey>
+    <bcf:citekey order="43">Liang2010</bcf:citekey>
+    <bcf:citekey order="43">Gredicak2007</bcf:citekey>
+    <bcf:citekey order="43">AdrianL.Smith*1996</bcf:citekey>
+    <bcf:citekey order="43">Nicolaou1993</bcf:citekey>
+    <bcf:citekey order="44">Liang2010</bcf:citekey>
+    <bcf:citekey order="45">Shen2015</bcf:citekey>
+    <bcf:citekey order="46">Liang2010</bcf:citekey>
+    <bcf:citekey order="47">AdrianL.Smith*1996</bcf:citekey>
+    <bcf:citekey order="47">Minami1993</bcf:citekey>
+    <bcf:citekey order="47">Yoshida1993</bcf:citekey>
+    <bcf:citekey order="47">Otani1993</bcf:citekey>
+    <bcf:citekey order="47">Sugiura1993</bcf:citekey>
+    <bcf:citekey order="47">Matsumoto1993</bcf:citekey>
+    <bcf:citekey order="47">Otani1991</bcf:citekey>
+    <bcf:citekey order="47">Otani1988a</bcf:citekey>
+    <bcf:citekey order="47">Matsumoto1993a</bcf:citekey>
+    <bcf:citekey order="48">Matsumoto1993</bcf:citekey>
+    <bcf:citekey order="48">Sugiura1993</bcf:citekey>
+    <bcf:citekey order="48">Otani1991</bcf:citekey>
+    <bcf:citekey order="49">Okuno1994</bcf:citekey>
+    <bcf:citekey order="49">Matsumoto1993</bcf:citekey>
+    <bcf:citekey order="50">AdrianL.Smith*1996</bcf:citekey>
+    <bcf:citekey order="51">Urban2007</bcf:citekey>
+    <bcf:citekey order="52">Otani1988a</bcf:citekey>
+    <bcf:citekey order="53">Matsumoto1993</bcf:citekey>
+    <bcf:citekey order="54">Zhang2008</bcf:citekey>
+    <bcf:citekey order="55">Liang2010</bcf:citekey>
+    <bcf:citekey order="55">Galm2005</bcf:citekey>
+    <bcf:citekey order="56">Buchs2001</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

@@ -307,14 +307,14 @@ A classic method for separation of sugars is thin-layer chromatography (TLC).
 \subsection{Antibiotic Activity} % (fold)
 \label{sub:antibiotic_activity}
 
-\coli{} served as the primary test strain for the assessment of antibiotic activity via agar-diffusion bioassays.
-Culture broth supernatant and aqueous extraction phases of Tü2401 were perpetually tested positive in these assays.
+\coli{} served as the primary test strain for the assessment of antibiotic activity of \tue{} cultures and extracts.
+Culture broth supernatant samples and extracts were perpetually tested positive in these assays.
 Additionaly, culture broth supernatant also proved to be similarly active against multiresistant strains, namely \emph{E. coli}~5309 
 
 \begin{table}[htbp]
 \caption[Multiresistant \emph{Escherichia coli} strains used in bioassays for antibiotic activity.]{%
 	\textbf{Multiresistant \emph{Escherichia coli} strains used in bioassays for antibiotic activity.}.
-    Resistance against the given antibiotic is indicated by an x.
+    Resistance against the given antibiotic is indicated by x.
     Legend:
     \emph{amp} Ampicillin,
     \emph{cam} Cloramphenicol,
@@ -339,6 +339,19 @@ Additionaly, culture broth supernatant also proved to be similarly active agains
 \end{tabularx}
 \end{table}
 
+\fbox{%
+\begin{minipage}{\textwidth}
+	\paragraph*{ToDo}
+	\begin{itemize}
+		\item
+		How is resistance to the specified antibiotics conferred in these strains?
+		\item
+		Is there a common factor / mode of resistance in strains resistant to Tü2401 or those vulnerable to it?
+		\item
+		If there is, does it indicate a possible mode of action for Tü2401 antibiotic compound(s)?
+	\end{itemize}
+\end{minipage}}
+
 % subsection antibiotic_activity (end)
 
 % subsection activity_against_b_subtilis (end)
@@ -346,13 +359,13 @@ Additionaly, culture broth supernatant also proved to be similarly active agains
 \subsection{Induction of the \textit{yorB} Reporter System} % (fold)
 \label{sub:induction_of_the_yorb_reporter_system}
 
-Preliminary screening of \emph{Streptomyces} strains on agar plates revealed strain Tü2401 to possess antibiotic activity against \emph{Bacillus subtilis} \emph{Escherichia coli} strains.
-Mode-of-action screening with the specialized \textit{Bacillus subtilis}~1S34~pHJS105-yorB-lacZ2 strain showed, that compounds produced by Tü2401 are also able to induce the \emph{yorB} reporter system.
-The \textit{yorB} gene has been observed to be upregulated in \textit{Bacillus subtilis} when cells were treated with quinolones.\autocite{Hutter2004a}
+Preliminary screening of \emph{Streptomyces} strains on agar plates indicated strain Tü2401 to possess antibiotic activity against \emph{Bacillus subtilis} and \emph{Escherichia coli} strains.
+Mode-of-action screening with the specialized \textit{Bacillus subtilis}~1S34~pHJS105-yorB-lacZ2 strain showed, that disks of agar-cultures are also able to induce the \emph{yorB} reporter system.
+
+The \textit{yorB} gene from \textit{Bacillus subtilis} has been observed to be upregulated when cells were treated with quinolones.\autocite{Hutter2004a}
 Construction of a luciferase reporter system led to the hypothesis, that induction is due to DNA damage caused by inhibition of the Topoisomerase~II alpha subunit.\autocite{Hutter2004}
 Further characterization with greater natural product libraries strengthened this theory.\autocite{Mariner2011,Urban2007}
 Table~\ref{tab:results_yorb_inducers} gives an overview of tested \textit{yorB}-inducing compounds, which either damage DNA directly or interfere with replication.
-Most of the inductors are produced by \textit{Streptomyces} species, indicating an overarching potential of this family to produce DNA damaging substances.
 
 \begin{figure}[htbp]
 	\centering
@@ -379,38 +392,44 @@ Most of the inductors are produced by \textit{Streptomyces} species, indicating 
 		\midrule
 		RNA polymerase inhibition & 8-Hydroxyquinoline	& Synthetic & 1923 \\
 		& Juglone	& \textit{Carya illinonensis}	& 3806	\\
+		\addlinespace[5pt]
 		DNA gyrase inhibition & Novobiocin	&  \textit{S. niveus}	& 54675769	\\
+		\addlinespace[5pt]
 		DNA strand breaking & Alternariol monomethylether 	& \textit{Alternaria} sp.	& 5360741	\\
 		& Bleomycin	& \textit{S. verticillus}	& 5360373	\\
 		& Myxin	& \emph{Sorangium} sp.& 72510	\\
 		& Phleomycin	& \textit{S. verticillus}	& 72511	\\
 		& Streptonigrin	& \textit{S. flocculus}	& 5351165	\\
+		\addlinespace[5pt]
 		DNA intercalation & Chromomycin	& \textit{S. griseus}	& 5351560	\\
 		& Daunorubicin	& \textit{S. peucetius}	& 30323	\\
 		& Doxorubicin	& \textit{S. peucetius}	& 31703	\\
+		\addlinespace[5pt]
 		DNA binding & Anthramycin & \textit{S. refuineus}	& 5311005	\\
 		& Desmethylether-sibiromycin & \textit{Streptomyces} spp.	& 6437361	\\
+		\addlinespace[5pt]
 		DNA crosslinking & Porfiromycin	& \textit{S. ardus}	& 13116	\\
 		\bottomrule
 	\end{tabularx}
 \end{table}
 
+However, all samples and extracts stemming from liquid cultures were inactive in the \emph{yorB} assay.
+The metabolite, which induced the \emph{yorB} reporter system, is likely not produced in shake-flask cultures with OM-medium.
 
+Loss of activity when transitioning from solid to liquid cultures is a known phenomenon in \emph{Streptomyces} screening studies.\autocite{Pickup1993,SHOMURA1979}
+Secondary metabolite production is regulated by a plethora of interacting factors, which are dependent on the developmental stage of the cell, nutrient availability and other internal and external factors.\autocite{Cihak2017,Jones2017,Gao2012,Bibb2005}
+Cells grown in liquid cultures usually produce secondary metabolites during the stationary growth phase following nutrient depletion.\autocite{Bibb2005}
+When grown on solid media, however, production coincides with the development of aerial hyphae.
+Antibiotic biosynthetic gene clusters have been observed to be influenced by the same regulators, which also govern morphological differentiation and spore development.\autocite{Ostash2011,DenHengst2010}
 
-However, all previously generated samples from liquid cultures only showed antibacterial activity.
-%%%%%%%%%%%%%%
-%Einsetzen:
-%%%%%%%%%%%%%%
-% Absatz über Differenzierung von Streptomyceten
-% Einfluss auf Sekundärmetabolismus
-% Überleitung zu Schlussfolgerung: Evtl zweiter Compound nur auf agar produziert
-%%%%%%%%%%%%%%%
-Three cultivation strategies were developed to induce production of the putative compound 2 (PC2):
+The compound, which is able to induce the \emph{yorB} reporter system of \emph{Bacillus subtilis} was likely not produced during growth in OM liquid, but in solid NL~200 solid medium.
+Both media are nutrient rich and complex, which points to the formation of aerial hyphae as a stimulus for production.
+Three cultivation strategies were developed to allow for both formation of air mycelium and extraction of the compound:
 
 \begin{enumerate}
     \item
-	    Standing cultures could allow the formation of aerial mycelium at the medium surface.
-	    Thus, enabling the synthesis of PC2 and allowing extraction of the liquid medium.
+	    Standing liquid cultures could allow the formation of aerial mycelium at the medium surface.
+	    The compound could then be extracted from the fluid with standard procedures.
 	    Two \SI{500}{\milli\liter} flasks were each filled with \SI{100}{\milli\liter} of liquid ISP2 medium and inoculated with \SI{1}{\milli\liter} of a one-week old NL~410 shake culture.
 	    One flask was sealed with an ordinary aluminium cap (AC), the other one with an air-permeable foam cap (FC).
 	    Both flasks were cultivated for four days, before the medium was centrifuged and the supernatant filtrated.
@@ -418,34 +437,36 @@ Three cultivation strategies were developed to induce production of the putative
 	    The organic phases were dried at \SI{40}{\celsius} and solved in \SI{1}{\milli\liter} MeOH.
 	    Both phases of each flask were subjected to the yorB-Assay.
     \item
-		ISP2 agar plates were previously known to enable synthesis of PC2 and could be extracted with prior breakup.
+		Solid media cultivation on ISP2 agar proved to enable synthesis.
+		Mincing of agar plates after cultivation could enable extraction with common solvents.
 		Ten round ISP2 agar plates were inoculated with \SI{100}{\micro\liter} of a one-week old NL~410 shake culture and incubated for four days.
 		One half of the plates was extracted with BuOH, the other half was extracted with EtAc.
     \item
         ISP2 agar plates could also be prepared with low-melting-point agarose (LMPA).
-        This would allow melting of the plates at lower temperatures.
-        Thus, allowing for easier extraction with reduced risk of thermal decomposition during the process.
+        Melting the agar prior to liquid extraction might lead to higher yields due to greater surface area.
+        Using LMPA reduces the temperature and, thus, risk of thermal decomposition during the process.
         Six ISP2 LMPA agar plates were inoculated with \SI{100}{\micro\liter} of a week-old NL~410 shake culture and incubated for four days.
         The plates were then melted at \SI{70}{\celsius} and extracted with BuOH and EtAc.
 \end{enumerate}
 
-All generated extracts and their respective aqueous phases were tested for bioactivity.
-The standard bioassay was used to determine the antibiotic activity against \textit{E. coli} K12 and \textit{B. subtilis} 168, while the yorB-Assay was used to test for the mode of action.
-Additonally, agar stamps of grown ISP2 and ISP2 LMPA plates were tested in the yorB-Assay.
-A summary of the results is shown in .
+All generated extracts and their respective aqueous phases were tested for bioactivity in agar diffusion assays.
+The standard bioassay was used to determine the antibiotic activity against \textit{E. coli} K12 and \textit{B. subtilis} 168, while the \emph{yorB} assay tested antibacterial activity as well as reporter induction.
+Additonally, agar stamps of ISP2 and ISP2 LMPA culture plates were tested in the yorB-Assay.
+A summary of the results is shown in Table~\ref{tab:yorB_assay_results}.
 
 \begin{table}[htbp]
     \caption[Bioassay results from agar-plate and standing culture extraction]{%
     	\textbf{Bioassay results from agar-plate and standing culture extraction}.
-        Samples were screened for antibiotic activity against \textit{E. coli} K12 and \textit{B. subtilis} 168 and for promotor induction in the yorB-Assay.
+        Samples were subjected to the standard antibiotic assay against \textit{E. coli} K12 and \textit{B. subtilis} 168 as well as the \emph{yorB}-Assay against \textit{Bacillus subtilis} 1S34 pHJS105-yorB-lacZ2.
         Samples from standing cultures with foam cap (FC) or aluminium cap (AC), ISP2 agar plates (ISP2) and ISP2 agar plates with low-melting-point agarose (LMPA).
+        Agar plaques were taken directly from the culture plate and subjected to the \emph{yorB}-Assay without further processing.
         Samples were extracted with butanol (BuOH) or ethyl acetate (EtAc) and tested alongside their respective aqueous phases (aq.).\\
         \emph{Legend}: \textbf{-} No activity; \textbf{+~/~++~/~+++} antibiotic activity with inhibition zone of 1~/~1.0-1.5~/~>1.5~cm; \textbf{n.e.} result non-evaluable}
     \label{tab:yorB_assay_results}
     \centering
     \begin{tabularx}{\textwidth}{>{\hsize=1.4\hsize}X>{\hsize=.9\hsize}X>{\hsize=.9\hsize}X>{\hsize=.9\hsize}X>{\hsize=.9\hsize}X}
         \toprule
-        & \multicolumn{3}{c}{Antibacterial} & positive \\
+        & \multicolumn{3}{c}{Antibacterial} & Induction \\
         \cline{2-4}
         \textbf{Sample} & \textbf{\textit{E. coli}}     & \textbf{\textit{B. subtilis}}  & \textbf{yorB}  & \textbf{yorB}    \\
         \midrule
@@ -464,7 +485,7 @@ A summary of the results is shown in .
         ISP2 EtAc aq.   & +     & n.e.  & -     & +    \\
         ISP2 plaque     &       &       & ++    & ++   \\
         \midrule
-        LMPA BuOH       & +     & n.e.  & +++   & -    \\
+        LMPA BuOH       & -     & n.e.  & +++   & -    \\
         LMPA BuOH aq.   & -     & n.e.  & -     & -    \\
         LMPA EtAc       & -     & n.e.  & +++   & -    \\
         LMPA EtAc aq.   & -     & n.e.  & -     & -    \\
@@ -473,6 +494,18 @@ A summary of the results is shown in .
     \end{tabularx}
 \end{table}
 % subsection extraction_of_yorb_inducing_compound (end)
+
+The bioassay results indicate a high variety of activity for the strain \tue{} depending on cultivation procedure.
+Standing agar culture extracts were largely inactiva in the antibiotic and \emph{yorB}-assays.
+Ethyl acetate extracts of the foam and aluminium cap cultures mark the only exception.
+The foam cap extracts displayed high antibiotic activity against both \emph{B. subtilis} strains, whereas the aluminium cap extracts was lightly active against \textit{Bacillus subtilis} 1S34~pHJS105-yorB-lacZ2.
+Strong antibiotic activity against \textit{Bacillus subtilis} 1S34~pHJS105-yorB-lacZ2 was also present in BuOH extracts of both agar plate cultures and the EtAc extracts of LMPA. 
+Antibiotic assay results of agar plate cultures against \emph{B. subtilis}~168 were largely non-evaluable, yet ISP2-agar EtAc extract and the aqueous phase of the BuOH extraction tested positive.
+Activity against \emph{E. coli} was only lightly present in the aqueous phase of ISP2 EtAc extract.
+
+Antibiotic activity against \emph{B. subtilis} but not \emph{E. coli} in a range of organic extract samples hints at the presence of lipophilic compounds active against Gram-positive bacteria, but not Gram-negative.
+Previous assays with organic extracts of liquid cultures further !!!
+The non-evaluable results of the antibiotic assay against \emph{B. subtilis}~168 impede a comprehensive comparison of activity against both \emph{B. subtilis} strains and strengthen the need for further exploration of the activity spectrum of \tue{}.
 
 % section antibacterial_activity_spectrum (end)
 
@@ -625,12 +658,14 @@ The enediyne antibiotics neocarzinostatin and maduropeptin, which were also isol
 The homologies of the identified cluster could be an indicator, that the strain Tü2401 is capable of synthesizing an enediyene antibiotic with a nine-membered core and a corresponding apoprotein.
 The potent DNA-strand-breaking capabilities of this compound-class could induce the \textit{yorB} reporter system of \textit{Bacillus subtilis} 1S34 pHJS105-yorB-lacZ2 in the yorB-induction assay.
 A number of compounds, which cause DNA double strand breaks and crosslinks are reported to induce the system, though none of them belong to the family of endiyne antibiotics.\autocite{Urban2007}
-Whether this is due to inactivity or to this family not having been tested in the assay is unclear, since the compound library is not publicly accessible.
-Nevertheless, an endiyne compound could be responsible for the induction.
+Whether this is due to inactivity or lack of representation in the assay is unclear, since the compound library is not publicly accessible.
+Nevertheless, the mode of action of enediyne compounds matches positive compounds closely.
 
-The assay in Section \ref{sub:extraction_of_yorb_inducing_compound} showed, that the \textit{yorB} inducing compound is produced when the strain is grown on an ISP2 agar plate, but it could not be extracted via ethyl acetate or butanol.
-Only very low activity was retained in the aqueous phase. If the compound is indeed an endiyne, this loss of activity could be due to the high instability of the chromophore.
-The apoprotein could have been detached during the extraction and concentration process, which also included high temperatures of \SIrange[range-units=single]{40}{60}{\celsius}. Combined with incubation times of up to several days between extraction and assay, this could have led to the degradation of the chromophore below the sensitivity threshhold.
+Section~\ref{sub:yorb_reporter_gene_assay} discussed, that the \textit{yorB} inducing compound is produced when the strain is grown on an ISP2 agar plate, but not in liquid culture.
+Solvent extracts of plate cultures were also largely inactive with only minimal activity being present in the aqueous phase of ethyl acetate extraction.
+Maximum activity could only be observed in unprocessed plate culture samples.
+The apoprotein could have been detached during the extraction and concentration process, which also included high temperatures of \SIrange[range-units=single]{40}{60}{\celsius}.
+Combined with incubation times of up to several days between extraction and assay, this could have led to the degradation of the chromophore below the sensitivity threshhold.
 The high temperatures and long storage times also apply to the numerous HPLC-fractioning samples subjected to the \textit{yorB}-induction assay.
 
 To verify this assumption, the putative endiyne compound has to be extracted by an adapted protocol, dereplicated and subjected to the assay in pure form.

@@ -1,47 +1,14 @@
 {
-	"folders": !"./"
+	"folders":
 	[
 		{
-			"file_exclude_patterns": [
-				"*.aux",
-				"*.lof",
-				"*.log",
-				"*.lot",
-				"*.fls",
-				"*.out",
-				"*.toc",
-				"*.fmt",
-				"*.fot",
-				"*.cb",
-				"*.cb2",
-				"*.bbl",
-				"*.bcf",
-				"*.blg",
-				"*-blx.aux",
-				"*-blx.bib",
-				"*.run.xml",
-				"*.acn",
-				"*.acr",
-				"*.glg",
-				"*.glo",
-				"*.gls",
-				"*.glsdefs",
-				"*.idx",
-				"*.ilg",
-				"*.ind",
-				"*.ist",
-				"*.fdb_latexmk",
-				"*.synctex.gz",
-				"*.txss"
-			],
-			"folder_exclude_patterns": ["test"],
-			"path": "/home/philipp/masterarbeit/"
+			"path": ".",
+			"file_exclude_patterns": ["*.aux", "*.glo", "*.fls", "*.bbl", "*.ilg", "*.ind", "*.bcf", "*.blg", "*.idx", "*.txss", "*.synctex.gz", "*.fdb_latexmk", "*.ist", "*.lot", "*.lof", "*.toc", "*.run.xml"]
 		}
 	],
 	"settings":
 		{
-			"gutter": false,
-			"color_scheme": "Packages/MarkdownEditing/MarkdownEditor.tmTheme"
-
+			"color_scheme": "Packages/MarkdownEditing/MarkdownEditor.tmTheme",
+			"gutter": false
 		}
 }

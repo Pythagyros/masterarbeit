@@ -1,6 +1,52 @@
-\input{config}
+% \input{config}
 
-\usepackage{charter}
+% \usepackage{charter}
+\documentclass{scrreprt}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+% Somehow, lmodern has to be loaded before mathdesign. Otherwise, the font looks like garbage
+\usepackage[bitstream-charter]{mathdesign}	% Charter-BT Font
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{subcaption}
+	\graphicspath{ {images/} }
+\usepackage{standalone}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+
+\usepackage{scrlayer-scrpage}		% Part of KOMA-Script, formatting headers and footers
+\clearscrheadfoot				% remove standard head- and footline
+\automark*{chapter}				% redefine chapter style
+\ohead*{\pagemark}				% Sets pagenumber on outer headline, including chapterpage
+\ihead{\headmark}		
+\usepackage{tabularx}					% https://www.ctan.org/pkg/tabularx page wide tables
+\usepackage{multirow}					% https://www.ctan.org/pkg/multirow
+\usepackage{booktabs}					% https://www.ctan.org/pkg/booktabs nicer tables
+\usepackage{float}						% https://www.ctan.org/pkg/float
+\usepackage{longtable}	
+
+\usepackage[
+	justification=RaggedRight,
+	singlelinecheck=false
+]{caption}
+
+\usepackage{csquotes}					% https://www.ctan.org/pkg/csquotes required for biblatex
+\usepackage[							% https://www.ctan.org/pkg/biblatex
+	style=chem-acs,						% American chemical society citation style
+	autocite=superscript				% Sets numbers in superscript
+]{biblatex}
+\addbibresource{references/library.bib}
+
+\usepackage{siunitx}					% Formatting SI units
+	\sisetup{detect-all}				% Changes SI-number font to global font
+\usepackage{chemformula}				% Formatting chemical elements
+\usepackage{microtype}					% khirevich.com/latex/microtype
+\usepackage{pdfpages}					% Include titlepage as pdf
+\usepackage{scrhack}					% Removes Errors from Koma-Script Packages
+\usepackage{todonotes}					% Adds Todo-Notes
+% \usepackage{textgreek}	
 
 \begin{document}
 
