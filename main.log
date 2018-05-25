@@ -1,11 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.9)  21 MAY 2018 17:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.24)  25 MAY 2018 14:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
 LaTeX2e <2018-04-01> patch level 4
-Babel <3.20> and hyphenation patterns for 10 language(s) loaded.
 (./config.tex
 (/home/philipp/texlive/2018/texmf-dist/tex/latex/koma-script/scrreprt.cls
 Document Class: scrreprt 2018/03/30 v3.25 KOMA-Script document class (report)
@@ -262,16 +261,16 @@ File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 )))
 (/home/philipp/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2018/05/02 3.20 The Babel package
+Package: babel 2018/05/10 3.21 The Babel package
 
 (/home/philipp/texlive/2018/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2018/05/02 3.20 Babel switching mechanism
+File: switch.def 2018/05/10 3.21 Babel switching mechanism
 )
 (/home/philipp/texlive/2018/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 
 (/home/philipp/texlive/2018/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2018/05/02 3.20 Babel common definitions
+File: babel.def 2018/05/10 3.21 Babel common definitions
 \babel@savecnt=\count91
 \U@D=\dimen103
 
@@ -1178,10 +1177,10 @@ File: biblatex.cfg
 ))
 (/home/philipp/texlive/2018/texmf-dist/tex/latex/siunitx/siunitx.sty
 (/home/philipp/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2018-04-30 L3 programming layer (loader) 
+Package: expl3 2018-05-13 L3 programming layer (loader) 
 
 (/home/philipp/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2018-04-30 L3 programming layer (code)
+Package: expl3 2018-05-13 L3 programming layer (code)
 \c_max_int=\count326
 \l_tmpa_int=\count327
 \l_tmpb_int=\count328
@@ -1212,76 +1211,77 @@ Package: expl3 2018-04-30 L3 programming layer (code)
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
 \l_keys_choice_int=\count337
-\c__fp_leading_shift_int=\count338
-\c__fp_middle_shift_int=\count339
-\c__fp_trailing_shift_int=\count340
-\c__fp_big_leading_shift_int=\count341
-\c__fp_big_middle_shift_int=\count342
-\c__fp_big_trailing_shift_int=\count343
-\c__fp_Bigg_leading_shift_int=\count344
-\c__fp_Bigg_middle_shift_int=\count345
-\c__fp_Bigg_trailing_shift_int=\count346
-\c__fp_rand_size_int=\count347
-\c__fp_rand_four_int=\count348
-\c__fp_rand_eight_int=\count349
+\l__intarray_loop_int=\count338
 \c__intarray_sp_dim=\dimen258
-\g__intarray_font_int=\count350
-\l__sort_length_int=\count351
-\l__sort_min_int=\count352
-\l__sort_top_int=\count353
-\l__sort_max_int=\count354
-\l__sort_true_max_int=\count355
-\l__sort_block_int=\count356
-\l__sort_begin_int=\count357
-\l__sort_end_int=\count358
-\l__sort_A_int=\count359
-\l__sort_B_int=\count360
-\l__sort_C_int=\count361
-\l__tl_analysis_normal_int=\count362
-\l__tl_analysis_index_int=\count363
-\l__tl_analysis_nesting_int=\count364
-\l__tl_analysis_type_int=\count365
-\l__regex_internal_a_int=\count366
-\l__regex_internal_b_int=\count367
-\l__regex_internal_c_int=\count368
-\l__regex_balance_int=\count369
-\l__regex_group_level_int=\count370
-\l__regex_mode_int=\count371
-\c__regex_cs_in_class_mode_int=\count372
-\c__regex_cs_mode_int=\count373
-\l__regex_catcodes_int=\count374
-\l__regex_default_catcodes_int=\count375
-\c__regex_catcode_D_int=\count376
-\c__regex_catcode_S_int=\count377
-\c__regex_catcode_L_int=\count378
-\c__regex_catcode_O_int=\count379
-\c__regex_catcode_A_int=\count380
-\c__regex_all_catcodes_int=\count381
-\l__regex_show_lines_int=\count382
-\l__regex_min_state_int=\count383
-\l__regex_max_state_int=\count384
-\l__regex_left_state_int=\count385
-\l__regex_right_state_int=\count386
-\l__regex_capturing_group_int=\count387
-\l__regex_min_pos_int=\count388
-\l__regex_max_pos_int=\count389
-\l__regex_curr_pos_int=\count390
-\l__regex_start_pos_int=\count391
-\l__regex_success_pos_int=\count392
-\l__regex_curr_char_int=\count393
-\l__regex_curr_catcode_int=\count394
-\l__regex_last_char_int=\count395
-\l__regex_case_changed_char_int=\count396
-\l__regex_curr_state_int=\count397
-\l__regex_step_int=\count398
-\l__regex_min_active_int=\count399
-\l__regex_max_active_int=\count400
-\l__regex_replacement_csnames_int=\count401
-\l__regex_match_count_int=\count402
-\l__regex_min_submatch_int=\count403
-\l__regex_submatch_int=\count404
-\l__regex_zeroth_submatch_int=\count405
-\g__regex_trace_regex_int=\count406
+\g__intarray_font_int=\count339
+\c__fp_leading_shift_int=\count340
+\c__fp_middle_shift_int=\count341
+\c__fp_trailing_shift_int=\count342
+\c__fp_big_leading_shift_int=\count343
+\c__fp_big_middle_shift_int=\count344
+\c__fp_big_trailing_shift_int=\count345
+\c__fp_Bigg_leading_shift_int=\count346
+\c__fp_Bigg_middle_shift_int=\count347
+\c__fp_Bigg_trailing_shift_int=\count348
+\c__kernel_randint_max_int=\count349
+\g__fp_array_int=\count350
+\l__fp_array_loop_int=\count351
+\l__sort_length_int=\count352
+\l__sort_min_int=\count353
+\l__sort_top_int=\count354
+\l__sort_max_int=\count355
+\l__sort_true_max_int=\count356
+\l__sort_block_int=\count357
+\l__sort_begin_int=\count358
+\l__sort_end_int=\count359
+\l__sort_A_int=\count360
+\l__sort_B_int=\count361
+\l__sort_C_int=\count362
+\l__tl_analysis_normal_int=\count363
+\l__tl_analysis_index_int=\count364
+\l__tl_analysis_nesting_int=\count365
+\l__tl_analysis_type_int=\count366
+\l__regex_internal_a_int=\count367
+\l__regex_internal_b_int=\count368
+\l__regex_internal_c_int=\count369
+\l__regex_balance_int=\count370
+\l__regex_group_level_int=\count371
+\l__regex_mode_int=\count372
+\c__regex_cs_in_class_mode_int=\count373
+\c__regex_cs_mode_int=\count374
+\l__regex_catcodes_int=\count375
+\l__regex_default_catcodes_int=\count376
+\c__regex_catcode_D_int=\count377
+\c__regex_catcode_S_int=\count378
+\c__regex_catcode_L_int=\count379
+\c__regex_catcode_O_int=\count380
+\c__regex_catcode_A_int=\count381
+\c__regex_all_catcodes_int=\count382
+\l__regex_show_lines_int=\count383
+\l__regex_min_state_int=\count384
+\l__regex_max_state_int=\count385
+\l__regex_left_state_int=\count386
+\l__regex_right_state_int=\count387
+\l__regex_capturing_group_int=\count388
+\l__regex_min_pos_int=\count389
+\l__regex_max_pos_int=\count390
+\l__regex_curr_pos_int=\count391
+\l__regex_start_pos_int=\count392
+\l__regex_success_pos_int=\count393
+\l__regex_curr_char_int=\count394
+\l__regex_curr_catcode_int=\count395
+\l__regex_last_char_int=\count396
+\l__regex_case_changed_char_int=\count397
+\l__regex_curr_state_int=\count398
+\l__regex_step_int=\count399
+\l__regex_min_active_int=\count400
+\l__regex_max_active_int=\count401
+\l__regex_replacement_csnames_int=\count402
+\l__regex_match_count_int=\count403
+\l__regex_min_submatch_int=\count404
+\l__regex_submatch_int=\count405
+\l__regex_zeroth_submatch_int=\count406
+\g__regex_trace_regex_int=\count407
 \c_empty_box=\box70
 \l_tmpa_box=\box71
 \l_tmpb_box=\box72
@@ -1323,22 +1323,22 @@ Package: expl3 2018-04-30 L3 programming layer (code)
 \l__coffin_top_corner_dim=\dimen281
 \l__coffin_scaled_total_height_dim=\dimen282
 \l__coffin_scaled_width_dim=\dimen283
-\l__seq_internal_a_int=\count407
-\l__seq_internal_b_int=\count408
+\l__seq_internal_a_int=\count408
+\l__seq_internal_b_int=\count409
 )
 (/home/philipp/texlive/2018/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
-File: l3pdfmode.def 2018-04-30 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count409
+File: l3pdfmode.def 2018-05-13 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count410
 ))
 (/home/philipp/texlive/2018/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2018-04-30 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count410
-\g__xparse_grabber_int=\count411
-\l__xparse_m_args_int=\count412
-\l__xparse_mandatory_args_int=\count413
-\l__xparse_v_nesting_int=\count414
+Package: xparse 2018-05-12 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count411
+\g__xparse_grabber_int=\count412
+\l__xparse_m_args_int=\count413
+\l__xparse_mandatory_args_int=\count414
+\l__xparse_v_nesting_int=\count415
 )
-Package: siunitx 2018-05-02 v2.7o A comprehensive (SI) units package
+Package: siunitx 2018/05/17 v2.7s A comprehensive (SI) units package
 
 (/home/philipp/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
@@ -1350,31 +1350,31 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 ))
 (/home/philipp/texlive/2018/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.s
 ty
-Package: l3keys2e 2018-04-30 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2018-05-12 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box85
 \l__siunitx_tmp_dim=\dimen285
-\l__siunitx_tmp_int=\count415
-\l__siunitx_number_mantissa_length_int=\count416
-\l__siunitx_number_uncert_length_int=\count417
-\l__siunitx_round_int=\count418
-\l__siunitx_process_decimal_int=\count419
-\l__siunitx_process_uncertainty_int=\count420
-\l__siunitx_process_fixed_int=\count421
-\l__siunitx_process_integer_min_int=\count422
-\l__siunitx_process_precision_int=\count423
-\l__siunitx_group_min_int=\count424
+\l__siunitx_tmp_int=\count416
+\l__siunitx_number_mantissa_length_int=\count417
+\l__siunitx_number_uncert_length_int=\count418
+\l__siunitx_round_int=\count419
+\l__siunitx_process_decimal_int=\count420
+\l__siunitx_process_uncertainty_int=\count421
+\l__siunitx_process_fixed_int=\count422
+\l__siunitx_process_integer_min_int=\count423
+\l__siunitx_process_precision_int=\count424
+\l__siunitx_group_min_int=\count425
 \l__siunitx_angle_marker_box=\box86
 \l__siunitx_angle_unit_box=\box87
 \l__siunitx_angle_marker_dim=\dimen286
 \l__siunitx_angle_unit_dim=\dimen287
-\l__siunitx_unit_int=\count425
-\l__siunitx_unit_denominator_int=\count426
-\l__siunitx_unit_numerator_int=\count427
-\l__siunitx_unit_prefix_int=\count428
-\l__siunitx_unit_prefix_base_int=\count429
-\l__siunitx_unit_prefix_gram_int=\count430
-\l__siunitx_number_product_int=\count431
+\l__siunitx_unit_int=\count426
+\l__siunitx_unit_denominator_int=\count427
+\l__siunitx_unit_numerator_int=\count428
+\l__siunitx_unit_prefix_int=\count429
+\l__siunitx_unit_prefix_base_int=\count430
+\l__siunitx_unit_prefix_gram_int=\count431
+\l__siunitx_number_product_int=\count432
 \c__siunitx_one_fill_skip=\skip95
 \l__siunitx_table_unit_align_skip=\skip96
 \l__siunitx_table_exponent_dim=\dimen288
@@ -1395,117 +1395,117 @@ Package: l3keys2e 2018-04-30 LaTeX2e option processing using LaTeX3 keys
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareBinaryPrefix with sig. 'mmm' on line 7244.
+. Defining command \DeclareBinaryPrefix with sig. 'mmm' on line 7237.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareSIPostPower with sig. 'mm' on line 7247.
+. Defining command \DeclareSIPostPower with sig. 'mm' on line 7240.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareSIPrefix with sig. 'mmm' on line 7250.
+. Defining command \DeclareSIPrefix with sig. 'mmm' on line 7243.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareSIPrePower with sig. 'mm' on line 7253.
+. Defining command \DeclareSIPrePower with sig. 'mm' on line 7246.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareSIQualifier with sig. 'mm' on line 7256.
+. Defining command \DeclareSIQualifier with sig. 'mm' on line 7249.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareSIUnit with sig. 'O{}mm' on line 7259.
+. Defining command \DeclareSIUnit with sig. 'O{}mm' on line 7252.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareSIUnitWithOptions with sig. 'mmm' on line 7262.
+. Defining command \DeclareSIUnitWithOptions with sig. 'mmm' on line 7255.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \ang with sig. 'o>{\SplitArgument {2}{;}}m' on line 7277.
+. Defining command \ang with sig. 'o>{\SplitArgument {2}{;}}m' on line 7270.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \num with sig. 'om' on line 7286.
+. Defining command \num with sig. 'om' on line 7279.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \numlist with sig. 'o>{\SplitList {;}}m' on line 7295.
+. Defining command \numlist with sig. 'o>{\SplitList {;}}m' on line 7288.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \numrange with sig. 'omm' on line 7304.
+. Defining command \numrange with sig. 'omm' on line 7297.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \SIlist with sig. 'o>{\SplitList {;}}mm' on line 7316.
+. Defining command \SIlist with sig. 'o>{\SplitList {;}}mm' on line 7309.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \SIrange with sig. 'ommm' on line 7328.
+. Defining command \SIrange with sig. 'ommm' on line 7321.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \SI with sig. 'omom' on line 7340.
+. Defining command \SI with sig. 'omom' on line 7333.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \sisetup with sig. 'm' on line 7343.
+. Defining command \sisetup with sig. 'm' on line 7336.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \tablenum with sig. 'om' on line 7358.
+. Defining command \tablenum with sig. 'om' on line 7351.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \si with sig. 'om' on line 7370.
+. Defining command \si with sig. 'om' on line 7363.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \numInBookmark with sig. 'om' on line 7417.
+. Defining command \numInBookmark with sig. 'om' on line 7410.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \numrangeInBookmark with sig. 'omm' on line 7419.
+. Defining command \numrangeInBookmark with sig. 'omm' on line 7412.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \SIInBookmark with sig. 'omom' on line 7421.
+. Defining command \SIInBookmark with sig. 'omom' on line 7414.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \SIlistInBookmark with sig. 'omm' on line 7423.
+. Defining command \SIlistInBookmark with sig. 'omm' on line 7416.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \SIrangeInBookmark with sig. 'ommm' on line 7425.
+. Defining command \SIrangeInBookmark with sig. 'ommm' on line 7418.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \siInBookmark with sig. 'om' on line 7426.
+. Defining command \siInBookmark with sig. 'om' on line 7419.
 .................................................
  (/home/philipp/texlive/2018/texmf-dist/tex/latex/translator/translator.sty
 Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
@@ -1523,13 +1523,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/home/philipp/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count432
+\inf@bad=\count433
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count433
-\leftroot@=\count434
+\uproot@=\count434
+\leftroot@=\count435
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count435
-\DOTSCASE@=\count436
+\classnum@=\count436
+\DOTSCASE@=\count437
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -1538,15 +1538,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen298
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count437
-\c@MaxMatrixCols=\count438
+\macc@depth=\count438
+\c@MaxMatrixCols=\count439
 \dotsspace@=\muskip17
-\c@parentequation=\count439
-\dspbrk@lvl=\count440
+\c@parentequation=\count440
+\dspbrk@lvl=\count441
 \tag@help=\toks39
-\row@=\count441
-\column@=\count442
-\maxfields@=\count443
+\row@=\count442
+\column@=\count443
+\maxfields@=\count444
 \andhelp@=\toks40
 \eqnshift@=\dimen299
 \alignsep@=\dimen300
@@ -1721,13 +1721,13 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
 (/home/philipp/texlive/2018/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate
 .sty
-Package: xtemplate 2018-04-30 L3 Experimental prototype document functions
+Package: xtemplate 2018-05-12 L3 Experimental prototype document functions
 \l__xtemplate_tmp_dim=\dimen305
-\l__xtemplate_tmp_int=\count444
+\l__xtemplate_tmp_int=\count445
 \l__xtemplate_tmp_muskip=\muskip18
 \l__xtemplate_tmp_skip=\skip102
 )
-Package: xfrac 2018-04-30 L3 Experimental split-level fractions
+Package: xfrac 2018-05-12 L3 Experimental split-level fractions
 \l__xfrac_slash_box=\box94
 \l__xfrac_tmp_box=\box95
 \l__xfrac_denominator_bot_sep_dim=\dimen306
@@ -1766,9 +1766,9 @@ Package: chemformula 2017/03/23 v4.15e typeset chemical compounds and reactions
 \l__chemformula_tmpa_dim=\dimen315
 \l__chemformula_tmpb_dim=\dimen316
 \l__chemformula_tmpc_dim=\dimen317
-\l__chemformula_tmpa_int=\count445
-\l__chemformula_tmpb_int=\count446
-\l__chemformula_tmpc_int=\count447
+\l__chemformula_tmpa_int=\count446
+\l__chemformula_tmpb_int=\count447
+\l__chemformula_tmpc_int=\count448
 \l__chemformula_tmpa_box=\box96
 \l__chemformula_tmpb_box=\box97
 \l__chemformula_arrow_length_dim=\dimen318
@@ -1801,8 +1801,8 @@ Package: chemformula 2017/03/23 v4.15e typeset chemical compounds and reactions
 \l__chemformula_kroegervink_positive_space_dim=\dimen345
 \l__chemformula_stoich_space_skip=\skip106
 \l__chemformula_math_space_skip=\skip107
-\l__chemformula_count_tokens_int=\count448
-\g__chemformula_lewis_int=\count449
+\l__chemformula_count_tokens_int=\count449
+\g__chemformula_lewis_int=\count450
 \l__chemformula_arrow_arg_i_box=\box98
 \l__chemformula_arrow_arg_ii_box=\box99
 \l__chemformula_superscript_box=\box100
@@ -1979,11 +1979,11 @@ Package: chemformula 2017/03/23 v4.15e typeset chemical compounds and reactions
 (/home/philipp/texlive/2018/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
 \MT@toks=\toks43
-\MT@count=\count450
+\MT@count=\count451
 LaTeX Info: Redefining \textls on input line 793.
 \MT@outer@kern=\dimen346
 LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
-\MT@listname@count=\count451
+\MT@listname@count=\count452
 
 (/home/philipp/texlive/2018/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
@@ -2001,19 +2001,19 @@ Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 
 (/home/philipp/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count452
-\calc@Bcount=\count453
+\calc@Acount=\count453
+\calc@Bcount=\count454
 \calc@Adimen=\dimen347
 \calc@Bdimen=\dimen348
 \calc@Askip=\skip112
 \calc@Bskip=\skip113
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count454
+\calc@Ccount=\count455
 \calc@Cskip=\skip114
 )
 (/home/philipp/texlive/2018/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 
 (/home/philipp/texlive/2018/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
@@ -2027,7 +2027,7 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 \AM@pagebox=\box102
 \AM@global@opts=\toks44
 \AM@toc@title=\toks45
-\c@AM@survey=\count455
+\c@AM@survey=\count456
 \AM@templatesizebox=\box103
 )
 (/home/philipp/texlive/2018/texmf-dist/tex/latex/koma-script/scrhack.sty
@@ -2238,7 +2238,7 @@ Package: todonotes 2012/07/25
 ries/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
 )
-\c@@todonotes@numberoftodonotes=\count456
+\c@@todonotes@numberoftodonotes=\count457
 ))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -2291,16 +2291,16 @@ LaTeX Font Info:    ... okay on input line 9.
 
 (/home/philipp/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count457
+\scratchcounter=\count458
 \scratchdimen=\dimen351
 \scratchbox=\box104
-\nofMPsegments=\count458
-\nofMParguments=\count459
+\nofMPsegments=\count459
+\nofMParguments=\count460
 \everyMPshowfont=\toks46
-\MPscratchCnt=\count460
+\MPscratchCnt=\count461
 \MPscratchDim=\dimen352
-\MPnumerator=\count461
-\makeMPintoPDFobject=\count462
+\MPnumerator=\count462
+\makeMPintoPDFobject=\count463
 \everyMPtoPDFconversion=\toks47
 ) (/home/philipp/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -2729,49 +2729,47 @@ Overfull \hbox (21.31647pt too wide) in paragraph at lines 353--354
  []
 
 [21]
-<images/bioassay_yorB_initial.jpg, id=133, 2706.11pt x 3011.25pt>
-File: images/bioassay_yorB_initial.jpg Graphic file (type jpg)
-<use images/bioassay_yorB_initial.jpg>
-Package pdftex.def Info: images/bioassay_yorB_initial.jpg  used on input line 3
-72.
-(pdftex.def)             Requested size: 218.73059pt x 243.38611pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 412--412
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
 []|\T1/mdbch/m/n/12 (+20) Alternariol
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 412--412
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
 []|\T1/mdbch/m/n/12 (+20) Desmethylether-
  []
 
-[22] [23] [24 <./images/bioassay_yorB_initial.jpg>]
-Overfull \hbox (12.26117pt too wide) in paragraph at lines 497--504
+<images/bioassay_yorB_initial.jpg, id=133, 2706.11pt x 3011.25pt>
+File: images/bioassay_yorB_initial.jpg Graphic file (type jpg)
+<use images/bioassay_yorB_initial.jpg>
+Package pdftex.def Info: images/bioassay_yorB_initial.jpg  used on input line 4
+11.
+(pdftex.def)             Requested size: 218.73059pt x 243.38611pt.
+[22] [23] [24 <./images/bioassay_yorB_initial.jpg>] [25]
+Overfull \hbox (12.26117pt too wide) in paragraph at lines 505--512
 []\T1/mdbch/m/n/12 (-20) The bioas-say re-sults in-di-cate a high va-ri-ety of 
 ac-tiv-ity for the strain \T1/mdbch/m/it/12 (-20) Strep-to-myces \T1/mdbch/m/n/
 12 (-20) sp. Tü2401
  []
 
-[25] [26] [27]
-<images/tu2401_tree.png, id=153, 1012.7436pt x 540.8205pt>
+[26] [27] [28]
+<images/tu2401_tree.png, id=156, 1012.7436pt x 540.8205pt>
 File: images/tu2401_tree.png Graphic file (type png)
 <use images/tu2401_tree.png>
-Package pdftex.def Info: images/tu2401_tree.png  used on input line 575.
+Package pdftex.def Info: images/tu2401_tree.png  used on input line 583.
 (pdftex.def)             Requested size: 437.46118pt x 233.61281pt.
- [28] [29 <./images/tu2401_tree.png>]
-<images/known_ptms.jpg, id=161, 664.4825pt x 505.89pt>
+ [29] [30 <./images/tu2401_tree.png>]
+<images/known_ptms.jpg, id=164, 664.4825pt x 505.89pt>
 File: images/known_ptms.jpg Graphic file (type jpg)
 <use images/known_ptms.jpg>
-Package pdftex.def Info: images/known_ptms.jpg  used on input line 613.
+Package pdftex.def Info: images/known_ptms.jpg  used on input line 621.
 (pdftex.def)             Requested size: 349.97028pt x 266.44533pt.
- [30] [31 <./images/known_ptms.jpg>]
-<images/enediyne_overview.jpg, id=169, 498.21532pt x 461.76053pt>
+ [31 <./images/known_ptms.jpg>] [32]
+<images/enediyne_overview.jpg, id=172, 498.21532pt x 461.76053pt>
 File: images/enediyne_overview.jpg Graphic file (type jpg)
 <use images/enediyne_overview.jpg>
-Package pdftex.def Info: images/enediyne_overview.jpg  used on input line 662.
+Package pdftex.def Info: images/enediyne_overview.jpg  used on input line 670.
 (pdftex.def)             Requested size: 393.71239pt x 364.92068pt.
- [32] [33] [34 <./images/enediyne_overview.jpg>] [35]
-(./images/workflow.tex
+ [33] [34 <./images/enediyne_overview.jpg>] [35] (./images/workflow.tex
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10> not available
 (Font)              Font shape `T1/lmss/bx/n' tried instead on input line 31.
 )) [36] [37]
@@ -2842,13 +2840,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46548 strings out of 494497
- 985846 string characters out of 6173636
- 1538280 words of memory out of 5000000
- 49021 multiletter control sequences out of 15000+600000
- 638437 words of font info for 385 fonts, out of 8000000 for 9000
+ 47159 strings out of 494497
+ 987693 string characters out of 6173635
+ 1538143 words of memory out of 5000000
+ 49628 multiletter control sequences out of 15000+600000
+ 640730 words of font info for 390 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 72i,19n,106p,10435b,3013s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,19n,106p,9098b,3013s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/home/philipp/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/home/ph
 ilipp/texlive/2018/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}</home/philipp/t
 exlive/2018/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></home/philipp/t
@@ -2868,7 +2866,7 @@ home/philipp/texlive/2018/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr
 8t.pfb></home/philipp/texlive/2018/texmf-dist/fonts/type1/public/mathdesign/mdb
 ch/md-chri7m.pfb></home/philipp/texlive/2018/texmf-dist/fonts/type1/public/math
 design/mdbch/md-chrma.pfb>
-Output written on main.pdf (62 pages, 23714644 bytes).
+Output written on main.pdf (62 pages, 23715848 bytes).
 PDF statistics:
  300 PDF objects out of 1000 (max. 8388607)
  193 compressed objects within 2 object streams

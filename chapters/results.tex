@@ -10,14 +10,14 @@ The strain Tü2401 was grown in seven different complex media for either four or
 Culture broth supernatants of NL~200, NL~300, NL~500 and OM media displayed antibiotic activity against \coli  on plate assays.
 A comparison between the viable production media and cultivation times is necessary to determine the optimal production medium for the following experiments.
 
-Initial HPLC procedures failed to separate the active compound with standard reverse-phase screening methods. The compound displayed no retention on C-18 columns with acetonitrile/water gradients, making it likely to possess strong hydrophilic properties.
-Additionally, the compound was not able to be extracted from the culture broth or biomass via ethyl acetate.
-Its high solubility in water requires the development of an adapted extraction procedure to aid the purification process.
+Initial HPLC procedures failed to separate the active compound with standard reverse-phase screening methods.
+The compound displayed no retention on C-18 columns with acetonitrile/water screening gradients and could not be extracted from the culture broth or biomass via ethyl acetate.
+The apparent high water solubility of the active compound requires the development of an adapted extraction procedure to aid the purification process.
 
 \subsection{Comparison of Production Media} % (fold)
 \label{sub:comparison_of_production_media}
 
-To determine the optimal production medium, Tü2401 was grown in each of the media for either four or seven days, in which the strain previously proved to be active.
+To determine the optimal production medium, Tü2401 was grown in NL~200, NL~300, NL~500 and OM complex media for either four or seven days.
 The culture broth supernatants obtained were filtrated and subjected to the bioassay against \coli{}.
 The assay results are displayed in Figure~\ref{fig:medium_activity}.
 
@@ -41,7 +41,7 @@ The assay results are displayed in Figure~\ref{fig:medium_activity}.
 Most samples caused notable ($\varnothing>$\SI{1}{\centi\meter}) zones of inhibition in the agar diffusion assay.
 NL~500 after seven days and OM in both cases produced the largest inhibition zones ($\varnothing > \SI{1.5}{\centi\meter}$).
 Supernatant of NL~300 only produced inhibition zones after seven days of incubation.
-OM medium produced the largest inhibition zone after only four days of cultivation and, thus, seems best suited to production of the hydrophilic compound.
+OM culture supernatant produced the largest inhibition zone after only four days of cultivation and, thus, seems best suited to production of the hydrophilic compound.
 NL~300 and 500 achieved maximum inhibition only after seven days, whereas NL~200 produced smaller inhibition zones in general.
 
 NL~500 and OM supernatants were separated via an Agilent~1200 HPLC system equipped with a diode array detector (DAD) and evaporative light scattering detector (ELSD).
@@ -92,7 +92,7 @@ The visible antibacterial activity of the supernatant against \textit{E. coli}~K
 \label{sub:extraction_experiments}
 
 One of the first steps in natural product isolation is usually the extraction via organic solvents to remove compounds of interest from a cellular matrix and enrich them in the solvent-phase.\autocite{Dragull2012,Sticher2008}
-In the case of strain Tü2401, the culture broth supernatant is antibiotically active, whereas the biomass and extracts thereof are not.
+In the case of strain Tü2401, the culture broth supernatant was antibiotically active, whereas the biomass and extracts thereof are not.
 The compound therefore seems to be readily excreted to the medium, eliminating the need to separate it from cellular matter.
 However, and extraction process might still aid purification by removing hydrophilic contaminants such as salts easing further isolation steps such as HPLC.
 
@@ -103,7 +103,7 @@ Additionally, solvents with higher polarity while still being immiscible with wa
 OM medium supernatant was split into three sets of five aliquots each.
 Each aliquot was adjusted to either pH 2, 5, 7, 9 or 11.
 Each set was extracted with one following solvents (listed by descending polarity $E_T (30)$):\autocite{Marcus1993}
-Ethyl acetate, Methyl acetate and Ethyl formate.
+Ethyl acetate (EtAc), Methyl acetate (MeAc) and Ethyl formate (EtForm).
 Organic and aqueous phases were separated and tested for bioactivity against \coli{} via agar-diffusion assay.
 The assay results are shown in Figure~\ref{fig:results_extraction_bioassay}.
 
@@ -366,16 +366,7 @@ The \textit{yorB} gene from \textit{Bacillus subtilis} has been observed to be u
 Construction of a luciferase reporter system led to the hypothesis, that induction is due to DNA damage caused by inhibition of the Topoisomerase~II alpha subunit.\autocite{Hutter2004}
 Further characterization with greater natural product libraries strengthened this theory.\autocite{Mariner2011,Urban2007}
 Table~\ref{tab:results_yorb_inducers} gives an overview of tested \textit{yorB}-inducing compounds, which either damage DNA directly or interfere with replication.
-
-\begin{figure}[htbp]
-	\centering
-	\includegraphics[width=.5\textwidth]{bioassay_yorB_initial}
-	\caption[Results of the \textit{yorB} reporter system bioassay with strain Tü2401]{%
-		\textbf{Results of the \textit{yorB} reporter system bioassay with strain Tü2401}
-		Foto of the bioassay plate taken one day after incubation.
-	}
-	\label{fig:results_yorB_initial}
-\end{figure}
+Promotor induction in the \emph{yorB}-assay (see Section~\ref{sub:yorb_reporter_gene_assay}) is indicated by a blue halo at the edge of the inhibition zone, where a sublethal concentration of antibiotic are present.
 
 \begin{table}[htbp]
 	\caption[Known inducers of the \textit{yorB} reporter system]{%
@@ -412,8 +403,27 @@ Table~\ref{tab:results_yorb_inducers} gives an overview of tested \textit{yorB}-
 	\end{tabularx}
 \end{table}
 
-However, all samples and extracts stemming from liquid cultures were inactive in the \emph{yorB} assay.
-The metabolite, which induced the \emph{yorB} reporter system, is likely not produced in shake-flask cultures with OM-medium.
+Both liquid culture extracts and agar plaques of Tü2401 were subject to the \emph{yorB}-assay to determine the presence of the putative \emph{yorB} inducer in extracts of liquid culture.
+Figure~\ref{fig:results_yorB_initial} depicts the assay results of ISP2 agar plaques after four days of growth as well as EtAc and MeAc extracts of OM culture broth supernatant.
+Agar plaques produced a distinct blue halo at the edge of the inhibition zone, whereas both organic and aquous phases of OM culture broth supernatant extracts only showed an inhibition zone for antibiotic activity.
+The extract samples are not able to induce the reporter system and seem to not contain the putative DNA-damaging compound present in agar plaques, yet all samples seem to share comparable antibiotic activity against \textit{B. subtilis}~1S34~pHJS105-yorB-lacZ2.
+Interestingly, both organic and aqueous phases of EtAc and MeAc extracts possess comparable antibiotic activity against the \emph{B. subtilis} strain, whereas organic extract phases were inactive against \emph{E.~coli}~K12.
+Tü2401 seems to produce a third metabolite with antibiotic properties against \emph{B. subtilis}, but not \emph{E. coli}, which is able to be extracted with EtAc or MeAc from the culture broth
+The metabolite with potential DNA-damaging qualities, however, is likely not produced in shake-flask cultures with OM-medium or lost during processing.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=.5\textwidth]{bioassay_yorB_initial}
+	\caption[Agar and Culture Extract Samples of Strain Tü2401 subjected to the \emph{yorB} reporter gene assay]{%
+		\textbf{Agar and Culture Extract Samples of Strain Tü2401 subjected to the \emph{yorB} reporter gene assay}\\
+		Samples were subject to the \emph{yorB} reporter gene assay, incubated for 24~h and photographed.
+		A: Agar plaques of Tü2401 taken after four days of growth on ISP2 agar.
+		B: Aqueous phases of EtAc (left) and MeAc (right) extraction of OM culture broth supernatant.
+		C: EtAc (left) and MeAc (right) extracts of OM culture broth supernatant dried and redissolved in MeOH.
+		Blue halos indicate induction of the \emph{yorB} reporter gene.
+	}
+	\label{fig:results_yorB_initial}
+\end{figure}
 
 Loss of activity when transitioning from solid to liquid cultures is a known phenomenon in \emph{Streptomyces} screening studies.\autocite{Pickup1993,SHOMURA1979}
 Secondary metabolite production is regulated by a plethora of interacting factors, which are dependent on the developmental stage of the cell, nutrient availability and other internal and external factors.\autocite{Cihak2017,Jones2017,Gao2012,Bibb2005}
@@ -503,7 +513,6 @@ Antibiotic assay results of agar plate cultures against \emph{B. subtilis}~168 w
 Activity against \emph{E. coli} was only lightly present in the aqueous phase of ISP2 EtAc extract.
 
 Antibiotic activity against \emph{B. subtilis} but not \emph{E. coli} in a range of organic extract samples hints at the presence of lipophilic compounds active against Gram-positive bacteria, but not Gram-negative.
-Previous assays with organic extracts of liquid cultures further !!!
 The non-evaluable results of the antibiotic assay against \emph{B. subtilis}~168 impede a comprehensive comparison of activity against both \emph{B. subtilis} strains and strengthen the need for further exploration of the activity spectrum of \tue{}.
 
 The lack of activity against \emph{E. coli}~K12 for all but one sample indicates, that the putative hydrophilic compound present in liquid cultures is not produced in the same amount in standing liquid or agar cultures of ISP2 medium.

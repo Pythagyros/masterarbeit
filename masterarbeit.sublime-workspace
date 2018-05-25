@@ -467,6 +467,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"The only sample able to induce the \n",
 			"yorb_initial",
 			"pdf",
 			"arugomy",
@@ -587,6 +588,14 @@
 		"selected_items":
 		[
 			[
+				"meth",
+				"chapters/methods.tex"
+			],
+			[
+				"con",
+				"config.tex"
+			],
+			[
 				"main",
 				"main.tex"
 			],
@@ -601,14 +610,6 @@
 			[
 				"resu",
 				"chapters/results.tex"
-			],
-			[
-				"con",
-				"config.tex"
-			],
-			[
-				"meth",
-				"chapters/methods.tex"
 			],
 			[
 				"result",
