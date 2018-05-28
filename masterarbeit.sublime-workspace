@@ -363,6 +363,7 @@
 	},
 	"file_history":
 	[
+		"/home/philipp/masterarbeit/chapters/abbreviations.tex",
 		"/tmp/mozilla_philipp0/mendeley-citations.ris",
 		"/home/philipp/masterarbeit/masterarbeit.sublime-project",
 		"/home/philipp/masterarbeit/chapters/results.tex",
@@ -398,7 +399,6 @@
 		"/home/philipp/.config/sublime-text-3/Packages/User/MarkdownPreview.sublime-settings",
 		"/home/philipp/lebenslauf/cv_german.tex",
 		"/home/philipp/.config/sublime-text-3/Packages/User/umlaut_ue.sublime-snippet",
-		"/home/philipp/masterarbeit/chapters/abbreviations.tex",
 		"/home/philipp/.config/sublime-text-3/Packages/User/siunit.sublime-snippet",
 		"/home/philipp/.config/sublime-text-3/Packages/User/autocite.sublime-snippet",
 		"/tmp/mozilla_philipp0/biblatex-chem-acs.tex",
@@ -452,7 +452,7 @@
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 65.8025922233
 	},
 	"find_in_files":
 	{
@@ -467,6 +467,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" \n",
+			"etac",
+			"ethyl acetate",
 			"The only sample able to induce the \n",
 			"yorb_initial",
 			"pdf",
@@ -588,8 +591,20 @@
 		"selected_items":
 		[
 			[
+				"res",
+				"chapters/results.tex"
+			],
+			[
 				"meth",
 				"chapters/methods.tex"
+			],
+			[
+				"abb",
+				"chapters/abbreviations.tex"
+			],
+			[
+				"resu",
+				"chapters/results.tex"
 			],
 			[
 				"con",
@@ -600,16 +615,8 @@
 				"main.tex"
 			],
 			[
-				"res",
-				"chapters/results.tex"
-			],
-			[
 				"conf",
 				"config.tex"
-			],
-			[
-				"resu",
-				"chapters/results.tex"
 			],
 			[
 				"result",
