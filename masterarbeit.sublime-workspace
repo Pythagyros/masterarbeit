@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"setcap",
+				"\\setcapindent*{indent}                            \tclass-scrartcl,scrreprt,scrbook"
+			],
+			[
 				"docu",
 				"\\documentclass{style}                             \tlatex-document"
 			],
@@ -257,7 +261,7 @@
 	"command_palette":
 	{
 		"height": 401.0,
-		"last_filter": "color",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -364,17 +368,17 @@
 	"file_history":
 	[
 		"/home/philipp/masterarbeit/chapters/abbreviations.tex",
+		"/home/philipp/.config/sublime-text-3/Packages/User/LaTeXTools.sublime-settings",
+		"/home/philipp/masterarbeit/test.tex",
+		"/home/philipp/masterarbeit/main.log",
 		"/tmp/mozilla_philipp0/mendeley-citations.ris",
 		"/home/philipp/masterarbeit/masterarbeit.sublime-project",
 		"/home/philipp/masterarbeit/chapters/results.tex",
-		"/home/philipp/.config/sublime-text-3/Packages/User/LaTeXTools.sublime-settings",
 		"/home/philipp/.zshrc",
 		"/home/philipp/.zprofile",
 		"/home/philipp/masterarbeit/main.tex",
 		"/home/philipp/masterarbeit/test.log",
-		"/home/philipp/masterarbeit/main.log",
 		"/home/philipp/masterarbeit/config.tex",
-		"/home/philipp/masterarbeit/test.tex",
 		"/home/philipp/Downloads/Miniconda3-latest-Linux-x86_64.sh",
 		"/media/philipp/Transcend/Masterarbeit_2017/md_notes/antismash_notes.md",
 		"/home/philipp/masterarbeit/md_notes/enediyenes.md",
@@ -452,7 +456,7 @@
 	],
 	"find":
 	{
-		"height": 65.8025922233
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -467,6 +471,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"tocbasic",
 			" \n",
 			"etac",
 			"ethyl acetate",
@@ -591,6 +596,22 @@
 		"selected_items":
 		[
 			[
+				"abb",
+				"chapters/abbreviations.tex"
+			],
+			[
+				"main",
+				"main.tex"
+			],
+			[
+				"conf",
+				"config.tex"
+			],
+			[
+				"resu",
+				"chapters/results.tex"
+			],
+			[
 				"res",
 				"chapters/results.tex"
 			],
@@ -599,23 +620,7 @@
 				"chapters/methods.tex"
 			],
 			[
-				"abb",
-				"chapters/abbreviations.tex"
-			],
-			[
-				"resu",
-				"chapters/results.tex"
-			],
-			[
 				"con",
-				"config.tex"
-			],
-			[
-				"main",
-				"main.tex"
-			],
-			[
-				"conf",
 				"config.tex"
 			],
 			[
