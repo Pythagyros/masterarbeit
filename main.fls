@@ -621,6 +621,9 @@ INPUT /home/philipp/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT images/tlc_scheme.png
 INPUT ./images/tlc_scheme.png
 INPUT ./images/tlc_scheme.png
+INPUT images/tlc_results.jpg
+INPUT ./images/tlc_results.jpg
+INPUT ./images/tlc_results.jpg
 INPUT images/bioassay_yorB_initial.jpg
 INPUT ./images/bioassay_yorB_initial.jpg
 INPUT ./images/bioassay_yorB_initial.jpg
