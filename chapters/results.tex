@@ -273,22 +273,29 @@ Variation of elution buffer pH might enable an elution profile more specific to 
 
 %Antibiotische Zucker?
 
-A classic method for separation of sugars and other water-soluble compounds is thin-layer chromatography (TLC).
+A classic chromatographic method for separation of sugars and other water-soluble compounds is thin-layer chromatography (TLC).
 Analytes are applied to a layer of adsorbent material, usually cellulose or silica gel, which is bound to a glass or aluminium sheet.
-The mobile phase is drawn up the sheet via capillary action and separates compounds in mixture depending on solubility in the mobile phase and interaction with the stationary phase.lm-
+The mobile phase is drawn up the sheet via capillary action and separates compounds in mixture depending on solubility in the mobile phase and interaction with the stationary phase.
 Highly polar silica gel is often used as the stationary phase in combination with apolar solvents to separate polar analytes and has been successfully applied to identify aminoglycoside antibiotics.\autocite{Pauncz1980}
 
-TLC can be applied to separate compound of interest. Both staining and extraction on sample plate. RevEx + Glucose, Ribose, Rhamnose -> Verlgleichbarkeit der Zucker
+TLC could be a viable strategy to isolate compound of interest from liquid culture reverse extracts.
+The silica phase is optimal for the separation of hydrophilic compounds, which are predominantly present in the aquous extract.
+Since the only established method of detection for the putative hydrophilic compound is antibiotic activity, the compound has to be extracted via MeOH after separation and subjected to a bioassay.
+Staining with orcinol, which marks hexoses with a brown and pentoses with a blue color, can be applied to reveal monosaccharide moieties in the molecule.\autocite{ENDO1970}
+A successful TLC separation method could also be applied to develop a sophisticated normal phase HPLC protocol to gather mass and UV spectra.
 
-To eliminate differences between chromatography runs, a single TLC plate was used for both staining and preparation.
-The plate was divided vertically into an analytical side and a preparative side.
+Five different mobile phases were employed to compare separation on silica 60 F\textsubscript{254} TLC plates (see Section~\ref{sub:thin_layer_chromatography}).
+To eliminate differences between chromatography runs, a single TLC plate was used for both staining and extraction by dividing it vertically into an analytical side and a preparative side.
 5~µl of active liquid culture reverse extract and three reference sugars, Glucose, Ribose and Rhamnose, solved in water were applied to the analytical side.
 After separation, the sides were cut and the analytical side stained with Orcinol.
-The spot distance on the analytical side was translated 
+The spot distances on the analytical side was translated to the preparative side and used to delimit traveling zones, which were scraped off and collected individually.
+A scheme illustrating the procedure is shown in Figure~\ref{fig:tlc_scheme}.
+The collected silica was suspended in MeOH subjected to the standard bioassay against \coli{}.
+Images of the stained analytical sides are shown in Figure~\ref{fig:tlc_results}.
 
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=0.8\textwidth]{tlc_scheme}
+	\includegraphics[width=0.6\textwidth]{tlc_scheme}
 	\caption[Scheme of combined analytical and preparative Thin Layer Chromatography]{%
 		\textbf{Scheme of combined analytical and preparative Thin Layer Chromatography}\\
 		The scheme depicts a standard $20 \times 20$~cm Silica 60 F\textsubscript{254} aluminium plate.
@@ -300,10 +307,50 @@ The spot distance on the analytical side was translated
 	}
 	\label{fig:tlc_scheme}
 \end{figure}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.6\textwidth]{tlc_results}
+	\caption[Analytical side of TLC plates after staining]{%
+		\textbf{Analytical side of TLC plates after staining}
+		A set of four samples was separated on five TLC plates differing in the used mobile phase.
+		Samples from left to right: Liquid culture reverse extract, Glucose, Ribose, Rhamnose. 
+		A: Acetonitrile/Water (85:15)
+		B: Butanol/Acetic acid/Water (14:3:2)
+		C: Butanol/Ethanol/Water (3:2:1)
+		D: Ethyl acetate/2-Propanol/Water (6:3:1)
+		Butanol/Acetic acid/Water (42:10:7)
+	}
+	\label{fig:tlc_results}
+\end{figure}
+
+Staining of the analytical sides revealed, that the reverse liquid culture extract does not contain a significant amount of pentoses to adopt the blue color seen in the ribose sample.
+The best separation of stained monosaccharides in the sample was achieved on plate~C with a Butanol/Ethanol/Water (3:2:1) gradient.
+By dissolving the silica spots of the preparative side, the retardation factor ($R_f$) of the active compound could be narrowed down:
+	 A) non-evaluable
+	 B) 0.16 to 0.30
+	 C) 0.54 to 1.00
+	 D) 0.32 to 1.00
+	 E) non-evaluable
+Only on plate B) did the active compound have an $R_f$ value comparable to a sample sugar: Glucose.
+Its separatory behavior in TLC is therefore not comparable to the tested sample sugars.
+On plates C) and D) it achieved an $R_f$ value higher than any sample sugars and stained spots on the analytical side, indicating that it is not stainable with Orcinol or present in an amount below range of detection.
+It is therefore unlikely to contain stainable monosaccharide moieties.
+
+The TLC separation and Orcinol stain reveal that the antibiotic lipophilic compound does not contain monosaccharide moieties.
+The favorable $R_f$ value of 0.16 to 0.30 when using a Butanol/Acetic acid/Water (14:3:2) mobile could, however, can be used to develop a normal phase HPLC method.
+This would allow for a fine-grained separation and coupling to UV-sensors and mass spectrometers.
+Additionally, the preparative TLC procedure can be improved by scraping off regularly interspaced sections, thus allowing for a concise determination of the $R_f$ value.
+To bypass the arduous task of dissolving many silica samples in MeOH to measure antibiotic activity, sections the TLC plate itself could be placed upon the bioassay agar plate after separation.
+This would allow for diffusion from the TLC plate to the agar and reveal the location of the hydrophilic compound.
+
 % subsection thin_layer_chromatography (end)
 
 \subsection{Gel-filtration} % (fold)
 \label{sub:results_gel_filtration}
+
+Gel filtration is a form of size-exclusion chromatography, which separates analytes by molecular size using gel beads.
+
 
 % section chromatographic_separation (end)
 
@@ -333,7 +380,7 @@ The spot distance on the analytical side was translated
 
 \coli{} served as the primary test strain for the assessment of antibiotic activity of \tue{} cultures and extracts.
 Culture broth supernatant samples and extracts were perpetually tested positive in these assays.
-Additionaly, culture broth supernatant also proved to be similarly active against multiresistant strains, namely \emph{E. coli}~5309 
+Additionally, culture broth supernatant also proved to be similarly active against multiresistant strains, namely \emph{E. coli}~5309 
 
 \begin{table}[htbp]
 \caption[Multiresistant \emph{Escherichia coli} strains used in bioassays for antibiotic activity.]{%
@@ -387,7 +434,7 @@ Preliminary screening of \emph{Streptomyces} strains on agar plates indicated st
 Mode-of-action screening with the specialized \textit{Bacillus subtilis}~1S34~pHJS105-yorB-lacZ2 strain showed, that disks of agar-cultures are also able to induce the \emph{yorB} reporter system.
 
 The \textit{yorB} gene from \textit{Bacillus subtilis} has been observed to be upregulated when cells were treated with quinolones.\autocite{Hutter2004a}
-Construction of a luciferase reporter system led to the hypothesis, that induction is due to DNA damage caused by inhibition of the Topoisomerase~II alpha subunit.\autocite{Hutter2004}
+Construction of a Luciferase reporter system led to the hypothesis, that induction is due to DNA damage caused by inhibition of the Topoisomerase~II alpha subunit.\autocite{Hutter2004}
 Further characterization with greater natural product libraries strengthened this theory.\autocite{Mariner2011,Urban2007}
 Table~\ref{tab:results_yorb_inducers} gives an overview of tested \textit{yorB}-inducing compounds, which either damage DNA directly or interfere with replication.
 Promotor induction in the \emph{yorB}-assay (see Section~\ref{sub:yorb_reporter_gene_assay}) is indicated by a blue halo at the edge of the inhibition zone, where a sublethal concentration of antibiotic are present.
