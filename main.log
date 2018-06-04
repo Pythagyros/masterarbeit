@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.24)  4 JUN 2018 13:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.24)  4 JUN 2018 15:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2721,67 +2721,70 @@ Package pdftex.def Info: images/tlc_results.jpg  used on input line 313.
 (pdftex.def)             Requested size: 262.47937pt x 212.50464pt.
  [21]
 [22 <./images/tlc_scheme.png>] [23 <./images/tlc_results.jpg>]
-Overfull \hbox (21.31647pt too wide) in paragraph at lines 423--424
+Overfull \hbox (21.31647pt too wide) in paragraph at lines 373--374
 [][] 
  []
 
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
+Overfull \hbox (21.31647pt too wide) in paragraph at lines 444--445
+[][] 
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 494--494
 []|\T1/mdbch/m/n/12 (+20) Alternariol
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
+Underfull \hbox (badness 10000) in paragraph at lines 494--494
 []|\T1/mdbch/m/n/12 (+20) Desmethylether-
  []
 
-[25] [26]
-<images/bioassay_yorB_initial.jpg, id=151, 2706.11pt x 3011.25pt>
+<images/bioassay_yorB_initial.jpg, id=148, 2706.11pt x 3011.25pt>
 File: images/bioassay_yorB_initial.jpg Graphic file (type jpg)
 <use images/bioassay_yorB_initial.jpg>
-Package pdftex.def Info: images/bioassay_yorB_initial.jpg  used on input line 4
-86.
+Package pdftex.def Info: images/bioassay_yorB_initial.jpg  used on input line 5
+07.
 (pdftex.def)             Requested size: 218.73059pt x 243.38611pt.
- [27 <./images/bioassay_yorB_initial.jpg>]
-Overfull \hbox (12.26117pt too wide) in paragraph at lines 577--584
+[26] [27] [28 <./images/bioassay_yorB_initial.jpg>] [29]
+Overfull \hbox (12.26117pt too wide) in paragraph at lines 598--605
 []\T1/mdbch/m/n/12 (-20) The bioas-say re-sults in-di-cate a high va-ri-ety of 
 ac-tiv-ity for the strain \T1/mdbch/m/it/12 (-20) Strep-to-myces \T1/mdbch/m/n/
 12 (-20) sp. Tü2401
  []
 
-[28] [29] [30] [31]
-<images/tu2401_tree.png, id=168, 1012.7436pt x 540.8205pt>
+[30] [31] [32]
+<images/tu2401_tree.png, id=171, 1012.7436pt x 540.8205pt>
 File: images/tu2401_tree.png Graphic file (type png)
 <use images/tu2401_tree.png>
-Package pdftex.def Info: images/tu2401_tree.png  used on input line 654.
+Package pdftex.def Info: images/tu2401_tree.png  used on input line 675.
 (pdftex.def)             Requested size: 437.46118pt x 233.61281pt.
- [32] [33 <./images/tu2401_tree.png>]
-<images/known_ptms.jpg, id=177, 664.4825pt x 505.89pt>
+ [33] [34 <./images/tu2401_tree.png>]
+<images/known_ptms.jpg, id=180, 664.4825pt x 505.89pt>
 File: images/known_ptms.jpg Graphic file (type jpg)
 <use images/known_ptms.jpg>
-Package pdftex.def Info: images/known_ptms.jpg  used on input line 692.
+Package pdftex.def Info: images/known_ptms.jpg  used on input line 713.
 (pdftex.def)             Requested size: 349.97028pt x 266.44533pt.
- [34 <./images/known_ptms.jpg>] [35]
-<images/enediyne_overview.jpg, id=185, 498.21532pt x 461.76053pt>
+ [35 <./images/known_ptms.jpg>] [36]
+<images/enediyne_overview.jpg, id=188, 498.21532pt x 461.76053pt>
 File: images/enediyne_overview.jpg Graphic file (type jpg)
 <use images/enediyne_overview.jpg>
-Package pdftex.def Info: images/enediyne_overview.jpg  used on input line 741.
+Package pdftex.def Info: images/enediyne_overview.jpg  used on input line 762.
 (pdftex.def)             Requested size: 393.71239pt x 364.92068pt.
- [36] [37 <./images/enediyne_overview.jpg>] [38]
-(./images/workflow.tex
+ [37] [38 <./images/enediyne_overview.jpg>] [39] (./images/workflow.tex
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10> not available
 (Font)              Font shape `T1/lmss/bx/n' tried instead on input line 31.
-)) [39] [40]
+)) [40] [41]
 chapter without number
-[41
+[42
 
 
-] [42] [43] [44] [45]
+] [43] [44] [45] [46]
 \openout2 = `chapters/appendix.aux'.
 
  (./chapters/appendix.tex
 chapter A.
-<images/app_nh2_chrom1.png, id=220, 1260.20813pt x 406.51875pt>
+<images/app_nh2_chrom1.png, id=223, 1260.20813pt x 406.51875pt>
 File: images/app_nh2_chrom1.png Graphic file (type png)
 <use images/app_nh2_chrom1.png>
 Package pdftex.def Info: images/app_nh2_chrom1.png  used on input line 185.
@@ -2811,26 +2814,26 @@ Package microtype Info: Character `texttildelow ' is missing
 Package microtype Info: Character `textcelsius ' is missing
 (microtype)             in font `TS1/mdbch/b/n/8'.
 (microtype)             Ignoring protrusion settings for this character.
-[46
+[47
 
 
-] [47] [48]
+] [48] [49]
 \asdf=\skip130
- [49 <./images/app_nh2_chrom1.png>] [50] [51] [52] [53]
-<images/contig4_cluster_search.png, id=247, 776.9025pt x 146.5475pt>
+ [50 <./images/app_nh2_chrom1.png>] [51] [52] [53] [54]
+<images/contig4_cluster_search.png, id=250, 776.9025pt x 146.5475pt>
 File: images/contig4_cluster_search.png Graphic file (type png)
 <use images/contig4_cluster_search.png>
 Package pdftex.def Info: images/contig4_cluster_search.png  used on input line 
 434.
 (pdftex.def)             Requested size: 437.46118pt x 82.51996pt.
-<images/contig4_subcluster_search.png, id=248, 778.91pt x 245.91875pt>
+<images/contig4_subcluster_search.png, id=251, 778.91pt x 245.91875pt>
 File: images/contig4_subcluster_search.png Graphic file (type png)
 <use images/contig4_subcluster_search.png>
 Package pdftex.def Info: images/contig4_subcluster_search.png  used on input li
 ne 440.
 (pdftex.def)             Requested size: 437.46118pt x 138.11505pt.
-) [54]
-[55 <./images/contig4_cluster_search.png> <./images/contig4_subcluster_search.p
+) [55]
+[56 <./images/contig4_cluster_search.png> <./images/contig4_subcluster_search.p
 ng>] (./main.aux (./chapters/preamble.aux) (./chapters/abbreviations.aux)
 (./chapters/introduction.aux) (./chapters/methods.aux) (./chapters/results.aux)
 (./chapters/appendix.aux))
@@ -2839,13 +2842,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47166 strings out of 494497
- 987646 string characters out of 6173635
- 1538319 words of memory out of 5000000
- 49629 multiletter control sequences out of 15000+600000
+ 47170 strings out of 494497
+ 987822 string characters out of 6173635
+ 1538423 words of memory out of 5000000
+ 49633 multiletter control sequences out of 15000+600000
  640957 words of font info for 393 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 72i,20n,106p,9098b,3013s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,19n,106p,9098b,3012s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/home/philipp/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/home/ph
 ilipp/texlive/2018/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}</home/philipp/t
 exlive/2018/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></home/philipp/t
@@ -2865,10 +2868,10 @@ home/philipp/texlive/2018/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr
 8t.pfb></home/philipp/texlive/2018/texmf-dist/fonts/type1/public/mathdesign/mdb
 ch/md-chri7m.pfb></home/philipp/texlive/2018/texmf-dist/fonts/type1/public/math
 design/mdbch/md-chrma.pfb>
-Output written on main.pdf (65 pages, 24031481 bytes).
+Output written on main.pdf (66 pages, 24033547 bytes).
 PDF statistics:
- 312 PDF objects out of 1000 (max. 8388607)
- 199 compressed objects within 2 object streams
+ 316 PDF objects out of 1000 (max. 8388607)
+ 201 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  53341 words of extra memory for PDF output out of 61914 (max. 10000000)
 

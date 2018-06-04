@@ -367,8 +367,8 @@
 	},
 	"file_history":
 	[
-		"/home/philipp/masterarbeit/chapters/abbreviations.tex",
 		"/home/philipp/.config/sublime-text-3/Packages/User/LaTeXTools.sublime-settings",
+		"/home/philipp/masterarbeit/chapters/abbreviations.tex",
 		"/home/philipp/masterarbeit/test.tex",
 		"/home/philipp/masterarbeit/main.log",
 		"/tmp/mozilla_philipp0/mendeley-citations.ris",
@@ -471,6 +471,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\\item",
+			"default",
+			"{}\n",
 			"tocbasic",
 			" \n",
 			"etac",
@@ -600,11 +603,15 @@
 				"chapters/abbreviations.tex"
 			],
 			[
-				"main",
-				"main.tex"
+				"res",
+				"chapters/results.tex"
 			],
 			[
-				"conf",
+				"meth",
+				"chapters/methods.tex"
+			],
+			[
+				"confi",
 				"config.tex"
 			],
 			[
@@ -612,12 +619,12 @@
 				"chapters/results.tex"
 			],
 			[
-				"res",
-				"chapters/results.tex"
+				"main",
+				"main.tex"
 			],
 			[
-				"meth",
-				"chapters/methods.tex"
+				"conf",
+				"config.tex"
 			],
 			[
 				"con",
@@ -642,10 +649,6 @@
 			[
 				"resul",
 				"chapters/results.tex"
-			],
-			[
-				"confi",
-				"config.tex"
 			],
 			[
 				"sublim",
